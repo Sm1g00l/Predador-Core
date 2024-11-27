@@ -1,0 +1,46 @@
+GenericEntity : "{6691C384066A2B1C}Prefabs/Compositions/Misc/FreeRoamBuilding/CamoNetSmall_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E989B6757F0B918}" : "{8B8F72167C615EAA}Prefabs/Editor/Components/Compositions_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_CamoNet_Small_Soviet_Name"
+    m_Image "{D1BFBADC1464AF8E}UI/Textures/EditorPreviews/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetSmall_S_USSR_01.edds"
+    m_sFaction "RHS_AFRF"
+    m_aAuthoredLabels {
+     108 10
+    }
+    m_aAutoLabels {
+     1 122
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{62F75E01073487BA}" {
+      m_BudgetType CAMPAIGN
+      m_Value 50
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{62F75E01073487B6}" {
+      m_BudgetType PROPS
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{62F75E01073487A0}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{62F75E01073487A5}" {
+     m_Prefab "{E05FC6BCECA8F071}PrefabsEditable/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Small_Soviet.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5D72B62254B9093A"
+   Flags 1048576
+  }
+ }
+}
