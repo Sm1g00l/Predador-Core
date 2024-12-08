@@ -1,6 +1,14 @@
 Vehicle : "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et" {
  ID "57DA6675519A417B"
  components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{63105774370A65E7}" {
+     SourceMaterial "UH_1H_Body01_6224CA051369DE45"
+     AssignedMaterial "{35715EB3956D22B9}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Body.emat"
+    }
+   }
+  }
   RigidBody "{51DAA09FECF52BBF}" {
    Active Active
   }
@@ -21,35 +29,35 @@ Vehicle : "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et" {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 1250
      }
-     SCR_EntityBudgetValue "{63101B6F9483F60F}" {
+     SCR_EntityBudgetValue "{63105714292C615D}" {
       m_BudgetType RANK_SERGEANT
       m_Value 3
      }
     }
    }
   }
-  SCR_ResourceComponent "{63101B6F9483F63E}" {
+  SCR_ResourceComponent "{63105714292C6140}" {
    m_aContainers {
-    SCR_ResourceContainer "{63101B6F9483F637}" {
+    SCR_ResourceContainer "{63105714292C6179}" {
      m_eResourceRights FACTION
      m_eStorageType CARGO_VEHICLE
     }
    }
    m_aEncapsulators {
-    SCR_ResourceEncapsulator "{63101B6F9483F628}" {
+    SCR_ResourceEncapsulator "{63105714292C617D}" {
      m_sDebugName "Encapsulator - UH-1H"
      m_eResourceRights ALL
      m_ContainerQueue SCR_ResourceEncapsulatorContainerQueue "{5E42966E59638D3A}" : "{F214C17E1F29E70A}Configs/Resources/Supplies/ContainerQueues/Encapsulator/Queue_Encapsulator_Vehicle.conf" {
      }
      m_aActions {
-      SCR_ResourceEncapsulatorActionChangeDecay "{63101B6F9483F62C}" {
+      SCR_ResourceEncapsulatorActionChangeDecay "{63105714292C6171}" {
       }
-      SCR_ResourceEncapsulatorActionChangeGain "{63101B6F9483F621}" {
+      SCR_ResourceEncapsulatorActionChangeGain "{63105714292C6173}" {
       }
-      SCR_ResourceEncapsulatorActionChangeOnEmptyBehavior "{63101B6F9483F623}" {
+      SCR_ResourceEncapsulatorActionChangeOnEmptyBehavior "{63105714292C6174}" {
        m_eOnEmptyBehavior HIDE
       }
-      SCR_ResourceEncapsulatorActionChangeResourceValue "{63101B6F9483F624}" {
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{63105714292C6168}" {
        m_fResourceValueCurrent 0
       }
      }
@@ -179,7 +187,7 @@ Vehicle : "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et" {
      ParentContextList {
       "door_r03"
      }
-     UIInfo UIInfo "{63101B6F9483F6E3}" {
+     UIInfo UIInfo "{63105714292C6130}" {
       Name "#AR-Supplies_Vehicle_Load"
       Description "#AR-Supplies_Vehicle_Load_Long"
      }
@@ -189,7 +197,7 @@ Vehicle : "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et" {
      ParentContextList {
       "door_r03"
      }
-     UIInfo UIInfo "{63101B6F9483F6E7}" {
+     UIInfo UIInfo "{63105714292C6135}" {
       Name "#AR-Supplies_Vehicle_Unload"
       Description "#AR-Supplies_Vehicle_Unload_Long"
      }
