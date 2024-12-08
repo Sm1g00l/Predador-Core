@@ -1755,14 +1755,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
  {
   components {
    SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
-    m_fOperationalRadius 100
-   }
-  }
-  coords 4951.48 28.877 11989.223
- }
- {
-  components {
-   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
     m_fOperationalRadius 80
    }
   }
