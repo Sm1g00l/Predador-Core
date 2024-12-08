@@ -1,0 +1,1771 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Le Moule"
+    m_sBaseNameUpper "Le Moule"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 2596.479 103.957 5516.934
+  angleY -101.625
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Old Wood"
+    m_sBaseNameUpper "Old Wood"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 3523.85 138.797 4451.985
+  angleY -30.019
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Morton"
+    m_sBaseNameUpper "Morton"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 5154.367 14.713 4008.913
+  angleY 78.428
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Figari"
+    m_sBaseNameUpper "Figari"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 5272.593 62.987 5349.35
+  angleY -150.301
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Gas Station"
+    m_sBaseNameUpper "Gas Station"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 5333.271 80.51 6292.921
+  angleY 67.271
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Montignac"
+    m_sBaseNameUpper "Montignac"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 4711.81 161.494 6992.195
+  angleY 176.246
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Farm"
+    m_sBaseNameUpper "Farm"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 6579.145 110.145 5927.541
+  angleY 48.108
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Laruns"
+    m_sBaseNameUpper "Laruns"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 7557.993 82.498 5542.154
+  angleY -122.933
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Base Levie"
+    m_sBaseNameUpper "Base Levie"
+   }
+  }
+  coords 7482.542 164.468 4336.468
+  angleY -165.288
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Simons Woods"
+    m_sBaseNameUpper "Simons Woods"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 6221.286 107.123 5062.786
+  angleY -55.616
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Lacourt"
+    m_sBaseNameUpper "Lacourt"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 3841.961 102.204 6348.613
+  angleY -123.626
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Redon"
+    m_sBaseNameUpper "Redon"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 2216.683 19.727 7494.383
+  angleY 154.132
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Gravette"
+    m_sBaseNameUpper "Gravette"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 4149.74 39.909 7753.958
+  angleY 39.991
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Highstone"
+    m_sBaseNameUpper "Highstone"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 4916.402 98.308 8334.963
+  angleY 46.253
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Meux"
+    m_sBaseNameUpper "Meux"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 4536.304 14.572 9466.885
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Power Plant"
+    m_sBaseNameUpper "Power Plant"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 5870.951 4.517 9751.002
+  angleY -100.38
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Aluette"
+    m_sBaseNameUpper "Aluette"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 6235.197 180.168 7469.814
+  angleY 37.411
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Western Heights"
+    m_sBaseNameUpper "Western Heights"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 7682.195 340.875 3089.791
+  angleY -107.194
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Buhrstone"
+    m_sBaseNameUpper "Buhrstone"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 9104.556 79.292 2328.523
+  angleY -130.237
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Green Valley"
+    m_sBaseNameUpper "Green Valley"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 8800.891 138.284 3322.659
+  angleY 147.83
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Military Base"
+    m_sBaseNameUpper "Military Base"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 7735.62 13.781 8139.336
+  angleY -47.496
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Camurac"
+    m_sBaseNameUpper "Camurac"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 6577.301 5.52 3112.681
+  angleY -6.772
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Regina"
+    m_sBaseNameUpper "Regina"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 7221.948 137.344 2387.502
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Lamentin"
+    m_sBaseNameUpper "Lamentin"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 1088.314 3.308 6045.861
+  angleY -89.602
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Military Base Chotain"
+    m_sBaseNameUpper "Military Base Chotain"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 7473.313 8.126 6698.149
+  angleY -27.187
+ }
+ HQ_Base_Norte {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base Do Norte"
+    m_sBaseNameUpper "Main Norte"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    m_bIsSource 1
+   }
+  }
+  coords 4618.743 25.687 11168.745
+  angleY -89.392
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+ HQ_Base_Sul {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base Do Sul"
+    m_sBaseNameUpper "Main Sul"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    m_bIsSource 1
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_aContainers {
+     SCR_ResourceContainer "{63100DD1AE1656A8}" {
+      m_eStorageType CARGO_PROP
+      m_fResourceValueCurrent 5000
+      m_bEnableResourceGain 1
+      m_fResourceGain 10
+      m_fResourceGainTickrate 1
+     }
+    }
+   }
+  }
+  coords 10149.595 2.531 1517.6
+  angleY -77.431
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 5
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ {
+  coords 6487.481 161.816 6515.628
+  angleY 158.435
+ }
+ {
+  coords 6505.453 161.787 6479.342
+  angleY -17.123
+ }
+ {
+  coords 6468.849 162.062 6482.182
+  angleY -166.738
+ }
+ {
+  coords 6490.069 162 6504.487
+  angleY 19.045
+ }
+ {
+  coords 6428.158 162.125 6491.353
+  angleY 158.435
+ }
+ {
+  coords 6456.085 162.495 6503.876
+  angleY 158.435
+ }
+ {
+  coords 6470.263 162.092 6498.641
+  angleY -63.803
+ }
+ {
+  coords 6465.916 162.471 6507.482
+  angleY 158.435
+ }
+ {
+  coords 6929.327 85.512 8273.93
+  angleY -12.478
+ }
+ {
+  coords 6941.515 86.813 8299.575
+  angleY 122.005
+  {
+   GenericEntity {
+    ID "5E330D6C348F7D49"
+    coords -2.678 -0.258 1.551
+    angleY -7
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE43"
+    coords -1.628 -0.265 1.509
+    angleY 2.319
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AF8F"
+    coords -6.155 -0.21 1.648
+    angleY 15.223
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFC6"
+    coords -6.879 -0.319 0.095
+    angleY -87.649
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFE6"
+    coords -6.527 -0.258 0.959
+    angleY -60.109
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFF8"
+    coords -6.147 -0.293 0.245
+    angleY -11.182
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE02"
+    coords -6.403 -0.445 -1.967
+    angleY -87.961
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE2E"
+    coords -6.418 -0.366 -0.808
+    angleY -2.806
+   }
+   GenericEntity {
+    ID "5D45393876460D01"
+    {
+     GenericEntity {
+      ID "5D453938619FC381"
+      coords -1.957 -0.253 0.223
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6916.337 85.357 8275.824
+  angleY 13.151
+ }
+ {
+  coords 6947.346 86.254 8309.816
+  angleY 132.719
+ }
+ {
+  coords 6958.932 86.552 8318.235
+  angleY 158.435
+ }
+ {
+  coords 6923.996 86.567 8291.854
+  angleY -179.021
+ }
+ {
+  coords 2947.376 108.719 6141.145
+  angleY 72.923
+ }
+ {
+  coords 2952.655 108.39 6157.601
+  angleY 158.435
+ }
+ {
+  coords 2937.038 108.563 6157.707
+  angleY 158.435
+ }
+ {
+  coords 2965.621 108.633 6133.552
+  angleY -81.45
+ }
+ {
+  coords 2937.145 109.031 6127.665
+  angleY 85.126
+ }
+ {
+  coords 4270.345 59.563 5846.988
+  angleY 9.656
+ }
+ {
+  coords 4264.542 59.563 5852.683
+  angleY 117.367
+ }
+ {
+  coords 4291.78 61.462 5826.548
+  angleY 81.13
+ }
+ {
+  coords 4269.818 62.658 5821.206
+  angleY 58.708
+  {
+   GenericEntity {
+    ID "5E330D6C348F7D49"
+    coords -2.678 -0.163 1.551
+    angleY -7
+   }
+   GenericEntity {
+    ID "5E330D6CA3AAA53F"
+    coords -3.305 -0.271 2.236
+    angleX 0.672
+    angleY 5.24
+    angleZ -1.037
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE43"
+    coords -1.628 -0.152 1.509
+    angleY 2.319
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AF8F"
+    coords -6.157 -0.305 1.648
+    angleY 15.223
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFC6"
+    coords -6.879 -0.152 0.095
+    angleY -87.649
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFE6"
+    coords -6.529 -0.251 0.959
+    angleY -60.109
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFF8"
+    coords -6.147 -0.122 0.245
+    angleY -11.182
+   }
+   GenericEntity {
+    ID "5D45393876460D01"
+    {
+     GenericEntity {
+      ID "5D453938619FC381"
+      coords -1.956 0.019 0.215
+      angleX -4.319
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4258.043 62.716 5831.107
+  angleY 176.76
+  {
+   GenericEntity {
+    ID "5D1ED92C4DD6AF8F"
+    coords -6.156 -0.287 1.648
+    angleY 15.223
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFC6"
+    coords -6.879 -0.445 0.095
+    angleY -87.649
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFE6"
+    coords -6.528 -0.357 0.959
+    angleY -60.109
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFF8"
+    coords -6.147 -0.385 0.245
+    angleY -11.182
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE02"
+    coords -6.403 -0.589 -1.967
+    angleY -87.961
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE2E"
+    coords -6.419 -0.485 -0.808
+    angleY -2.806
+   }
+   GenericEntity {
+    ID "5D45393876460D01"
+    {
+     GenericEntity {
+      ID "5D453938619FC381"
+      coords -1.957 -0.369 0.223
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4316.942 56.083 5830.966
+  angleY -108.551
+ }
+ {
+  coords 5636.304 91.382 5886.88
+  angleY -80.343
+ }
+ {
+  coords 5628.394 90.447 5877.795
+  angleY 9.635
+ }
+ {
+  coords 5610.714 90.375 5879.716
+  angleY 90.055
+ }
+ {
+  coords 5615.548 91.557 5911.05
+  angleY -166.504
+ }
+ {
+  coords 5626.721 91.687 5907.896
+  angleY -171.611
+ }
+ {
+  coords 5637.093 91.705 5904.906
+  angleY -169.294
+ }
+ {
+  coords 7084.739 116.781 5343.156
+  angleY 20.448
+ }
+ {
+  coords 7088.62 115.332 5372.661
+  angleY -89.117
+ }
+ {
+  coords 7095.23 115.879 5357.929
+  angleY -74.143
+ }
+ {
+  coords 7064.756 115.344 5377.247
+  angleY 104.221
+ }
+ {
+  coords 7063.366 115.344 5364.61
+  angleY 77.607
+ }
+ {
+  coords 7088.918 116.173 5387.303
+  angleY -97.412
+ }
+ {
+  coords 7069.777 115.752 5388.84
+  angleY 119.878
+ }
+ {
+  coords 7096.127 116.854 5343.493
+  angleY -36.581
+ }
+ {
+  coords 8799.879 196.594 3888.034
+  angleY -37.278
+ }
+ {
+  coords 8801.017 198.248 3918.475
+  angleY -125.801
+ }
+ {
+  coords 8770.188 196.968 3902.924
+  angleY 94.999
+ }
+ {
+  coords 8783.958 196.452 3888.26
+  angleY -16.954
+ }
+ {
+  coords 8778.511 195.721 3868.742
+  angleY -81.299
+ }
+ {
+  coords 8791.413 198.246 3932.159
+  angleY -132.024
+ }
+ {
+  coords 8795.884 196.594 3898.305
+  angleY -98.119
+ }
+ {
+  coords 7010.664 93.71 3762.909
+  angleY 99.161
+  {
+   GenericEntity {
+    ID "5D1ED92C4DD6AE02"
+    coords -6.403 -0.352 -1.967
+    angleY -87.961
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE2E"
+    coords -6.419 -0.205 -0.808
+    angleY -2.806
+   }
+  }
+ }
+ {
+  coords 7003.08 93.114 3735.875
+  angleY 98.902
+  {
+   GenericEntity {
+    ID "5D45393876460D01"
+    {
+     GenericEntity {
+      ID "5D453938619FC381"
+      coords -1.957 -0.174 0.262
+      angleX 6.791
+     }
+     GenericEntity {
+      ID "5D453938619FC383"
+      coords 2.712 -0.108 0.48
+      angleY 92.564
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6999.087 92.265 3722.698
+  angleY 100.515
+  {
+   GenericEntity {
+    ID "5D1ED92C4DD6AE02"
+    coords -6.403 -0.242 -1.967
+    angleY -87.961
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE2E"
+    coords -6.419 -0.049 -0.808
+    angleY -2.806
+   }
+   GenericEntity {
+    ID "5D45393876460D01"
+    {
+     GenericEntity {
+      ID "5D453938619FC381"
+      coords -1.957 -0.124 0.239
+      angleX 7.559
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 7000.833 91.481 3711.582
+  angleY 71.245
+  {
+   GenericEntity {
+    ID "5D45393876460D01"
+   }
+  }
+ }
+ {
+  coords 6995.995 88.719 3676.747
+  angleY 92.721
+  {
+   GenericEntity {
+    ID "5D1ED92C4DD6AE43"
+    coords -1.628 0.174 1.509
+    angleY 2.319
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AF8F"
+    coords -6.156 0.519 1.648
+    angleY 15.223
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFC6"
+    coords -6.879 0.569 0.095
+    angleY -87.649
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFE6"
+    coords -6.528 0.545 0.959
+    angleY -60.109
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFF8"
+    coords -6.147 0.541 0.245
+    angleY -11.182
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE02"
+    coords -6.403 0.355 -1.967
+    angleY -87.961
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE2E"
+    coords -6.419 0.496 -0.808
+    angleY -2.806
+   }
+  }
+ }
+ {
+  coords 6997.964 89.739 3689.696
+  angleY 94.38
+  {
+   GenericEntity {
+    ID "5D1ED92C4DD6AE43"
+    coords -1.628 0.105 1.509
+    angleY 2.319
+   }
+   GenericEntity {
+    ID "5D45393876460D01"
+    {
+     GenericEntity {
+      ID "5D453938619FC381"
+      coords -1.957 -0.215 0.252
+      angleX 5.133
+     }
+     GenericEntity {
+      ID "5D453938619FC383"
+      coords 2.712 -0.204 0.48
+      angleY 92.564
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 7014.557 93.149 3774.484
+  angleY 102.836
+ }
+ {
+  coords 5281.147 132.522 4585.727
+  angleY -76.131
+ }
+ {
+  coords 5269.664 132.403 4566.858
+  angleY -63.488
+ }
+ {
+  coords 5283.863 132.323 4608.152
+  angleY -93.546
+ }
+ {
+  coords 5256.506 131.246 4600.273
+  angleY 108.533
+ }
+ {
+  coords 5244.956 130.791 4565.595
+  angleY 88.647
+ }
+ {
+  coords 5284.394 131.415 4619.325
+  angleY -115.635
+  {
+   GenericEntity {
+    ID "5D1ED92C4DD6AE43"
+    coords -1.628 0.172 1.509
+    angleY 2.319
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AF8F"
+    coords -6.156 0.661 1.647
+    angleY 15.223
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFC6"
+    coords -6.879 0.725 0.095
+    angleY -87.649
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFE6"
+    coords -6.528 0.692 0.959
+    angleY -60.109
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFF8"
+    coords -6.147 0.647 0.245
+    angleY -11.182
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE02"
+    coords -6.403 0.647 -1.967
+    angleY -87.961
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE2E"
+    coords -6.419 0.656 -0.808
+    angleY -2.806
+   }
+  }
+ }
+ {
+  coords 8244.337 223.125 2167.085
+  angleY -80.519
+ }
+ {
+  coords 8237.434 223.125 2161.811
+  angleY 4.756
+ }
+ {
+  coords 8223.056 223.125 2168.052
+  angleY 24.375
+ }
+ {
+  coords 8212.242 223.133 2177.171
+  angleY 41.926
+ }
+ {
+  coords 8243.333 224.125 2179.407
+  angleY -156.455
+ }
+ {
+  coords 8209.539 223.296 2189.225
+  angleY 130.998
+  {
+   GenericEntity {
+    ID "5D1ED92C4DD6AF8F"
+    coords -6.156 0.825 1.648
+    angleY 15.223
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFC6"
+    coords -6.879 0.716 0.095
+    angleY -87.649
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFE6"
+    coords -6.528 0.781 0.96
+    angleY -60.109
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFF8"
+    coords -6.147 0.659 0.246
+    angleY -11.182
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE02"
+    coords -6.403 0.287 -1.967
+    angleY -87.961
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE2E"
+    coords -6.419 0.501 -0.808
+    angleY -2.806
+   }
+  }
+ }
+ {
+  coords 5027.491 26.852 9961.314
+  angleY -92.157
+ }
+ {
+  coords 5022.71 26.768 9952.768
+  angleY -22.978
+ }
+ {
+  coords 5017.651 26.166 9991.501
+  angleY 88.611
+ }
+ {
+  coords 5012.367 26.867 9945.802
+  angleY -8.311
+ }
+ {
+  coords 4984.994 25.176 9954.653
+  angleY 88.498
+ }
+ {
+  coords 4985.168 25.77 9936.143
+  angleY 87.124
+  {
+   GenericEntity {
+    ID "5D1ED92C4DD6AFC6"
+    coords -6.879 -3.024 0.095
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFE6"
+    coords -6.528 -2.995 0.959
+   }
+  }
+ }
+ {
+  coords 4992.121 25.75 9925.636
+  angleY 38.859
+ }
+ {
+  coords 5041.241 27.726 9986.285
+  angleY -92.774
+ }
+ {
+  coords 5019.302 25.835 10011.862
+  angleY 175.411
+ }
+ {
+  coords 5031.148 26.808 9982.127
+  angleY -142.287
+  {
+   GenericEntity {
+    ID "5D1ED92C4DD6AF8F"
+    coords -6.156 0.397 1.647
+    angleY 15.223
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFC6"
+    coords -6.879 0.516 0.094
+    angleY -87.649
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFE6"
+    coords -6.528 0.452 0.958
+    angleY -60.109
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFF8"
+    coords -6.147 0.46 0.244
+    angleY -11.182
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE02"
+    coords -6.403 0.575 -1.968
+    angleY -87.961
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE2E"
+    coords -6.419 0.517 -0.809
+    angleY -2.806
+   }
+   GenericEntity {
+    ID "5D45393876460D01"
+    {
+     GenericEntity {
+      ID "5D453938619FC381"
+      coords -1.957 0.387 0.223
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4947.711 28.468 12000.333
+  angleY 177.47
+ }
+ {
+  coords 4926.227 28.461 11986.48
+  angleY 86.484
+ }
+ {
+  coords 4930.711 28.541 11979.392
+  angleY -2.901
+ }
+ {
+  coords 4958.321 28.281 11969.759
+  angleY -88.436
+ }
+ {
+  coords 4939.489 28.533 11973.475
+  angleY 85.555
+ }
+ {
+  coords 4961.271 28.312 12009.792
+  angleY 176.281
+ }
+ {
+  coords 4988.454 28.312 12010.839
+  angleY 172.076
+ }
+ {
+  coords 4992.167 28.304 11987.824
+  angleY -92.249
+ }
+ {
+  coords 3739.193 1.312 8535.791
+  angleY 159.004
+ }
+ {
+  coords 3709.212 1.312 8527.523
+  angleY 70.046
+ }
+ {
+  coords 3723.236 1.281 8514.084
+  angleY 67.161
+ }
+ {
+  coords 3734.397 1.226 8515.603
+  angleY -22.347
+ }
+ {
+  coords 3741.602 1.353 8529.146
+  angleY 158.435
+ }
+ {
+  coords 3762.959 2.099 8530.937
+  angleY 158.435
+  {
+   GenericEntity {
+    ID "5E330D6C348F7D49"
+    coords -2.678 0.211 1.551
+    angleY -7
+   }
+   GenericEntity {
+    ID "5E330D6CA3AAA53F"
+    coords -3.305 0.346 2.236
+    angleX 0.672
+    angleY 5.24
+    angleZ -1.037
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE43"
+    coords -1.628 0.213 1.508
+    angleY 2.319
+   }
+  }
+ }
+ {
+  coords 3752.626 1.775 8528.564
+  angleY 158.435
+  {
+   GenericEntity {
+    ID "5E330D6CA3AAA53F"
+    coords -3.305 0.254 2.236
+    angleX 0.672
+    angleY 5.24
+    angleZ -1.037
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE43"
+    coords -1.628 0.147 1.508
+    angleY 2.319
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AF8F"
+    coords -6.156 0.283 1.647
+    angleY 15.223
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFC6"
+    coords -6.879 0.132 0.094
+    angleY -87.649
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFE6"
+    coords -6.528 0.235 0.959
+    angleY -60.109
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFF8"
+    coords -6.147 0.149 0.246
+    angleY -11.182
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE2E"
+    coords -6.419 0.024 -0.808
+    angleY -2.806
+   }
+  }
+ }
+ Main_Base_SupplyInf_Nort {
+  coords 4689.017 27.876 11165.048
+  angleY 90.624
+  {
+   GenericEntity {
+    ID "5E330D6C348F7D49"
+    coords -2.682 0 1.551
+    angleY -7
+    {
+     GenericEntity {
+      ID "5D1ED92C8FCFAAB4"
+      coords 0.003 0.95 -0.001
+      angleY 180
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CA3AAA53F"
+    components {
+     SCR_ResourceComponent "{5E3298BE225F0743}" {
+      m_aGenerators {
+       SCR_ResourceGenerator "{5E3298A9DB3BDCA7}" {
+        m_fStorageRange 20
+       }
+      }
+     }
+    }
+    coords -3.309 0 2.236
+    angleX 0.672
+    angleY 5.24
+    angleZ -1.037
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE43"
+    coords -1.631 0 1.509
+    angleY 2.319
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AF8F"
+    coords -6.157 0 1.647
+    angleY 15.223
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFC6"
+    coords -6.884 0 0.095
+    angleY -87.649
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFE6"
+    coords -6.534 0 0.958
+    angleY -60.109
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFF8"
+    coords -6.147 0 0.245
+    angleY -11.182
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE02"
+    coords -6.407 0 -1.967
+    angleY -87.961
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE2E"
+    coords -6.424 0 -0.808
+    angleY -2.806
+   }
+   GenericEntity {
+    ID "5E5CB3051FCD95B3"
+    coords -7.586 0 1.195
+    angleY -172.005
+   }
+   GenericEntity {
+    ID "5D45393876460D01"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 5000
+        m_fResourceValueMax 10000
+        m_bEnableResourceGain 1
+        m_fResourceGain 50
+        m_fResourceGainTickrate 1
+       }
+      }
+      m_aGenerators {
+       SCR_ResourceGenerator "{5DE4B6C45FC967FC}" {
+        m_fStorageRange 50
+       }
+      }
+     }
+    }
+    coords -2.593 0.001 -1.13
+    {
+     GenericEntity {
+      ID "5D453938619FC380"
+      coords 2.515 -0.001 -2.177
+      angleY 91.603
+     }
+     GenericEntity {
+      ID "5D453938619FC381"
+      coords -1.95 -0.001 0.223
+     }
+     GenericEntity {
+      ID "5D453938619FC383"
+      coords 2.718 -0.001 0.479
+      angleY 92.564
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E5CB3051FCD955D"
+    coords 0.478 0 1.629
+    angleY -87.832
+   }
+  }
+ }
+ Main_Base_SupplyInf_Sul {
+  coords 10167.835 3.058 1560.997
+  angleY -168.857
+  {
+   GenericEntity {
+    ID "5E330D6C348F7D49"
+    coords -2.682 0 1.551
+    angleY -7
+    {
+     GenericEntity {
+      ID "5D1ED92C8FCFAAB4"
+      coords 0.003 0.95 -0.001
+      angleY 180
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E330D6CA3AAA53F"
+    components {
+     SCR_ResourceComponent "{5E3298BE225F0743}" {
+      m_aGenerators {
+       SCR_ResourceGenerator "{5E3298A9DB3BDCA7}" {
+        m_fStorageRange 20
+       }
+      }
+     }
+    }
+    coords -3.309 0 2.236
+    angleX 0.672
+    angleY 5.24
+    angleZ -1.037
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE43"
+    coords -1.631 0 1.509
+    angleY 2.319
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AF8F"
+    coords -6.157 0 1.647
+    angleY 15.223
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFC6"
+    coords -6.884 0 0.095
+    angleY -87.649
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFE6"
+    coords -6.534 0 0.958
+    angleY -60.109
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AFF8"
+    coords -6.147 0 0.245
+    angleY -11.182
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE02"
+    coords -6.407 0 -1.967
+    angleY -87.961
+   }
+   GenericEntity {
+    ID "5D1ED92C4DD6AE2E"
+    coords -6.424 0 -0.808
+    angleY -2.806
+   }
+   GenericEntity {
+    ID "5E5CB3051FCD95B3"
+    coords -7.586 0 1.195
+    angleY -172.005
+   }
+   GenericEntity {
+    ID "5D45393876460D01"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 5000
+        m_fResourceValueMax 10000
+        m_bEnableResourceGain 1
+        m_fResourceGain 50
+        m_fResourceGainTickrate 1
+       }
+      }
+      m_aGenerators {
+       SCR_ResourceGenerator "{5DE4B6C45FC967FC}" {
+        m_fStorageRange 50
+       }
+      }
+     }
+    }
+    coords -2.593 0.001 -1.13
+    {
+     GenericEntity {
+      ID "5D453938619FC380"
+      coords 2.515 -0.001 -2.177
+      angleY 91.603
+     }
+     GenericEntity {
+      ID "5D453938619FC381"
+      coords -1.95 -0.001 0.223
+     }
+     GenericEntity {
+      ID "5D453938619FC383"
+      coords 2.718 -0.001 0.479
+      angleY 92.564
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E5CB3051FCD955D"
+    coords 0.478 0 1.629
+    angleY -87.832
+   }
+  }
+ }
+}
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 80
+   }
+  }
+  coords 6455.806 162.567 6504.582
+  angleY 166.699
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 80
+   }
+  }
+  coords 6925.937 86.503 8286.66
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 80
+   }
+  }
+  coords 2965.941 108.621 6136.394
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 80
+   }
+  }
+  coords 4268.125 59.563 5851.812
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 80
+   }
+  }
+  coords 5629.422 91.451 5885.172
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 50
+   }
+  }
+  coords 7077.173 115.344 5366.789
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 60
+   }
+  }
+  coords 8792.876 196.594 3894.824
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 150
+   }
+  }
+  coords 7020.85 93.494 3743.818
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 80
+   }
+  }
+  coords 5276.67 132.326 4590.612
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 50
+   }
+  }
+  coords 8230.005 223.124 2170.428
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 100
+   }
+  }
+  coords 5010.714 25.762 9961.415
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 100
+   }
+  }
+  coords 4951.48 28.877 11989.223
+ }
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_fOperationalRadius 80
+   }
+  }
+  coords 3733.969 1.201 8530.836
+ }
+}
