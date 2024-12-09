@@ -22,8 +22,12 @@ Vehicle : "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et" {
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
     m_aAuthoredLabels + {
      37 210
+    }
+    m_aAutoLabels {
+     10 122
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
@@ -77,6 +81,9 @@ Vehicle : "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et" {
     SCR_ResourceGenerator "{5E42966EB8A02BC1}" : "{F02DC41374D82975}Configs/Resources/Supplies/Generators/Generator_HelicopterUnload.conf" {
     }
    }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
   }
   VehicleHelicopterSimulation "{51FAEE57F7DA270E}" {
    Animation VehicleAnimation "{5D9CEE8599E9D9BA}" {
