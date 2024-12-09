@@ -38,7 +38,7 @@ RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
  coords 2884.635 91.389 6293.596
 }
 SCR_CampaignFactionManager CampaignFactionManager_RHS_AFRF_USMC_Predador1 : "{C4AE2F613207B8DB}Prefabs/MP/Campaign/CampaignFactionManager_RHS_AFRF_USMC_Predador.et" {
- coords -0.724 0 -0.289
+ coords 6.126 -0 2.877
 }
 SCR_MapLocator {
  coords 10434.78 0 1142.689

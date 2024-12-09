@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{1FA45046DA1FC409}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  FactionAffiliationComponent "{6063106E37B90E37}" {
+   "faction affiliation" "US"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     70 2 11 10535 10522 70
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{63115773647A8FBE}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{63115773647A8FAC}" {
+      m_sVariantPrefab "{EE64B2E3F2C2BD7F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_Rifleman_Pred.et"
+     }
+     SCR_EditableEntityVariant "{63115773647A8FA7}" {
+      m_sVariantPrefab "{4EA9EEAAEF3972AD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_Rifleman2_Pred.et"
+     }
+     SCR_EditableEntityVariant "{63115773647A8E59}" {
+      m_sVariantPrefab "{4B5C2D6D046B881B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_Rifleman3_Pred.et"
+     }
+    }
+   }
+  }
+ }
+}

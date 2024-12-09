@@ -1,0 +1,51 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{63115761A584F77B}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{8B567897680EB9FA}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_US_USMC_Player.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{63115761A584F761}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_PlayerArsenalLoadout "{63115761A584F764}" {
+   m_sLoadoutName "Slot 1"
+   m_sLoadoutResource "{C8A52273222448C0}Prefabs/Characters/Campaign/RHS/Coop/Campaign_USMC_Base.et"
+   m_sAffiliatedFaction "US"
+   m_sWCSSlotId "Slot1"
+  }
+  SCR_PlayerArsenalLoadout "{63115761A584F719}" {
+   m_sLoadoutName "Slot 1"
+   m_sLoadoutResource "{A3045F19F931D93B}Prefabs/Characters/Campaign/RHS/Coop/Campaign_MSV_Base.et"
+   m_sAffiliatedFaction "USSR"
+   m_sWCSSlotId "Slot1"
+  }
+  SCR_PlayerArsenalLoadout "{6311576F87346360}" {
+   m_sLoadoutName "Slot 2"
+   m_sLoadoutResource "{C8A52273222448C0}Prefabs/Characters/Campaign/RHS/Coop/Campaign_USMC_Base.et"
+   m_sAffiliatedFaction "US"
+   m_sWCSSlotId "Slot2"
+  }
+  SCR_PlayerArsenalLoadout "{6311576F6DBA1F63}" {
+   m_sLoadoutName "Slot 2"
+   m_sLoadoutResource "{A3045F19F931D93B}Prefabs/Characters/Campaign/RHS/Coop/Campaign_MSV_Base.et"
+   m_sAffiliatedFaction "USSR"
+   m_sWCSSlotId "Slot2"
+  }
+  SCR_PlayerArsenalLoadout "{6311576FC3FEF443}" {
+   m_sLoadoutName "Slot 3"
+   m_sLoadoutResource "{C8A52273222448C0}Prefabs/Characters/Campaign/RHS/Coop/Campaign_USMC_Base.et"
+   m_sAffiliatedFaction "US"
+   m_sWCSSlotId "Slot3"
+  }
+  SCR_PlayerArsenalLoadout "{6311576FDF1071FA}" {
+   m_sLoadoutName "Slot 3"
+   m_sLoadoutResource "{A3045F19F931D93B}Prefabs/Characters/Campaign/RHS/Coop/Campaign_MSV_Base.et"
+   m_sAffiliatedFaction "USSR"
+   m_sWCSSlotId "Slot3"
+  }
+ }
+}
