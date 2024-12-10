@@ -1,0 +1,241 @@
+$grp Vehicle : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport.et" {
+ Ural4320_FIA_transport1 {
+  coords 4668.716 27.812 11195.636
+  angleY -88.983
+ }
+ Ural4320_FIA_transport2 {
+  coords 4961.429 25.701 9895.769
+  angleY -177.517
+ }
+ Ural4320_FIA_transport3 {
+  coords 4689.222 85.26 8569.408
+  angleY -88.983
+ }
+ Ural4320_FIA_transport4 {
+  coords 4076.03 32.09 7798.84
+  angleX -2.529
+  angleY -136.739
+  angleZ 0.077
+ }
+ Ural4320_FIA_transport5 {
+  coords 5159.837 174.198 7112.086
+  angleY -159.018
+ }
+ Ural4320_FIA_transport6 {
+  coords 5307.163 62.486 5358.01
+  angleY -51.227
+ }
+ Ural4320_FIA_transport7 {
+  coords 6100.019 84.985 5774.553
+  angleY 76.671
+ }
+ Ural4320_FIA_transport8 {
+  coords 6991.744 118.46 6032.794
+  angleY -133.731
+ }
+ Ural4320_FIA_transport9 {
+  coords 7460.526 136.956 4738.1
+  angleY -88.983
+ }
+}
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 4903.218 28.594 11963.975
+ }
+ {
+  coords 7491.567 165.264 4276.476
+ }
+}
+$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ {
+  coords 7456.404 136.187 4768.026
+  angleY -179.245
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords 2.219 0.147 3.372
+    angleY 179.245
+   }
+  }
+ }
+ {
+  coords 7013.646 117.625 6034.729
+  angleY -132.818
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords 2.219 0.147 3.372
+    angleY 179.245
+   }
+  }
+ }
+ {
+  coords 6122.822 83.791 5756.526
+  angleY -45.516
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords 2.219 0.147 3.372
+    angleY 179.245
+   }
+  }
+ }
+ {
+  coords 5324.5 62.979 5358.784
+  angleY -56.197
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords 2.219 0.147 3.372
+    angleY 179.245
+   }
+  }
+ }
+ {
+  coords 5170.402 174.198 7115.132
+  angleY -165.131
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords 2.219 0.147 3.372
+    angleY 179.245
+   }
+  }
+ }
+ {
+  coords 4053.92 32.098 7809.502
+  angleY 144.61
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords 2.219 0.147 3.372
+    angleY 179.245
+   }
+  }
+ }
+ {
+  coords 4692.63 85.03 8583.37
+  angleY -77.156
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords 2.219 0.147 3.372
+    angleY 179.245
+   }
+  }
+ }
+ {
+  coords 4971.454 25.914 9891.436
+  angleY 91.331
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords 2.219 0.147 3.372
+    angleY 179.245
+   }
+  }
+ }
+ {
+  coords 4668.785 27.844 11187.299
+  angleY -89.78
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+   }
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+    coords 2.219 0.147 3.372
+    angleY 179.245
+   }
+  }
+ }
+ {
+  coords 4905.054 28.594 11967.904
+  angleY -178.726
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    {
+     GenericEntity {
+      ID "5D45393936823FC0"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 5000
+          m_fResourceValueMax 5000
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D45393936823FC3"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 5000
+          m_fResourceValueMax 5000
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 7488.822 165.268 4271.752
+  angleY 10.141
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    {
+     GenericEntity {
+      ID "5D45393936823FC0"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 5000
+          m_fResourceValueMax 5000
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D45393936823FC3"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 5000
+          m_fResourceValueMax 5000
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

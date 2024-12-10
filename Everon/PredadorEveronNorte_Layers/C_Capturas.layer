@@ -1,0 +1,249 @@
+$grp GenericEntity {
+ {
+  coords 4457.335 12.652 9473.834
+  angleY 178.331
+  scale 0.24
+ }
+ {
+  coords 4786.701 169.165 6999.751
+  angleY 164.487
+  scale 0.178
+ }
+ {
+  coords 4850.708 112.414 8063.312
+  angleY 35.355
+  scale 0.46
+ }
+ {
+  coords 7563.339 82.846 5488.201
+  angleY -19.248
+  scale 0.396
+ }
+}
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ VP_1 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "St Phillipe"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1400
+     }
+    }
+   }
+  }
+  coords 4521.99 15.571 10668.273
+  angleY 81.468
+  {
+   CommentEntity {
+    coords 0 1 0
+    m_Comment "ConflictMilitaryBase: "\
+    "At least two bases need \"Can be HQ\" param checked. Place bases and control points wherever you wish."
+    m_Color 0 0 0
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_BackgroundColor 1 0.6 0
+    m_BackgroundTransparency 0
+   }
+  }
+ }
+ CP_1 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 50
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Meaux"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_fHeight 18
+   }
+  }
+  coords 4463.542 13.476 9466.002
+  angleY -1.734
+  {
+   CommentEntity {
+    coords 0 1 0
+    m_Comment "ConflictMilitaryBase: "\
+    "At least two bases need \"Can be HQ\" param checked. Place bases and control points wherever you wish."
+    m_Color 0 0 0
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_BackgroundColor 1 0.6 0
+    m_BackgroundTransparency 0
+   }
+  }
+ }
+ VP_2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 80
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Gorey"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 4866.041 111.531 8073.621
+  angleY -55.459
+  {
+   CommentEntity {
+    coords 0 1 0
+    m_Comment "ConflictMilitaryBase: "\
+    "At least two bases need \"Can be HQ\" param checked. Place bases and control points wherever you wish."
+    m_Color 0 0 0
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_BackgroundColor 1 0.6 0
+    m_BackgroundTransparency 0
+   }
+  }
+ }
+ VP_3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 70
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Provins"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1250
+     }
+    }
+   }
+  }
+  coords 5500.486 94.812 6040.415
+  angleY -55.976
+  {
+   CommentEntity {
+    coords 0 1 0
+    m_Comment "ConflictMilitaryBase: "\
+    "At least two bases need \"Can be HQ\" param checked. Place bases and control points wherever you wish."
+    m_Color 0 0 0
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_BackgroundColor 1 0.6 0
+    m_BackgroundTransparency 0
+   }
+  }
+ }
+ CP_2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 90
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Farm"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1210
+     }
+    }
+   }
+  }
+  coords 6439.535 104.819 5920.946
+  angleY -60.851
+  {
+   CommentEntity {
+    coords 0 1 0
+    m_Comment "ConflictMilitaryBase: "\
+    "At least two bases need \"Can be HQ\" param checked. Place bases and control points wherever you wish."
+    m_Color 0 0 0
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_BackgroundColor 1 0.6 0
+    m_BackgroundTransparency 0
+   }
+  }
+ }
+ VP_4 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 70
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Laruns"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1300
+     }
+    }
+   }
+  }
+  coords 7557.726 82.551 5540.648
+  angleY -127.963
+  {
+   CommentEntity {
+    coords 0 1 0
+    m_Comment "ConflictMilitaryBase: "\
+    "At least two bases need \"Can be HQ\" param checked. Place bases and control points wherever you wish."
+    m_Color 0 0 0
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_BackgroundColor 1 0.6 0
+    m_BackgroundTransparency 0
+   }
+  }
+ }
+}
+GenericEntity RadioMontignac : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ components {
+  SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+   "Turned on" 1
+   Transceivers {
+    RelayTransceiver "{5C727AD73024FB39}" {
+     "Transmitting Range" 1300
+    }
+   }
+  }
+ }
+ coords 4783.274 172.086 6997.597
+ angleY 78.965
+ {
+  GenericEntity : "{D416ECE78FF7078E}Prefabs/Props/Furniture/TableSmall_01/TableSmall_01_LightWood.et" {
+   coords 0.005 -0.7 -0.164
+   angleY -94.398
+  }
+ }
+}

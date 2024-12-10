@@ -1,0 +1,173 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ HQ_Sul {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Main Base SUL"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1300
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 7465.568 164.555 4331.573
+  angleY -163.656
+  {
+   CommentEntity {
+    coords 0 1 0
+    m_Comment "ConflictMilitaryBase: "\
+    "At least two bases need \"Can be HQ\" param checked. Place bases and control points wherever you wish."
+    m_Color 0 0 0
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_BackgroundColor 1 0.6 0
+    m_BackgroundTransparency 0
+   }
+   GenericEntity {
+    components {
+     SlotManagerComponent "{62B44072379AC2CA}" {
+      Slots {
+       RegisteringComponentSlotInfo Balcony {
+        Enabled 0
+       }
+      }
+     }
+    }
+    coords 0.684 -2.057 35.208
+    angleY 175.371
+   }
+   GenericEntity : "{111EFF1AD838326D}Prefabs/Structures/Military/Flags/FlagPole_02_V1_Teleport.et" {
+    components {
+     ARU_PlayerTeleportAccesComponent "{5F12C53C06BCC619}" {
+      Enabled 0
+     }
+     MeshObject "{5472A771D2979ECD}" {
+      Object "{D5CBF51EA4786071}Assets/Props/Military/InteractionPoints/PersonnelService/PersonnelService_Table_US_01.xob"
+     }
+     SM1_PlayerTeleportAccesComponent "{62BC42AA43819076}" {
+      m_eAccesRules WHITELIST
+      m_eEnablePlayerToPlayer DISABLED
+     }
+     SlotManagerComponent "{55DAE04E55ECE7FA}" {
+      Slots {
+       EntitySlotInfo Flag {
+        Enabled 0
+       }
+      }
+     }
+     ActionsManagerComponent "{59C2934ED9AC6990}" {
+      ActionContexts {
+       UserActionContext "{59C2934ED720719D}" {
+        Position PointInfo "{59C2934EAFB7D45C}" {
+         Offset -0.5406 0.8827 -0.0332
+        }
+        Radius 2
+       }
+      }
+      additionalActions {
+       ARU_ScriptedUserAction_UI_PlayerTeleport "{59D4EB138C03A392}" {
+        UIInfo UIInfo "{59D4EB138A30FEF8}" {
+         Name "Teleport Area VIP"
+        }
+       }
+      }
+     }
+    }
+    coords -31.596 0.109 -1.383
+    angleY 90.563
+   }
+  }
+ }
+ HQ_Norte {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Main Base Norte"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1450
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 4959.444 28.281 11944.087
+  angleY -93.523
+  {
+   CommentEntity {
+    coords 0 1 0
+    m_Comment "ConflictMilitaryBase: "\
+    "At least two bases need \"Can be HQ\" param checked. Place bases and control points wherever you wish."
+    m_Color 0 0 0
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_BackgroundColor 1 0.6 0
+    m_BackgroundTransparency 0
+   }
+   GenericEntity {
+    components {
+     SlotManagerComponent "{62B44072379AC2CA}" {
+      Slots {
+       RegisteringComponentSlotInfo Balcony {
+        Enabled 0
+       }
+      }
+     }
+    }
+    coords -24.18 -0.646 38.017
+    angleY 168.793
+   }
+   GenericEntity : "{111EFF1AD838326D}Prefabs/Structures/Military/Flags/FlagPole_02_V1_Teleport.et" {
+    components {
+     ARU_PlayerTeleportAccesComponent "{5F12C53C06BCC619}" {
+      Enabled 0
+      m_eAccesRules DISABLED
+     }
+     MeshObject "{5472A771D2979ECD}" {
+      Object "{D5CBF51EA4786071}Assets/Props/Military/InteractionPoints/PersonnelService/PersonnelService_Table_US_01.xob"
+     }
+     SM1_PlayerTeleportAccesComponent "{62BC42AA3989E508}" {
+      m_eAccesRules WHITELIST
+      m_eEnablePlayerToPlayer DISABLED
+     }
+     SlotManagerComponent "{55DAE04E55ECE7FA}" {
+      Slots {
+       EntitySlotInfo Flag {
+        Enabled 0
+       }
+      }
+     }
+     ActionsManagerComponent "{59C2934ED9AC6990}" {
+      ActionContexts {
+       UserActionContext "{59C2934ED720719D}" {
+        Position PointInfo "{59C2934EAFB7D45C}" {
+         Offset -0.5303 0.9142 0.0035
+        }
+        Radius 2
+       }
+      }
+      additionalActions {
+       ARU_ScriptedUserAction_UI_PlayerTeleport "{59D4EB138C03A392}" {
+        UIInfo UIInfo "{59D4EB138A30FEF8}" {
+         Name "Teleport Area VIP"
+        }
+       }
+      }
+     }
+    }
+    coords 10.208 0.236 20.419
+    angleY -177.852
+   }
+  }
+ }
+}

@@ -14,14 +14,12 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
   SCR_Faction "{631157749B43D49F}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
   }
   SCR_Faction "{631157642228055E}" : "{5EB46557DF2AA24F}Configs/Factions/US.conf" {
-   m_bIsPlayable 0
    m_bShowInWelcomeScreenIfNonPlayable 0
    m_aFriendlyFactionsIds {
     "US"
    }
   }
   SCR_Faction "{6311576440A0BB15}" : "{09727032415AC39B}Configs/Factions/USSR.conf" {
-   m_bIsPlayable 0
    m_bShowInWelcomeScreenIfNonPlayable 0
    m_aFriendlyFactionsIds {
     "USSR"
