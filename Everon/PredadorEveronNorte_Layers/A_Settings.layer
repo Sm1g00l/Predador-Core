@@ -19,6 +19,7 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  components {
   SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
+   m_iKillFeedType FULL
    m_iReceiveKillFeedType ALLIES_ONLY
   }
   SCR_RespawnTimerComponent "{5B2A94A0E605AAFF}" {

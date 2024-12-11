@@ -170,6 +170,19 @@ $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSma
   {
    GenericEntity {
     ID "5D4539393E1536C3"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 5000
+        m_fResourceValueMax 100000
+        m_bEnableResourceGain 1
+        m_fResourceGain 100
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
     {
      GenericEntity {
       ID "5D45393936823FC0"
@@ -178,7 +191,9 @@ $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSma
         m_aContainers {
          SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
           m_fResourceValueCurrent 5000
-          m_fResourceValueMax 5000
+          m_fResourceValueMax 50000
+          m_bEnableResourceGain 1
+          m_fResourceGain 100
          }
         }
        }
@@ -191,7 +206,9 @@ $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSma
         m_aContainers {
          SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
           m_fResourceValueCurrent 5000
-          m_fResourceValueMax 5000
+          m_fResourceValueMax 50000
+          m_bEnableResourceGain 1
+          m_fResourceGain 100
          }
         }
        }
@@ -207,6 +224,19 @@ $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSma
   {
    GenericEntity {
     ID "5D4539393E1536C3"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 5000
+        m_fResourceValueMax 50000
+        m_bEnableResourceGain 1
+        m_fResourceGain 100
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
     {
      GenericEntity {
       ID "5D45393936823FC0"
@@ -215,7 +245,9 @@ $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSma
         m_aContainers {
          SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
           m_fResourceValueCurrent 5000
-          m_fResourceValueMax 5000
+          m_fResourceValueMax 50000
+          m_bEnableResourceGain 1
+          m_fResourceGain 100
          }
         }
        }
@@ -228,7 +260,9 @@ $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSma
         m_aContainers {
          SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
           m_fResourceValueCurrent 5000
-          m_fResourceValueMax 5000
+          m_fResourceValueMax 50000
+          m_bEnableResourceGain 1
+          m_fResourceGain 100
          }
         }
        }
