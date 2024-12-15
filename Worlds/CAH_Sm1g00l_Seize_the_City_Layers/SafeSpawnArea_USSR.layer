@@ -1,0 +1,29 @@
+$grp SCR_CaptureAndHoldSpawnArea : "{6055E2EE4050CA5E}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/CaptureAndHoldSpawnArea_USSR.et" {
+ {
+  coords 2523.852 35.118 4479.16
+  angleX 0.902
+  angleY -39.423
+  angleZ -6.814
+  BoxMins -200 -30 -100
+  BoxMaxs 200 30 100
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 2677.742 72.781 4763.031
+  angleX -5.599
+  angleY -101.345
+  angleZ -3.993
+  BoxMins -200 -30 -100
+  BoxMaxs 400 30 100
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 2167.809 94.619 5268.813
+  angleX -2.518
+  angleY -162.331
+  angleZ 2.615
+  BoxMins -50 -30 -50
+  BoxMaxs 50 30 50
+  m_sFactionKey "RHS_AFRF"
+ }
+}

@@ -1,0 +1,121 @@
+BasePreloadManager {
+ ID "631E70C648C0F4A5"
+ PrefabsToPreload {
+  PreloadEntry "{631E70C648C0F35B}" {
+   Prefab "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Base.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F349}" {
+   Prefab "{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F34A}" {
+   Prefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F34F}" {
+   Prefab "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F340}" {
+   Prefab "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F343}" {
+   Prefab "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F344}" {
+   Prefab "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F379}" {
+   Prefab "{1C78331E156A3D65}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F37A}" {
+   Prefab "{8E0FE664CE7D1CA9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F37F}" {
+   Prefab "{96C784C502AC37DA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F371}" {
+   Prefab "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F372}" {
+   Prefab "{976AC400219898FA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F374}" {
+   Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F367}" {
+   Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F318}" {
+   Prefab "{63E8322E2ADD4AA7}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_GP25.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F31C}" {
+   Prefab "{81EB948E6414BD6F}Prefabs/Weapons/Rifles/M14/Rifle_M21_ARTII.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F311}" {
+   Prefab "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F315}" {
+   Prefab "{5A987A8A13763769}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_M203.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F317}" {
+   Prefab "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F308}" {
+   Prefab "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F30C}" {
+   Prefab "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F300}" {
+   Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F304}" {
+   Prefab "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F338}" {
+   Prefab "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F32C}" {
+   Prefab "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F320}" {
+   Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F325}" {
+   Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F327}" {
+   Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{631E70C648C0F3D9}" {
+   Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+   FullyPreload 1
+  }
+ }
+}

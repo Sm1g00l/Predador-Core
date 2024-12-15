@@ -1,0 +1,38 @@
+GenericEntity : "{66AAEDA477051298}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5CC8E73BB698D287}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot optics {
+      Prefab "{2518CA6044D6BBDD}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO.et"
+     }
+    }
+    AttachmentSlotComponent "{5D873BE26346E4D7}" {
+     AttachmentSlot InventoryStorageSlot attachment_railcover {
+      Prefab "{FE29640EBEEBC731}Prefabs/Weapons/Attachments/Misc/manta_railcover/manta_M27_kit1_blk.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626541D4146E1B36}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{B9C41AAC90570E50}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS.et"
+       }
+      }
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   additionalActions {
+    RHS_FlipSightUserAction "{5CD11496CCF82C24}" {
+     m_bShouldBeFoldedByDefault 1
+    }
+    RHS_FlipSightUserAction "{5CD11C9D06036A25}" {
+     m_bShouldBeFoldedByDefault 1
+    }
+   }
+  }
+ }
+}

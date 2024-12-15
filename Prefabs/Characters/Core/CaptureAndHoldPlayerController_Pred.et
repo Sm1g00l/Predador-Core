@@ -1,0 +1,21 @@
+SCR_PlayerController : "{225E51284CC95CFA}Prefabs/Characters/Core/DefaultPlayerControllerMP.et" {
+ ID "1A9BA6BEFA06E3B1"
+ components {
+  SCR_HUDManagerComponent "{2FDC275D9EBCDB8B}" {
+   InfoDisplays {
+    SCR_CaptureAndHoldTeamScoreDisplay "{631EF6D56095A879}" {
+     m_LayoutPath "{7734F3A7543FD9BE}UI/layouts/HUD/CaptureAndHold/CaptureAndHoldScoringLayout.layout"
+     m_eLayer OVERLAY
+    }
+    SCR_CaptureAndHoldObjectiveDisplay "{631EF6D56095A86C}" {
+     m_LayoutPath "{56B174A06C7ECFAC}UI/layouts/HUD/CaptureAndHold/CaptureAndHoldObjectiveLayout.layout"
+     m_eLayer OVERLAY
+    }
+   }
+  }
+  ServerAdminTools_PlayerControllerComponent "{5C98A365B83E9330}" {
+   Enabled 0
+  }
+ }
+ coords 141.183 1.001 131.013
+}

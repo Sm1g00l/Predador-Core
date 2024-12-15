@@ -1,0 +1,187 @@
+$grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ {
+  coords 2043.265 0.885 4618.837
+  angleY 88.645
+  m_fSpawnRadius 10
+  m_sFaction "RHS_USAF"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_F"
+  }
+  {
+   $grp SCR_Position {
+    US_1_16 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.987 0.009 -0.297
+     angleY -1.186
+    }
+    US_1_17 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -3.332 0.164 -0.345
+     angleY -1.186
+    }
+    US_1_18 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 2.535 -0.089 -0.223
+     angleY -1.186
+    }
+   }
+  }
+ }
+ {
+  coords 1904.02 59.318 5367.038
+  angleY -172.239
+  m_fSpawnRadius 10
+  m_sFaction "RHS_USAF"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_A"
+  }
+  {
+   $grp SCR_Position {
+    US_1_5 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -2.066 0.348 -0.172
+     angleY -3.516
+    }
+    US_1_4 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.778 0.134 -0.094
+     angleY -3.516
+    }
+    US_1_6 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.637 -0.308 0.059
+     angleY -3.516
+    }
+   }
+  }
+ }
+ {
+  coords 1757.2 42.255 5238.815
+  angleY 127.616
+  m_fSpawnRadius 10
+  m_sFaction "RHS_USAF"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_B"
+  }
+  {
+   $grp SCR_Position {
+    US_1_10 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.167 -0.112 -0.141
+     angleY -1.012
+    }
+    US_1_11 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -1.261 0.052 -0.184
+     angleY -1.012
+    }
+    US_1_12 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 3.247 -0.321 -0.104
+     angleY -1.012
+    }
+   }
+  }
+ }
+ {
+  coords 1755.308 57.935 5055.042
+  angleY 72.641
+  m_fSpawnRadius 10
+  m_sFaction "RHS_USAF"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_C"
+  }
+  {
+   $grp SCR_Position {
+    US_1_7 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -1.077 -0.166 -0.069
+     angleY 6.604
+    }
+    US_1_9 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -4.058 -0.73 0.277
+     angleY 6.604
+    }
+    US_1_8 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 3.873 0.526 -0.641
+     angleY 6.604
+    }
+   }
+  }
+ }
+ {
+  coords 1893.427 19.39 4841.6
+  angleY 105.916
+  m_fSpawnRadius 10
+  m_sFaction "RHS_USAF"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_US_D"
+  }
+  {
+   $grp SCR_Position {
+    US_1_1 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.307 -0.329 -0.192
+     angleY 4.245
+    }
+    US_1_3 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -3.784 0.341 -0.038
+     angleY 12.013
+    }
+    US_1_2 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.897 0.307 -0.232
+     angleY 3.329
+    }
+   }
+  }
+ }
+}

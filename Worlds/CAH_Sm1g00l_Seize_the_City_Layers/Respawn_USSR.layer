@@ -1,0 +1,240 @@
+$grp SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ {
+  coords 2577.924 31.294 4494.376
+  angleY -66.227
+  m_fSpawnRadius 10
+  m_sFaction "RHS_AFRF"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_B"
+  }
+  {
+   $grp SCR_Position {
+    USSR_1_5 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.146 0.111 -1.062
+     angleY -2.211
+    }
+    USSR_1_6 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.505 0.597 -1.212
+     angleY -10.984
+    }
+    USSR_1_7 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -1.657 0.13 -1.141
+     angleY -10.984
+    }
+    USSR_1_8 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 3.702 1.142 -0.101
+     angleY -10.984
+    }
+   }
+  }
+ }
+ {
+  coords 2647.434 72.2 4838.078
+  angleY -101.501
+  m_fSpawnRadius 10
+  m_sFaction "RHS_AFRF"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_C"
+  }
+  {
+   $grp SCR_Position {
+    USSR_1_12 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -1.015 -0.063 -0.15
+     angleY 5.93
+    }
+    USSR_1_13 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.302 0.35 -0.391
+     angleY 5.93
+    }
+    USSR_1_14 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -2.709 -0.328 0.026
+     angleY 5.93
+    }
+   }
+  }
+ }
+ {
+  coords 2572.494 95.448 5091.393
+  angleY -124.442
+  m_fSpawnRadius 10
+  m_sFaction "RHS_AFRF"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_D"
+  }
+  {
+   $grp SCR_Position {
+    USSR_1_15 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.461 0.25 -1.297
+     angleY 18.254
+    }
+    USSR_1_16 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -1.886 0.25 -0.828
+     angleY 18.254
+    }
+    USSR_1_17 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.683 0.056 -2.004
+     angleY 18.254
+    }
+   }
+  }
+ }
+ {
+  coords 2694.533 75.569 4655.555
+  angleY -101.501
+  m_fSpawnRadius 10
+  m_sFaction "RHS_AFRF"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_E"
+  }
+  {
+   $grp SCR_Position {
+    USSR_1_9 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -2.39 -0.096 -0.002
+     angleY 5.93
+    }
+    USSR_1_10 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.894 -0.053 -0.158
+     angleY 5.93
+    }
+    USSR_1_11 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.24 0.077 -0.38
+     angleY 5.93
+    }
+   }
+  }
+ }
+ {
+  coords 2181.489 92.805 5256.648
+  angleY -130.095
+  m_fSpawnRadius 10
+  m_sFaction "RHS_AFRF"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_F"
+  }
+  {
+   $grp SCR_Position {
+    USSR_1_18 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -2.39 -0.096 -0.002
+     angleY 5.93
+    }
+    USSR_1_19 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.894 -0.053 -0.158
+     angleY 5.93
+    }
+    USSR_1_20 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.24 0.077 -0.38
+     angleY 5.93
+    }
+   }
+  }
+ }
+ {
+  coords 2403.553 11.046 4285.695
+  angleY -1.193
+  m_fSpawnRadius 10
+  m_sFaction "RHS_AFRF"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "#AR-CAH-SpawnArea_USSR_A"
+  }
+  {
+   $grp SCR_Position {
+    USSR_1_1 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -0.983 -0.041 -0.303
+     angleY -4.235
+    }
+    USSR_1_3 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 1.587 0.095 -0.145
+     angleY -3.042
+    }
+    USSR_1_4 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords -2.356 -0.041 -0.354
+     angleY -3.042
+    }
+    USSR_1_2 {
+     components {
+      Hierarchy "{55FAD7263B086083}" {
+      }
+     }
+     coords 0.044 -0.041 -0.227
+     angleY -3.042
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+SCR_BaseGameMode : "{4261E9B841D6C6DE}Prefabs/MP/Modes/CaptureAndHold/GameMode_CaptureAndHold_Base.et" {
+ ID "56B2B479C6B96951"
+ components {
+  SCR_CaptureAndHoldManager "{5918D676431D9060}" {
+   m_bPersistentAreaFactions 1
+  }
+  SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
+   m_iKillFeedType FULL
+   m_iReceiveKillFeedType ALLIES_ONLY
+  }
+  SCR_WaveRespawnTimerComponent "{631E3D29D290E3FA}" {
+  }
+  ServerAdminTools_GamemodeComponent "{5C4531FB79DE4E32}" {
+   Enabled 0
+  }
+ }
+}

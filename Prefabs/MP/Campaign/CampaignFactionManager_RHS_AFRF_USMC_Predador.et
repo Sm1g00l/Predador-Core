@@ -9,21 +9,9 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
    FactionKey "US"
    m_FactionLabel FACTION_US
   }
-  SCR_CampaignFaction "{56F0C3A6336375DC}" : "{CF9447B87AB774DB}Configs/Factions/FIA_Campaign.conf" {
+  SCR_CampaignFaction "{631F64A46F1054C9}" : "{F98479411B808D06}Configs/Factions/FIA_Campaign_PredSup.conf" {
   }
-  SCR_Faction "{631157749B43D49F}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
-  }
-  SCR_Faction "{631157642228055E}" : "{5EB46557DF2AA24F}Configs/Factions/US.conf" {
-   m_bShowInWelcomeScreenIfNonPlayable 0
-   m_aFriendlyFactionsIds {
-    "US"
-   }
-  }
-  SCR_Faction "{6311576440A0BB15}" : "{09727032415AC39B}Configs/Factions/USSR.conf" {
-   m_bShowInWelcomeScreenIfNonPlayable 0
-   m_aFriendlyFactionsIds {
-    "USSR"
-   }
+  SCR_Faction "{631157749B43D49F}" : "{917D5DB8A769569E}Configs/Factions/PredSup_MSVxUSSR_CIV.conf" {
   }
  }
  m_bCanChangeFactionsPlayable 0

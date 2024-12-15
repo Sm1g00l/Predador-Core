@@ -1,0 +1,22 @@
+$grp SCR_CaptureAndHoldArea : "{11E28821DF729BEC}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Minor.et" {
+ {
+  coords 2359.285 8.376 4666.241
+  angleY 8.768
+  SphereRadius 30
+  BoxMins -40 -6 -32
+  BoxMaxs 20 6 20
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_C"
+  m_vObjectiveCenter -2.278 -0.559 2.899
+ }
+ {
+  coords 1942.921 82.05 5160.702
+  angleY 16.719
+  TriggerShapeType Sphere
+  SphereRadius 35
+  BoxMins -28 -6 -37
+  BoxMaxs 28 6 27
+  DrawShape 0
+  m_vObjectiveCenter 0 1.81 -6.299
+ }
+}

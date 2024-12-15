@@ -14,7 +14,6 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
   }
  }
  coords 4772.179 26.323 10658.781
- m_iActiveAILimit 180
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 4926.701 34.279 10717.344
@@ -55,7 +54,7 @@ BasePreloadManager PreloadManager_Campaign_Predador1 : "{00C8632C1BD89B5C}Prefab
 SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
  coords 20.724 0 7.936
 }
-MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Base.et" {
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
  coords 0 0 0
 }
 SCR_LoadoutManager : "{814D8CA6DC586A91}Prefabs/MP/Campaign/CampaignLoadoutManager_AFRF_USMC_Pred.et" {
