@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AFADB719742CC1D7}Prefabs/Vehicles/Wheeled/M998/US/M2HB/M1151_armed_M2HB_Shield_US_Pred.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

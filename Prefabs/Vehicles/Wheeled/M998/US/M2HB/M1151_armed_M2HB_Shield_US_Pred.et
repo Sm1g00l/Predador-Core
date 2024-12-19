@@ -1,0 +1,108 @@
+Vehicle : "{409E007AC9FA4B68}Prefabs/Vehicles/Wheeled/M998/US/M1151_TF_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{62FA6B44B214C0BF}" {
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{63252ABDEC77418F}" {
+      ParentContextList {
+       "door_l01" "door_l01_int"
+      }
+      UIInfo SCR_ActionUIInfo "{63252ABDEC7741B3}" {
+       Name "#AR-UserAction_Open"
+       m_sIconName "veh_door"
+      }
+      "Sort Priority" 5
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{63252ABDEC7741A9}" {
+      ParentContextList {
+       "door_l01" "door_l01_int"
+      }
+      UIInfo SCR_ActionUIInfo "{63252ABDEC7741AD}" {
+       Name "#AR-UserAction_Close"
+       m_sIconName "veh_door"
+      }
+      "Sort Priority" -1
+     }
+    }
+    CompartmentDoorInfo "{62FA6B44B214C0A8}" {
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{60FCB36F1B7B7E07}" {
+      ParentContextList +{
+      }
+      UIInfo SCR_ActionUIInfo "{6168A3B69786CC78}" {
+       Name "#AR-UserAction_Open"
+       m_sIconName "veh_door"
+      }
+      "Sort Priority" 5
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{60FCB36CE4ABBEF6}" {
+      ParentContextList +{
+      }
+      UIInfo SCR_ActionUIInfo "{6168A3B6987AE32F}" {
+       Name "#AR-UserAction_Close"
+       m_sIconName "veh_door"
+      }
+      "Sort Priority" -1
+     }
+    }
+   }
+   CompartmentSlots {
+    CargoCompartmentSlot passenger_r01 : "{3D7A9F8BEAF87F15}Prefabs/Vehicles/Core/Configs/CargoCompartment_M998_Passenger_R01.conf" {
+    }
+    CargoCompartmentSlot passenger_r02 {
+    }
+    CargoCompartmentSlot passenger_l02 {
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TF-Vehicle_HMMWV_M1151 - #TF-Vehicle-Color-Green (#TF-Vehicle-Weapon-M2HB/#TF-Vehicle-Weapon-GPK)"
+    m_Image "{BB10E7F5F0C55360}UI/Textures/EditorPreviews/Vehicles/Wheeled/M998/US/M2HB/HMMWV_Shield.edds"
+    m_aAuthoredLabels {
+     3 36 200 20 21 1001
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 550
+     }
+     SCR_EntityBudgetValue "{5EF07CF263360EC1}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     PivotID "v_body"
+     Offset 0.0218 0.1785 -0.7365
+     Angles 0 -92.9034 0
+     MergePhysics 1
+     Prefab "{11E588E215EBCF23}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     PivotID "v_body"
+     Offset 0.0094 0.5021 -0.76
+     Angles 0 92.4073 0
+     MergePhysics 1
+     Prefab "{11E588E215EBCF23}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Roof {
+     Enabled 1
+     Prefab "{62308AFC5CCFB934}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_Shield.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    WCS_RearmVehicleAtRepairStationAction "{62D8D5C083A122EB}" {
+    }
+   }
+  }
+ }
+ coords 1703.944 39 2837.432
+}

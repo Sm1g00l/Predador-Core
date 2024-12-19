@@ -1,0 +1,182 @@
+Vehicle : "{8E632C497F63FAC8}Prefabs/Vehicles/Wheeled/IvecoLMV/IvecoLMV_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{63252AB027C7390D}" {
+     SourceMaterial "Body"
+     AssignedMaterial "{E06C74F1F0E07EF0}Assets/Vehicles/Wheeled/IvecoLMV/Data/IvecoLMV_Exterior_Body.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{60E47D679D55B7AD}" {
+    }
+   }
+   CompartmentSlots {
+    CargoCompartmentSlot passenger_r01 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+     }
+     UIInfo UIInfo "{61FB2B37BA18E59C}" {
+     }
+    }
+    CargoCompartmentSlot passenger_l02 : "{7E13FD3E4BD56E40}Prefabs/Vehicles/Core/Configs/CargoCompartment_IvecoLMV_Passengers.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "door_l02"
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_l02"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "door_l02"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passengerL_idle"
+      Offset -0.0279 -0.0137 -0.1802
+     }
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     BaseCoverage 0
+     ContextName "passenger_l02"
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+    CargoCompartmentSlot passenger_r02 : "{7E13FD3E4BD56E40}Prefabs/Vehicles/Core/Configs/CargoCompartment_IvecoLMV_Passengers.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "door_r02" "passenger_r02"
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_r02"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "door_r02"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passengerR_idle"
+      Offset 0.1853 -0.0137 -0.1803
+     }
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     BaseCoverage 0
+     ContextName "passenger_r02"
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TF-Vehicle-IvecoLMV - #TF-Vehicle-Color-Green (#TF-Vehicle-Weapon-CROWS #TF-Vehicle-Weapon-M2HB)"
+    Icon "{5779776B5B20F50C}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Offroad_Armed.edds"
+    m_Image "{02CEC730F0DAAD0F}UI/Textures/EditorPreviews/Vehicles/Wheeled/IvecoLMV/IvecoLMV_Armed_RWS.edds"
+    m_aAuthoredLabels {
+     3 36 200 20 21
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1100
+     }
+     SCR_EntityBudgetValue "{61F4C64C9B4EEF6C}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{61FAC4ADF654C479}" {
+   MultiSlots {
+    MultiSlotConfiguration "{61FAC4AD13105F15}" {
+     SlotTemplate InventoryStorageSlot Ammo {
+      Prefab "{7368DBD1BB3633B8}Prefabs/Weapons/Magazines/M2HB/Box_127x99_M2_200rnd_4AP_1APIT_inherited.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{61FAC4AD133DB3DB}" {
+     NumSlots 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset -0.4149 -0.3023 0.218
+     MergePhysics 0
+     Enabled 1
+     Prefab "{3474C9F3E439752D}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/LMV_CROWS_Turret.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo Roof {
+     Enabled 1
+     Prefab "{CA1D5D38C655CE0A}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/Roof_Hatch_IvecoLMV.et"
+    }
+    RegisteringComponentSlotInfo Gunner_Screen {
+     Enabled 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    WCS_RearmVehicleAtRepairStationAction "{62D8D5C0F7730562}" {
+     m_aRearmData {
+      WCS_VehicleRearmData "{62D8D5CE0E32A5C6}" {
+       magazine "{7368DBD1BB3633B8}Prefabs/Weapons/Magazines/M2HB/Box_127x99_M2_200rnd_4AP_1APIT_inherited.et"
+       maxAmount 2
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1777.923 39 2860.889
+}

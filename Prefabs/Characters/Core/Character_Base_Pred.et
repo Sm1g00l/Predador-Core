@@ -297,6 +297,14 @@ SCR_ChimeraCharacter {
   SCR_CallsignCharacterComponent "{6314134952A01E5D}" {
   }
   SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" : "{73C708A20F8B22E6}Prefabs/Characters/Core/DamageManager_Character_Base.ct" {
+    "Additional hit zones" {
+    SCR_CharacterResilienceHitZone Resilience {
+     BaseDamageMultiplier 0.6
+     "DamageState threshold" {
+      0.82 0.72 0.65
+     }
+    }
+   }
    "Fall damage min speed" 8.85
    "Fall damage max speed" 11.2
   }
