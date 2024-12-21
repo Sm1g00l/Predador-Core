@@ -1,567 +1,4 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Le Moule"
-    m_sBaseNameUpper "Le Moule"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 2596.479 103.957 5516.934
-  angleY -101.625
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Old Wood"
-    m_sBaseNameUpper "Old Wood"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 3523.85 138.797 4451.985
-  angleY -30.019
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_bIsSupplyHub 1
-    m_sBaseName "Morton"
-    m_sBaseNameUpper "Morton"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 5154.367 14.713 4008.913
-  angleY 78.428
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Figari"
-    m_sBaseNameUpper "Figari"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 5272.593 62.987 5349.35
-  angleY -150.301
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Gas Station"
-    m_sBaseNameUpper "Gas Station"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 5333.271 80.51 6292.921
-  angleY 67.271
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_bIsSupplyHub 1
-    m_sBaseName "Montignac"
-    m_sBaseNameUpper "Montignac"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 4711.81 161.494 6992.195
-  angleY 176.246
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Farm"
-    m_sBaseNameUpper "Farm"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 6579.145 110.145 5927.541
-  angleY 48.108
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Laruns"
-    m_sBaseNameUpper "Laruns"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 7557.993 82.498 5542.154
-  angleY -122.933
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Base Levie"
-    m_sBaseNameUpper "Base Levie"
-   }
-  }
-  coords 7482.542 164.468 4336.468
-  angleY -165.288
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Simons Woods"
-    m_sBaseNameUpper "Simons Woods"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 6221.286 107.123 5062.786
-  angleY -55.616
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Lacourt"
-    m_sBaseNameUpper "Lacourt"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 3841.961 102.204 6348.613
-  angleY -123.626
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_bIsSupplyHub 1
-    m_sBaseName "Redon"
-    m_sBaseNameUpper "Redon"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 2216.683 19.727 7494.383
-  angleY 154.132
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Gravette"
-    m_sBaseNameUpper "Gravette"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 4149.74 39.909 7753.958
-  angleY 39.991
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Highstone"
-    m_sBaseNameUpper "Highstone"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 4916.402 98.308 8334.963
-  angleY 46.253
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Meux"
-    m_sBaseNameUpper "Meux"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 4536.304 14.572 9466.885
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Power Plant"
-    m_sBaseNameUpper "Power Plant"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 5870.951 4.517 9751.002
-  angleY -100.38
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Aluette"
-    m_sBaseNameUpper "Aluette"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 6235.197 180.168 7469.814
-  angleY 37.411
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Western Heights"
-    m_sBaseNameUpper "Western Heights"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 7682.195 340.875 3089.791
-  angleY -107.194
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Buhrstone"
-    m_sBaseNameUpper "Buhrstone"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 9104.556 79.292 2328.523
-  angleY -130.237
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Green Valley"
-    m_sBaseNameUpper "Green Valley"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 8800.891 138.284 3322.659
-  angleY 147.83
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_bIsSupplyHub 1
-    m_sBaseName "Military Base"
-    m_sBaseNameUpper "Military Base"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 7735.62 13.781 8139.336
-  angleY -47.496
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Camurac"
-    m_sBaseNameUpper "Camurac"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 6577.301 5.52 3112.681
-  angleY -6.772
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Regina"
-    m_sBaseNameUpper "Regina"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 7221.948 137.344 2387.502
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_bIsSupplyHub 1
-    m_sBaseName "Lamentin"
-    m_sBaseNameUpper "Lamentin"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 1088.314 3.308 6045.861
-  angleY -89.602
- }
- {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 300
-    m_bIsControlPoint 1
-    m_bIsSupplyHub 1
-    m_sBaseName "Military Base Chotain"
-    m_sBaseNameUpper "Military Base Chotain"
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-  }
-  coords 7473.313 8.126 6698.149
-  angleY -27.187
- }
  HQ_Base_Norte {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
@@ -580,16 +17,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 4618.743 25.687 11168.745
   angleY -89.392
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
  }
  HQ_Base_Sul {
   components {
@@ -620,16 +47,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 10149.595 2.531 1517.6
   angleY -77.431
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_iRespawnPeriod 5
-     }
-    }
-   }
-  }
  }
 }
 $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
@@ -1759,5 +1176,105 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
    }
   }
   coords 3733.969 1.201 8530.836
+ }
+}
+$grp GenericEntity : "{655B060F89741A08}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase_WO_IA.et" {
+ {
+  coords 2596.479 103.957 5516.934
+  angleY -101.625
+ }
+ {
+  coords 3523.85 138.797 4451.985
+  angleY -30.019
+ }
+ {
+  coords 5154.367 14.713 4008.913
+  angleY 78.428
+ }
+ {
+  coords 5272.592 62.987 5349.35
+  angleY -150.301
+ }
+ {
+  coords 5333.271 80.51 6292.921
+  angleY 67.271
+ }
+ {
+  coords 4711.81 161.494 6992.195
+  angleY 176.246
+ }
+ {
+  coords 6579.145 110.145 5927.541
+  angleY 48.108
+ }
+ {
+  coords 7557.993 82.498 5542.154
+  angleY -122.933
+ }
+ {
+  coords 7482.542 164.468 4336.467
+  angleY -165.288
+ }
+ {
+  coords 6221.286 107.123 5062.786
+  angleY -55.616
+ }
+ {
+  coords 3841.961 102.204 6348.612
+  angleY -123.626
+ }
+ {
+  coords 2216.683 19.727 7494.383
+  angleY 154.132
+ }
+ {
+  coords 4149.74 39.909 7753.958
+  angleY 39.991
+ }
+ {
+  coords 4916.402 98.308 8334.963
+  angleY 46.253
+ }
+ {
+  coords 4536.304 14.572 9466.885
+ }
+ {
+  coords 5870.951 4.517 9751.002
+  angleY -100.38
+ }
+ {
+  coords 6235.196 180.168 7469.813
+  angleY 37.411
+ }
+ {
+  coords 7682.195 340.875 3089.791
+  angleY -107.194
+ }
+ {
+  coords 9104.556 79.292 2328.523
+  angleY -130.237
+ }
+ {
+  coords 8800.891 138.284 3322.659
+  angleY 147.83
+ }
+ {
+  coords 7735.62 13.781 8139.335
+  angleY -47.496
+ }
+ {
+  coords 6577.3 5.52 3112.681
+  angleY -6.772
+ }
+ {
+  coords 7221.948 137.344 2387.502
+ }
+ {
+  coords 1088.314 3.308 6045.861
+  angleY -89.602
+ }
+ {
+  coords 7473.313 8.126 6698.149
+  angleY -27.187
  }
 }
