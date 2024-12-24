@@ -1,6 +1,12 @@
 GenericEntity : "{013EB20BEC6BB34F}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_RUS_Backpack_511_rush12_od.et" {
  coords 125.605 1 136.578
 }
+GameEntity : "{0BEC44F2DB48123C}Winter Event/Prefabs/Characters/HeadGear/Balaclavas/WINTER_Pred_RUS_Balaclava_base.et" {
+ coords 118.359 1 135.749
+}
+GameEntity : "{19CA846588274078}Winter Event/Prefabs/Characters/Handwear/Gloves_Wool_01/WINTER_Pred_Gloves_Wool_01.et" {
+ coords 118.787 1 135.813
+}
 GameEntity : "{3477604CDDDB1771}Winter Event/Prefabs/Characters/HeadGear/Hat_Shemagh/WINTER_Pred_RUS_Hat_Shemagh.et" {
  coords 121.035 1 135.949
 }

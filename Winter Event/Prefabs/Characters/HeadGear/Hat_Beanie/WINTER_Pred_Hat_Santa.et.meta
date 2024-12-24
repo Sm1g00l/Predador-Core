@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{DBFB86C596E6B054}Prefabs/Characters/HeadGear/Hat_Beanie/WINTER_Pred_Hat_Santa.et"
+ Name "{DBFB86C596E6B054}Winter Event/Prefabs/Characters/HeadGear/Hat_Beanie/WINTER_Pred_Hat_Santa.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A6B7094281E75792}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_Pouch_avs_front_elastic_Coy.et"
+ Name "{A6B7094281E75792}Winter Event/Prefabs/Characters/US/Vests/Vest_AVS/WINTER_Pred_US_Pouch_avs_front_elastic_Coy.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

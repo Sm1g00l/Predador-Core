@@ -1,0 +1,22 @@
+GameEntity : "{43157D90F1FE5C73}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01_base.et" {
+ ID "5DF2774398EBD275"
+ components {
+  MeshObject "{5DF2774268A6E46B}" {
+   Materials {
+    MaterialAssignClass "{6330F3D14ECB1264}" {
+     SourceMaterial "default1"
+     AssignedMaterial "{9C2876304A4BCA06}Winter Event/Prefabs/Characters/Handwear/Gloves_Wool_01/WINTER_Pred_Gloves_Wool_01.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DF2774268A6E4AA}" {
+   WornMaterialsOverride {
+    "{9C2876304A4BCA06}Winter Event/Prefabs/Characters/Handwear/Gloves_Wool_01/WINTER_Pred_Gloves_Wool_01.emat"
+   }
+   ItemMaterialsOverride {
+    "{9C2876304A4BCA06}Winter Event/Prefabs/Characters/Handwear/Gloves_Wool_01/WINTER_Pred_Gloves_Wool_01.emat"
+   }
+  }
+ }
+ coords 0 0 0
+}

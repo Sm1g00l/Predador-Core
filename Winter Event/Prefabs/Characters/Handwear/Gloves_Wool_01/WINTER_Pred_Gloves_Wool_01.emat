@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.609 0.754 0.807 1
+ BCRMap "{8FC6221CC6AE6155}Winter Event/Prefabs/Characters/Handwear/Gloves_Wool_01/WINTER_Gloves_Wool_01_BCR.edds"
+ NMOMap "{876E590D756DF4FF}Assets/Characters/Handwear/Gloves_Wool_01/Data/Gloves_Wool_01_NMO.edds"
+}

@@ -1,6 +1,12 @@
 GameEntity : "{065AAF939BAFB65D}Winter Event/Prefabs/Characters/US/WINTER_PRED_Pants_BDU.et" {
  coords 126.743 1 124.511
 }
+GameEntity : "{19CA846588274078}Winter Event/Prefabs/Characters/Handwear/Gloves_Wool_01/WINTER_Pred_Gloves_Wool_01.et" {
+ coords 119.304 1 124.81
+}
+GameEntity : "{24A6EC63FA74C973}Winter Event/Prefabs/Characters/HeadGear/Balaclavas/WINTER_Pred_US_Balaclava_base.et" {
+ coords 118.604 1 124.84
+}
 GenericEntity : "{29076711AE4EE378}Winter Event/Prefabs/Characters/Footwear/WINTER_Pred_US_CombatBoots_US_01.et" {
  coords 119.863 1 124.849
 }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{D02502B997AC783F}Winter Event/Prefabs/Characters/WINTER_Pred_RUS_Pants_KZS.et"
+ Name "{D02502B997AC783F}Winter Event/Prefabs/Characters/RUS/WINTER_Pred_RUS_Pants_KZS.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

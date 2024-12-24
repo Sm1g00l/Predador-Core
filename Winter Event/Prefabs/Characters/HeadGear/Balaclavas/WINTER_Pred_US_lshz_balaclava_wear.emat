@@ -1,0 +1,7 @@
+MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{7B9F963554FCC4CD}Winter Event/Camos/American_WinterCamo.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{ACBBD3C15B919162}Assets/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Data/rhs_lshz_balaclava_1_NMO.edds"
+}

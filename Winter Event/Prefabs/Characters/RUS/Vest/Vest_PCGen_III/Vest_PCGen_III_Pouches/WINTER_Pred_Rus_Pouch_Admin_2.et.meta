@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{33BCF9FD9866C126}Winter Event/Prefabs/Characters/US/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Pouch_Admin_2.et"
+ Name "{33BCF9FD9866C126}Winter Event/Prefabs/Characters/RUS/Vest/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Rus_Pouch_Admin_2.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

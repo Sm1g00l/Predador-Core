@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{DAD1C9DB6B9289D2}Prefabs/Characters/Uniforms/PRED_Jacket_BDU_BRA_INF_2.et"
+ Name "{DAD1C9DB6B9289D2}Winter Event/Prefabs/Characters/US/WINTER_PRED_Jacket_BDU.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
