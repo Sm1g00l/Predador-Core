@@ -1,0 +1,33 @@
+GenericEntity : "{D693417ED79D8202}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_base.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{4C0FDA7A04E9592F}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/rhs_ratnik_suharka_type1_item.xob"
+   Materials {
+    MaterialAssignClass "{632F64E8183C246C}" {
+     SourceMaterial "ratnik_suharka_type1"
+     AssignedMaterial "{78F2FB370C2B29C6}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_RUS_ratnik_suharka_type1.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+    ItemDisplayName UIInfo "{5222CB03904B414C}" {
+     Name "#RHS-Backpack_Ratnik_Suharka_1_Name"
+     Description "#RHS-Backpack_Ratnik_Suharka_1_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   WornModel "{E0FB9D2FE901F6EC}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/rhs_ratnik_suharka_type1.xob"
+   WornMaterialsOverride {
+    "{78F2FB370C2B29C6}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_RUS_ratnik_suharka_type1.emat"
+   }
+   ItemModel "{4C0FDA7A04E9592F}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/rhs_ratnik_suharka_type1_item.xob"
+   ItemMaterialsOverride {
+    "{78F2FB370C2B29C6}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_RUS_ratnik_suharka_type1.emat"
+   }
+  }
+ }
+ coords 1220.652 38.011 2841.177
+}

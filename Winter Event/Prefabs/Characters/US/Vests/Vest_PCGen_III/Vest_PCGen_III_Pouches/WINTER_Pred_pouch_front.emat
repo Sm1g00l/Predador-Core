@@ -1,0 +1,5 @@
+MatPBRMulti {
+ BCR_1 "{7B9F963554FCC4CD}Winter Event/Camos/American_WinterCamo.edds"
+ NMO_1 "{0E46F2EA20CF415B}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/pouch_front_NMO.edds"
+ DetNormal_1 0.7
+}

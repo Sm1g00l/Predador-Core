@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DBFB86C596E6B054}Prefabs/Characters/HeadGear/Hat_Beanie/WINTER_Pred_Hat_Santa.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

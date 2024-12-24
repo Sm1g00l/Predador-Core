@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D754C622817F32BD}Winter Event/Prefabs/Characters/WINTER_Pred_RU_Jacket_KZS_standalone.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DF5E533DC8345C86}Assets/Characters/Uniforms/Jacket_M70/Data/WINTER_Pred_US_Jacket_M70_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

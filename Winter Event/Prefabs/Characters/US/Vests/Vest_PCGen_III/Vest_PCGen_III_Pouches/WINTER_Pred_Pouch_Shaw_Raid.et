@@ -1,0 +1,35 @@
+GenericEntity : "{063712DCDFB30053}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Mini.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Object "{6176EF5AF1F3BFCC}Assets/Characters/Vests/Vest_PCGen_III_Pouches/shawraid.xob"
+   Materials {
+    MaterialAssignClass "{632F64FFF7E2BA04}" {
+     SourceMaterial "shawraid"
+     AssignedMaterial "{61422B223D5F41C0}Winter Event/Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_shawraid.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD25D8B867D}" {
+      PreviewModel "{6176EF5AF1F3BFCC}Assets/Characters/Vests/Vest_PCGen_III_Pouches/shawraid.xob"
+     }
+    }
+   }
+   MaxCumulativeVolume 300
+  }
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornModel "{6176EF5AF1F3BFCC}Assets/Characters/Vests/Vest_PCGen_III_Pouches/shawraid.xob"
+   WornMaterialsOverride {
+    "{61422B223D5F41C0}Winter Event/Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_shawraid.emat"
+   }
+   ItemModel "{6176EF5AF1F3BFCC}Assets/Characters/Vests/Vest_PCGen_III_Pouches/shawraid.xob"
+   ItemMaterialsOverride {
+    "{61422B223D5F41C0}Winter Event/Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_shawraid.emat"
+   }
+  }
+ }
+ coords 0.137 -0.211 -0.722
+}

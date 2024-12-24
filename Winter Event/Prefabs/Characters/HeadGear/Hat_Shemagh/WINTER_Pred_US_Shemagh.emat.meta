@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{64E55AB6904D2F2B}Assets/Characters/HeadGear/Shemagh/Data/WINTER_Pred_US_Shemagh.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

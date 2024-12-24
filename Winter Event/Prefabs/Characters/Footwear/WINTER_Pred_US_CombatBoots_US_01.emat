@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 1 1 1 1
+ SurfaceProperties "{13581C35484F3000}Common/Materials/Game/fabric.gamemat"
+ CavityFromAO 1
+ BCRMap "{7B9F963554FCC4CD}Winter Event/Camos/American_WinterCamo.edds"
+ NMOMap "{AB943BF038F5079A}Assets/Characters/Footwear/CombatBoots_US_01/Data/CombatBoots_US_01_NMO.edds"
+}

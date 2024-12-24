@@ -1,0 +1,62 @@
+GenericEntity : "{80C8C9227D2C7CF5}Prefabs/Characters/Core/Footwear_Base.et" {
+ ID "5244C46FA7C5E08C"
+ components {
+  InventoryItemComponent "{5244C46AD695742D}" {
+   Attributes SCR_ItemAttributeCollection "{633017B50C9E2334}" {
+    ItemDisplayName UIInfo "{633017B50C9E20CF}" {
+     Name "#AR-Boots_USCombatBoots_Name"
+     Description "#AR-Boots_USCombatBoots_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{633017B50C9E20CB}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{633017B50C9E20C7}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2.5
+      FOV 10
+      PreviewModel "{2D13DB50F18C79C0}Assets/Characters/Footwear/CombatBoots_US_01/CombatBoots_US_01_item.xob"
+     }
+    }
+   }
+  }
+  MeshObject "{5244C34DEE7DBFB4}" {
+   Object "{2D13DB50F18C79C0}Assets/Characters/Footwear/CombatBoots_US_01/CombatBoots_US_01_item.xob"
+   Materials {
+    MaterialAssignClass "{633017B6BAB364D1}" {
+     SourceMaterial "M_CombatBoots_US_01"
+     AssignedMaterial "{EAA523C19B20A6C8}Winter Event/Prefabs/Characters/Footwear/WINTER_Pred_US_CombatBoots_US_01.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5244C34DEE7DBFB2}" {
+   AreaType LoadoutBootsArea "{633017B50C9E20DA}" {
+   }
+   WornModel "{8876B76F52CFD088}Assets/Characters/Footwear/CombatBoots_US_01/CombatBoots_US_01.xob"
+   WornMaterialsOverride {
+    "{EAA523C19B20A6C8}Winter Event/Prefabs/Characters/Footwear/WINTER_Pred_US_CombatBoots_US_01.emat"
+   }
+   ItemModel "{2D13DB50F18C79C0}Assets/Characters/Footwear/CombatBoots_US_01/CombatBoots_US_01_item.xob"
+   ItemMaterialsOverride {
+    "{EAA523C19B20A6C8}Winter Event/Prefabs/Characters/Footwear/WINTER_Pred_US_CombatBoots_US_01.emat"
+   }
+   SoundInt 610
+   OverrideMeshesToHide {
+    "Foot_L" "Foot_R"
+   }
+  }
+  ActionsManagerComponent "{5244C34DEE7DBF9F}" {
+   ActionContexts {
+    UserActionContext "{5244C34DEE7DBF83}" {
+     Position PointInfo "{5244C34DEE7DBF80}" {
+      Offset 0 0.1 0
+     }
+    }
+   }
+  }
+ }
+ coords 1212.622 39.094 2839.711
+}

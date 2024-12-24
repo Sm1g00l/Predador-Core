@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D1AF6FB1EFA21609}Winter Event/Prefabs/Characters/US/Vests/Vest_AVS/WINTER_Pred_US_AVS_front_pouches_Coy_2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

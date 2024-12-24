@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5C7E811056AFFB83}Winter Event/Prefabs/Characters/HeadGear/Hat_Beanie/WINTER_Pred_US_Hat_beanie.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

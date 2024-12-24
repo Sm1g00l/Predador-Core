@@ -1,0 +1,21 @@
+GenericEntity : "{F5148CC4FF751F44}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Materials {
+    MaterialAssignClass "{632F64E36AD074A5}" {
+     SourceMaterial "AVS_front_pouches"
+     AssignedMaterial "{ADFD845401B6BFBC}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_AVS_front_pouches_Coy.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{ADFD845401B6BFBC}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_AVS_front_pouches_Coy.emat"
+   }
+   ItemMaterialsOverride {
+    "{ADFD845401B6BFBC}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_AVS_front_pouches_Coy.emat"
+   }
+  }
+ }
+}

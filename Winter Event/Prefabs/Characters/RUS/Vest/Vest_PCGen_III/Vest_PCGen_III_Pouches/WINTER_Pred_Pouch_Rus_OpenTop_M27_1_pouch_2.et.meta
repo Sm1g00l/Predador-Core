@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C1B1649B55A0C5C3}Winter Event/Prefabs/Characters/US/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Pouch_OpenTop_M27_1_pouch_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

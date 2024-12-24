@@ -1,0 +1,98 @@
+GenericEntity : "{09D6A1C9543E4A95}Prefabs/Items/Core/Backpack_Base.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{CAD53E985438F1A4}Assets/Items/Equipment/Backpacks/FILBE_BackPack/FILBE_Assault_Pack_item.xob"
+   Materials {
+    MaterialAssignClass "{632F64E9FA155A20}" {
+     SourceMaterial "FILBE"
+     AssignedMaterial "{648B4D727BEAB2CF}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_US_FILBE.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   components {
+    RHS_ClothNodeStorageComponent "{632F64EE8AEAC2B2}" {
+     StoragePurpose 64
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+    ItemDisplayName UIInfo "{5222CB03904B414C}" {
+     Name "#RHS-Backpack_FILBE_Name"
+     Description "#RHS-Backpack_FILBE_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 8001
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD2B54658EC}" {
+      PreviewModel "{4BE7536BFC739D19}Assets/Items/Equipment/Backpacks/FILBE_BackPack/FILBE_Assault_Pack.xob"
+     }
+    }
+   }
+   Priority 1
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1.26
+   MaxCumulativeVolume 8000
+   MaxItemSize 20 20 20
+   m_fMaxWeight 40
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   Slots {
+    RHS_LoadoutSlotInfo LeftVelcro {
+     PivotID "Spine4"
+     Offset -0.0588 0.242 -0.2887
+     Angles 36.6066 -172.0674 3.7559
+     InspectionWidgetOffset -0.0605 1.2888 -0.3814
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{632F64EE8AEAC269}" {
+     }
+     EnableDeflatedOffset 1
+     DeflatedOffset -0.0621 0.2703 -0.3265
+     DeflatedAngles 37.515 -172.16721 3.6946
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.5
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     PivotID "Spine4"
+     Offset 0.0482 0.2443 -0.2919
+     Angles 32.8259 177.3941 -1.0617
+     InspectionWidgetOffset 0.0605 1.2888 -0.3814
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{632F64EE8AEAC265}" {
+     }
+     EnableDeflatedOffset 1
+     DeflatedOffset 0.0488 0.2738 -0.3275
+     DeflatedAngles 35.9233 177.9361 -0.7422
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.38
+    }
+   }
+   WornModel "{4BE7536BFC739D19}Assets/Items/Equipment/Backpacks/FILBE_BackPack/FILBE_Assault_Pack.xob"
+   WornMaterialsOverride {
+    "{648B4D727BEAB2CF}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_US_FILBE.emat"
+   }
+   ItemModel "{CAD53E985438F1A4}Assets/Items/Equipment/Backpacks/FILBE_BackPack/FILBE_Assault_Pack_item.xob"
+   ItemMaterialsOverride {
+    "{648B4D727BEAB2CF}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_US_FILBE.emat"
+   }
+   SoundInt 830
+   DeflatedModel "{E0ECBF0A60511F90}Assets/Items/Equipment/Backpacks/FILBE_BackPack/FILBE_Assault_Pack_fitted.xob"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{632F64EE8AEAC261}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{511E9C6ADE70F786}" {
+   ActionContexts {
+    UserActionContext "{511E9C6ADE70F788}" {
+     Position PointInfo "{511E9C6ADE70F78D}" {
+      Offset 0 0.1281 0.0436
+     }
+    }
+   }
+  }
+ }
+ coords 617.671 51 2265.783
+}

@@ -1,0 +1,23 @@
+GenericEntity : "{FE03AD34A88C1925}Prefabs/Characters/Vests/Vest_AVS/attachment_AVS_camerband_6x9_base.et" {
+ ID "61E309156F5A8B62"
+ components {
+  MeshObject "{61E309156F5A8B6D}" {
+   Materials {
+    MaterialAssignClass "{633017B45159BEB7}" {
+     SourceMaterial "groin_protection"
+     AssignedMaterial "{1CC2FB1EDC2555F1}Winter Event/Prefabs/Characters/RUS/Vest/Vest_AVS_RUS/WINTER_Pred_RUS_groin_protection.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{61E309156F5A8BB7}" {
+   WornMaterialsOverride {
+    "{7726DD53B92AC80C}Winter Event/Prefabs/Characters/RUS/Vest/Vest_AVS_RUS/WINTER_Pred_RUS_AVS_2.emat" "{7726DD53B92AC80C}Winter Event/Prefabs/Characters/RUS/Vest/Vest_AVS_RUS/WINTER_Pred_RUS_AVS_2.emat"
+   }
+   ItemMaterialsOverride {
+    "{1CC2FB1EDC2555F1}Winter Event/Prefabs/Characters/RUS/Vest/Vest_AVS_RUS/WINTER_Pred_RUS_groin_protection.emat" "{1CC2FB1EDC2555F1}Winter Event/Prefabs/Characters/RUS/Vest/Vest_AVS_RUS/WINTER_Pred_RUS_groin_protection.emat"
+   }
+   DebugWornModel 1
+  }
+ }
+ coords 836.715 50.902 2437.13
+}

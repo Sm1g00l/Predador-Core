@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EBF1B3704B4A1655}Assets/Characters/HeadGear/Helmet_ACH_MICH/data/WINTER_Pred_RUS_rhs_mich_cov.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

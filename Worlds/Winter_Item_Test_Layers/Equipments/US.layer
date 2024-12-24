@@ -1,0 +1,49 @@
+GameEntity : "{065AAF939BAFB65D}Winter Event/Prefabs/Characters/US/WINTER_PRED_Pants_BDU.et" {
+ coords 126.743 1 124.511
+}
+GenericEntity : "{29076711AE4EE378}Winter Event/Prefabs/Characters/Footwear/WINTER_Pred_US_CombatBoots_US_01.et" {
+ coords 119.863 1 124.849
+}
+GenericEntity : "{54A8915DB71DE674}Winter Event/Prefabs/Characters/US/Vests/Vest_PCGen_III/WINTER_Pred_US_Vest_PCGen_III_rifleman.et" {
+ coords 122.788 1 123.91
+}
+GameEntity : "{5C7E811056AFFB83}Winter Event/Prefabs/Characters/HeadGear/Hat_Beanie/WINTER_Pred_US_Hat_beanie.et" {
+ coords 121.717 1 124.216
+}
+GenericEntity : "{6EA321DAC3DDD560}Winter Event/Prefabs/Characters/US/Vests/Vest_AVS/WINTER_Pred_US_Vest_AVS_6x9_Coy.et" {
+ coords 123.864 1 125.01
+}
+GameEntity : "{76E3CDC68D5415F6}Winter Event/Prefabs/Characters/HeadGear/Helmet_MICH_ACH/WINTER_Pred_US_Helmet_MICH_SHROUD_Cov_MarpatWD.et" {
+ coords 120.516 1 124.861
+}
+GameEntity : "{92169DB4ABCB5BEE}Winter Event/Prefabs/Characters/US/WINTER_Pred_US_Jacket_KZS.et" {
+ coords 126.763 1 123.602
+}
+GenericEntity : "{971F705971EF6F4B}Prefabs/Props/Fabric/Flags/Flag_1_2_US_01.et" {
+ coords 128.624 1.802 124.166
+}
+GameEntity : "{9B64D2D4E57E917B}Winter Event/Prefabs/Characters/US/WINTER_Pred_US_Jacket_M70.et" {
+ coords 126.856 1 122.784
+}
+GenericEntity : "{A68ACBCE612FA7A0}Winter Event/Prefabs/Characters/US/Vests/Vest_AVS/WINTER_Pred_US_Vest_AVS_okinawa_Coy_6x9.et" {
+ coords 123.947 1 123.76
+}
+GenericEntity : "{D4260988D4BF6C21}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_US_FILBE_Backpack.et" {
+ coords 125.303 1 124.434
+}
+GameEntity : "{DAD1C9DB6B9289D2}Winter Event/Prefabs/Characters/US/WINTER_PRED_Jacket_BDU.et" {
+ coords 126.702 1 125.208
+}
+GameEntity : "{DBFB86C596E6B054}Winter Event/Prefabs/Characters/HeadGear/Hat_Beanie/WINTER_Pred_Hat_Santa.et" {
+ coords 121.703 1 124.849
+}
+GameEntity : "{E58513E4D1615F54}Winter Event/Prefabs/Characters/HeadGear/Hat_Shemagh/WINTER_Pred_US_Hat_Shemagh.et" {
+ coords 121.104 1 124.886
+}
+GenericEntity : "{E7E51A1F08C52373}Winter Event/Prefabs/Characters/US/Vests/Vest_PCGen_III/WINTER_Pred_US_Vest_PCGen_III.et" {
+ coords 122.679 1 124.795
+ angleY 0
+}
+GenericEntity : "{EF796CF786552333}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_US_Backpack_Wartech_BB102_OD.et" {
+ coords 125.307 1 125.158
+}

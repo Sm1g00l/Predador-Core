@@ -1,0 +1,10 @@
+MatPBRMulti {
+ CavityFromAO 0.591
+ VFXMap "{FD4DEF4B6BDDA24A}Assets/Characters/Uniforms/Pants_KZS/Data/Pants_KZS_VFX.edds"
+ DirtUserOpacity 1
+ DirtOpacity 3
+ DirtRoughness 1
+ DirtBCRMap "{5BCDD61532A70FB8}Assets/Characters/Uniforms/Pants_KZS/Data/Pants_KZS_Blood_BCR.edds"
+ BCR_1 "{ABFC32B236417FFA}Winter Event/Camos/Russian_WinterCamo.edds"
+ NMO_1 "{C3BFC7BA8C47851A}Assets/Characters/Uniforms/Pants_KZS/Data/Pants_KZS_NMO.edds"
+}

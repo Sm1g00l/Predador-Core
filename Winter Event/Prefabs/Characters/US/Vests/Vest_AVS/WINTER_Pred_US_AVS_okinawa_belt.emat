@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.584 0.584 0.584 1
+ Cull none
+ BCRMap "{7B9F963554FCC4CD}Winter Event/Camos/American_WinterCamo.edds"
+ NMOMap "{B8526EB464BE0F36}Assets/Characters/Belts/Belt_Okinawa/data/Belt_Okinawa_NMO.edds"
+}

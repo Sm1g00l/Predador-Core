@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{955D8E54382C5F57}Winter Event/Prefabs/Characters/RUS/Vest/Vest_AVS_RUS/WINTER_Pred_RUS_Vest_AVS_6x9_Coy_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

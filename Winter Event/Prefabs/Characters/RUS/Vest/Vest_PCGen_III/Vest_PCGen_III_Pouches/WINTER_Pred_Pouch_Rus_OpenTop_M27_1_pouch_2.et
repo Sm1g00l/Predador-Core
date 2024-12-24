@@ -1,0 +1,109 @@
+GenericEntity : "{09DEA8153A0C312D}Prefabs/Characters/Core/EquipmentPart_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  SignalsManagerComponent "{632F64F9BFC2E964}" {
+  }
+  SoundComponent "{632F64F9BFC2E97E}" {
+   Filenames {
+    "{927BE973F8A2D7FA}Sounds/Items/_SharedData/PickUp/Items_PickUp_Cloth.acp" "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+   }
+  }
+  MeshObject "{51EE72201CEF8651}" {
+   Object "{2DD01BADCEDD43AB}Assets/Characters/Vests/Vest_PCGen_III_Pouches/PMAG_pouches_front.xob"
+   Materials {
+    MaterialAssignClass "{632F64F9D0312857}" {
+     SourceMaterial "pouch_front"
+     AssignedMaterial "{0741FAD0770992B0}Winter Event/Prefabs/Characters/RUS/Vest/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Rus_pouch_front_2.emat"
+    }
+   }
+  }
+  RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    ItemDisplayName UIInfo "{5222CB03C0C44D6C}" {
+     Name "#RHS-Vest_OpenTop_Pouch_Name"
+     Description "#RHS-Vest_Ratnik_OpenTop_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.001
+     SizeSetupStrategy Manual
+     ItemDimensions 1 1 1
+     ItemVolume 0.00000001
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD25D8B867D}" {
+      CameraDistanceToItem 0.25
+      PreviewModel "{2DD01BADCEDD43AB}Assets/Characters/Vests/Vest_PCGen_III_Pouches/PMAG_pouches_front.xob"
+     }
+    }
+    m_Size SLOT_2x1
+    m_bDraggable 0
+    m_bVisible 0
+    m_bStackable 0
+   }
+   Priority 100
+   StoragePurpose 65
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 600
+   MaxItemSize 10 10 10
+   UseVirtualInventoryReplication 0
+   InitialStorageSlots {
+    RHS_MorphedEquipmentStorageSlot pouch0 {
+     Offset 0.1116 0.0129 0.1378
+     Angles 5 95 180
+     ChildPivotID "snap_weapon"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     AllowedItemTypes {
+      "RHS_RIFLE_AMMO"
+     }
+     m_aCompatibleItemTypes {
+      "RHS_RIFLE_AMMO"
+     }
+     m_sMorphStateName "pouch3"
+    }
+    RHS_MorphedEquipmentStorageSlot pouch1 {
+     Offset 0.0283 0.0129 0.1435
+     Angles 5 95 180
+     ChildPivotID "snap_weapon"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     AllowedItemTypes {
+      "RHS_RIFLE_AMMO"
+     }
+     m_aCompatibleItemTypes {
+      "RHS_RIFLE_AMMO"
+     }
+     m_sMorphStateName "pouch2"
+    }
+    RHS_MorphedEquipmentStorageSlot pouch2 {
+     Offset -0.0565 0.0129 0.1407
+     Angles 5 83 180
+     ChildPivotID "snap_weapon"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     AllowedItemTypes {
+      "RHS_RIFLE_AMMO"
+     }
+     m_aCompatibleItemTypes {
+      "RHS_RIFLE_AMMO"
+     }
+     m_sMorphStateName "pouch1"
+    }
+   }
+  }
+  RigidBody "{51ECC3F9B51DDE22}" {
+   Enabled 0
+  }
+  BaseLoadoutClothComponent "{5242D72632990471}" : "{2B73E7D11406DC4D}Prefabs/Characters/Core/BaseLoadoutCloth_Base.ct" {
+   WornModel "{2DD01BADCEDD43AB}Assets/Characters/Vests/Vest_PCGen_III_Pouches/PMAG_pouches_front.xob"
+   WornMaterialsOverride {
+    "{0741FAD0770992B0}Winter Event/Prefabs/Characters/RUS/Vest/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Rus_pouch_front_2.emat"
+   }
+   ItemModel "{2DD01BADCEDD43AB}Assets/Characters/Vests/Vest_PCGen_III_Pouches/PMAG_pouches_front.xob"
+   ItemMaterialsOverride {
+    "{0741FAD0770992B0}Winter Event/Prefabs/Characters/RUS/Vest/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Rus_pouch_front_2.emat"
+   }
+  }
+ }
+ coords 0.394 -0.291 -0.156
+}

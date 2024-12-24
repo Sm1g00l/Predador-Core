@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{76E3CDC68D5415F6}Winter Event/Prefabs/Characters/HeadGear/Helmet_MICH_ACH/WINTER_Pred_US_Helmet_MICH_SHROUD_Cov_MarpatWD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

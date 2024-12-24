@@ -1,0 +1,12 @@
+GenericEntity : "{FE03AD34A88C1925}Prefabs/Characters/Vests/Vest_AVS/attachment_AVS_camerband_6x9_base.et" {
+ ID "61E309156F5A8B62"
+ components {
+  BaseLoadoutClothComponent "{61E309156F5A8BB7}" {
+   WornMaterialsOverride {
+    "{5C52793BD9FD4CCE}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_AVS.emat" "{5C52793BD9FD4CCE}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_AVS.emat"
+   }
+   DebugWornModel 1
+  }
+ }
+ coords 836.715 50.902 2437.13
+}

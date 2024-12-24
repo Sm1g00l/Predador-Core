@@ -1,0 +1,31 @@
+GenericEntity : "{FD201F51636A9ACD}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_base.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Materials {
+    MaterialAssignClass "{632F64E9BD1ABF6A}" {
+     SourceMaterial "511rush"
+     AssignedMaterial "{7E42497EB308E1D7}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_US_Backpack_Wartech_BB102.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+    ItemDisplayName UIInfo "{5222CB03904B414C}" {
+     Name "#RHS-Backpack_WartechBB102_Name - #RHS-Color_Olive"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   WornMaterialsOverride {
+    "{7E42497EB308E1D7}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_US_Backpack_Wartech_BB102.emat"
+   }
+   ItemModel "{452A84D4BB000D2F}Assets/Items/Equipment/Backpacks/Wartech_BB102_Backpack/BB102_ground.xob"
+   ItemMaterialsOverride {
+    "{7E42497EB308E1D7}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_US_Backpack_Wartech_BB102.emat"
+   }
+   DeflatedModel "{AD81AC53FCFA8AE2}Assets/Items/Equipment/Backpacks/Wartech_BB102_Backpack/BB102_inf.xob"
+  }
+ }
+ coords 125.326 0.909 126.519
+}

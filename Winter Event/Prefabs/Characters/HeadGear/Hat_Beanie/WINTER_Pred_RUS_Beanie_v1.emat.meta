@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EAEAA51E526382DF}Winter Event/Prefabs/Characters/HeadGear/Hat_Beanie/WINTER_Pred_RUS_Beanie_v1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

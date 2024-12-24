@@ -1,0 +1,34 @@
+GenericEntity : "{255ED0C0B4DB3A77}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Materials {
+    MaterialAssignClass "{632F64E3A4218190}" {
+     SourceMaterial "AVS"
+     AssignedMaterial "{5C52793BD9FD4CCE}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_AVS.emat"
+    }
+   }
+  }
+  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
+   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
+    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
+     Name "#RHS-Vest_AVS_Name (6×9 #RHS-Plates_sideplates_Name) - #RHS-Color_COY"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Camerband {
+     Prefab "{6DFFCD38B6D87A90}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_attachment_AVS_camerband_6x9_Coy.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{5C52793BD9FD4CCE}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_AVS.emat"
+   }
+   ItemMaterialsOverride {
+    "{5C52793BD9FD4CCE}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_AVS.emat"
+   }
+  }
+ }
+ coords 102.957 1 149.151
+}

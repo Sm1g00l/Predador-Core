@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5758A7A9B4B91B45}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/WINTER_Pred_US_Pouch_Admin.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{318B21B3551CBD5C}Assets/Characters/Uniforms/Pants_BDU_M81/Data/WINTER_PRE_Pants_BDU.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

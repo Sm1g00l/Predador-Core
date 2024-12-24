@@ -1,0 +1,38 @@
+GameEntity : "{926F2D2ED4D286EB}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_Cov_MarpatWD.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{2217F85E976818A3}Assets/Characters/HeadGear/Helmet_ACH_MICH/rhs_mich_cov_shroud_item.xob"
+  }
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_MICH_Name (#RHS-Attachment_Shroud) - #RHS-Camo_MARPAT_WD"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo BackVelcro {
+     Offset 0 0.0954 0.1133
+     Enabled 1
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Offset 0 0.1545 -0.1353
+     Enabled 1
+    }
+    RHS_LoadoutSlotInfo Headset {
+    }
+   }
+   WornModel "{7FF9467F2B34784F}Assets/Characters/HeadGear/Helmet_ACH_MICH/rhs_mich_cov_shroud.xob"
+   WornMaterialsOverride {
+    "" "{EBF1B3704B4A1655}Winter Event/Prefabs/Characters/HeadGear/Helmet_MICH_ACH/WINTER_Pred_RUS_rhs_mich_cov.emat"
+   }
+   ItemModel "{2217F85E976818A3}Assets/Characters/HeadGear/Helmet_ACH_MICH/rhs_mich_cov_shroud_item.xob"
+   ItemMaterialsOverride {
+    "" "{EBF1B3704B4A1655}Winter Event/Prefabs/Characters/HeadGear/Helmet_MICH_ACH/WINTER_Pred_RUS_rhs_mich_cov.emat"
+   }
+  }
+ }
+ coords 949.667 7.9 725.587
+}

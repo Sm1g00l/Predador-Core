@@ -1,0 +1,21 @@
+GameEntity : "{142C7FDCD70C3BC7}Prefabs/Characters/Uniforms/Jacket_KZS/Jacket_KZS_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{632F58326086001E}" {
+     SourceMaterial "Jacket_KZS"
+     AssignedMaterial "{D754C622817F32BD}Winter Event/Prefabs/Characters/WINTER_Pred_RU_Jacket_KZS_standalone.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{D754C622817F32BD}Winter Event/Prefabs/Characters/WINTER_Pred_RU_Jacket_KZS_standalone.emat"
+   }
+   ItemMaterialsOverride {
+    "{D754C622817F32BD}Winter Event/Prefabs/Characters/WINTER_Pred_RU_Jacket_KZS_standalone.emat"
+   }
+  }
+ }
+}

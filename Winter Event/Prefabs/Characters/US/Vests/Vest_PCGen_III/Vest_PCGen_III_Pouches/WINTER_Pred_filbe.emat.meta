@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BBFEA4DFD1DBC4BC}Winter Event/Prefabs/Characters/US/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_filbe.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

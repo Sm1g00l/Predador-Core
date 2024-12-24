@@ -1,0 +1,46 @@
+GenericEntity : "{013EB20BEC6BB34F}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_RUS_Backpack_511_rush12_od.et" {
+ coords 125.605 1 136.578
+}
+GameEntity : "{3477604CDDDB1771}Winter Event/Prefabs/Characters/HeadGear/Hat_Shemagh/WINTER_Pred_RUS_Hat_Shemagh.et" {
+ coords 121.035 1 135.949
+}
+GenericEntity : "{42BB008F0E6B38AF}Winter Event/Prefabs/Characters/Footwear/WINTER_Pred_RUS_CombatBoots_Soviet_01.et" {
+ coords 119.456 1 135.83
+}
+GenericEntity : "{955BB3604F062AEE}Winter Event/Prefabs/Characters/RUS/Vest/Vest_PCGen_III/WINTER_Pred_RUS_Vest_PCGen_III_2.et" {
+ coords 122.724 1 136.068
+ angleY 0
+}
+GenericEntity : "{955D8E54382C5F57}Winter Event/Prefabs/Characters/RUS/Vest/Vest_AVS_RUS/WINTER_Pred_RUS_Vest_AVS_6x9_Coy_2.et" {
+ coords 123.79 1 136.043
+}
+GameEntity : "{9D3F7FD8FBA1ED60}Winter Event/Prefabs/Characters/HeadGear/Helmet_MICH_ACH/WINTER_Pred_RUS_Helmet_MICH_SHROUD_Cov_MarpatWD.et" {
+ coords 120.115 1 135.887
+}
+GameEntity : "{B31C73B50690CF60}Winter Event/Prefabs/Characters/HeadGear/Hat_Beanie/WINTER_Pred_RUS_Hat_beanie.et" {
+ coords 121.661 1 135.17
+}
+GenericEntity : "{CB81BF6576E682D3}Prefabs/Props/Fabric/Flags/Flag_1_2_USSR_01.et" {
+ coords 129.504 2.651 135.998
+}
+GameEntity : "{CC496E0EF8190127}Winter Event/Prefabs/Characters/RUS/WINTER_Pred_RUS_Jacket_M70.et" {
+ coords 127.549 1 135.658
+}
+GameEntity : "{D02502B997AC783F}Winter Event/Prefabs/Characters/RUS/WINTER_Pred_RUS_Pants_KZS.et" {
+ coords 127.567 1 134.255
+}
+GenericEntity : "{D44573FFBCE70D72}Winter Event/Prefabs/Characters/RUS/Vest/Vest_AVS_RUS/WINTER_Pred_RUS_Vest_AVS_okinawa_Coy_6x9_2.et" {
+ coords 123.826 1 134.844
+}
+GenericEntity : "{D7F52E8AE06F1999}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_RUS_Backpack_Suharka_type1.et" {
+ coords 125.474 1 135.352
+}
+GenericEntity : "{D8176B3C22EE0857}Winter Event/Prefabs/Characters/RUS/Vest/Vest_PCGen_III/WINTER_Pred_RUS_Vest_PCGen_III_rifleman_2.et" {
+ coords 122.682 1 135.116
+}
+GameEntity : "{DBFB86C596E6B054}Winter Event/Prefabs/Characters/HeadGear/Hat_Beanie/WINTER_Pred_Hat_Santa.et" {
+ coords 121.711 1 136.06
+}
+GameEntity : "{FCB037F98C8862BA}Winter Event/Prefabs/Characters/RUS/WINTER_Pred_RU_Jacket_KZS.et" {
+ coords 127.588 1 136.796
+}

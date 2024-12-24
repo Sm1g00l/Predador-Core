@@ -1,0 +1,7 @@
+MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{ABFC32B236417FFA}Winter Event/Camos/Russian_WinterCamo.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{D8DCFA42634A6C2E}Assets/Characters/HeadGear/Shemagh/Data/Shemagh_v1_NMO.edds"
+}

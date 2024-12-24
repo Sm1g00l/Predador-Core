@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{33C92355B46A6521}Winter Event/Prefabs/Characters/WINTER_Pred_RUS_Jacket_M70_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

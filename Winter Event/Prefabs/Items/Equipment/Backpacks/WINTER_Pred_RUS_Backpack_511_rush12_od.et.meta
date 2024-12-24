@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{013EB20BEC6BB34F}Winter Event/Prefabs/Items/Equipment/Backpacks/WINTER_Pred_RUS_Backpack_511_rush12_od.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BD8FA4AC226A4423}Winter Event/Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Pouch_FILBE_doubleM4_3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

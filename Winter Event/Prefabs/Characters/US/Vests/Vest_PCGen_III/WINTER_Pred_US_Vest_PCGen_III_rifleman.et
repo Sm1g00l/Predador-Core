@@ -1,0 +1,148 @@
+GenericEntity : "{158F912CFD723FC1}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Loadout_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+   Materials {
+    MaterialAssignClass "{632F64FD14BEA39F}" {
+     SourceMaterial "okinawa_belt"
+     AssignedMaterial "{8FEB662E7212154D}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_AVS_okinawa_belt.emat"
+    }
+   }
+  }
+  RHS_ClothNodeStorageComponent "{5DEB2A8AB559C576}" {
+   Attributes SCR_ItemAttributeCollection "{5DEB2A8AB559C568}" {
+    ItemDisplayName UIInfo "{5DEB2A8AB559C56B}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-PC_Gen_III_Name [8]"
+     Description "#RHS-PC_Gen_III_Description"
+    }
+   }
+   MaxCumulativeVolume 100
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     PivotID "Spine5"
+     Offset 0 -0.0007 0.0247
+     MergePhysics 1
+     Prefab "{9F33E0C6A1036D3F}Winter Event/Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Pouch_OpenTop_M27_1_pouch.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo Pouch2 {
+     PivotID "Spine5"
+     Offset 0 0.0054 0.0263
+     Angles -4.4732 0 0
+     Enabled 1
+     Prefab "{5758A7A9B4B91B45}Winter Event/Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Pouch_Admin.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     PivotID "Spine5"
+     Offset 0.0203 0.1942 0.1697
+     Angles 15.4181 0.7902 0.1736
+     InspectionWidgetOffset 0.0202 1.3778 0.1353
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{632F64E5FDF8DED0}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.3
+     m_sInspectIconTexture "{72869FB002B6ABC2}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-M-alt-UI.edds"
+    }
+    RHS_LoadoutSlotInfo TopChestVelctro {
+     PivotID "Spine5"
+     Offset 0.0212 0.2454 0.1564
+     Angles 20.8154 0.8155 0.1727
+     InspectionWidgetOffset 0.0202 1.473 0.0963
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{632F64E5FDF8DEE6}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.3
+     m_sInspectIconTexture "{72869FB002B6ABC2}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-M-alt-UI.edds"
+    }
+    LoadoutSlotInfo tako1 {
+     PivotID "Spine1"
+     Offset -0.1876 0.0023 0.085
+     Angles 0.1464 -61.8747 -1.513
+     Prefab "{8CBD422BE0370A71}Winter Event/Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_US_Pouch_FILBE_doubleM4_1.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo tako2 {
+     PivotID "Spine1"
+     Offset -0.2167 0.0034 -0.0008
+     Angles -1.7689 -90.1097 0.0189
+     Prefab "{8CBD422BE0370A71}Winter Event/Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_US_Pouch_FILBE_doubleM4_1.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo util {
+     PivotID "Spine5"
+     Offset -0.228 -0.0574 0.0494
+     Angles -2.2791 -73.9162 4.9242
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo ifak {
+     PivotID "Spine1"
+     Offset -0.1455 0.0176 -0.0907
+     Angles -2.2336 41.655 4.5635
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo raid {
+     PivotID "Spine5"
+     Offset 0 -0.1406 0.1627
+     Angles -3.5042 0 0
+     MergePhysics 1
+     Prefab "{6ABA1E8A0F185806}Winter Event/Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Pouch_Shaw_Raid.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo radio {
+     PivotID "Spine5"
+     Offset 0.1924 0.0323 -0.1276
+     Angles -0.3928 46.7306 -5.5162
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo m18_2 {
+     PivotID "Spine5"
+     Offset -0.1728 -0.0135 -0.0897
+     Angles 1.1846 -117.6327 4.6598
+     Prefab "{8CBD422BE0370A71}Winter Event/Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_US_Pouch_FILBE_doubleM4_1.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo m67 {
+     PivotID "Spine1"
+     Offset 0.1831 0.0192 0.0812
+     Angles 1.268 56.0815 -2.1442
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo m67_2 {
+     PivotID "Spine1"
+     Offset 0.2053 0.0215 0.0082
+     Angles 2.063 81.3997 2.4029
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo camerleft {
+     PivotID "Spine5"
+     Offset 0.2288 0.0116 0.0571
+     Angles -2.8956 76.1279 -5.6405
+     InspectionWidgetOffset 0 -6 0
+    }
+   }
+   WornModel "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+   WornMaterialsOverride {
+    "{8FEB662E7212154D}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_AVS_okinawa_belt.emat"
+   }
+   ItemModel "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+   ItemMaterialsOverride {
+    "{8FEB662E7212154D}Winter Event/Prefabs/Characters/Vests/Vest_AVS/WINTER_Pred_US_AVS_okinawa_belt.emat"
+   }
+   DebugWornModel 0
+   DepthBack -0.04
+   DepthLeft 0.03
+   AreaOcludders {
+    "ChestLeftBottomFront"
+   }
+  }
+ }
+ coords 765.746 50.676 2450.215
+}

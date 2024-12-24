@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E58513E4D1615F54}Winter Event/Prefabs/Characters/HeadGear/Hat_Shemagh/WINTER_Pred_US_Hat_Shemagh.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

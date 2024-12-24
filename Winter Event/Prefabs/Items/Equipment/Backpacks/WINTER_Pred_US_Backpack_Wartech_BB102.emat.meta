@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7E42497EB308E1D7}Assets/Items/Equipment/Backpacks/Wartech_BB102_Backpack/data/WINTER_Pred_US_BackBack_BB102.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

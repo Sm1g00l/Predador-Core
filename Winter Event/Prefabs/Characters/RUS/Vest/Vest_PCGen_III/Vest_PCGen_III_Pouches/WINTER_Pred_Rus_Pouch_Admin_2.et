@@ -1,0 +1,67 @@
+GenericEntity : "{09DEA8153A0C312D}Prefabs/Characters/Core/EquipmentPart_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  SignalsManagerComponent "{632F64F9BFC6A063}" {
+  }
+  SoundComponent "{632F64F9BFC6A075}" {
+   Filenames {
+    "{927BE973F8A2D7FA}Sounds/Items/_SharedData/PickUp/Items_PickUp_Cloth.acp" "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+   }
+  }
+  MeshObject "{51EE72201CEF8651}" {
+   Object "{114404985D2E2756}Assets/Characters/Vests/Vest_PCGen_III_Pouches/admin_pouch_ground.xob"
+   Materials {
+    MaterialAssignClass "{632F64F924FE595D}" {
+     SourceMaterial "admin_pouch"
+     AssignedMaterial "{DB297ED440B13494}Winter Event/Prefabs/Characters/RUS/Vest/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Rus_filbe_2.emat"
+    }
+   }
+  }
+  RigidBody "{51ECC3F9B51DDE22}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    ItemDisplayName UIInfo "{5222CB03C0C44D6C}" {
+     Name "#RHS-Vest_Admin_Pouch_Name"
+     Description "#RHS-Vest_Admin_Pouch_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.001
+     SizeSetupStrategy Manual
+     ItemDimensions 1 1 1
+     ItemVolume 0.00000001
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD25D8B867D}" {
+      CameraDistanceToItem 0.25
+      FOV 60
+      AspectRatio 1
+      PreviewModel "{2DD01BADCEDD43AB}Assets/Characters/Vests/Vest_PCGen_III_Pouches/PMAG_pouches_front.xob"
+     }
+    }
+    m_bDraggable 0
+    m_bVisible 0
+    m_bStackable 0
+   }
+   Priority 0
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 150
+   MaxItemSize 10 10 10
+  }
+  BaseLoadoutClothComponent "{5242D72632990471}" : "{2B73E7D11406DC4D}Prefabs/Characters/Core/BaseLoadoutCloth_Base.ct" {
+   WornModel "{CEC7DBFB486BA8BE}Assets/Characters/Vests/Vest_PCGen_III_Pouches/admin_pouch.xob"
+   WornMaterialsOverride {
+    "{DB297ED440B13494}Winter Event/Prefabs/Characters/RUS/Vest/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Rus_filbe_2.emat"
+   }
+   ItemModel "{CEC7DBFB486BA8BE}Assets/Characters/Vests/Vest_PCGen_III_Pouches/admin_pouch.xob"
+   ItemMaterialsOverride {
+    "{DB297ED440B13494}Winter Event/Prefabs/Characters/RUS/Vest/Vest_PCGen_III/Vest_PCGen_III_Pouches/WINTER_Pred_Rus_filbe_2.emat"
+   }
+  }
+ }
+ coords 0.261 -0.124 -0.158
+}

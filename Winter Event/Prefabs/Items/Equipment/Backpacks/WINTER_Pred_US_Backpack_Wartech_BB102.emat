@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.641 0.641 0.641 1
+ BCRMap "{7B9F963554FCC4CD}Winter Event/Camos/American_WinterCamo.edds"
+ NMOMap "{FA80E9C78175BDAC}Assets/Items/Equipment/Backpacks/Wartech_BB102_Backpack/data/BB102_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{265EBA86C0F1A262}Assets/Characters/HeadGear/Beanie/Data/WINTER_Pred_US_Beanie_v1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

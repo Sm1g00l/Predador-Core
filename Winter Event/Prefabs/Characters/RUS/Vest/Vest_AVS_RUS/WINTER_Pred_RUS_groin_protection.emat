@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.539 0.539 0.539 1
+ BCRMap "{ABFC32B236417FFA}Winter Event/Camos/Russian_WinterCamo.edds"
+ NMOMap "{4ADC1551364D7E7F}Assets/Characters/Vests/Vest_Taktika/data/Taktika_BallsProtection_low_NMO.edds"
+}

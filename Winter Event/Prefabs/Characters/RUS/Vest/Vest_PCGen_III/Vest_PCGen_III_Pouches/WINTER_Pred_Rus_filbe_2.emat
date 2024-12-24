@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.687 0.687 0.687 1
+ BCRMap "{ABFC32B236417FFA}Winter Event/Camos/Russian_WinterCamo.edds"
+ NMOMap "{B15670CF166F121F}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/filbedouble_NMO.edds"
+}

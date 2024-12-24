@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EAA523C19B20A6C8}Assets/Characters/Footwear/CombatBoots_US_01/Data/WINTER_Pred_US_CombatBoots_US_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

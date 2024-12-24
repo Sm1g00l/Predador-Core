@@ -1,0 +1,78 @@
+GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName UIInfo "{632F64F4EBB18AD0}" {
+     Name "#RHS-Headgear_6B47_Name"
+     Description "#RHS-Headgear_6B47_Description"
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{68230E72EF452D55}Assets/Characters/HeadGear/Shemagh/V_Shemagh_ground.xob"
+   Materials {
+    MaterialAssignClass "{632F64F5E7FC8275}" {
+     SourceMaterial "Shemagh"
+     AssignedMaterial "{64E55AB6904D2F2B}Winter Event/Prefabs/Characters/HeadGear/Hat_Shemagh/WINTER_Pred_US_Shemagh.emat"
+    }
+   }
+  }
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_Shemagh_Name - #RHS-Color_Tan"
+     Description "#RHS-Headgear_Shemagh_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5DB13C575AD680C2}" {
+     Weight 0.2
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB13C57226FEA81}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 10
+     }
+     RHS_CustomAttributes "{5DB8F5B9ACB547EA}" {
+      m_sShortName "#RHS-Headgear_Shemagh_Name"
+     }
+    }
+   }
+  }
+  SCR_ArmorDamageManagerComponent "{5E208A6BCC801EAE}" {
+   Enabled 0
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo MeshCover {
+     Enabled 0
+    }
+    LoadoutSlotInfo Masks {
+     Enabled 0
+    }
+    LoadoutSlotInfo NVG {
+     Offset 0.0026 0.1528 -0.1414
+     Angles -9.8766 180 0
+    }
+    LoadoutSlotInfo Headset {
+     Offset 0 0.007 0
+     Enabled 1
+    }
+   }
+   WornModel "{9E574165113F5029}Assets/Characters/HeadGear/Shemagh/V_Shemagh.xob"
+   WornMaterialsOverride {
+    "{64E55AB6904D2F2B}Winter Event/Prefabs/Characters/HeadGear/Hat_Shemagh/WINTER_Pred_US_Shemagh.emat"
+   }
+   ItemModel "{68230E72EF452D55}Assets/Characters/HeadGear/Shemagh/V_Shemagh_ground.xob"
+   ItemMaterialsOverride {
+    "{64E55AB6904D2F2B}Winter Event/Prefabs/Characters/HeadGear/Hat_Shemagh/WINTER_Pred_US_Shemagh.emat"
+   }
+   DebugWornModel 0
+  }
+ }
+}
