@@ -10,8 +10,6 @@ SCR_BaseGameMode : "{4261E9B841D6C6DE}Prefabs/MP/Modes/CaptureAndHold/GameMode_C
   }
   SCR_WaveRespawnTimerComponent "{631E3D29D290E3FA}" {
   }
-  ServerAdminTools_GamemodeComponent "{5C4531FB79DE4E32}" {
-   Enabled 0
-  }
  }
+ PlayerControllerPrefab "{87F89CC43250F22D}Prefabs/Characters/Core/CaptureAndHoldPlayerController_Pred.et"
 }

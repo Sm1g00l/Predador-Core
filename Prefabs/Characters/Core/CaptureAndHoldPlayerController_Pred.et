@@ -13,9 +13,6 @@ SCR_PlayerController : "{225E51284CC95CFA}Prefabs/Characters/Core/DefaultPlayerC
     }
    }
   }
-  ServerAdminTools_PlayerControllerComponent "{5C98A365B83E9330}" {
-   Enabled 0
-  }
  }
  coords 141.183 1.001 131.013
 }
