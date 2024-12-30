@@ -1,0 +1,30 @@
+$grp SCR_CaptureAndHoldSpawnArea : "{A628D80742D74EE6}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/CaptureAndHoldSpawnArea_FIA.et" {
+ {
+  coords 8559.925 68.714 2469.096
+  angleY 48.399
+  BoxMins -1000 -10 -10
+  BoxMaxs 1000 650 1000
+  ShapeColor 0 1 0.02 1
+ }
+ {
+  coords 7990.245 131.623 2588.77
+  angleY -53.968
+  BoxMins -1000 -10 -10
+  BoxMaxs 1000 650 1000
+  ShapeColor 0 1 0.02 1
+ }
+ {
+  coords 7814.27 83.85 1727.181
+  angleY -149.727
+  BoxMins -1000 -10 -10
+  BoxMaxs 1000 650 1000
+  ShapeColor 0 1 0.02 1
+ }
+ {
+  coords 8622.008 139.708 1668.124
+  angleY 140.834
+  BoxMins -1000 -10 -10
+  BoxMaxs 1000 650 1000
+  ShapeColor 0 1 0.02 1
+ }
+}

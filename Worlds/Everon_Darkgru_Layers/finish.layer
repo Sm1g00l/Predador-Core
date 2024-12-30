@@ -1,0 +1,60 @@
+$grp GenericEntity : "{655B060F89741A08}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase_WO_IA.et" {
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bIsControlPoint 1
+   }
+  }
+  coords 5154.367 14.713 4008.913
+  angleY 78.428
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bIsControlPoint 1
+   }
+  }
+  coords 4711.81 161.494 6992.195
+  angleY 176.246
+ }
+ {
+  coords 7557.993 82.498 5542.154
+  angleY -122.933
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bIsControlPoint 1
+   }
+  }
+  coords 7735.62 13.781 8139.335
+  angleY -47.496
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bIsControlPoint 1
+   }
+  }
+  coords 1088.314 3.308 6045.861
+  angleY -89.602
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bIsControlPoint 1
+   }
+  }
+  coords 2216.683 19.727 7494.383
+  angleY 154.132
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bIsControlPoint 1
+   }
+  }
+  coords 7482.542 164.468 4336.467
+  angleY -165.288
+ }
+}

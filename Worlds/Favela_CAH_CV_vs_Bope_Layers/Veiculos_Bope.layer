@@ -1,0 +1,34 @@
+$grp SCR_VehicleSpawn {
+ {
+  coords 7672.163 123.8 2093.722
+  angleX 9.908
+  angleY 80.262
+  angleZ 0.098
+  m_rnPrefab "{DD20465C217BB8BF}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed_camoExpo.et"
+  respawnDelay 600
+ }
+ {
+  coords 7679.506 125.465 2103.651
+  angleX 7.694
+  angleY 119.035
+  angleZ 6.263
+  m_rnPrefab "{CD1B5570AF3D50B6}Prefabs/Vehicles/Wheeled/M998/M1025_ION.et"
+  respawnDelay 600
+ }
+ {
+  coords 7684.149 125.796 2088.586
+  angleX 9.443
+  angleY 61.891
+  angleZ -3.016
+  m_rnPrefab "{CD1B5570AF3D50B6}Prefabs/Vehicles/Wheeled/M998/M1025_ION.et"
+  respawnDelay 600
+ }
+ {
+  coords 7845.062 150.773 1796.979
+  angleX 1.909
+  angleY 0.692
+  angleZ 2.066
+  m_rnPrefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+  respawnDelay 600
+ }
+}

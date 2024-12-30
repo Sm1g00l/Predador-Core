@@ -1,0 +1,37 @@
+$grp SCR_CaptureAndHoldArea : "{11E28821DF729BEC}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Minor.et" {
+ {
+  coords 8349.504 260.127 2256.805
+  TriggerShapeType Sphere
+  SphereRadius 67.6
+  DrawShape 0
+  m_iScorePerTick 1
+ }
+ {
+  coords 8181.435 174.81 1917.264
+  BoxMins -70 -5 -40
+  BoxMaxs 73 25 55
+  DrawShape 0
+  m_sAreaSymbol "B"
+  m_iScorePerTick 1
+ }
+}
+$grp SCR_CaptureAndHoldArea : "{F4649500E51DF810}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Major.et" {
+ {
+  coords 8119.69 247.857 2287.763
+  angleY 39.346
+  BoxMins -60 -10 -50
+  BoxMaxs 55 30 120
+  DrawShape 0
+  m_sAreaSymbol "C"
+  m_iScorePerTick 2
+ }
+ {
+  coords 8000.042 205.537 2139.807
+  angleY 39.346
+  BoxMins -85 -25 -28
+  BoxMaxs 155 40 100
+  DrawShape 0
+  m_sAreaSymbol "D"
+  m_iScorePerTick 2
+ }
+}

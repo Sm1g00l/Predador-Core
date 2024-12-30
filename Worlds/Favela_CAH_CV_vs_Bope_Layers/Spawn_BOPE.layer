@@ -1,0 +1,33 @@
+$grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ {
+  coords 8288.538 187.244 1873.231
+  m_sFaction "BOPE"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Predinhos da Penha"
+  }
+ }
+ {
+  coords 7874.488 178.067 2159.67
+  m_sFaction "BOPE"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Lojinhas da Dona Marta"
+  }
+ }
+ {
+  coords 7845.472 150.459 1778.442
+  m_sFaction "BOPE"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "UPP"
+  }
+ }
+ {
+  coords 8017.514 171.722 2030.67
+  angleX 0.89
+  angleY -0.069
+  angleZ -4.468
+  m_sFaction "BOPE"
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Primeira barricada"
+  }
+ }
+}
