@@ -1,6 +1,14 @@
 SCR_ChimeraCharacter : "{A1F593882E99452D}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban_demi/Character_RHS_ION_Urban_D_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
+  FactionAffiliationComponent "{6239642BBB275066}" {
+   "faction affiliation" "CV"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "CV"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{A523BD3728BEDF8E}Prefabs/Weapons/Rifles/FNFAL/Rifle_FNFAL_SU230_Pred.et"
   }

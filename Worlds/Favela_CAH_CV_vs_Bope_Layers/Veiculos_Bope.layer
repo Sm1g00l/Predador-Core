@@ -13,7 +13,7 @@ $grp SCR_VehicleSpawn {
   angleY 119.035
   angleZ 6.263
   m_rnPrefab "{CD1B5570AF3D50B6}Prefabs/Vehicles/Wheeled/M998/M1025_ION.et"
-  respawnDelay 600
+  respawnDelay 120
  }
  {
   coords 7684.149 125.796 2088.586
@@ -21,7 +21,7 @@ $grp SCR_VehicleSpawn {
   angleY 61.891
   angleZ -3.016
   m_rnPrefab "{CD1B5570AF3D50B6}Prefabs/Vehicles/Wheeled/M998/M1025_ION.et"
-  respawnDelay 600
+  respawnDelay 120
  }
  {
   coords 7845.062 150.773 1796.979

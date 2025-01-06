@@ -18,7 +18,7 @@ GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
      AttachmentSlot InventoryStorageSlot optics {
       PivotID ""
       Offset 0.0003 0.0955 -0.0642
-      Angles 0.9 -0.1 0
+      Angles 0.9 -0.07 0
      }
      AttachmentType AttachmentOpticsRIS1913 "{5A5CDB17A85868B7}" {
      }
@@ -29,6 +29,11 @@ GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
       Prefab ""
      }
      AttachmentType AttachmentRIS1913Short "{58E2B5510A713A07}" {
+     }
+    }
+    AttachmentSlotComponent "{5F16E0B4B2D0D72C}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Offset 0 -0.0294 0
      }
     }
     SightsComponent "{BB23A637957CFFF8}" {
@@ -59,7 +64,10 @@ GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
     MuzzleComponent "{CA6BE4D6B867541F}" {
      components {
       AttachmentSlotComponent "{5D527627CCB8F756}" {
-       Enabled 0
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Offset 0 -0.0009 -0.0337
+        Prefab ""
+       }
       }
       CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
        ParticleEffect "{6A0F068A792EA37C}Particles/Weapon/Casing_762x51.ptc"
@@ -67,7 +75,7 @@ GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
         Offset 0.015 -0.0555 -0.0447
        }
       }
-      CaseEjectingEffectComponent "{6339122543634229}" {
+      CaseEjectingEffectComponent "{644B7140A53811EE}" {
        ParticleEffect "{C19A137311FAEB03}Particles/Weapon/Smoke_SVD.ptc"
        EffectPosition EntitySlotInfo "{52C89337A55D0B87}" {
         Offset 0 -0.0562 -0.0064
@@ -85,12 +93,12 @@ GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
        RoundsPerMinute 700
        UIName "Semi"
       }
-      BaseFireMode "{63391225436342DB}" {
+      BaseFireMode "{644B7140A538118A}" {
        MaxBurst -1
        RoundsPerMinute 700
        UIName "Auto"
       }
-      BaseFireMode "{63391225436342DC}" {
+      BaseFireMode "{644B7140A5381183}" {
        MaxBurst 3
        BurstType Interruptable
        UIName "Burst"

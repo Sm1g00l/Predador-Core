@@ -28,8 +28,10 @@ SCR_ChimeraCharacter : "{3967948B72443B25}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo ArmoredVest {
      Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
     LoadoutSlotInfo Vest {
-     Prefab "{3F09E61DCB860B81}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_filbe.et"
     }
    }
   }
@@ -41,54 +43,12 @@ SCR_ChimeraCharacter : "{3967948B72443B25}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{61B52C4506FFE973}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_152_Radio.et"
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
     }
     ItemsInitConfigurationItem "{633B5569258F1AEA}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_2.et"
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
      PrefabsToSpawn {
-      "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et"
-     }
-    }
-    ItemsInitConfigurationItem "{633B5569258F1AE6}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_1.et"
-     PrefabsToSpawn {
-      "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et"
-     }
-    }
-    ItemsInitConfigurationItem "{633B5569258F1A9A}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_2.et"
-     PrefabsToSpawn {
-      "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et"
-     }
-    }
-    ItemsInitConfigurationItem "{633B5569258F1A9F}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_3.et"
-     PrefabsToSpawn {
-      "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et"
-     }
-    }
-    ItemsInitConfigurationItem "{633B5569258F1A9E}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
-     PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
-     }
-    }
-    ItemsInitConfigurationItem "{633B5569258F1A93}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
-     PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
-     }
-    }
-    ItemsInitConfigurationItem "{633B5569258F1A95}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_1.et"
-     PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-     }
-    }
-    ItemsInitConfigurationItem "{633B5569258F1A96}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_2.et"
-     PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
    }

@@ -26,11 +26,10 @@ $grp SCR_CaptureAndHoldArea : "{F4649500E51DF810}Prefabs/MP/Modes/CaptureAndHold
   m_iScorePerTick 2
  }
  {
-  coords 8000.042 205.537 2139.807
-  angleY 39.346
-  BoxMins -85 -25 -28
-  BoxMaxs 155 40 100
-  DrawShape 0
+  coords 7987.801 205.537 2191.615
+  angleY 33.337
+  BoxMins -23 -25 -18
+  BoxMaxs 90 40 20
   m_sAreaSymbol "D"
   m_iScorePerTick 2
  }

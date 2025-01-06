@@ -5,7 +5,7 @@ GenericEntity : "{E25FB3103F3E3AE4}Prefabs/Weapons/Rifles/M27IAR/Rifle_M38SDMR_b
    components {
     AttachmentSlotComponent "{5CC8E73BB698D287}" {
      AttachmentSlot RHS_SlidingInventoryStorageSlot optics {
-      Prefab "{5D6774CB06C4B12B}Prefabs/Weapons/Attachments/Optics/ts30a2/optic_ts30a2.et"
+      Prefab "{04FF74C0F9DCD368}Scopes/VUDU16/Prefabs/Optic_VUDU16.et"
      }
     }
     AttachmentSlotComponent "{5CF88C80AF78DA73}" {
