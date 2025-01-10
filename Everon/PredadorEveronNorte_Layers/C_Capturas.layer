@@ -46,6 +46,7 @@ $grp GenericEntity : "{655B060F89741A08}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
     m_iRadius 50
     m_bSeizedByMajority 1
+    m_bShowNotifications 1
     m_bDisableWhenUnusedAsHQ 0
     m_sBaseName "Meaux"
    }

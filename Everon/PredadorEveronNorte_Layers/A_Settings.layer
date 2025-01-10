@@ -1,6 +1,7 @@
 SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  coords 7114.537 74.769 6403
- LimitOfSpawnedAIAgents 0
+ LimitOfSpawnedAIAgents 10
+ "Max number of cached BTs" 0
  "Active AI limit" 1
  {
   CommentEntity {
