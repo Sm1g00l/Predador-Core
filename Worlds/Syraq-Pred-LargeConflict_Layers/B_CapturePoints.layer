@@ -36,8 +36,8 @@ $grp GenericEntity : "{56CF2C9022643FF5}Prefabs/Systems/MilitaryBase/TF_Conflict
  CP_Hotel {
   components {
    SCR_CampaignMilitaryBaseComponent "{632964B3CD36F85F}" {
-    m_sBaseName "Hotel BlackPhanter"
-    m_sBaseNameUpper "Hotel BlackPhanter"
+    m_sBaseName "Hotel Black Panther"
+    m_sBaseNameUpper "Hotel Black Panther"
    }
    SCR_CoverageRadioComponent "{632964B3CD36F83E}" {
     Transceivers {
