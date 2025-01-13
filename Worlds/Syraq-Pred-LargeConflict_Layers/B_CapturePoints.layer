@@ -1,0 +1,169 @@
+$grp GenericEntity : "{02407FFE96AE0ADF}Prefabs/Systems/MilitaryBase/TF_Conflict_MainBase_base.et" {
+ MB_North {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Main Base North"
+    m_sBaseNameUpper "Main Base North"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 1158.916 660.655 4608.063
+  angleY -152.838
+ }
+ MB_South {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Main Base South"
+    m_sBaseNameUpper "Main Base South"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+  }
+  coords 4741.508 668.045 1030.465
+ }
+}
+$grp GenericEntity : "{56CF2C9022643FF5}Prefabs/Systems/MilitaryBase/TF_Conflict_CaptureBase.et" {
+ CP_Hotel {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B3CD36F85F}" {
+    m_sBaseName "Hotel BlackPhanter"
+    m_sBaseNameUpper "Hotel BlackPhanter"
+   }
+   SCR_CoverageRadioComponent "{632964B3CD36F83E}" {
+    Transceivers {
+     RelayTransceiver "{632964B3CD36F836}" {
+      "Transmitting Range" 1300
+     }
+    }
+   }
+  }
+  coords 4086.1 688.157 1664.415
+  angleY 114.516
+ }
+ CP_Oil {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B3CD36F85F}" {
+    m_sBaseName "EoDark Oil Inc."
+    m_sBaseNameUpper "EoDark Oil Inc."
+   }
+   SCR_CoverageRadioComponent "{632964B3CD36F83E}" {
+    Transceivers {
+     RelayTransceiver "{632964B3CD36F836}" {
+      "Transmitting Range" 1100
+     }
+    }
+   }
+  }
+  coords 3731.984 684.167 2611.331
+  angleY 110.68
+ }
+ CP_Park {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B3CD36F85F}" {
+    m_sBaseName "TF's Park"
+    m_sBaseNameUpper "TF's Park"
+   }
+   SCR_CoverageRadioComponent "{632964B3CD36F83E}" {
+    Transceivers {
+     RelayTransceiver "{632964B3CD36F836}" {
+      "Transmitting Range" 1100
+     }
+    }
+   }
+  }
+  coords 1998.913 684.447 2985.36
+  angleY -60.112
+ }
+ CP_Factory {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B3CD36F85F}" {
+    m_sBaseName "Smigol Industries"
+    m_sBaseNameUpper "Smigol Industries"
+   }
+   SCR_CoverageRadioComponent "{632964B3CD36F83E}" {
+    Transceivers {
+     RelayTransceiver "{632964B3CD36F836}" {
+      "Transmitting Range" 1280
+     }
+    }
+   }
+  }
+  coords 1837.032 677.376 3534.024
+  angleY -57.723
+  {
+   GenericEntity {
+    ID "632964B3CD36782E"
+    coords -2 -0.034 -3
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "632964B3CD367813"
+    coords 0 0 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{FBE8C6C7E31DAC2D}Prefabs/Systems/MilitaryBase/TF_Conflict_MajorCapturePoint.et" {
+ Major_CentralPark {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B813C74E57}" {
+    m_sBaseName "Fusion Central Park"
+    m_sBaseNameUpper "Fusion Central Park"
+   }
+   SCR_CoverageRadioComponent "{632964B813C74E71}" {
+    Transceivers {
+     RelayTransceiver "{632964B813C74E74}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 1300
+      "Any frequency" 0
+     }
+    }
+   }
+  }
+  coords 2970.2 687.909 2794.589
+  angleY 121.097
+ }
+ Major_MilitaryBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B813C74E57}" {
+    m_sBaseName "Gorrila Outpost"
+    m_sBaseNameUpper "Gorrila Outpost"
+   }
+   SCR_CoverageRadioComponent "{632964B813C74E71}" {
+    Transceivers {
+     RelayTransceiver "{632964B813C74E74}" {
+      "Transmitting Range" 1100
+     }
+    }
+   }
+  }
+  coords 3449.911 690.613 1930.907
+  angleY -59.105
+ }
+ Major_Sawmill {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B813C74E57}" {
+    m_sBaseName "MadDog's Sawmill"
+    m_sBaseNameUpper "MadDog's Sawmill"
+   }
+   SCR_CoverageRadioComponent "{632964B813C74E71}" {
+    Transceivers {
+     RelayTransceiver "{632964B813C74E74}" {
+      "Transmitting Range" 1100
+     }
+    }
+   }
+  }
+  coords 2561.099 678.839 3711.517
+  angleY 27.77
+ }
+}

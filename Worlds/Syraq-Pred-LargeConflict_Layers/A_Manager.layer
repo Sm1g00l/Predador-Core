@@ -1,0 +1,78 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5AF8B9A182609915}" : "{3757F06924A51A50}Configs/Navmesh/Navmesh_CTI_Campaign_Arland_Soldier.conf" {
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{598EDE772036D79B}" : "{C20D2FB077A7523E}Configs/Navmesh/Navmesh_CTI_Campaign_Arland_Vehicle.conf" {
+    }
+   }
+  }
+ }
+ coords 4781.543 729.977 10667.766
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4936.066 737.933 10726.327
+}
+SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  SCR_CampaignBuildingManagerComponent "{5C6878C4C62529D2}" {
+   m_sPrefabsToBuildResource "{7F3BD50A81B649CE}Configs/Editor/PlaceableEntities/Compositions/TF_Compositions_FreeRoamBuilding.conf"
+  }
+  SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
+   m_sHeaderTitle "#AR-MainMenu_ConflictArland_Name"
+  }
+  SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
+   m_iKillFeedType FULL
+   m_iReceiveKillFeedType ALLIES_ONLY
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5CC49B5A1313B84E}" {
+   m_bRandomStartingDaytime 0
+   m_bRandomStartingWeather 0
+  }
+  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
+   m_sHeaderTitle "#AR-MainMenu_ConflictArland_Name"
+  }
+ }
+ coords 36.091 703.654 19.947
+ m_iControlPointsThreshold 3
+ m_fVictoryTimer 450
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 29.656 703.654 14.822
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 2894.333 795.578 6302.238
+}
+SCR_CampaignFactionManager CampaignFactionManager_RHS_AFRF_USMC_Predador1 : "{C4AE2F613207B8DB}Prefabs/MP/Campaign/CampaignFactionManager_RHS_AFRF_USMC_Predador.et" {
+ coords 1151.563 704.811 3304.652
+ angleY -123.667
+}
+SCR_MapLocator {
+ coords 10444.145 703.654 1151.674
+ m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{C1534F222D0F74D2}Configs/Map/MapLocatorHints/LocationHintsArland.conf" {
+ }
+}
+BasePreloadManager PreloadManager_Campaign_Predador1 : "{00C8632C1BD89B5C}Prefabs/World/Game/PreloadManager_Campaign_Predador.et" {
+ coords 53.601 703.654 56.766
+}
+SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+ coords 30.089 703.654 16.921
+}
+GenericEntity : "{1E4C8AD00BBB16AA}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_Base.et" {
+ coords 1151.563 704.811 3304.652
+ angleY -123.667
+}
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+ coords 9.365 703.654 8.985
+}
+SCR_LoadoutManager : "{814D8CA6DC586A91}Prefabs/MP/Campaign/CampaignLoadoutManager_AFRF_USMC_Pred.et" {
+ coords 9.365 703.654 8.985
+}
+ItemPreviewManagerEntity ItemPreviewManager1 : "{9F18C476AB860F3B}Prefabs/World/Game/ItemPreviewManager.et" {
+ coords 9.347 703.654 9.062
+}

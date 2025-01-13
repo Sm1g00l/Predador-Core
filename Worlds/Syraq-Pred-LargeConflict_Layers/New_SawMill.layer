@@ -1,0 +1,16 @@
+SCR_DestructibleBuildingEntity : "{11BFDE0724119A52}PrefabLibrary/Structures/Industrial/Garage_E_02.et" {
+ coords 2509.221 1.546 3664.086
+ angleY 120.202
+}
+SCR_DestructibleBuildingEntity : "{5BC4F6DB3D4A81FD}PrefabLibrary/Structures/Industrial/Sawmill_E_01.et" {
+ coords 2530.826 1.408 3708.084
+ angleY 28.988
+}
+SCR_DestructibleBuildingEntity : "{D5ABBAFBDAF43275}PrefabLibrary/Structures/Industrial/SmokestackBrick_E_01.et" {
+ coords 2527.913 -0.82 3690.448
+ angleY 120
+}
+SCR_DestructibleBuildingEntity : "{F5F65D19951ED02F}PrefabLibrary/Structures/Industrial/ShedMetal_02.et" {
+ coords 2510.678 0.676 3737.017
+ angleY 28.988
+}

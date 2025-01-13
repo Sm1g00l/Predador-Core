@@ -1,0 +1,1530 @@
+GenericEntity : "{038844285FEE0D7A}Prefabs/Rocks/Granite/GraniteStone_01.et" {
+ coords 3783.8 -0.459 2719.785
+ angleY 56.947
+ angleZ -18.59
+ scale 4.38
+}
+$grp SCR_DestructibleBuildingEntity : "{0E1B7B383F318A66}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_03/FuelTank_03_orange.et" {
+ {
+  coords 3652.371 1.218 2595.183
+  angleY 87.955
+ }
+ {
+  coords 3673.904 1.234 2584.06
+  angleY 98.955
+ }
+}
+SCR_DestructibleBuildingEntity : "{12310677867A85D4}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01.et" {
+ coords 3789.269 0.547 2554.63
+ angleY 26.63
+ {
+  GenericEntity {
+   ID "56E0E50D252F9F1A"
+   {
+    GenericEntity {
+     ID "56E0E50D2EAD763C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD75AD"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7F09"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7F38"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7FE7"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E0B"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E1A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E23"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E37"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E8B"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E99"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7EA1"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7EB7"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7EC8"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7ED3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7EDC"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7EE2"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7EEF"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7EF7"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7F2A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7F45"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7F5A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7F63"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7F6D"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7F76"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D83"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D8D"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D97"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7DA4"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7DB8"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7DD0"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E2C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E45"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E59"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E6B"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E71"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7E7F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D0E"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D12"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D1D"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D35"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7DC3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7DCE"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7DE6"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7DFA"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C84"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C99"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7CA2"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7CB3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D20"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D2C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D45"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D59"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D60"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D6F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7D75"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C01"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C0D"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C1A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7CAC"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7CC9"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7CD9"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7CE1"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7CEC"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7CF5"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C24"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C39"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C50"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C5F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B0A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B11"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B1C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B2A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B31"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B3F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B49"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B51"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B5F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B60"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B6E"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B75"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B82"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B8C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7B94"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7BA6"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7BB8"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7BC4"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7BD2"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7BDE"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7BEB"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7BF3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7BFC"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C4B"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C62"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C69"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7C77"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7A8E"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7A9C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD799B"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD79A6"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD79B3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7A00"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7A0C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7A27"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7A3A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7A42"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7A53"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7A67"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7A70"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7AA7"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7AAD"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7ABB"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7AC5"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7AD9"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7AE4"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7AF3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7AF9"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD79DA"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD791F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD79E7"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD79F2"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7925"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7931"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7942"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7951"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD794C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7978"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7715"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7781"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD778C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD779B"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD77A7"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD77B8"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD77CA"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD77D0"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD77DF"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD77EE"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD77F1"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD77FD"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7849"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7860"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD786C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7874"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7965"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7704"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7730"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD773D"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD772E"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD775A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7744"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7775"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7766"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD768B"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7693"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD769F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD76B4"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7611"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD76A6"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD76C5"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD76D3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD76DE"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD76E0"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD76F6"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0E50D2EAD7606"
+     Flags 2098179
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{1F0AA3EA77753B5D}Prefabs/Rocks/Granite/Granite_Boulder_02.et" {
+ {
+  coords 3730.017 -1.636 2647.819
+  scale 2.07
+ }
+ {
+  coords 3734.659 -2.026 2645.926
+  angleY -152.175
+  scale 2.07
+ }
+}
+GenericEntity : "{1FFB6B5828D2B35F}Prefabs/Rocks/Granite/GraniteRock_03.et" {
+ coords 3733.704 674.249 2738.871
+ angleY 128.008
+}
+SCR_DestructibleBuildingEntity : "{28526C80C3B7BEA4}PrefabLibrary/Industrial/Expedice_1.et" {
+ coords 3709.238 684.106 2588.453
+ angleY 30.22
+}
+$grp GenericEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Granite/GraniteCliff_01.et" {
+ {
+  coords 3781.462 678.193 2720.022
+  angleX 0.085
+  angleY 24.394
+  angleZ -91.144
+ }
+ {
+  coords 3764.123 677.813 2727.886
+  angleX 0.085
+  angleY 24.394
+  angleZ -91.144
+ }
+ {
+  coords 3737.762 677.219 2742.755
+  angleX 0.085
+  angleY 24.394
+  angleZ 80.87
+ }
+ {
+  coords 3752.926 679.233 2664.527
+  angleY 120.582
+  angleZ 90
+ }
+}
+GenericEntity : "{50E63E69B37539DB}Prefabs/Rocks/Granite/GraniteSurfaceStone_01.et" {
+ coords 3746.762 676.574 2741.13
+ angleX -42.543
+ angleY 15.443
+}
+SCR_DestructibleBuildingEntity : "{51F233A0BA73532A}Prefabs/Structures/Industrial/Houses/Office_E_01/Office_E_01.et" {
+ coords 3744.085 0.017 2577.885
+ angleY -152.137
+}
+$grp GenericEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
+ {
+  coords 3741.288 674.815 2740.918
+  angleY -59.756
+  angleZ -90
+ }
+ {
+  coords 3732.257 674.815 2725.428
+  angleY -59.756
+  angleZ -90
+ }
+ {
+  coords 3723.165 674.815 2709.833
+  angleY -59.756
+  angleZ -90
+ }
+ {
+  coords 3714.896 674.815 2695.65
+  angleY -59.756
+  angleZ -90
+ }
+ {
+  coords 3706.069 674.815 2680.51
+  angleY -59.756
+  angleZ -90
+ }
+ {
+  coords 3751.253 675.99 2664.125
+  angleY 121.137
+  angleZ -90
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{686B4C83AC940895}Prefabs/Structures/Infrastructure/Naval/Piers/PierConcrete_01_flat.et" {
+ {
+  coords 3690.883 -2.439 2571.422
+  angleY 30.22
+ }
+ {
+  coords 3699.509 -3.931 2566.397
+  angleY 30.22
+ }
+ {
+  coords 3687.711 -1.837 2577.889
+  angleY 120.22
+ }
+ {
+  coords 3692.723 -1.902 2586.492
+  angleY 120.22
+ }
+ {
+  coords 3699.565 -2.724 2582.506
+  angleY 120.22
+ }
+}
+GenericEntity : "{7813FBBE77324674}Prefabs/Rocks/Granite/GraniteSurfaceStone_03.et" {
+ coords 3769.068 681.756 2689.7
+ angleX 20.043
+ angleY -64.799
+}
+SCR_DestructibleBuildingEntity : "{78BC332BE30DB87A}PrefabLibrary/Industrial/Gas_Storage.et" {
+ coords 3739.28 683.183 2742.661
+ angleY 118.11
+}
+$grp GenericEntity : "{8A403C31EFCF153F}Prefabs/Rocks/Granite/GraniteStone_03.et" {
+ {
+  coords 3776.377 -0.37 2725.594
+  angleY -61.983
+  angleZ 36.532
+  scale 4.351
+ }
+ {
+  coords 3779.045 -0.913 2725.211
+  angleY 11.514
+  angleZ 36.532
+  scale 4.351
+ }
+}
+$grp GenericEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
+ {
+  coords 3734.864 687.175 2645.43
+  angleY -151.89
+ }
+ {
+  coords 3731.129 683.901 2638.437
+  angleY -151.89
+ }
+ {
+  coords 3699.49 683.901 2655.338
+  angleY -151.89
+ }
+ {
+  coords 3703.225 687.175 2662.331
+  angleY -151.89
+ }
+ {
+  coords 3776.677 687.067 2723.5
+  angleY 28.11
+ }
+ {
+  coords 3780.706 683.573 2731.042
+  angleY 28.11
+ }
+ {
+  coords 3781.468 683.296 2728.739
+  angleY 118.11
+ }
+ {
+  coords 3778.297 683.507 2730.433
+  angleY -61.89
+ }
+ {
+  coords 3773.543 680.054 2732.972
+  angleY -61.89
+ }
+}
+$grp GenericEntity : "{9633134198F3AB1A}Prefabs/Rocks/Granite/GraniteRock_01.et" {
+ {
+  coords 3763.826 680.404 2684.39
+  angleY 119.566
+ }
+ {
+  coords 3770.521 680.404 2697.854
+  angleY -57.183
+ }
+ {
+  coords 3725.689 673.309 2724.848
+  angleY 97.1
+ }
+ {
+  coords 3721.016 673.309 2715.501
+  angleY -68.766
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{A19A14997396A6E1}PrefabLibrary/Industrial/Expedice_3.et" {
+ {
+  coords 3641.204 685.1 2636.903
+  angleY 118.935
+ }
+ {
+  coords 3655.354 684.466 2659.251
+  angleY -61.065
+ }
+}
+$grp GenericEntity : "{B6A096447B215355}Prefabs/Rocks/Granite/GraniteCliff_03.et" {
+ {
+  coords 3711.636 673.755 2655.179
+  angleY -151.665
+  angleZ 90
+ }
+ {
+  coords 3711.074 673.602 2655.483
+  angleY -151.665
+  angleZ -90
+ }
+ {
+  coords 3785.932 676.351 2717.677
+  angleX 43.588
+  angleY 119.574
+  angleZ 90
+ }
+}
+SCR_DestructibleBuildingEntity : "{BBCEDBF2C4E3E896}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01_Office.et" {
+ coords 3764.039 0.549 2611.844
+ angleY -62.963
+ {
+  GenericEntity {
+   ID "56E0EC1545F918AA"
+   {
+    GenericEntity {
+     ID "56E0EC154B6504A2"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6504C5"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6504FB"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "58E2EE2B55D35A70"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6504E8"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65041B"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650409"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650438"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650429"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65045F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65044F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650390"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65039F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650464"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650479"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65038F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6503AB"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6503BE"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6503C3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6503CF"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6503D7"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6503FC"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6503ED"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65030A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650319"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650336"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650323"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65032C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650281"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65029A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65034A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65035F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650363"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65036F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650376"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650208"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650216"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650236"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6502AB"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6502B3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6502B9"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6502C7"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6502DA"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6502EB"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6502FC"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650228"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65023D"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650242"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650257"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65024E"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650275"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650263"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65018A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650199"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6501AE"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6501B6"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6501C7"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6501F8"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "58E2EE2B4CCEAC22"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "58E2EE2B4CCEAC46"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "58E2EE2B4CCEAC67"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "58E2EE2B4CCEAC74"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6501E4"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650111"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65011D"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65010F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650014"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650081"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65008D"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65009A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6500A5"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6500B8"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6500CA"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6500E3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6500E9"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B6500F4"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650126"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65012C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65013A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65014F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65015A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650161"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65016C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65017A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "58E2EE2B4CCEAC86"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "58E2EE2B4CCEAC97"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "58E2EE2B4CCEACB2"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650001"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65000F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650021"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65002F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65003B"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650045"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65005A"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65006B"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B650071"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B65007C"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F18"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F8B"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F96"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F9D"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651FAB"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651FB6"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651FBD"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651FC3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651FCE"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651FD6"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651FE1"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651FED"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651FF5"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F07"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F25"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F32"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F39"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F51"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F5D"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F70"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F62"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651F6F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E9F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E88"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651EB6"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651EA1"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651EAC"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651EDB"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651EF3"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651EFF"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651EEB"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E08"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E16"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E1D"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E20"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E2E"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E34"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E43"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E55"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E4F"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E78"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651E67"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651D93"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651D99"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651D84"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651DB0"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651DBC"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651DAB"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651DCB"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651DD6"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651DDC"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651D17"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651DE9"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651DF6"
+     Flags 2098179
+    }
+    GenericEntity {
+     ID "56E0EC154B651DFD"
+     Flags 2098179
+    }
+   }
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{D39297A56E6648F0}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_03/FuelTank_03_green.et" {
+ {
+  coords 3665.397 -0 2619.37
+  angleY 87.955
+ }
+ {
+  coords 3686.551 0.327 2607.302
+  angleY 20.955
+ }
+}
+SCR_DestructibleBuildingEntity : "{E07AA0F15E318B4E}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/DieselPowerPlant_02.et" {
+ coords 3723.578 0.13 2519.226
+ angleY -61.893
+}

@@ -1,0 +1,169 @@
+$grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ {
+  coords 2581.306 680.992 2947.848
+  angleX 0.274
+  angleY -147.483
+  angleZ 1.236
+  {
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ {
+  coords 2724.158 680.426 3217.631
+  angleX 3.22
+  angleY 36.638
+  angleZ 0.166
+  {
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ {
+  coords 2397.278 682.489 2704.698
+  angleX 0.772
+  angleY 120.396
+  angleZ 0.453
+  {
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ {
+  coords 4111.194 687.731 1662.405
+  angleX 0.891
+  angleY -65.591
+  angleZ 2.369
+  {
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ {
+  coords 3177.407 688.357 2359.147
+  angleX 2.753
+  angleY 31.747
+  angleZ 0.651
+  {
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ {
+  coords 3184.024 690.824 2469.452
+  angleX -2.542
+  angleY 118.268
+  angleZ 4.716
+  {
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ {
+  coords 2716.848 680.528 3223.373
+  angleX -1.237
+  angleY 32.667
+  angleZ 0.27
+  {
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{2D33C626DA7B3191}Prefabs/Main_Base_SupplyInf_Nort.et" {
+ {
+  coords 1078.61 662.61 4595.763
+  angleX -1.15
+  angleY 28.364
+  angleZ -1.638
+  {
+   GenericEntity {
+    ID "5D45393876460D01"
+    coords 58.549 -0.407 -5.166
+    angleX 2.787
+    angleY 0.024
+    angleZ 0.488
+   }
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ {
+  coords 4778.427 669.119 1078.362
+  angleX 0.424
+  angleY -151.761
+  angleZ -0.789
+  {
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+}
+GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ coords 3308.897 692.379 3138.541
+ angleX 4.895
+ angleY -149.326
+ angleZ -1.248
+ {
+  GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+   coords 0 0 0
+   angleY 0
+  }
+ }
+}
+GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+ coords 3297.925 692.845 3145.584
+ angleX 0.757
+ angleY -57.696
+ angleZ 0.478
+ {
+  GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+   coords 0 0 0
+   angleY 0
+  }
+ }
+}
+$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ {
+  coords 2578.213 680.589 2939.543
+  angleY 122.51
+  {
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ {
+  coords 1816.581 678.295 3511.582
+  angleX 1.467
+  angleY -55.047
+  angleZ 1.025
+  {
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+}
