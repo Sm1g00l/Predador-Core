@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{645B0CB0878CEFB9}Assets/Vehicles/Helicopters/AH6M/Data/Pred_MH6M_RUS_Body_1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,31 @@
+Vehicle : "{F5763805919D0553}Prefabs/Vehicles/Helicopters/AH6M/AH6M_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AH6M-Vehicle_MH6M_Name"
+    m_Image "{3E82256CD1A7793D}UI/Textures/EditorPreviews/Vehicles/Helicopters/AH6M/MH6M.edds"
+    m_aAuthoredLabels + {
+     36
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Seats_Cargo {
+     MergePhysics 1
+     Prefab "{CA6F30B162EAE5CE}Prefabs/Vehicles/Helicopters/AH6M/VehParts/Seats/VehPart_MH6_seats.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,86 @@
+GenericEntity : "{A3E183EB5A2F3A38}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_base.et" {
+ ID "525494E72B1E90FD"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{A9F4B66A1072BA48}Sounds/Weapons/Rifles/SVD/Weapons_Rifles_SVD_Shot.acp" "{1A15B9A1B0C17E1B}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{5D9EB1EFB7097850}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Shot_Suppressed_SuperSonic.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{64601424EB8A56BA}" {
+     SourceMaterial "SVD_body2"
+     AssignedMaterial "{0B31D529A8D641CC}Assets/Weapons/Rifles/SVD/Data/SVD_body2black.emat"
+    }
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{64601424EB8A5647}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5472D211BFD78F81}" {
+     AttachmentSlot InventoryStorageSlot Dovetail {
+      Offset 0.0224 -0.0574 -0.0407
+      MergePhysics 0
+      Prefab "{8F14FB21BF25B3CC}sight00444.et"
+     }
+     AttachmentType AttachmentHandGuardM16 "{58E2BCF926D50DE5}" {
+     }
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{64601424EB8A5652}" {
+     AttachmentSlot InventoryStorageSlot rail {
+      Offset -0.0005 0.1262 0.0234
+      Prefab "{25E734CCFB586A0F}Prefabs/Weapons/Attachments/BaconOptics/Bacon_L3.5x10_Scope_M110.et"
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{64601424EB8A5664}" {
+     }
+    }
+    AttachmentSlotComponent "{64601424EB8A565A}" {
+     Enabled 0
+     AttachmentSlot InventoryStorageSlot SUP {
+      Offset 0.0045 0.0573 0.537
+      Prefab "{7CE0BF9468D53FC0}Prefabs/Weapons/Attachments/Muzzle/Suppressor_PBS4/svd sup.et"
+     }
+     AttachmentType AttachmentMuzzle762_54 "{64601424EB8A5651}" {
+     }
+    }
+    AttachmentSlotComponent "{64601424EB8A5666}" {
+     AttachmentSlot InventoryStorageSlot sdasd {
+      Offset -0.0227 0.1123 0.4682
+      Angles 0 0 -60.3464
+      Enabled 0
+      Prefab "{8EBF43C2831519BF}Prefabs/Weapons/Attachments/Rangefinder_Laser_RIS.et"
+     }
+     AttachmentType AttachmentRIS1913 "{64601424EB8A5663}" {
+     }
+    }
+    AttachmentSlotComponent "{64601424EB8A567D}" {
+     AttachmentSlot InventoryStorageSlot ril {
+      Offset -0.0177 0.0894 0.4377
+      Angles 0 180 0
+      Enabled 0
+      Prefab "{83E04BDD5979FE45}Prefabs/Weapons/Rifles/SVD/attachtment.et"
+     }
+     AttachmentType AttachmentHandGuardM16 "{64601424EB8A567F}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{64601424EB8A5678}" {
+       AttachmentSlot InventoryStorageSlot Sup {
+        Offset 0.0045 0.0573 0.537
+        Prefab "{7CE0BF9468D53FC0}Prefabs/Weapons/Attachments/Muzzle/Suppressor_PBS4/svd sup.et"
+        InspectionWidgetOffset 0 0.0764 0.9184
+       }
+       AttachmentType AttachmentMuzzle762_54 "{64601424EB8A5674}" {
+       }
+       ShowInInspection 1
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 49.804 1 216.441
+}

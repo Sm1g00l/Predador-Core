@@ -135,8 +135,8 @@ $grp GenericEntity : "{FBE8C6C7E31DAC2D}Prefabs/Systems/MilitaryBase/TF_Conflict
  Major_MilitaryBase {
   components {
    SCR_CampaignMilitaryBaseComponent "{632964B813C74E57}" {
-    m_sBaseName "Gorrila Outpost"
-    m_sBaseNameUpper "Gorrila Outpost"
+    m_sBaseName "Gorilla Outpost"
+    m_sBaseNameUpper "Gorilla Outpost"
    }
    SCR_CoverageRadioComponent "{632964B813C74E71}" {
     Transceivers {
