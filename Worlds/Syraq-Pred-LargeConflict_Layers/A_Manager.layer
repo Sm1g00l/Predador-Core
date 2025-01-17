@@ -28,7 +28,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   }
   SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
    m_iKillFeedType FULL
-   m_iReceiveKillFeedType ALLIES_ONLY
+   m_iReceiveKillFeedType SAME_FACTION_ONLY
   }
   SCR_TimeAndWeatherHandlerComponent "{5CC49B5A1313B84E}" {
    m_bRandomStartingDaytime 0

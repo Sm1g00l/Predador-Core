@@ -25,7 +25,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   }
   SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
    m_iKillFeedType FULL
-   m_iReceiveKillFeedType ALLIES_ONLY
+   m_iReceiveKillFeedType SAME_FACTION_ONLY
   }
   SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
    m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
@@ -53,6 +53,9 @@ BasePreloadManager PreloadManager_Campaign_Predador1 : "{00C8632C1BD89B5C}Prefab
 }
 SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
  coords 20.724 0 7.936
+}
+GenericEntity : "{1E4C8AD00BBB16AA}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_Base.et" {
+ coords 26.726 0 10.962
 }
 MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
  coords 0 0 0

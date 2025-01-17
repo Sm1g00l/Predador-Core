@@ -23,13 +23,17 @@ SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Con
  components {
   SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
    m_iKillFeedType FULL
-   m_iReceiveKillFeedType ALLIES_ONLY
+   m_iReceiveKillFeedType SAME_FACTION_ONLY
   }
   SCR_RespawnTimerComponent "{5B2A94A0E605AAFF}" {
    m_fRespawnTime 20
   }
   SCR_SpawnProtectionComponent "{5D167A246026C95B}" {
    m_fProtectionTime 3
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5CC49B5A1313B84E}" {
+   m_bRandomStartingDaytime 0
+   m_fNightTimeAcceleration 10
   }
   SCR_TimedSpawnPointComponent "{5D0A73EB7076C758}" {
    m_fRespawnTime 20
@@ -71,6 +75,9 @@ ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
 }
 SCR_BaseTaskManager CampaignTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
  coords 7114.537 74.301 6405
+}
+GenericEntity : "{1E4C8AD00BBB16AA}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_Base.et" {
+ coords 7114.537 75.238 6401
 }
 SCR_EditorModeEntity : "{57476D18BCA56B30}Prefabs/Editor/Modes/EditorModeAdmin.et" {
  coords 7515.791 143.506 4647.94
