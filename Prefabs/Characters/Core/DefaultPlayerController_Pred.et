@@ -1,9 +1,22 @@
 SCR_PlayerController {
  ID "6314108472A6B26A"
  components {
-  Bacon_GunBuilderUI_PlayerControllerComponent "{6314190B35179192}" {
+  BaconRISAttachments_CommandingControllerComponent "{647D268A6C1A9D54}" {
+   m_sCommandingConfigActionPair "{E9B691F562E7B692}Configs/Commanding/BaconRISLaser_CommandingActionPairsEmpty.conf"
+   m_sCommandingMapMenuConfigPath "{A2D434A9597A1AC2}Configs/Commanding/BaconRISLaser_CommandingMapMenu.conf"
+   m_RadialMenuController SCR_RadialMenuController "{647D268A07493807}" {
+    m_RMControls SCR_RadialMenuControllerInputs "{5CCE95802D4684C0}" {
+     m_sOpenAction "BaconRISLaser_OpenCommandMenu"
+     m_bCloseOnPerform 1
+     m_bPreventEmptyMenuOpen 1
+    }
+    m_Data SCR_SelectionMenuData "{5CCE958004BE409A}" {
+    }
+   }
   }
   CSI_ClientComponent "{6314190B2FB1E714}" {
+  }
+  GamepadIOHandlerComponent "{647D268A1F3D338F}" {
   }
   PS_BigMsgSenderComponent "{6314190B278EBCDB}" {
   }
@@ -439,6 +452,7 @@ SCR_PlayerController {
    m_sCommandingConfigActionPair "{2F61BB1D4A843B3A}Configs/Commanding/CommandingMenuActionConfigPairs.conf"
    m_RadialMenuController SCR_RadialMenuController "{6314108472A6B012}" {
     m_RMControls SCR_RadialMenuControllerInputs "{6314108472A6B017}" {
+     m_sControllerContext "RadialMenuBindQuickSlotsContext"
      m_sOpenAction ""
      m_bCloseOnReleaseOpen 0
      m_bPerformOnClose 0
@@ -487,6 +501,6 @@ SCR_PlayerController {
  }
  coords 0 0 0
  PlayerEntityName "PlayerCharacter"
- DefaultControlledEntity "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+ DefaultControlledEntity "{F7753F60AE657638}Prefabs/Characters/Factions/Debug/DebugCharacter.et"
  DefaultPlayerCamera "{2DF95AB3CCDF4FA5}Prefabs/Characters/Core/DefaultPlayerCamera.et"
 }
