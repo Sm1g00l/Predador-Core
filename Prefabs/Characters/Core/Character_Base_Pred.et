@@ -297,7 +297,7 @@ SCR_ChimeraCharacter {
   SCR_CallsignCharacterComponent "{6314134952A01E5D}" {
   }
   SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" : "{73C708A20F8B22E6}Prefabs/Characters/Core/DamageManager_Character_Base.ct" {
-    "Additional hit zones" {
+   "Additional hit zones" {
     SCR_CharacterResilienceHitZone Resilience {
      BaseDamageMultiplier 0.6
      "DamageState threshold" {
@@ -380,6 +380,8 @@ SCR_ChimeraCharacter {
   SCR_VoNComponent "{6314134952A01E63}" {
    "Speaking Range" 50
    Filename "{B4C3941EC8B2AD20}Sounds/VON/von.acp"
+  }
+  StunGrenade_StunnableComponent "{647D60AE4979115F}" {
   }
   TagComponent "{6314134952A01E66}" {
    "Tag categories" 1
@@ -1041,9 +1043,6 @@ SCR_ChimeraCharacter {
    StartNode "MasterControl"
    "Collision bone" "collision"
    "Server LOD" 1
-   "LOD camera distances" {
-    5 20
-   }
    DefaultShapeLayer 524288
    FreshwaterLayer 4194304
    LayerPreset "Character"
