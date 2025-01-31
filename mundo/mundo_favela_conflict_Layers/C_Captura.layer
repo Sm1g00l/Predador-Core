@@ -1,678 +1,303 @@
-GenericEntity : "{03DA1744D0D06828}Prefabs/utilitarios/calcada.et" {
- coords 8177.62 315.045 2512.641
- angleY 20.286
-}
-SCR_DestructibleBuildingEntity : "{08DCFAD773891D09}Prefabs/Casas/hei_prop_heist_pic_04.et" {
- coords 8307.296 240.708 2202.643
- angleY 41.215
-}
-SCR_DestructibleBuildingEntity : "{10856C7D14E67716}Prefabs/Casas/barraco_20_med.et" {
- coords 8168.632 299.776 2466.624
- angleY 100.675
-}
-$grp SCR_DestructibleBuildingEntity : "{13BEF7097B2D6E00}Prefabs/Casas/barraco_15_grande.et" {
+$grp GenericEntity : "{655B060F89741A08}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase_WO_IA.et" {
  {
-  coords 8159.132 313.77 2517.383
-  angleY -7.902
- }
- {
-  coords 8134.754 269.055 2385.006
-  angleY 131.982
- }
-}
-SCR_DestructibleBuildingEntity : "{1EE0844725948049}Prefabs/Casas/hei_prop_heist_pic_09.et" {
- coords 8155.474 267.887 2388.045
- angleY 46.661
-}
-$grp GenericEntity : "{1F0AA3EA77753B5D}Prefabs/Rocks/Granite/Granite_Boulder_02.et" {
- {
-  coords 8150.578 1.27 2490.412
-  angleX 3.759
-  angleY 117.951
-  angleZ -95.003
-  scale 2.286
- }
- {
-  coords 8137.04 -0.04 2461.88
-  angleX -20.191
-  angleY -81.793
-  angleZ 91.012
-  scale 1.804
- }
- {
-  coords 8183.729 0 2481.262
-  angleX 44.325
-  angleY 105.275
-  angleZ 48.508
-  scale 1.804
- }
- {
-  coords 8145.964 -0 2389.581
-  angleX 18.112
-  angleY 131.818
-  angleZ -131.142
-  scale 1.544
- }
-}
-$grp GenericEntity : "{29063844DEEAC10B}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_large.et" {
- {
-  coords 8143.536 302.763 2490.812
-  angleX 0.968
-  angleY -49.441
-  angleZ 3.707
- }
- {
-  coords 8151.167 298.046 2465.941
-  angleX 6.2
-  angleY -0.486
-  angleZ -1.899
- }
- {
-  coords 8154.828 297.975 2465.468
-  angleX 6.2
-  angleY -0.486
-  angleZ -1.899
- }
- {
-  coords 8164.545 303.08 2478.346
-  angleX 3.926
-  angleY -76.942
-  angleZ -18.056
- }
-}
-GenericEntity : "{2D2442ABF4776F2B}Prefabs/Casas/barraco_03.et" {
- coords 8147.458 303.105 2486.207
- angleY 12.354
-}
-$grp SCR_DestructibleBuildingEntity : "{3554BBD160D7C4F3}Prefabs/Casas/barraco_17_gnd.et" {
- {
-  coords 8174.506 313.891 2510.311
-  angleY 110.371
- }
- {
-  coords 8137.571 282.042 2427.101
-  angleY 139.761
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{3C308FCFD4EDD3D9}Prefabs/Casas/barraco_06_med.et" {
- {
-  coords 8159.147 318.111 2530.611
-  angleY -88.746
- }
- {
-  coords 8141.02 269.423 2371.979
-  angleY -132.328
- }
- {
-  coords 8142.376 292.723 2440.608
-  angleY -91.144
- }
- {
-  coords 8142.498 304.805 2471.228
-  angleY -167.471
- }
- {
-  coords 8179.592 308.305 2486.52
-  angleY 103.32
- }
-}
-GenericEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Granite/GraniteCliff_01.et" {
- coords 8191.802 302.479 2501.75
- angleX 50.708
- angleY 114.327
- angleZ 103.365
-}
-$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
- Radio_01 {
   components {
-   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
-    m_sBaseName "Complexo do dendé"
+    m_sBaseName "MORRO DO ALEMÃO"
+    m_sBaseNameUpper "MORRO DO ALEMÃO"
    }
-   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
     "Turned on" 1
     Transceivers {
-     RelayTransceiver "{5C727AD73024FB39}" {
-      "Transmitting Range" 350
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
      }
     }
    }
-   SCR_FactionAffiliationComponent "{5C727AD73024FB13}" {
-    "faction affiliation" "FIA"
-   }
   }
-  coords 8186.746 186.156 1929.996
-  angleY 92.12
-  {
-   GenericEntity : "{16415CF017E77E29}Prefabs/Props/Military/Training/Obstacles/ObstacleRamp_01_platform.et" {
-    coords 0.053 -1.276 -0.115
-    angleY -92.12
-   }
-   $grp GenericEntity : "{6E84387991C01C6D}Prefabs/Props/Military/Training/Obstacles/ObstacleClimb_01.et" {
-    {
-     coords 1.933 -1.202 0.597
-     angleY -92.12
-    }
-    {
-     coords -2.043 -1.202 0.512
-     angleY 90.564
-    }
-   }
-  }
+  coords 8289.008 219.369 2147.65
+  angleX 3.934
+  angleY -65.201
+  angleZ -2.118
  }
- Radio_2 {
+ {
   components {
-   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
-    m_sBaseName "Morro dona Marta"
+    m_sBaseName "GreenValley"
+    m_sBaseNameUpper "GreenValley"
    }
-   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
     "Turned on" 1
     Transceivers {
-     RelayTransceiver "{5C727AD73024FB39}" {
-      "Transmitting Range" 350
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
      }
     }
    }
-   SCR_FactionAffiliationComponent "{5C727AD73024FB13}" {
-    "faction affiliation" "FIA"
-   }
   }
-  coords 8036.042 229.901 2196.597
-  angleY 102.191
-  {
-   GenericEntity : "{16415CF017E77E29}Prefabs/Props/Military/Training/Obstacles/ObstacleRamp_01_platform.et" {
-    coords 0.053 -1.276 -0.115
-    angleY -92.12
-   }
-  }
+  coords 8280.163 168.762 3554.92
+  angleX -12.097
+  angleY 73.672
+  angleZ 2.603
  }
- Radio_3 {
+ {
   components {
-   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
-    m_bIsControlPoint 1
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
     m_bDisableWhenUnusedAsHQ 0
-    m_sBaseName "Rocinha"
+    m_sBaseName "Fazenda Levie"
+    m_sBaseNameUpper "Fazenda Levie"
    }
-   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
     "Turned on" 1
     Transceivers {
-     RelayTransceiver "{5C727AD73024FB39}" {
-      "Transmitting Range" 300
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
      }
     }
    }
-   SCR_FactionAffiliationComponent "{5C727AD73024FB13}" {
-    "faction affiliation" "FIA"
-   }
   }
-  coords 8144.189 258.289 2303.562
-  angleY 129.806
-  {
-   GenericEntity : "{16415CF017E77E29}Prefabs/Props/Military/Training/Obstacles/ObstacleRamp_01_platform.et" {
-    coords 0.053 -1.276 -0.115
-    angleY -92.12
-   }
-  }
+  coords 7348.344 122.344 5180.961
+  angleY 126.717
  }
- Radio_4 {
+ {
   components {
-   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
-    m_bIsControlPoint 1
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
     m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Camurac"
+    m_sBaseNameUpper "Camurac"
    }
-   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
     "Turned on" 1
     Transceivers {
-     RelayTransceiver "{5C727AD73024FB39}" {
-      "Transmitting Range" 300
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
      }
     }
    }
-   SCR_FactionAffiliationComponent "{5C727AD73024FB13}" {
-    "faction affiliation" "FIA"
-   }
   }
-  coords 8356.265 255.829 2184.067
-  angleY -44.921
-  {
-   GenericEntity : "{16415CF017E77E29}Prefabs/Props/Military/Training/Obstacles/ObstacleRamp_01_platform.et" {
-    coords 0.053 -1.276 -0.115
-    angleY -92.12
-   }
-  }
+  coords 6577.941 5.372 3113.245
+  angleX 3.762
+  angleY -4.192
+  angleZ 2.41
  }
- Radio_5 {
+ {
   components {
-   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Complexo da maré"
+    m_sBaseNameUpper "Complexo da maré"
    }
-   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
     "Turned on" 1
     Transceivers {
-     RelayTransceiver "{5C727AD73024FB39}" {
-      "Transmitting Range" 250
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
      }
     }
    }
-   SCR_FactionAffiliationComponent "{5C727AD73024FB13}" {
-    "faction affiliation" "FIA"
+  }
+  coords 5592.297 14.726 3763.627
+  angleX -9.592
+  angleY -145.586
+  angleZ -0.121
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Militar "
+    m_sBaseNameUpper "Militar "
+   }
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
+     }
+    }
    }
   }
-  coords 8475.608 316.9 2236.013
-  angleY 49.665
- }
-}
-SCR_DestructibleBuildingEntity : "{52C21FCB3959A68E}Prefabs/Casas/barraco_11_peq.et" {
- coords 8151.631 287.574 2433.677
-}
-GenericEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
- coords 8130.184 277.271 2490.586
- angleX 4.99
- angleY -115.806
- angleZ -2.757
-}
-$grp SCR_DestructibleBuildingEntity : "{5737DC0CD20B5C38}Prefabs/Casas/barraco_01_peq.et" {
- {
-  coords 8292.05 240.733 2216.095
-  angleY -138.562
- }
- {
-  coords 8240.458 222.307 2278.643
-  angleY 111.155
- }
- {
-  coords 8154.22 282.402 2418.6
-  angleY -90.977
- }
- {
-  coords 8148.246 313.676 2520.678
-  angleY -91.648
- }
- {
-  coords 8160.893 306.727 2489.238
-  angleY -69.753
- }
- {
-  coords 8159.02 266.869 2377.591
-  angleY 45.806
- }
- {
-  coords 8144.717 284.367 2432.487
-  angleY -1.143
- }
- {
-  coords 8151.844 313.668 2539.108
-  angleY 1.052
- }
- {
-  coords 8195.858 314.633 2517.922
-  angleY 120.763
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{5EEC464FBEE4D0CD}Prefabs/Casas/barraco_06_gnd.et" {
- {
-  coords 8154.692 287.42 2422.854
-  angleY -176.111
- }
- {
-  coords 8143.438 297.08 2449.015
-  angleY -85.172
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{7EC852242187999E}Prefabs/Casas/barraco_21_med.et" {
- {
-  coords 8161.104 311.592 2495.647
-  angleY 20.106
- }
- {
-  coords 8172.023 302.145 2473.31
-  angleY -77.365
- }
- {
-  coords 8179.429 324.085 2537.951
-  angleY 93.931
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{811482CEC3A8054C}Prefabs/Casas/hei_prop_heist_pic_06.et" {
- {
-  coords 8279.86 251.525 2266.203
-  angleY -139.219
- }
- {
-  coords 8147.714 310.662 2492.537
-  angleY 87.826
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{8783F93A3F75F76B}Prefabs/Casas/barraco_14_gnd.et" {
- {
-  coords 8157.619 294.394 2443.383
- }
- {
-  coords 8158.513 294.608 2452.22
-  angleY 168.29
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{8BADA0BEB8C88128}Prefabs/Casas/barraco_03_peq.et" {
- {
-  coords 8149.018 312.739 2512.926
-  angleY 86.738
- }
- {
-  coords 8136.799 301.777 2491.967
-  angleY 107.467
- }
-}
-SCR_DestructibleBuildingEntity : "{8E586379539A7B9E}Prefabs/Casas/barraco_13_peq.et" {
- coords 8168.236 307.751 2493.508
- angleY -161.419
-}
-SCR_DestructibleBuildingEntity : "{8EE7CD248B4FE041}Prefabs/Casas/barraco_05_med.et" {
- coords 8186.89 315.497 2502.541
- angleY 103.546
-}
-$grp StaticModelEntity : "{91E8E1BC93C3732F}Prefabs/Structures/towers/Lighttower_on.et" {
- {
-  coords 8193.998 194.184 1927.071
-  angleY -91.229
- }
- {
-  coords 8039.741 234.446 2205.897
-  angleY -75.447
- }
- {
-  coords 8145.278 257.57 2295.065
-  angleY -51.478
- }
- {
-  coords 8348.006 262.239 2191.171
-  angleY -46.416
- }
-}
-$grp GenericEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
- {
-  coords 8140.044 282.663 2423.89
-  angleY -133.09
- }
- {
-  coords 8142.266 284.377 2425.765
-  angleY -130.881
- }
- {
-  coords 8149.13 287.023 2430.734
-  angleY -179.526
- }
- {
-  coords 8149.049 288.918 2435.904
-  angleY 177.937
- }
- {
-  coords 8148.847 291.211 2442.033
-  angleY 178.727
- }
- {
-  coords 8148.707 292.782 2447.229
-  angleY 177.926
- }
- {
-  coords 8151.741 292.789 2447.264
-  angleY -179.526
- }
- {
-  coords 8151.259 295.228 2452.565
-  angleY -179.526
- }
- {
-  coords 8150.503 297.523 2457.901
-  angleY 169.235
- }
- {
-  coords 8146.95 300.291 2466.791
-  angleY -168.825
- }
- {
-  coords 8148.185 302.785 2472.585
-  angleY -167.496
- }
- {
-  coords 8151.361 305.895 2479.521
-  angleY -166.071
- }
- {
-  coords 8152.499 308.944 2484.164
-  angleY -166.071
- }
- {
-  coords 8153.736 310.483 2488.652
-  angleY -163.502
- }
- {
-  coords 8162.095 313.734 2505.564
-  angleY -163.502
- }
- {
-  coords 8170.55 316.22 2513.407
-  angleY -90.132
- }
- {
-  coords 8147.863 316.055 2543.165
-  angleY -179.373
- }
- {
-  coords 8152.611 317.617 2545.01
-  angleY -89.433
- }
- {
-  coords 8161.304 320.836 2544.963
-  angleY -89.433
- }
- {
-  coords 8162.999 323.867 2551.459
-  angleY -178.629
- }
- {
-  coords 8168.97 326.322 2553.235
-  angleY -89.433
- }
- {
-  coords 8172.83 326.291 2553.204
-  angleY -89.493
- }
- {
-  coords 8177.842 327.658 2552.995
-  angleY -85.529
- }
- {
-  coords 8181.75 327.674 2552.706
-  angleY -86.199
- }
- {
-  coords 8168.4 301.149 2473.765
-  angleY 12.095
- }
-}
-StaticModelEntity : "{A027B45306A1E311}Prefabs/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Wide_8m.et" {
- coords 8205.454 292.069 2466.375
- angleY -69.314
- scale 1.1
- Flags 3
-}
-$grp SCR_DestructibleBuildingEntity : "{A0DD9D0729DBA6C8}Prefabs/Casas/barraco_12_gnd.et" {
- {
-  coords 8155.709 300.343 2472.275
-  angleY -167.028
- }
- {
-  coords 8191.848 312.602 2511.408
-  angleY 32.286
- }
-}
-SCR_DestructibleBuildingEntity : "{A9B9A9199DE1B1E2}Prefabs/Casas/barraco_03_med.et" {
- coords 8169.197 312.766 2502.505
- angleY 17.754
-}
-$grp SCR_DestructibleEntity : "{AEB1A3D15A772F40}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_3m.et" {
- {
-  coords 8139.9 4.578 2477.214
-  angleY 14.453
-  placement none
- }
- {
-  coords 8137.015 6.33 2478.073
-  angleY 16.576
-  placement none
- }
- {
-  coords 8137.869 5.156 2480.947
-  angleY 106.475
-  placement none
- }
- {
-  coords 8138.724 4.319 2483.841
-  angleY 106.475
-  placement none
- }
- {
-  coords 8139.079 3.929 2485.058
-  angleY 106.401
-  placement none
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{CC1F10CF7E25AA06}Prefabs/Casas/barraco_22_med.et" {
- {
-  coords 8158.62 319.045 2538.865
-  angleY -88.694
- }
- {
-  coords 8158.928 306.57 2481.995
-  angleY -75.184
- }
- {
-  coords 8182.017 328.959 2546.381
-  angleY 2.923
- }
-}
-GenericEntity : "{CEC2E86497985A45}Prefabs/utilitarios/escada_05.et" {
- coords 8362.708 249.347 2192.378
- angleY 132.362
-}
-$grp SCR_DestructibleBuildingEntity : "{E0155D2066FB9516}Prefabs/Casas/barraco_12_peq.et" {
- {
-  coords 8156.714 298.113 2461.321
-  angleY -100.538
- }
- {
-  coords 8138.149 270.741 2392.167
-  angleY -45.061
- }
- {
-  coords 8176.814 304.752 2479.893
-  angleY 103.889
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{E0AAF37DBE2E0EC9}Prefabs/Casas/barraco_04_med.et" {
- {
-  coords 8138.827 297.839 2454.426
-  angleY -173.755
- }
- {
-  coords 8183.068 308.911 2492.884
-  angleY 103.926
- }
-}
-SCR_DestructibleBuildingEntity : "{E7BACF3E6868897B}Prefabs/Casas/barraco_19_peq.et" {
- coords 8147.526 312.049 2500.976
- angleY -91.402
-}
-$grp SCR_DestructibleBuildingEntity : "{FB7CC8BE29711722}Prefabs/Casas/hei_prop_heist_pic_08.et" {
- {
-  coords 8245.711 222.219 2283.707
-  angleY -49.655
- }
- {
-  coords 8148.458 268.171 2384.245
-  angleY 133.122
- }
- {
-  coords 8172.99 316.127 2520.32
-  angleY 107.925
- }
- {
-  coords 8160.443 269.721 2394.875
-  angleY 135.766
- }
- {
-  coords 8146.248 272.875 2394.493
-  angleY -47.246
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{FF4D386515F942C0}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.et" {
- {
-  coords 8150.333 275.451 2423.475
-  angleY -29.477
-  scale 1.27
- }
- {
-  coords 8152.094 291.872 2484.127
-  angleY 17.175
-  scale 1.549
- }
- {
-  coords 8147.394 289.133 2487.513
-  angleY 17.175
-  scale 1.937
- }
- {
-  coords 8156.225 296.996 2503.273
-  angleY 86.847
-  scale 1.937
- }
- {
-  coords 8156.677 296.958 2494.56
-  angleY 87.721
-  scale 1.937
- }
- {
-  coords 8152.932 300.103 2519.65
-  angleY 177.064
-  scale 1.937
- }
- {
-  coords 8146.615 300.1 2535.331
-  angleY 179.501
-  scale 1.937
- }
- {
-  coords 8167.653 300.124 2520.315
-  angleY -162.348
-  scale 1.937
- }
- {
-  coords 8167.537 302.63 2526.304
-  angleY 177.064
-  scale 1.937
- }
- {
-  coords 8145.599 283.865 2459.854
-  angleY 8.241
-  scale 1.937
- }
- {
-  coords 8156.829 283.926 2472.486
-  angleY 8.241
-  scale 1.937
- }
- {
-  coords 8180.678 312.556 2543.431
-  angleY -176.937
-  scale 1.491
- }
- {
-  coords 8157.603 309.231 2508.572
-  angleY -94.409
-  scale 0.639
+  coords 7466.652 7.844 6697.998
+  angleX -0.834
+  angleY -21.233
+  angleZ 0.324
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "EnterDeux "
+    m_sBaseNameUpper "EnterDeux"
+   }
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
+     }
+    }
+   }
+  }
+  coords 5848.529 234.806 7249.554
+  angleX -0.579
+  angleY -75.473
+  angleZ -8.412
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Favela da Avenida"
+    m_sBaseNameUpper "Favela da Avenida"
+   }
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
+     }
+    }
+   }
+  }
+  coords 5504.035 94.813 6043.738
+  angleY -65.201
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Lacout"
+    m_sBaseNameUpper "Lacout"
+   }
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
+     }
+    }
+   }
+  }
+  coords 3829.487 101.686 6319.374
+  angleX -1.622
+  angleY 52.824
+  angleZ -2.138
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Gravette"
+    m_sBaseNameUpper "Gravette"
+   }
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
+     }
+    }
+   }
+  }
+  coords 4152.916 39.936 7754.476
+  angleX -1.776
+  angleY 37.09
+  angleZ -3.581
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Meaux"
+    m_sBaseNameUpper "Meaux"
+   }
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+  }
+  coords 4535.865 14.561 9466.557
+  angleX -0.02
+  angleY -178.714
+  angleZ 0.895
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Favela do Areal"
+    m_sBaseNameUpper "Favela do Areal"
+   }
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
+     }
+    }
+   }
+  }
+  coords 6357.083 5.805 9643.579
+  angleX -1.15
+  angleY -69.728
+  angleZ 0.53
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Cidade de Deus"
+    m_sBaseNameUpper "Cidade de Deus"
+   }
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1300
+     }
+    }
+   }
+  }
+  coords 4765.717 25.878 10613.929
+  angleX 3.492
+  angleY 48.392
+  angleZ -5.473
  }
 }

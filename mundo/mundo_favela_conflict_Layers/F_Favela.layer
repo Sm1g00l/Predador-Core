@@ -227,7 +227,7 @@ $grp SCR_DestructibleBuildingEntity {
      }
      MaterialAssignClass "{62B17EE51516B6EE}" {
       SourceMaterial "house_k_3_02_multi"
-      AssignedMaterial "{83B777AB71FB7DE9}assessts/building/building 9c/Data/house_c_9_01_multi.emat"
+      AssignedMaterial "{83B777AB71FB7DE9}assessts/building/building 9c+damage/Data/house_c_9_01_multi.emat"
      }
     }
    }
@@ -259,7 +259,7 @@ $grp SCR_DestructibleBuildingEntity {
     Materials {
      MaterialAssignClass "{62B17EE828EC2456}" {
       SourceMaterial "default"
-      AssignedMaterial "{9124742D8F4540F6}assessts/building/building 9c/Data/alpha_face01.emat"
+      AssignedMaterial "{9124742D8F4540F6}assessts/building/building 9c+damage/Data/alpha_face01.emat"
      }
      MaterialAssignClass "{62B17EE828EC247D}" {
       SourceMaterial "default_2pass"
@@ -330,6 +330,20 @@ $grp SCR_DestructibleBuildingEntity {
  {
   coords 8318.041 258.408 2266.992
   angleY 33.041
+ }
+ {
+  components {
+   MeshObject "{5D0E32D7F3D9C0DA}" {
+    Materials {
+     MaterialAssignClass "{62B5246CC7CAD772}" {
+      SourceMaterial "conc"
+      AssignedMaterial "{B8A359569D7D6294}Assets/Data/fav2_brickset01a_dm.emat"
+     }
+    }
+   }
+  }
+  coords 8325.157 251.653 2319.561
+  angleY -139.078
  }
 }
 GenericEntity : "{038844285FEE0D7A}Prefabs/Rocks/Granite/GraniteStone_01.et" {
@@ -2398,10 +2412,6 @@ $grp GenericEntity : "{A296DC842B5CD56B}Prefabs/utilitarios/escada_06.et" {
 }
 $grp SCR_DestructibleBuildingEntity : "{A2A9408BC5B28AC9}Prefabs/Casas/barraco_gn_01.et" {
  {
-  coords 8204.44 223.831 2199.227
-  angleY 27.626
- }
- {
   coords 8205.873 222.356 2154.959
   angleY -60.472
  }
@@ -2444,7 +2454,7 @@ $grp SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Hous
   angleY 38.863
  }
 }
-$grp SCR_DestructibleEntity : "{A5C7908C71CFD97C}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_2m.et" {
+$grp PO_DestructibleEntity : "{A5C7908C71CFD97C}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_2m.et" {
  {
   coords 8035.068 2.414 2121.622
   angleX 80.291
@@ -3344,20 +3354,6 @@ SCR_DestructibleBuildingEntity : "{BE17D3CCD3C53A0A}Prefabs/buildings/slum build
  coords 8281.966 19.415 2301.431
  angleY 39.848
 }
-SCR_DestructibleBuildingEntity : "{C8A024794CAE2B64}Prefabs/Props/Civilian/house.et" {
- components {
-  MeshObject "{5D0E32D7F3D9C0DA}" {
-   Materials {
-    MaterialAssignClass "{62B5246CC7CAD772}" {
-     SourceMaterial "conc"
-     AssignedMaterial "{B8A359569D7D6294}Assets/Data/fav2_brickset01a_dm.emat"
-    }
-   }
-  }
- }
- coords 8325.157 251.653 2319.561
- angleY -139.078
-}
 $grp SCR_DestructibleBuildingEntity : "{CC1F10CF7E25AA06}Prefabs/Casas/barraco_22_med.et" {
  {
   coords 8035.081 213.74 2171.95
@@ -3482,7 +3478,7 @@ GenericEntity : "{D5062960B7211EB4}Prefabs/Props/Construction/GarbageStack_01/Ga
  coords 8498.059 310.008 2293.907
  angleY -22.332
 }
-$grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
+$grp PO_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
  {
   coords 7970.02 2.314 2152.617
   angleX -89.849
