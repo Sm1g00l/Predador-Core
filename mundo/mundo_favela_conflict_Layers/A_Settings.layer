@@ -255,7 +255,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -402,7 +402,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -549,7 +549,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -696,7 +696,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -843,7 +843,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -990,7 +990,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -1137,7 +1137,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -1284,7 +1284,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -1319,7 +1319,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
   }
  }
  {
-  coords 4515.659 153.75 6889.333
+  coords 4515.608 153.773 6890.032
   angleX 0.763
   angleY -94.171
   angleZ -1.85
@@ -1338,7 +1338,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
    }
    GenericEntity {
     ID "5E330D6CA3AAA53F"
-    coords -3.303 0.032 2.238
+    coords -3.303 0.032 2.237
     angleX 0
     angleY 5.25
     angleZ 0
@@ -1371,7 +1371,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
    }
    GenericEntity {
     ID "5D1ED92C4DD6AFF8"
-    coords -6.147 -0.007 0.246
+    coords -6.148 -0.007 0.245
     angleX 0.423
     angleY -11.214
     angleZ -0.788
@@ -1431,7 +1431,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.222
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -1460,7 +1460,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
     angleZ -1.336
    }
    GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
-    coords 0 0 0.002
+    coords 0 0 0.001
     angleY 0
    }
   }
@@ -1578,7 +1578,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -1725,7 +1725,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -1872,7 +1872,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -2019,7 +2019,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -2166,7 +2166,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -2313,7 +2313,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -2348,7 +2348,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
   }
  }
  {
-  coords 7330.577 139.032 2499.474
+  coords 7332.462 139.051 2501.018
   angleX 1.924
   angleY -42.511
   angleZ -0.55
@@ -2460,7 +2460,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -2607,7 +2607,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -2754,7 +2754,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
@@ -2901,7 +2901,7 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
         }
        }
       }
-      coords -1.958 -0 0.223
+      coords -1.958 0 0.223
      }
      GenericEntity {
       ID "5D453938619FC383"
