@@ -1208,4 +1208,25 @@ $grp GenericEntity : "{655B060F89741A08}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY -8.435
   angleZ -0.524
  }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bDisableWhenUnusedAsHQ 0
+   }
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1800
+     }
+    }
+   }
+  }
+  coords 7716.284 13.477 8165.712
+  angleX 0.158
+  angleY -142.161
+  angleZ 1.256
+ }
 }
