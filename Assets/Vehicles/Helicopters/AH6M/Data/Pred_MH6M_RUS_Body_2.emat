@@ -1,6 +1,7 @@
 MatPBRBasic {
  Color 0 0.472 1 1
  DiffuseIBL 0 0.485 1 1
+ Diffuse 0 0.201 1 1
  SpecularMul 1.6
  BCRMap "{73278CDF1178712F}Assets/Vehicles/Helicopters/AH6M/Data/Textures/AH6M_Body_2_BCR.edds"
  NMOMap "{4BFF374DC80F23B1}Assets/Vehicles/Helicopters/AH6M/Data/Textures/AH6M_Body_2_NMO.edds"
