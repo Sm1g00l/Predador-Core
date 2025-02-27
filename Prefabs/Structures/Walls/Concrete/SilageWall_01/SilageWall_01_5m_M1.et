@@ -1,0 +1,29 @@
+StaticModelEntity : "{572446604FBDFBF2}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_5m_base.et" {
+ ID "51E2F0F09703F07B"
+ components {
+  MeshObject "{56DE7C8DCD0F4E0A}" {
+   Object "{B478235B52DF310B}Assets/Structures/Walls/Concrete/SilageWall_01_5m_M1.xob"
+  }
+  NavmeshCustomLinkComponent "{5088C72B466E73FA}" {
+   Enabled 1
+   LinkType NavmeshJumpLink "{5088C72B44859B28}" {
+    "Navmesh setting presets" {
+     NavmeshCustomLinkSetting "{5C90EA9654F713FE}" {
+      BeginPoint 2 0 1.5
+      EndPoint 2 0 -1.5
+     }
+    }
+   }
+  }
+  RigidBody "{56DE7C8DDE282E03}" {
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{5D08D764E8199D7B}" {
+   Enabled 1
+  }
+  Hierarchy "{649336BCDA5C0EE5}" {
+  }
+ }
+}

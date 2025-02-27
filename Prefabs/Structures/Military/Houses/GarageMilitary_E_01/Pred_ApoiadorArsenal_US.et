@@ -1,0 +1,204 @@
+SCR_DestructibleBuildingEntity : "{1E7AC996BD3B73A7}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_EditableEntityComponent "{649358A24F202CCD}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{649358A244CC1D46}" {
+    Name "Arsenal US"
+    Description "Arsenal US Descrp"
+    Icon "{1FB8B7FC88FCC33C}UI/Textures/Editor/Attributes/Categories/Attribute_Category_Arsenal.edds"
+    m_Image "{2314AF3EAAA2C7EC}Media/Gm Images/Arsenal_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     1001 5 11
+    }
+   }
+  }
+  RplComponent "{50A4E7C9B5728062}" {
+   Enabled 1
+  }
+ }
+ {
+  $grp GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+   {
+    ID "64980C2F17C1670F"
+    coords 27.51 0.439 1.45
+   }
+   {
+    ID "64980C2F17C16723"
+    coords 2.553 8.701 1.485
+   }
+  }
+  GenericEntity : "{2D33C626DA7B3191}Prefabs/Main_Base_SupplyInf_Nort.et" {
+   ID "64981A6E98B33F73"
+   coords 22.838 -2.556 3.597
+   angleY -90
+  }
+  GenericEntity : "{372DCA487884C4E8}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_USSR_Weapons.et" {
+   ID "64981A6EE2DC327C"
+   coords 27.968 0.439 5.399
+   angleY -90
+  }
+  GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
+   ID "649358A370B4D8B8"
+   components {
+    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+     m_eArsenalSaveType NO_RESTRICTIONS
+    }
+   }
+   coords 27.092 0.439 1.493
+   angleY -90
+  }
+  $grp StaticModelEntity : "{A99E4084067A8EBE}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_5m_M1.et" {
+   {
+    ID "649358A214A35112"
+    coords 23.716 5.988 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "649358A214A35122"
+    coords 18.447 5.988 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "649358A214A3517A"
+    coords 23.716 0.799 10.985
+   }
+   {
+    ID "649358A214A35E06"
+    coords 23.716 2.854 -8.008
+   }
+   {
+    ID "649358A214A35E1A"
+    coords 18.447 2.854 -8.008
+   }
+   {
+    ID "649358A214A35E25"
+    coords 8.437 2.854 -8.008
+   }
+   {
+    ID "649358A214A35E2C"
+    coords 13.415 2.854 -8.008
+   }
+   {
+    ID "649358A214A35E34"
+    coords -1.598 2.854 -8.008
+   }
+   {
+    ID "649358A214A35E3C"
+    coords 3.383 2.854 -8.008
+   }
+   {
+    ID "649358A214A35E42"
+    coords -11.606 0.738 10.985
+   }
+   {
+    ID "649358A214A35E4B"
+    coords -11.606 5.927 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "649358A214A35E52"
+    coords -16.599 5.927 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "649358A214A35E6A"
+    coords -16.599 0.738 10.985
+   }
+   {
+    ID "649358A214A35E71"
+    coords -19.765 0.738 11.007
+   }
+   {
+    ID "649358A214A35E7E"
+    coords -19.765 5.927 11.015
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "649358A214A35E80"
+    coords 3.383 0.768 10.985
+   }
+   {
+    ID "649358A214A35E8F"
+    coords 3.383 5.957 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "649358A214A35E97"
+    coords -1.598 5.927 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "649358A214A35EA8"
+    coords -1.598 0.738 10.985
+   }
+   {
+    ID "649358A214A35EB6"
+    coords -6.607 0.738 10.985
+   }
+   {
+    ID "649358A214A35EBF"
+    coords -6.607 5.927 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "649358A214A35ECE"
+    coords 18.447 0.799 10.985
+   }
+   {
+    ID "649358A214A35EDE"
+    coords 13.415 5.988 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "649358A214A35EE1"
+    coords 8.437 5.957 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "649358A214A35EED"
+    coords 13.415 0.799 10.985
+   }
+   {
+    ID "649358A214A35EFB"
+    coords 8.437 0.768 10.985
+   }
+   {
+    ID "649358A214A35FC6"
+    coords -11.606 2.854 -8.008
+   }
+   {
+    ID "649358A214A35FCF"
+    coords -6.607 2.854 -8.008
+   }
+   {
+    ID "649358A214A35FD2"
+    coords -19.765 2.854 -7.986
+   }
+   {
+    ID "649358A214A35FDA"
+    coords -16.599 2.854 -8.008
+   }
+  }
+  GenericEntity : "{B53B98CEA2D72735}Prefabs/Props/Military/Compositions/FIA/ArsenalBox_FIA.et" {
+   ID "649358A35AE7E253"
+   components {
+    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+     m_eArsenalSaveType SAVING_DISABLED
+    }
+   }
+   coords 27.987 0.439 -2.053
+   angleY -90
+  }
+ }
+}

@@ -1,0 +1,225 @@
+SCR_DestructibleBuildingEntity : "{1E7AC996BD3B73A7}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_EditableEntityComponent "{64980C2FEFFB46A7}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{64980C2FEFFB46B4}" {
+    Name "Arsenal US"
+    Description "Arsenal US Descrp"
+    Icon "{1FB8B7FC88FCC33C}UI/Textures/Editor/Attributes/Categories/Attribute_Category_Arsenal.edds"
+    m_Image "{57463B96AFFE0A71}Media/Gm Images/Arsenal_RUS.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     1001 5 11
+    }
+   }
+  }
+  RplComponent "{50A4E7C9B5728062}" {
+   Enabled 1
+  }
+ }
+ {
+  $grp GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+   {
+    ID "64980C2F338D8289"
+    coords 4.057 8.832 1.568
+   }
+   {
+    ID "64980C2F338D82F5"
+    coords 27.516 0.439 1.628
+   }
+  }
+  GenericEntity : "{2D33C626DA7B3191}Prefabs/Main_Base_SupplyInf_Nort.et" {
+   ID "64981A6E5AEC54C3"
+   coords 23.307 -2.539 4.037
+   angleY -90
+  }
+  GenericEntity : "{2F17BFBCDB329CCA}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Weapons.et" {
+   ID "64981A6E5AEC54E6"
+   coords 27.992 0.439 5.372
+   angleY -90
+  }
+  $grp StaticModelEntity : "{A99E4084067A8EBE}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_5m_M1.et" {
+   {
+    ID "64980C2FEF07CD00"
+    coords 23.716 5.988 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "64980C2FEFF81E8E"
+    coords 18.447 2.854 -8.008
+   }
+   {
+    ID "64980C2FEFF82204"
+    coords 23.716 0.799 10.985
+   }
+   {
+    ID "64980C2FEFF82205"
+    coords 23.716 2.854 -8.008
+   }
+   {
+    ID "64980C2FEFF82207"
+    coords 18.447 5.988 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "64980C2FEFF84809"
+    coords 8.437 2.854 -8.008
+   }
+   {
+    ID "64980C2FEFF84816"
+    coords 13.415 2.854 -8.008
+   }
+   {
+    ID "64980C2FEFF88ACD"
+    coords -1.598 2.854 -8.008
+   }
+   {
+    ID "64980C2FEFF8C9F8"
+    coords -11.606 5.927 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "64980C2FEFF8C9F9"
+    coords -11.606 0.738 10.985
+   }
+   {
+    ID "64980C2FEFF8CA10"
+    coords 3.383 2.854 -8.008
+   }
+   {
+    ID "64980C2FEFF8D0BC"
+    coords -16.599 5.927 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "64980C2FEFF949D9"
+    coords -16.599 0.738 10.985
+   }
+   {
+    ID "64980C2FEFF949DA"
+    coords -19.765 0.738 11.007
+   }
+   {
+    ID "64980C2FEFF95C45"
+    coords -19.765 5.927 11.015
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "64980C2FEFF9F482"
+    coords 3.383 0.768 10.985
+   }
+   {
+    ID "64980C2FEFFA041D"
+    coords 13.415 5.988 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "64980C2FEFFA2795"
+    coords -1.598 0.738 10.985
+   }
+   {
+    ID "64980C2FEFFA2C74"
+    coords -1.598 5.927 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "64980C2FEFFA2C75"
+    coords 3.383 5.957 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "64980C2FEFFA37F3"
+    coords -6.607 5.927 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "64980C2FEFFA37F4"
+    coords 18.447 0.799 10.985
+   }
+   {
+    ID "64980C2FEFFA3C8B"
+    coords -6.607 0.738 10.985
+   }
+   {
+    ID "64980C2FEFFA52E3"
+    coords 8.437 5.957 10.993
+    angleY 180
+    angleZ 180
+   }
+   {
+    ID "64980C2FEFFA9D1A"
+    coords 8.437 0.768 10.985
+   }
+   {
+    ID "64980C2FEFFA9D1B"
+    coords 13.415 0.799 10.985
+   }
+   {
+    ID "64980C2FEFFACABE"
+    coords -11.606 2.854 -8.008
+   }
+   {
+    ID "64980C2FEFFB2174"
+    coords -6.607 2.854 -8.008
+   }
+   {
+    ID "64980C2FEFFB4170"
+    coords -16.599 2.854 -8.008
+   }
+   {
+    ID "64980C2FEFFB6B56"
+    coords -19.765 2.854 -7.986
+   }
+  }
+  GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_USSR.et" {
+   ID "64980C2FF386129D"
+   components {
+    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+     m_eArsenalSaveType NO_RESTRICTIONS
+    }
+    SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{64980C2A0B3B2A77}" {
+       m_eResourceRights ALL
+       m_fResourceValueCurrent 5000
+       m_fResourceValueMax 5000
+       m_bEnableResourceGain 1
+       m_fResourceGain 10
+       m_fResourceGainTickrate 1
+      }
+     }
+    }
+   }
+   coords 27.263 0.439 1.616
+   angleY -90
+  }
+  GenericEntity : "{F542F974956C255F}Prefabs/Props/Military/Compositions/CIV/ArsenalBox_CIV.et" {
+   ID "64980C2F338D82C1"
+   components {
+    SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{64980C2A6DA2D1E4}" {
+       m_eResourceRights FACTION
+       m_fResourceValueCurrent 5000
+       m_fResourceValueMax 5000
+       m_bEnableResourceGain 1
+       m_fResourceGain 10
+       m_fResourceGainTickrate 1
+      }
+     }
+    }
+   }
+   coords 27.929 0.439 -2.141
+   angleY -90
+  }
+ }
+}
