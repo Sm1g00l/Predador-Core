@@ -92,6 +92,9 @@ SCR_ChimeraCharacter : "{F063CEEB9295E9B6}Prefabs/Characters/Campaign/Final/Camp
     }
     ItemsInitConfigurationItem "{631421200D213662}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type2.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
     }
     ItemsInitConfigurationItem "{631421200D213664}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_azart_pouch.et"
@@ -99,9 +102,6 @@ SCR_ChimeraCharacter : "{F063CEEB9295E9B6}Prefabs/Characters/Campaign/Final/Camp
      PrefabsToSpawn {
       "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD.et"
      }
-    }
-    ItemsInitConfigurationItem "{631421200D213618}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_vog_pouches.et"
     }
    }
   }
