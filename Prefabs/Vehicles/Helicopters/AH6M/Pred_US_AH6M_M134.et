@@ -9,6 +9,9 @@ Vehicle : "{6CA46BC65DE861A8}Prefabs/Vehicles/Helicopters/AH6M/AH6M_Armed_base.e
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 5000
      }
+     SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
+      m_Value 6
+     }
     }
    }
   }
