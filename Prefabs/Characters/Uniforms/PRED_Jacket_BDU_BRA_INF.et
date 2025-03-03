@@ -1,6 +1,14 @@
 GameEntity : "{8A5424D1A2AA6595}Prefabs/Characters/Uniforms/Jacket_US_BDU_base.et" {
  ID "5104869D194C6243"
  components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{64C3722C4B95000B}" {
+     SourceMaterial "Jacket_BDU_M81_item"
+     AssignedMaterial "{F82417ECE4467AD3}Assets/Characters/Uniforms/Jacket_BDU_M81/Data/PRED_Jacket_BDU_BRA_INF.emat"
+    }
+   }
+  }
   SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
    Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
     CustomAttributes {

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{3B804399B524D6DC}Prefabs/Characters/Uniforms/PRED_Pants_BDU_BRA_INF.et"
+ Name "{BAC4DA109BCAF3D4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_Pred.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

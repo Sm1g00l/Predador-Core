@@ -1,0 +1,45 @@
+Vehicle : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{64C57D0963BEA3BE}" {
+     SourceMaterial "Hull"
+     AssignedMaterial "{63EFB6EEE2602293}Assets/Vehicles/Wheeled/K17bumerang/Data/camo1/Hull_camo.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#RHS-Vehicle_K17_Epoch_Name #RHS-Camo"
+    m_Image "{65A202EC3B291C48}UI/Textures/EditorPreviews/Vehicles/K17/Vehicle_K17_Epoch_camo.edds"
+    m_sFaction "USSR"
+    m_aAutoLabels {
+     10 122 53 3
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{64C602267A741788}" {
+      m_BudgetType RANK_CAPTAIN
+      m_Value 5
+     }
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 3000
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo sideContainers {
+     Prefab "{248A9E6E2F741A44}Prefabs/Vehicles/Wheeled/K17/VehParts/Attachments/Attachment_K17_containers_camo1.et"
+    }
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{DC0549A996F7761E}Prefabs/Vehicles/Wheeled/K17/Turret_K17_Epoch_camo1.et"
+    }
+   }
+  }
+ }
+}

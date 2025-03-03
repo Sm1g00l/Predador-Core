@@ -1,6 +1,14 @@
 GameEntity : "{27DABFBB719485AA}Prefabs/Characters/Uniforms/Pants_US_BDU_base.et" {
  ID "5104869D194C6243"
  components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{64C3722C1421A3F9}" {
+     SourceMaterial "Pants_BDU_M81_tucked_item"
+     AssignedMaterial "{A27CD635AC380E98}Assets/Characters/Uniforms/Pants_BDU_M81/Data/PRE_Pants_BDU_BRA_INF_tucked.emat"
+    }
+   }
+  }
   SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
    Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
     CustomAttributes {

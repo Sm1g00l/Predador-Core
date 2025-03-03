@@ -1,0 +1,14 @@
+Vehicle : "{137DCF41459A89BE}Prefabs/Vehicles/Helicopters/UH1H/UH1H_gunship.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 3000
+     }
+    }
+   }
+  }
+ }
+}
