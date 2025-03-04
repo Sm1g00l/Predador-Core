@@ -1,0 +1,30 @@
+SCR_SpawnPoint {
+ ID "64C6FE10B0F7F573"
+ components {
+  SCR_CampaignMobileAssemblyStandaloneComponent "{64C6FE10B0F7F568}" {
+  }
+  SCR_CoverageRadioComponent "{64C6FE10B0F7F59B}" {
+   "Turned on" 1
+   Transceivers {
+    RelayTransceiver "{64C6FE10B0F7F59C}" {
+     "Transmitting Range" 10
+    }
+   }
+  }
+  SCR_RadioCoverageMapDescriptorComponent "{64C6FE10B0F7F591}" {
+   VisibleOnMap 0
+   MapItemDescriptor 1
+   MainType Spawnpoint
+   m_GraphLinesData SCR_GraphLinesData "{64C6FE10B0F7F58A}" {
+   }
+  }
+  RplComponent "{64C6FE10B0F7F589}" {
+   Streamable Disabled
+  }
+ }
+ m_fSpawnRadius 4
+ m_sFaction ""
+ m_Info SCR_UIInfo "{64C6FE10B0F7F58C}" {
+  Name "#AR-Vehicle_MobileAssembly_Name"
+ }
+}

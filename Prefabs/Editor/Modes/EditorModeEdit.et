@@ -3,6 +3,13 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
  components {
   SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
    m_Registries {
+    SCR_PlaceableEntitiesRegistry "{64C6F5E4D06E49D8}" : "{786E746E3CB9F5DD}Configs/Editor/PlaceableEntities/Vehicles/TF_Vehicles.conf" {
+     m_sAddon "PredadorCore"
+     m_sSourceDirectory "{77DE105F55835544}Prefabs/MP/Campaign/Assets"
+     m_Prefabs {
+      "{84787526E3993CE8}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyEast_WO_Sinal.et" "{B49E2F753EFAC4E5}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyWest_WO_Sinal.et"
+     }
+    }
     SCR_PlaceableEntitiesRegistry "{649336A2C29564EC}" : "{12660538D1F1A04A}Configs/Editor/PlaceableEntities/Compositions/Pred_Compositions.conf" {
     }
    }

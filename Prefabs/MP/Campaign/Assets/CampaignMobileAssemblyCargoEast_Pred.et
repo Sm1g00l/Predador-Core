@@ -1,0 +1,32 @@
+GenericEntity : "{D9C7B82F567BA500}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_combox.et" {
+ ID "5206D4E7CE97EC05"
+ components {
+  SCR_CampaignMobileAssemblyComponent "{64C6F5E23846B32B}" {
+   m_sSpawnpointPrefab "{C3D565C9FD3815C9}Prefabs/MP/Campaign/CampaignMobileAssemblySpawnpoint_pred.et"
+  }
+  ActionsManagerComponent "{5DE2DEF025C6CAA0}" {
+   additionalActions {
+    SCR_CampaignDeployMobileAssemblyUserAction "{64C6F5E23846B359}" {
+     ParentContextList {
+      "trunk"
+     }
+     UIInfo UIInfo "{64C6F5E23846B352}" {
+      Name "#AR-Campaign_Action_Deploy-UC"
+     }
+     VisibilityRange 3
+     Duration 10
+    }
+    SCR_CampaignPackMobileAssemblyUserAction "{64C6F5E23846B356}" {
+     ParentContextList {
+      "trunk"
+     }
+     UIInfo UIInfo "{64C6F5E23846B354}" {
+      Name "#AR-Campaign_Action_Dismantle-UC"
+     }
+     VisibilityRange 3
+     Duration 5
+    }
+   }
+  }
+ }
+}
