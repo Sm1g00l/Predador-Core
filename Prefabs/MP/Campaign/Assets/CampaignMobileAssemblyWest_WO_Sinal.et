@@ -17,6 +17,12 @@ Vehicle : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MERD
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     Name "#AR-MapSymbol_MobileHQ"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CF50B7A126F}" {
+      m_BudgetType RANK_MAJOR
+      m_Value 6
+     }
+    }
    }
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
