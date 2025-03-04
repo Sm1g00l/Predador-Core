@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D961B0AF03172174}Configs/Systems/RHS_CallIn/RHS_CallIn_Blue_CAS_GBU_Pred.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C35E56B1847752E5}Configs/Systems/RHS_CallIn/RHS_CallIn_Opfor_Supplies_Pred.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D794DDBA71E2D475}Configs/Systems/RHS_CallIn/RHS_CallIn_Opfor_Missle_KH55_Pred.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

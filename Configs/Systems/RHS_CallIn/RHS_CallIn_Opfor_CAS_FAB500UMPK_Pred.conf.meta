@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{76F3967BC0BCB70F}Configs/Systems/RHS_CallIn/RHS_CallIn_Opfor_CAS_FAB500UMPK_Pred.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,156 @@
+GenericEntity : "{46DBD439B7CC3DF1}Prefabs/Props/Military/CISS/SupplyDrop/Parts/USSR/EquipmentBox_USSR.et" {
+ ID "63032425024EBE27"
+ components {
+  RHS_CISSSupplyCrateEditableEntityComponent "{624EA26EC03AE458}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{624EA26EC03AE447}" {
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     40 24 38
+    }
+    m_aAutoLabels {
+     7 122 23 39 10
+    }
+   }
+   m_sMarkingFlareParticle "{8641BBEFF608341A}Particles/Weapon/Smoke_SuppliesMarker_Opfor.ptc"
+  }
+  SCR_FuelSupportStationComponent "{64C91DCED8EF5899}" {
+   m_fRange 8.1
+   m_iBaseSupplyCostOnUse 1
+   m_eFactionUsageCheck SAME_CURRENT_FACTION
+   m_EmptyInvalidReason NO_SUPPLIES
+  }
+  SCR_RepairSupportStationComponent "{64C91DCE353BE6E5}" {
+   m_fRange 20
+   m_eFactionUsageCheck SAME_CURRENT_FACTION
+  }
+  SCR_ResourceComponent "{64C91DCFB24AC0F1}" {
+   m_aContainers {
+    SCR_ResourceContainer "{64C91DCFBF94F6CB}" {
+     m_eStorageType STORED
+     m_fResourceValueCurrent 500
+     m_fResourceValueMax 500
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{64C91DCC562F2726}" {
+     m_fResourceRange 20
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{64C91DCC6D765E89}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicy "{64C91DCC6AFB0FAA}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueue "{64C91DCC72DAD61F}" {
+        }
+        m_eStorageType STORED
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{612AE13AABBEE866}" {
+   MultiSlots {
+    MultiSlotConfiguration "{64C9160852B25503}" {
+     SlotTemplate InventoryStorageSlot s1 {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{64C9160852B25520}" {
+     SlotTemplate InventoryStorageSlot s2 {
+      Prefab "{988E7C4F812130FA}Prefabs/Weapons/Magazines/2A42/Box_30mm_2A42_APFSDS_250rnd.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{64C9160852B2555A}" {
+     SlotTemplate InventoryStorageSlot s3 {
+      Prefab "{479FDB5EDD601394}Prefabs/Weapons/Magazines/2A42/Box_30mm_2A42_HE_250rnd.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{64C9160852B2555F}" {
+     SlotTemplate InventoryStorageSlot s4 {
+      Prefab "{A2B376B9B13737A0}Prefabs/Weapons/Magazines/9M113/Box_Rockets_9M113_4.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{64C9160852B25551}" {
+     SlotTemplate InventoryStorageSlot s5 {
+      Prefab "{D8421F6E70B2FB4F}Prefabs/Weapons/Magazines/Box_762x54_PK_250rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{64C9160852B25555}" {
+     SlotTemplate InventoryStorageSlot s6 {
+      Prefab "{8257B5AFDE7AE5CB}Prefabs/Weapons/Magazines/Box_145x114_KPVT_50rnd_4API_1APIT.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{64C9160852B2554E}" {
+     SlotTemplate InventoryStorageSlot s7 {
+      Prefab "{176B5D8D86D20FCE}Prefabs/Vehicles/Helicopters/Mi24/VehParts/Weapons/Magazine_YakB_1470rnd.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{64C9160852B25540}" {
+     SlotTemplate InventoryStorageSlot s8 {
+      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{64C9160852B25544}" {
+     SlotTemplate InventoryStorageSlot s9 {
+      Prefab "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{64C9160852B25578}" {
+     SlotTemplate InventoryStorageSlot s10 {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{64C9160852B2557D}" {
+     SlotTemplate InventoryStorageSlot s11 {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+  SlotManagerComponent "{6303414612C49EB4}" {
+   Slots {
+    EntitySlotInfo camo {
+     Prefab "{A01592070907F081}Prefabs/Props/Military/Camps/CamoNet_PalletAmmo_Soviet.et"
+    }
+   }
+  }
+ }
+ coords -0.001 0.035 0
+ {
+  GenericEntity {
+   ID "64C91DCC095E9DBB"
+   components {
+    SCR_EditableEntityVisibilityChildComponent "{64C91DCCD5FF3DF6}" {
+    }
+    SCR_SupportStationAreaMeshComponent "{64C91DCC10A2832C}" {
+     m_fHeight 5
+     m_vResolution 25
+     m_bFollowTerrain 1
+     m_Material "{0A8FAD171DB3DC49}Assets/Editor/VirtualArea/VirtualArea_01_Focused.emat"
+     m_eSearchForType FUEL
+    }
+    SCR_SupportStationAreaMeshComponent "{64C91DCD118F518A}" {
+     m_fHeight 5
+     m_vResolution 25
+     m_bFollowTerrain 1
+     m_Material "{0A8FAD171DB3DC49}Assets/Editor/VirtualArea/VirtualArea_01_Focused.emat"
+     m_eSearchForType REPAIR
+    }
+    RplComponent "{64C91DCCB7E3389C}" {
+     AutoHierarchy 1
+    }
+    Hierarchy "{64C91DCCB350A937}" {
+    }
+   }
+  }
+ }
+}

@@ -21,6 +21,21 @@ SCR_PlayerController {
   PS_BigMsgSenderComponent "{6314190B278EBCDB}" {
   }
   RHS_RadialMenuGameModeComponent "{6314190B4F2BA605}" {
+   m_Menu RHS_RadialMenu "{64C8F69A4F98FC3D}" {
+    m_Inputs SCR_RadialMenuInputs "{5DDC8ED768908D5F}" {
+     m_sContext "RadialMenuContext"
+     m_sBackAction "RadialBack"
+     m_sPerformAction "RadialConfirm"
+     m_fGamepadSelectionTreshhold 0.2
+     m_iGamepadDeselectionDelay 250
+    }
+    m_sOpenSound "SOUND_INV_HOTKEY_OPEN"
+    m_sCloseSound "SOUND_INV_HOTKEY_CLOSE"
+    m_sSelectionSound "SOUND_FE_BUTTON_HOVER"
+    m_sPerformSound "SOUND_INV_HOTKEY_CONFIRM"
+    m_sEnterCategorySound "SOUND_INV_HOTKEY_OPEN"
+    m_sLeaveCategorySound "SOUND_INV_HOTKEY_CLOSE"
+   }
   }
   SCR_AchievementsHandler "{6314108472A6B218}" {
   }

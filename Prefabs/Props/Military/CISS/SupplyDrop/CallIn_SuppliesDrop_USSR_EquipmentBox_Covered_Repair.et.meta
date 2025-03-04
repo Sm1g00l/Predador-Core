@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FAC5E9A1D5F2C42A}Prefabs/Props/Military/CISS/SupplyDrop/CallIn_SuppliesDrop_USSR_EquipmentBox_Covered_Repair.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

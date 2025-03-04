@@ -20,6 +20,10 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  components {
+  RHS_AdditionalGameModeSettingsComponent "{61AE627E9607513B}" {
+   m_CallInSupportsConfig SCR_CallInSupportContainerConfig "{64C92B1483D36A0C}" : "{ED5489752D60223E}Configs/Systems/RHS_CallIn/CallInSupportContainers_PredConfig.conf" {
+   }
+  }
   SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
    m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
   }
@@ -32,6 +36,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   }
  }
  coords 26.726 0 10.962
+ m_bAllowFactionChange 1
  m_iControlPointsThreshold 6
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
