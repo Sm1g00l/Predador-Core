@@ -36,7 +36,6 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   }
  }
  coords 26.726 0 10.962
- m_bAllowFactionChange 1
  m_iControlPointsThreshold 6
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
