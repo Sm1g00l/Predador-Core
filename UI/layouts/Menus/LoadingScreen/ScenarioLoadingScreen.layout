@@ -1,0 +1,185 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5DFF03E4AD9D1E88}" {
+   Prefab "{5DFF03E4AD9D1E88}"
+   {
+    ScaleWidgetClass "{5CFCF5E894AE6629}" {
+     Prefab "{5CFCF5E894AE6629}"
+     {
+      ImageWidgetClass "{5CFCF5E894AE6628}" {
+       Prefab "{5CFCF5E894AE6628}"
+       Texture "{1802038A958E9FFF}UI/layouts/Menus/LoadingScreen/IMG_3955.edds"
+       Size 7100 4000
+      }
+     }
+    }
+   }
+  }
+  FrameWidgetClass "{5E04A017BD489B2A}" {
+   Prefab "{5E04A017BD489B2A}"
+   {
+    OverlayWidgetClass "{5DFF03E4AD9D1E85}" {
+     Prefab "{5DFF03E4AD9D1E85}"
+     {
+      HorizontalLayoutWidgetClass "{5DFF03E4AD9D1EFB}" {
+       Prefab "{5DFF03E4AD9D1EFB}"
+       {
+        FrameWidgetClass "{5DFF03E4AD9D1EF9}" {
+         Prefab "{5DFF03E4AD9D1EF9}"
+         {
+          OverlayWidgetClass "{5E04A00D30403301}" {
+           Prefab "{5E04A00D30403301}"
+           {
+            HorizontalLayoutWidgetClass "{5D0C8953FFAEEDEB}" {
+             Prefab "{5D0C8953FFAEEDEB}"
+             {
+              ImageWidgetClass "{5D0C8953F456BDDF}" {
+               Prefab "{5D0C8953F456BDDF}"
+               Color 0.502 0 0 1
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+        FrameWidgetClass "{5DFF03E4AD9D1EFE}" {
+         Prefab "{5DFF03E4AD9D1EFE}"
+         {
+          OverlayWidgetClass "{5E04A00D30403301}" {
+           Prefab "{5E04A00D30403301}"
+           {
+            HorizontalLayoutWidgetClass "{5D0C8953FFAEEDEB}" {
+             Prefab "{5D0C8953FFAEEDEB}"
+             {
+              ImageWidgetClass "{5D0C8953F456BDDF}" {
+               Prefab "{5D0C8953F456BDDF}"
+               Color 0.502 0 0 1
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+        FrameWidgetClass "{5DFF03E4AD9D1EFC}" {
+         Prefab "{5DFF03E4AD9D1EFC}"
+         {
+          OverlayWidgetClass "{5D0C895F3A65DB55}" {
+           Prefab "{5D0C895F3A65DB55}"
+           Color 0.502 0 0 1
+          }
+         }
+        }
+       }
+      }
+      ImageWidgetClass "{5DFF03E4AD9D1EF2}" {
+       Prefab "{5DFF03E4AD9D1EF2}"
+       Slot OverlayWidgetSlot "{5DFE96D62255D575}" {
+        HorizontalAlign 1
+       }
+      }
+      FrameWidgetClass "{5DFF03E4AD9D1EF7}" {
+       Prefab "{5DFF03E4AD9D1EF7}"
+       "Is Enabled" 0
+       "Is Visible" 0
+       {
+        SizeLayoutWidgetClass "{5DFF03E4AD9D1EF5}" {
+         Prefab "{5DFF03E4AD9D1EF5}"
+         {
+          ImageWidgetClass "{5DFF03E4AD9D1EEB}" {
+           Prefab "{5DFF03E4AD9D1EEB}"
+           "Is Enabled" 0
+           "Is Visible" 0
+          }
+         }
+        }
+        SizeLayoutWidgetClass "{5DFF03E4AD9D1EEA}" {
+         Prefab "{5DFF03E4AD9D1EEA}"
+         "Is Enabled" 0
+         "Is Visible" 0
+         {
+          ScaleWidgetClass "{5DFF03E4AD9D1EE8}" {
+           Prefab "{5DFF03E4AD9D1EE8}"
+           {
+            ImageWidgetClass "{5DFF03E4AD9D1EEF}" {
+             Prefab "{5DFF03E4AD9D1EEF}"
+             "Is Enabled" 0
+             "Is Visible" 0
+            }
+           }
+          }
+         }
+        }
+        SizeLayoutWidgetClass "{5DFF03E4AD9D1EED}" {
+         Prefab "{5DFF03E4AD9D1EED}"
+         {
+          ScaleWidgetClass "{5DFF03E4AD9D1EEC}" {
+           Prefab "{5DFF03E4AD9D1EEC}"
+           "Is Enabled" 0
+           "Is Visible" 0
+           {
+            ImageWidgetClass "{5DFF03E4AD9D1EE2}" {
+             Prefab "{5DFF03E4AD9D1EE2}"
+             "Is Enabled" 0
+             "Is Visible" 0
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{5DFF03E4AD9D1EE1}" {
+       Prefab "{5DFF03E4AD9D1EE1}"
+       Slot OverlayWidgetSlot "{5DFE96D622552BA2}" {
+        HorizontalAlign 1
+        VerticalAlign 1
+        Padding 0 0 0 500
+       }
+       {
+        RichTextWidgetClass "{5DFF03E4AD9D1ED9}" {
+         Prefab "{5DFF03E4AD9D1ED9}"
+         "Is Enabled" 0
+         "Is Visible" 0
+        }
+       }
+      }
+      TextWidgetClass "{64D132D1006E3C4B}" {
+       Name "DiscordLink"
+       Slot OverlayWidgetSlot "{64D132D1006E3C74}" {
+        VerticalAlign 2
+        Padding 5 0 0 120
+       }
+       Color 0.502 0 0 1
+       Text "Leia as Regras no discord.gg/QTcW6mURG8"
+       "Font Size" 50
+       FontProperties FontProperties "{64D132D2EAE6699D}" {
+        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+        ForceFont 1
+        OutlineSize 4
+        ShadowOpacity 0
+       }
+       Offset 0 0
+       "Line Spacing" 3
+      }
+      OverlayWidgetClass "{5DFF03E4AD9D1ED8}" {
+       Prefab "{5DFF03E4AD9D1ED8}"
+       {
+        HorizontalLayoutWidgetClass "{5DFF03E4AD9D1EDC}" {
+         Prefab "{5DFF03E4AD9D1EDC}"
+         {
+          ImageWidgetClass "{5DFF03E4AD9D1ED3}" {
+           Prefab "{5DFF03E4AD9D1ED3}"
+           Color 0.502 0 0 1
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
