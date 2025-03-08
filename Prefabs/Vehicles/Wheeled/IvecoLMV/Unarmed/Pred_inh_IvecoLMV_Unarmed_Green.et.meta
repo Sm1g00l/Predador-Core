@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{774E490EE3D15F31}Prefabs/Vehicles/Wheeled/IvecoLMV/Unarmed/Pred_inh_IvecoLMV_Unarmed_Green.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

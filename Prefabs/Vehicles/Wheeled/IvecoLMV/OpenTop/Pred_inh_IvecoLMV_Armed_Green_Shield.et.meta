@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4A2C0AD91BD14052}Prefabs/Vehicles/Wheeled/IvecoLMV/OpenTop/Pred_inh_IvecoLMV_Armed_Green_Shield.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
