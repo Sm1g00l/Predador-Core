@@ -13,5 +13,14 @@ Vehicle : "{AC12E5669B411D57}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD
     }
    }
   }
+  SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62B43BCFC2E913DB}" {
+     SlotTemplate InventoryStorageSlot AGS {
+      Enabled 0
+     }
+    }
+   }
+  }
  }
 }
