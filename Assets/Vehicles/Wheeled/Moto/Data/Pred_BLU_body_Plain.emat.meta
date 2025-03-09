@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7CA4BD0C128A4389}Assets/Vehicles/Wheeled/Moto/Data/Pred_BLU_body_Plain.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
