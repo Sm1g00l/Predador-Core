@@ -1,0 +1,444 @@
+GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{DD1D885601C14070}Sounds/Weapons/Machineguns/PKM/Weapons_Machineguns_PKM_Shot.acp" "{9BD32DC9C8D31988}Sounds/Weapons/Machineguns/PKM/Weapons_Machineguns_PKM_Handling.acp" "{E08211071D0175E2}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_LMG.acp" "{214445E9606EFCD0}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_LMG.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{5DB34B1BB17CA63B}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_LMG.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{A83629A198C7D374}Sounds/Weapons/Machineguns/PKM/Weapons_Rifles_AK-74_Shot_Suppressed_SuperSonic_PKP-B.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{7D2067AF9CF4D138}Assets/Weapons/MachineGuns/PKP-B/PKP-B.xob"
+  }
+  RigidBody "{64D55E00F06FECD7}" {
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{64D55E00F06FECFF}" {
+   m_fDamage 45
+   m_fRange 1
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "PKP-B"
+     Description "#AR-Weapon_PKM_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{64D55E00F06FEC8E}" {
+     Weight 7.5
+     SizeSetupStrategy Manual
+     ItemDimensions 30 30 30
+     ItemVolume 2500
+     RestingUP Right
+     RestingAdditiveRotationLS 0 0 -10
+     PivotBoneName "barrel_muzzle"
+     RestingAdditiveOffsetLS 0.27 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E60421307}" {
+     IkSettings {
+      ItemIKSettings "{64D55E00F06FEC81}" {
+       ProneTurn 1
+       IkSettingsStand 7
+      }
+     }
+     AnimationInstance "{60945F10BF15FC09}anims/workspaces/player/player_main_machinegun.asi"
+     AnimationIKPose "{C36D6705ADBF8868}Assets/Animations/p_pkp-b_IK.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{64D55E00F06FEC94}" {
+        "Point info" DeploymentPointInfo WithoutBipodPointInfo {
+         PivotID "Scene_Root"
+         Offset 0 0.1498 0.5547
+        }
+        StabilizationSize 0.1 0.15 0.45
+       }
+       PivotPointInfoItem "{64D55E00F06FECAC}" {
+        "Point info" DeploymentPointInfo BipodPointInfo {
+         PivotID "Scene_Root"
+         Offset 0 -0.1037 0.49
+        }
+        SystemIdentifier 2
+        StabilizationPoints {
+         DeploymentPointInfo LeftLeg {
+          PivotID "w_bipodleg_left"
+          Offset -0.1654 -0.2576 0
+         }
+         DeploymentPointInfo RightLeg {
+          PivotID "w_bipodleg_right"
+          Offset 0.1654 -0.2576 0
+         }
+        }
+        StabilizationSize 0.035 0.01 0.2
+       }
+      }
+     }
+     CharacterModifierAttributes "{561C0C2DF9ABA9A5}" {
+      AllowReloadingWithRoll 0
+     }
+     PreviewRenderAttributes "{5534BB9B9A3E369E}" {
+      CameraPreset Right
+      CameraDistanceToItem 1
+      CameraOffset 0 0.05 0
+      FOV 30
+      AspectRatio 1
+      AnimationInstance "{C79EA6F6F4EFE7CC}anims/workspaces/player/player_inventory_LMG.asi"
+      LodModel 0
+     }
+    }
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{64D55E00F06FECBC}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64D55E00F06FEC44}" {
+     AttachmentSlot InventoryStorageSlot Left_RIS {
+      PivotID "slot_ris_left"
+      ChildPivotID "snap_weapon"
+      Enabled 0
+     }
+     AttachmentType AttachmentRIS1913 "{64D55E00F06FEC47}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{64D55E00F06FEC4E}" {
+     AttachmentSlot InventoryStorageSlot Foregrip {
+      PivotID "slot_ris_bottom"
+      ChildPivotID "snap_weapon"
+      Enabled 0
+     }
+     AttachmentType AttachmentRIS1913 "{64D55E00F06FEC4A}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{64D55E00F06FEC61}" {
+     AttachmentSlot InventoryStorageSlot Right_RIS {
+      PivotID "slot_ris_right"
+      ChildPivotID "snap_weapon"
+      Enabled 0
+     }
+     AttachmentType AttachmentRIS1913 "{64D55E00F06FEC7E}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{64D55E00F06FEC79}" {
+     AttachmentSlot InventoryStorageSlot BIPOD {
+      PivotID "slot_ris_bottom001"
+      Offset 0.0015 -0.014 -0.31
+      ChildPivotID "snap_weapon"
+      Prefab "{3640A317F0C9014E}Prefabs/Weapons/Attachments/FOREGRIP/PKP-B_GRIP.et"
+     }
+     AttachmentType AttachmentUnderbarrelRIS1913Short "{64D55E00F06FEC7A}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{64D55E00F06FECBA}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "slot_optics"
+      Offset 0 0 -0.0013
+      ChildPivotID "snap_weapon"
+      Enabled 0
+      InspectionWidgetOffset 0 0.1857 0.1731
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{64D55E00F06FEC4C}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{64D55E00F09030E4}" {
+     AttachmentSlot InventoryStorageSlot Optics_3 {
+      PivotID "slot_optics"
+      Offset 0 0 -0.0412
+      ChildPivotID "snap_weapon"
+      Enabled 0
+      InspectionWidgetOffset 0 0.1845 0.0767
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{64D55E00F09030E2}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{64D55E00F09030E8}" {
+     AttachmentSlot InventoryStorageSlot Optics_2 {
+      PivotID "slot_optics"
+      Offset 0 0 -0.0313
+      ChildPivotID "snap_weapon"
+      Enabled 0
+      InspectionWidgetOffset 0 0.1845 0.1178
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{64D55E00F09030E5}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{64D55E00F090ABC1}" {
+     AttachmentSlot InventoryStorageSlot Optics_4 {
+      PivotID "slot_optics"
+      Offset 0 0 -0.0613
+      ChildPivotID "snap_weapon"
+      Enabled 0
+      InspectionWidgetOffset 0 0.1845 0.0413
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{64D55E00F090ABC3}" {
+     }
+     ShowInInspection 1
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "eye"
+     }
+     SightsRanges {
+      SightRangeInfo "{64D55E00F090ABBA}" {
+       Range 0 420
+       WeaponPosition PointInfo "{64D55E00F090ABB2}" {
+        Offset 0 -0.0036 0
+        Angles 0.24 0 0
+       }
+      }
+      SightRangeInfo "{64D55E00F090ABAC}" {
+       Range 0.24 100
+       WeaponPosition PointInfo "{64D55E00F090ABAD}" {
+        Offset 0 -0.0015 0
+        Angles 0.09 0 0
+       }
+      }
+      SightRangeInfo "{64D55E00F090ABAE}" {
+       Range 0.34 200
+       WeaponPosition PointInfo "{64D55E00F090ABAF}" {
+        Offset 0 -0.0021 0
+        Angles 0.14 0 0
+       }
+      }
+      SightRangeInfo "{64D55E00F090ABA8}" {
+       Range 0.408 300
+       WeaponPosition PointInfo "{64D55E00F090ABA9}" {
+        Offset 0 -0.0029 0
+        Angles 0.18 0 0
+       }
+      }
+      SightRangeInfo "{64D55E00F090ABAA}" {
+       Range 0.449 400
+       WeaponPosition PointInfo "{64D55E00F090ABAB}" {
+        Offset 0 -0.0039 0
+        Angles 0.25 0 0
+       }
+      }
+      SightRangeInfo "{64D55E00F090ABA4}" {
+       Range 0.509 500
+       WeaponPosition PointInfo "{64D55E00F090ABA5}" {
+        Offset 0 -0.0052 0
+        Angles 0.33 0 0
+       }
+      }
+      SightRangeInfo "{64D55E00F090ABA6}" {
+       Range 0.56 600
+       WeaponPosition PointInfo "{64D55E00F090ABA7}" {
+        Offset 0 -0.0066 0
+        Angles 0.42 0 0
+       }
+      }
+      SightRangeInfo "{64D55E00F090ABA0}" {
+       Range 0.614 700
+       WeaponPosition PointInfo "{64D55E00F090ABA1}" {
+        Offset 0 -0.0082 0
+        Angles 0.53 0 0
+       }
+      }
+      SightRangeInfo "{64D55E00F090ABA2}" {
+       Range 0.662 800
+       WeaponPosition PointInfo "{64D55E00F090ABA3}" {
+        Offset 0 -0.0101 0
+        Angles 0.64 0 0
+       }
+      }
+      SightRangeInfo "{64D55E00F090AB9C}" {
+       Range 0.716 900
+       WeaponPosition PointInfo "{64D55E00F090AB9D}" {
+        Offset 0 -0.0124 0
+        Angles 0.79 0 0
+       }
+      }
+      SightRangeInfo "{64D55E00F090AB9E}" {
+       Range 0.766 1000
+       WeaponPosition PointInfo "{64D55E00F090CE13}" {
+        Offset 0 -0.015 0
+        Angles 0.96 0 0
+       }
+      }
+      SightRangeInfo "{64D55E00F090CE15}" {
+       Range 0.823 1100
+       WeaponPosition PointInfo "{64D55E00F090CE04}" {
+        Offset 0 -0.018 0
+        Angles 1.14 0 0
+       }
+      }
+     }
+     SightsRangesDefaultIndex 1
+     SightsPointFront PointInfo "{64D55E00F090CE06}" {
+      PivotID "barrel_chamber"
+      Offset 0 0.06045 0.535
+     }
+     SightsPointRear PointInfo "{64D55E00F090CE08}" {
+      PivotID "rear_sight"
+     }
+     m_iOpticDOFDistanceScale 150
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{83DC2DCAF6EDC75F}Particles/Weapon/Casing_762x54.ptc"
+       EffectPosition EntitySlotInfo "{513A938439231378}" {
+        PivotID "barrel_chamber"
+        Offset 0 -0.05 -0.1
+        Angles -90 -90 0
+       }
+      }
+      CaseEjectingEffectComponent "{64D55E00F090CFFD}" {
+       ParticleEffect "{40C8AD1204EC2629}Particles/Weapon/Smoke_PKM.ptc"
+       EffectPosition EntitySlotInfo "{52C6E1D24C4413B7}" {
+        PivotID "barrel_muzzle"
+       }
+       OverrideByAttachment 1
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{57A509D9293B172D}Particles/Weapon/Muzzle_PKM_flashHider.ptc"
+       OverrideByAttachment 1
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{A512F292D96BCB9F}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Auto.conf" {
+       RoundsPerMinute 650
+      }
+     }
+     MagazineWell MagazineWellPKM "{64D55E00F090CFE9}" {
+     }
+     DispersionDiameter 0.4
+     DispersionRange 400
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{64D55E00F090CFEA}" {
+       LinearData RecoilData "{64D55E00F090CFEF}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+       }
+       AngularData RecoilData "{64D55E00F090CFD1}" {
+        "Curve X" {
+         0 0.5 0.019 0.411 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.8 0.065 0.95 0.071 0.9 0.095 0.75 0.25 0.45 0.45 0.52 0.7 0.49 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.034 0.431 0.045 0.85 0.095 0.7 0.238 0.487 0.443 0.5 0.7 0.5 1 0.5
+        }
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.002 0.6 -4
+        "Curve Maxs" 0.002 1.2 4
+       }
+       TurnOffsetData RecoilData "{64D55E00F090CFD0}" {
+        "Curve X" {
+         0 0.5 0.06 1 0.121 0.499 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.014 0.578 0.035 0.937 0.042 0.998 0.123 0.441 0.236 0.5 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1 1 0
+        "Curve Mins" -9.75 45 0
+        "Curve Maxs" 9.75 90 0
+        "Base Recoil Scale" 1
+       }
+      }
+      ZeroingWeaponAimModifier "{64D55E00F090CFD4}" {
+      }
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo LeftHandTarget {
+      PivotID "slot_magazine"
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo RightHandTarget {
+      PivotID "snap_hand_right"
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo ButstockTransformation {
+      PivotID "Scene_Root"
+      Offset 0 0.05 -0.375
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      InspectionWidgetOffset 0 -0.0521 0.1606
+     }
+     MagazineTemplate "{0C1BCEE3AAAC3CD2}Prefabs/Weapons/Magazines/Box_762x54_PKP-B_100rnd_4Ball1Tracer.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{952A214C4F090BC0}Assets/Weapons/MachineGuns/workspaces/pkm.agr"
+     AnimInstance "{EC9C5E18E197DA37}Assets/Weapons/MachineGuns/workspaces/pkp-b_weapon.asi"
+     AlwaysActive 1
+     AnimInjection AnimationAttachmentInfo "{64D55E00F090CFC3}" {
+      AnimGraph "{952A214C4F090BC0}Assets/Weapons/MachineGuns/workspaces/pkm.agr"
+      AnimInstance "{17C2CF297996BEDB}Assets/Weapons/MachineGuns/workspaces/pkp-b_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+   obstructionTestBBScale 0.05 0.05 0.025
+   SoundInt 1040300
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "PKP-B"
+    Icon ""
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 0.0012 -0.0616
+     }
+    }
+    UserActionContext "{5956E32BAAADE657}" {
+     ContextName ""
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{64D55E00F090CFB1}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.0507 0.0001
+     }
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{64D55E00F090CFB3}" {
+      PivotID "w_fire_mode"
+      Angles 0 -90 0
+     }
+     Radius 0.05
+     Omnidirectional 0
+    }
+    UserActionContext "{64D55E00F090CFB5}" {
+     UIInfo SCR_ActionContextUIInfo "{64D55E00F090CFB7}" {
+     }
+     ContextName "optic"
+     Position PointInfo "{64D55E00F090CFB6}" {
+      PivotID "slot_optics"
+     }
+    }
+   }
+   additionalActions {
+    SCR_DetachMagazineUserAction "{5A1E58F790AF821D}" {
+     UIInfo SCR_ActionUIInfo "{5A1E58F788F40D95}" {
+      Name "Detach: "
+     }
+    }
+    SCR_FireModeSwitchUserAction "{5A1E74156C2DB00D}" {
+     ParentContextList {
+      ""
+     }
+    }
+   }
+  }
+ }
+}
