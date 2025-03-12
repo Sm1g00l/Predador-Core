@@ -49,9 +49,6 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/Camp
     LoadoutSlotInfo Vest {
      Prefab "{04F6C334B02D345E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_taco3.et"
     }
-    LoadoutSlotInfo Armband {
-     Prefab "{56041ED97BE10F90}Prefabs/Characters/Armbands/Armband_Blue.et"
-    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

@@ -1,0 +1,9 @@
+GameEntity {
+ ID "633A051674B7688B"
+ components {
+  BaseLoadoutClothComponent "{633A051674B76B4B}" {
+   AreaType ZEL_HeadArea "{633A051674B76B4E}" {
+   }
+  }
+ }
+}

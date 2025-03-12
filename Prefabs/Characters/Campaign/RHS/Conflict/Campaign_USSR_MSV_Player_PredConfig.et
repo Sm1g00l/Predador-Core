@@ -50,8 +50,9 @@ SCR_ChimeraCharacter : "{F063CEEB9295E9B6}Prefabs/Characters/Campaign/Final/Camp
     LoadoutSlotInfo Vest {
      Prefab "{E711752AC6D2123D}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_officer_GL.et"
     }
-    LoadoutSlotInfo Armband {
-     Prefab "{F96A42271F2D72CB}Prefabs/Characters/Armbands/Armband_Red.et"
+    LoadoutSlotInfo Extra {
+    }
+    LoadoutSlotInfo Extra2 {
     }
    }
   }
