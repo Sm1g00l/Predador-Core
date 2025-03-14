@@ -1,0 +1,50 @@
+$grp GenericEntity : "{655B060F89741A08}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase_WO_IA.et" {
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bShowMapIcon 0
+    m_bCanBeHQ 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "MAIN BASE "
+    m_sBaseNameUpper "MAIN BASE "
+   }
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 1100
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 9158.466 221.427 1242.666
+  angleX 1.473
+  angleY -60.852
+  angleZ 2.869
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{63296461E72DD62E}" {
+    m_bShowMapIcon 0
+    m_bCanBeHQ 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "MAIN BASE "
+    m_sBaseNameUpper "MAIN BASE "
+   }
+   SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{63296461E72DD6F2}" {
+      "Transmitting Range" 900
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 7077.108 156.932 2089.84
+  angleX -1.783
+  angleY 174.89
+  angleZ 0.159
+ }
+}

@@ -1,36 +1,163 @@
-$grp SCR_CaptureAndHoldArea : "{11E28821DF729BEC}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Minor.et" {
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
  {
-  coords 8349.504 260.127 2256.805
-  TriggerShapeType Sphere
-  SphereRadius 67.6
-  DrawShape 0
-  m_iScorePerTick 1
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 400
+     }
+    }
+   }
+  }
+  coords 8581.419 295.488 1906.859
+  angleY 166.336
  }
  {
-  coords 8181.435 174.81 1917.264
-  BoxMins -70 -5 -40
-  BoxMaxs 73 25 55
-  DrawShape 0
-  m_sAreaSymbol "B"
-  m_iScorePerTick 1
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 250
+     }
+    }
+   }
+  }
+  coords 7955.631 211.398 2181.06
+  angleY 134.766
  }
-}
-$grp SCR_CaptureAndHoldArea : "{F4649500E51DF810}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Major.et" {
  {
-  coords 8119.69 247.857 2287.763
-  angleY 39.346
-  BoxMins -60 -10 -50
-  BoxMaxs 55 30 120
-  DrawShape 0
-  m_sAreaSymbol "C"
-  m_iScorePerTick 2
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 200
+     }
+    }
+   }
+  }
+  coords 8150.146 178.573 1943.002
+  angleY -90.359
  }
  {
-  coords 7987.801 205.537 2191.615
-  angleY 33.337
-  BoxMins -23 -25 -18
-  BoxMaxs 90 40 20
-  m_sAreaSymbol "D"
-  m_iScorePerTick 2
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 250
+     }
+    }
+   }
+  }
+  coords 8320.531 256.917 2278.587
+  angleY -49.485
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      ChannelFrequency 400
+      "Transmitting Range" 380
+     }
+    }
+   }
+  }
+  coords 8455.627 313.82 2255.851
+  angleY -125.575
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 250
+     }
+    }
+   }
+  }
+  coords 8113.568 235.055 2160.317
+  angleY -117.233
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 400
+     }
+    }
+   }
+  }
+  coords 7954.635 287.349 2643.622
+  angleY -150.182
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_bSeizedByMajority 1
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 300
+     }
+    }
+   }
+  }
+  coords 8159.838 309.491 2485.317
+  angleY -161.812
  }
 }

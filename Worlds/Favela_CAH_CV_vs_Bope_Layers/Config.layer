@@ -1,71 +1,21 @@
-SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
- components {
-  NavmeshWorldComponent "{5584F30E67F617AD}" {
-   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{60AEBC5BD6646487}" {
-     NavmeshFile "{AD5F99CD7C59D5E0}worlds/GameMaster/Navmeshes/GM_Eden.nmn"
-    }
-    UseNavmeshStreaming 0
-   }
-  }
-  NavmeshWorldComponent "{5584F30EEFEE1223}" {
-   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" {
-     NavmeshFile "{C35ECF3276824654}worlds/GameMaster/Navmeshes/GM_Eden_vehicles.nmn"
-    }
-    UseNavmeshStreaming 0
-   }
-  }
-  NavmeshWorldComponent "{5C8C9B750D124A63}" {
-   Enabled 0
-   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
-     NavmeshFileOveride {
-      ""
-     }
-    }
-   }
-  }
- }
- coords 4866.488 27.844 11103.313
+SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ coords 8392.258 245.692 1980.796
+ m_iControlPointsThreshold 8
 }
-PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 0 0 0
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 7729.623 212.377 2466.97
 }
-SCR_BaseGameMode GameMode_CaptureAndHold_Pred1 : "{4169409EEF0296DD}Prefabs/MP/Modes/CaptureAndHold/GameMode_CaptureAndHold_Pred.et" {
- components {
-  SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
-   m_iReceiveKillFeedType SAME_FACTION_ONLY
-  }
-  SCR_ScoringSystemComponent "{56B6E8B5672C8335}" {
-   m_aActions {
-    EndGameAction "{56B6E8B55072E456}" {
-     m_iScoreLimit 6000
-    }
-   }
-  }
-  SCR_WelcomeScreenComponent "{5D34CBCAF837769A}" {
-   m_sHeaderTitle "Capture & Hold: Favela"
-  }
- }
- coords 0 0 0
+SCR_CampaignFactionManager CampaignFactionManager_RHS_AFRF_USMC_Predador1 : "{C4AE2F613207B8DB}Prefabs/MP/Campaign/CampaignFactionManager_RHS_AFRF_USMC_Predador.et" {
+ coords 7740.424 219.92 2489.575
 }
-SCR_FactionManager FactionManager_BOPExCV1 : "{71981C7E7C8FCCE0}Prefabs/MP/Managers/Factions/FactionManager_BOPExCV.et" {
-}
-RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
- coords 0 0 0
-}
-ScriptedChatEntity ChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
- coords 0 0 0
+GenericEntity : "{1E4C8AD00BBB16AA}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_Base.et" {
+ coords 7190.676 138.509 2221.996
 }
 SCR_EditorModeEntity : "{57476D18BCA56B30}Prefabs/Editor/Modes/EditorModeAdmin.et" {
 }
-SCR_MPDestructionManager DestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
- coords 0 0 0
+SCR_LoadoutManager : "{814D8CA6DC586A91}Prefabs/MP/Campaign/CampaignLoadoutManager_AFRF_USMC_Pred.et" {
+ coords 7711.486 213.285 2498.38
 }
-ItemPreviewManagerEntity ItemPreviewManager : "{9F18C476AB860F3B}Prefabs/World/Game/ItemPreviewManager.et" {
- coords 0 0 0
-}
-SCR_LoadoutManager : "{BEE210D763C37DE7}Prefabs/MP/Managers/Loadouts/Favela/LoadoutManager_BOPExCV.et" {
- coords 0 0 0
+SCR_SpawnPoint : "{C3D565C9FD3815C9}Prefabs/MP/Campaign/CampaignMobileAssemblySpawnpoint_pred.et" {
+ coords 7756.367 219.135 2473.056
 }
