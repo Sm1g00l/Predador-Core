@@ -6,6 +6,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     m_bShowNotifications 1
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Tower Casa do Baiano"
+    m_sBaseNameUpper "Tower Casa do Baiano"
    }
    SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
     "Turned on" 1
@@ -26,6 +28,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     m_bShowNotifications 1
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Tower Curva do Pantera"
+    m_sBaseNameUpper "Tower Curva do Pantera"
    }
    SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
     "Turned on" 1
@@ -46,6 +50,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     m_bShowNotifications 1
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Tower Beco do Aranha"
+    m_sBaseNameUpper "Tower Beco do Aranha"
    }
    SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
     "Turned on" 1
@@ -66,6 +72,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     m_bShowNotifications 1
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Tower da Boca"
+    m_sBaseNameUpper "Tower da Boca"
    }
    SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
     "Turned on" 1
@@ -86,6 +94,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     m_bShowNotifications 1
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Tower Cristo"
+    m_sBaseNameUpper "Tower Cristo"
    }
    SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
     "Turned on" 1
@@ -107,6 +117,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     m_bShowNotifications 1
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Tower Predio"
+    m_sBaseNameUpper "Tower Predio"
    }
    SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
     "Turned on" 1
@@ -127,6 +139,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     m_bShowNotifications 1
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Tower Escola"
+    m_sBaseNameUpper "Tower Escola"
    }
    SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
     "Turned on" 1
@@ -147,6 +161,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     m_bShowNotifications 1
     m_bIsControlPoint 1
     m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Tower beco do Smigoll"
+    m_sBaseNameUpper "Tower beco do Smigol"
    }
    SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
     "Turned on" 1

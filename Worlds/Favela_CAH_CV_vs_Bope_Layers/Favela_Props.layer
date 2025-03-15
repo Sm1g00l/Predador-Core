@@ -8986,23 +8986,6 @@ $grp SCR_DestructibleBuildingEntity : "{E7BACF3E6868897B}Prefabs/Casas/barraco_1
   angleY -48.087
  }
 }
-$grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
- {
-  coords 8030.19 212.821 2099.268
-  angleX 87.091
-  angleZ 57.912
- }
- {
-  coords 8026.051 212.888 2093.562
-  angleX 87.091
-  angleZ 57.912
- }
- {
-  coords 8022.392 212.788 2089.223
-  angleX 87.091
-  angleZ 57.912
- }
-}
 GenericEntity : "{E7FD0B8019E96F74}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
  coords 8011.256 212.282 2166.821
  angleY -145.425

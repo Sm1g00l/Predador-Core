@@ -5,11 +5,17 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 7729.623 212.377 2466.97
 }
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 8274.27 227.033 2342.344
+}
 SCR_CampaignFactionManager CampaignFactionManager_RHS_AFRF_USMC_Predador1 : "{C4AE2F613207B8DB}Prefabs/MP/Campaign/CampaignFactionManager_RHS_AFRF_USMC_Predador.et" {
  coords 7740.424 219.92 2489.575
 }
 GenericEntity : "{1E4C8AD00BBB16AA}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_Base.et" {
  coords 7190.676 138.509 2221.996
+}
+BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 8244.66 224.526 2319.217
 }
 SCR_EditorModeEntity : "{57476D18BCA56B30}Prefabs/Editor/Modes/EditorModeAdmin.et" {
 }
