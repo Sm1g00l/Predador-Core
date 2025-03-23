@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D1B933556D5C7DE7}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Delegacia.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -3,6 +3,12 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
  components {
   SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
    m_Registries {
+    SCR_PlaceableEntitiesRegistry "{64EEF25C448676C2}" {
+     m_sSourceDirectory "{CED9D96EBD480929}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall"
+     m_Prefabs {
+      "{2BE937A48BAE7083}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_US_01_1K.et" "{FF2040BF02335F1A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_USSR_01_1K.et"
+     }
+    }
     SCR_PlaceableEntitiesRegistry "{64C6F5E4D06E49D8}" : "{786E746E3CB9F5DD}Configs/Editor/PlaceableEntities/Vehicles/TF_Vehicles.conf" {
      m_sAddon "PredadorCore"
      m_sSourceDirectory "{77DE105F55835544}Prefabs/MP/Campaign/Assets"
@@ -15,4 +21,5 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
    }
   }
  }
+ coords -0.001 -0.004 0.001
 }

@@ -1,3 +1,15 @@
 SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
  ID "518A34314C7CB324"
+ components {
+  SCR_CampaignBuildingPlacingEditorComponent "{5A0ACCCCDF0C0F65}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{64EEF25DC290D4EB}" {
+     m_sSourceDirectory "{CED9D96EBD480929}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall"
+     m_Prefabs {
+      "{2BE937A48BAE7083}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_US_01_1K.et" "{FF2040BF02335F1A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_USSR_01_1K.et"
+     }
+    }
+   }
+  }
+ }
 }
