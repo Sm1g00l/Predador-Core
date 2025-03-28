@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{6763CB09FFCF050D}Configs/EntityCatalog/RHS_MSV/MSV_InventoryItems_DUP.conf"
+ Name "{930FD1E56421CDAE}Configs/EntityCatalog/RHS_MSV/MSV_Vehicles_DUP.conf"
  Configurations {
   CONFResourceClass PC {
   }

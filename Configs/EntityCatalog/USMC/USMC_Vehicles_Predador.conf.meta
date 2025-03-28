@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{D5CD5858C91193BC}Configs/EntityCatalog/USMC/USMC_Vehicles_Predador.conf"
+ Name "{13EC0DA4E65C4C5B}Configs/EntityCatalog/USMC/USMC_Vehicles_DUP.conf"
  Configurations {
   CONFResourceClass PC {
   }
