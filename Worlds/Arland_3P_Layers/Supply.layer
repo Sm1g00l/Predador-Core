@@ -1,0 +1,278 @@
+$grp GenericEntity : "{617E4B88F858344B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_03.et" {
+ Supply_LargeCont2 {
+  coords 3160.193 4.005 1176.703
+  angleY 66.222
+  {
+   GenericEntity {
+    ID "5D45393876460D01"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 6000
+        m_fResourceValueMax 6000
+        m_bEnableResourceGain 1
+        m_fResourceGain 30
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ Supply_LargeCont3 {
+  coords 3542.673 44.919 2640.477
+  angleY 27.997
+  {
+   GenericEntity {
+    ID "5D45393876460D01"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 6000
+        m_fResourceValueMax 6000
+        m_bEnableResourceGain 1
+        m_fResourceGain 30
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ Supply_LargeCont4 {
+  coords 1676.801 38 3017.433
+  angleY 168.21
+  {
+   GenericEntity {
+    ID "5D45393876460D01"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 6000
+        m_fResourceValueMax 6000
+        m_bEnableResourceGain 1
+        m_fResourceGain 30
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ Supply_LargeCont5 {
+  coords 1424.85 10.99 1873.779
+  angleY -68.821
+  {
+   GenericEntity {
+    ID "5D45393876460D01"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 6000
+        m_fResourceValueMax 6000
+        m_bEnableResourceGain 1
+        m_fResourceGain 30
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{84E20771F4BDA320}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_02.et" {
+ Supply_MidCamp2 {
+  coords 3051.819 72.712 1569.385
+  angleY -87.01
+  {
+   GenericEntity {
+    ID "5D4539382387133B"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 2500
+        m_fResourceValueMax 2500
+        m_bEnableResourceGain 1
+        m_fResourceGain 10
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ Supply_MidCamp3 {
+  coords 2335.866 66 1716.941
+  angleY 156.815
+  {
+   GenericEntity {
+    ID "5D4539382387133B"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 2500
+        m_fResourceValueMax 2500
+        m_bEnableResourceGain 1
+        m_fResourceGain 10
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ Supply_MidCamp4 {
+  coords 3369.407 4.309 1973.966
+  angleY -148.962
+  {
+   GenericEntity {
+    ID "5D4539382387133B"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 2500
+        m_fResourceValueMax 2500
+        m_bEnableResourceGain 1
+        m_fResourceGain 10
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{E8B6339148792C0E}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_01.et" {
+ Supply_Camp2 {
+  coords 2468.261 88.063 1465.364
+  angleY -112.959
+  {
+   GenericEntity {
+    ID "5D45393FCDDCFA0B"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 1000
+        m_fResourceValueMax 1000
+        m_bEnableResourceGain 1
+        m_fResourceGain 10
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+    {
+     GenericEntity {
+      ID "5D45393FFA2FEF0F"
+      coords 0.593 -0.295 1.436
+     }
+    }
+   }
+   $grp GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    {
+     coords 0 0 0
+     angleY 0
+    }
+    {
+     coords 0 0 0
+     angleY 0
+    }
+   }
+  }
+ }
+ Supply_Camp3 {
+  coords 2040.078 43.755 2688.29
+  angleY 106.194
+  {
+   GenericEntity {
+    ID "5D45393FCDDCFA0B"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 1000
+        m_fResourceValueMax 1000
+        m_bEnableResourceGain 1
+        m_fResourceGain 10
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+ Supply_Camp4 {
+  coords 1184.919 38.298 2497.157
+  angleY 30.274
+  {
+   GenericEntity {
+    ID "5D45393FCDDCFA0B"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 1000
+        m_fResourceValueMax 1000
+        m_bEnableResourceGain 1
+        m_fResourceGain 10
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{8ED9F4336A1F1FB8}Prefabs/Supply_MapMarker.et" {
+    coords 0 0 0
+    angleY 0
+   }
+  }
+ }
+}

@@ -1,0 +1,3944 @@
+GenericEntity : "{76D4FE49EA6C57F3}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5D06E95ACF783B47}" {
+   "faction affiliation" "RHS_USAF"
+  }
+  SCR_EditableEntityComponent "{5E989B7C16B18B6A}" : "{2DB068D7C4410B5E}Prefabs/Editor/Components/SlotFlatLarge_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_LivingArea_L_US_01_Name"
+    Icon "{2BB9FACCC5A47EEB}UI/Imagesets/Conflict/services-icons-bw.imageset"
+    IconSetName "Barracks"
+    m_Image "{AEA04F2290A39063}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatLarge/E_LivingArea_L_US_01.edds"
+    m_sFaction "RHS_USAF"
+    m_aAuthoredLabels {
+     5 905 250 210 92 29
+    }
+    m_aAutoLabels {
+     1677929688
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{64F92B519298FB63}" {
+      m_BudgetType CAMPAIGN
+      m_Value 475
+     }
+     SCR_EntityBudgetValue "{64F92B519298FB6C}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{64F92B519298FB6A}" {
+      m_BudgetType SYSTEMS
+      m_Value 13
+     }
+     SCR_EntityBudgetValue "{64F92B519298FB68}" {
+      m_BudgetType PROPS
+      m_Value 492
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{64F92B519298FB73}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{64F92B519298FB7F}" {
+     m_Prefab "{77BBA2866AE3E861}PrefabsEditable/Auto/Structures/Signs/Military/Supplies/E_Sign_SupplyStorage_Supplies_US_01.et"
+     m_vPosition -14.767 0 2.429
+     m_vAngles 0.994 -3.084 0.799
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB79}" {
+     m_Prefab "{77BBA2866AE3E861}PrefabsEditable/Auto/Structures/Signs/Military/Supplies/E_Sign_SupplyStorage_Supplies_US_01.et"
+     m_vPosition -0.098 0 -13.892
+     m_vAngles 0.439 -3.352 1.21
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB78}" {
+     m_Prefab "{77BBA2866AE3E861}PrefabsEditable/Auto/Structures/Signs/Military/Supplies/E_Sign_SupplyStorage_Supplies_US_01.et"
+     m_vPosition 14.546 0 6.499
+     m_vAngles 1.027 55.219 1.801
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB86}" {
+     m_Prefab "{90652A7C293F44E1}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Barracks_US_02.et"
+     m_vPosition -7.705 0 0.501
+     m_vAngles 0 91 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB83}" {
+     m_Prefab "{3A64925BC81FC2C0}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_short_high_plastic.et"
+     m_vPosition -2.307 0 -20.47
+     m_vAngles 0 -1.946 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB8F}" {
+     m_Prefab "{3A64925BC81FC2C0}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_short_high_plastic.et"
+     m_vPosition 2.606 0 -20.474
+     m_vAngles 0 1.091 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB8D}" {
+     m_Prefab "{365E4BF1FFFD8B30}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Long.et"
+     m_vPosition -4.601 0 -21.235
+     m_vAngles 0 -86.224 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB8B}" {
+     m_Prefab "{365E4BF1FFFD8B30}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Long.et"
+     m_vPosition 4.379 0 -21.327
+     m_vAngles 0 -91.351 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB94}" {
+     m_Prefab "{365E4BF1FFFD8B30}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Long.et"
+     m_vPosition 11.572 0 18.048
+     m_vAngles 0 -77.163 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB93}" {
+     m_Prefab "{365E4BF1FFFD8B30}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Long.et"
+     m_vPosition -11.655 0 18.012
+     m_vAngles 0 -103.837 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB91}" {
+     m_Prefab "{F337792A8F2A669B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_brown.et"
+     m_vPosition -6.194 0.021 15.584
+     m_vAngles 0 49.752 90
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB9E}" {
+     m_Prefab "{F337792A8F2A669B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_brown.et"
+     m_vPosition -5.383 0.021 13.88
+     m_vAngles 0 -172.451 90
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB9D}" {
+     m_Prefab "{F337792A8F2A669B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_brown.et"
+     m_vPosition 11.467 0.021 -16.354
+     m_vAngles 0 -172.451 90
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB9B}" {
+     m_Prefab "{F337792A8F2A669B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_brown.et"
+     m_vPosition 10.558 0.021 -14.158
+     m_vAngles 0 73.891 90
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB9A}" {
+     m_Prefab "{F2AE5479B9F6889B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_green.et"
+     m_vPosition -7.944 0 12.538
+     m_vAngles 0 -99.446 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FB98}" {
+     m_Prefab "{F2AE5479B9F6889B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_green.et"
+     m_vPosition -8.373 0 12.331
+     m_vAngles 0 -99.446 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBA7}" {
+     m_Prefab "{F2AE5479B9F6889B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_green.et"
+     m_vPosition -8.474 0 12.581
+     m_vAngles 0 -99.446 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBA6}" {
+     m_Prefab "{F2AE5479B9F6889B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_green.et"
+     m_vPosition 8.477 0 -17.903
+     m_vAngles 0 -99.446 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBA4}" {
+     m_Prefab "{F2AE5479B9F6889B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_green.et"
+     m_vPosition 8.906 0 -17.696
+     m_vAngles 0 -99.446 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBAB}" {
+     m_Prefab "{F2AE5479B9F6889B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_green.et"
+     m_vPosition 8.376 0 -17.653
+     m_vAngles 0 -99.446 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBA9}" {
+     m_Prefab "{854FA41688492650}PrefabsEditable/Auto/Props/Garbage/Military/Food/E_GarbageFoodMilitaryUS_01.et"
+     m_vPosition -7.782 0.029 16.037
+     m_vAngles 0 -64.315 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBB6}" {
+     m_Prefab "{854FA41688492650}PrefabsEditable/Auto/Props/Garbage/Military/Food/E_GarbageFoodMilitaryUS_01.et"
+     m_vPosition -6.786 0.029 12.77
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBB5}" {
+     m_Prefab "{854FA41688492650}PrefabsEditable/Auto/Props/Garbage/Military/Food/E_GarbageFoodMilitaryUS_01.et"
+     m_vPosition 10.064 0.029 -17.464
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBB3}" {
+     m_Prefab "{854FA41688492650}PrefabsEditable/Auto/Props/Garbage/Military/Food/E_GarbageFoodMilitaryUS_01.et"
+     m_vPosition 9.068 0.029 -14.197
+     m_vAngles 0 -64.315 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBB2}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition 3.967 0.001 -20.518
+     m_vAngles 0 2.034 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBB0}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition -0.612 0.001 -20.363
+     m_vAngles 0 -2.291 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBBE}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition 0.953 0.001 -20.447
+     m_vAngles 0 180 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBBD}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition -4.05 0.001 -20.507
+     m_vAngles 0 -180 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBBC}" {
+     m_Prefab "{BCC37CB613A921AF}PrefabsEditable/Auto/Props/Military/Furniture/E_ChairMilitary_US_02.et"
+     m_vPosition -7.564 0 12.25
+     m_vAngles 0 14.836 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBB8}" {
+     m_Prefab "{BCC37CB613A921AF}PrefabsEditable/Auto/Props/Military/Furniture/E_ChairMilitary_US_02.et"
+     m_vPosition 7.748 0 -15.863
+     m_vAngles 0 87.855 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBC6}" {
+     m_Prefab "{FD625252F3654B76}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v1.et"
+     m_vPosition 10.102 0.001 17.02
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBC2}" {
+     m_Prefab "{FD625252F3654B76}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v1.et"
+     m_vPosition -9.392 0.001 16.729
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBC0}" {
+     m_Prefab "{FD625252F3654B76}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v1.et"
+     m_vPosition -5.621 0.001 -20.436
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBCF}" {
+     m_Prefab "{FD625252F3654B76}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v1.et"
+     m_vPosition 12.347 0.001 17.02
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBCE}" {
+     m_Prefab "{FD625252F3654B76}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v1.et"
+     m_vPosition -12.031 0.001 16.729
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBCC}" {
+     m_Prefab "{CF762AF14F9B09AD}PrefabsEditable/Auto/Props/Military/Compositions/US/E_PersonnelService_US_Large.et"
+     m_vPosition 3.134 0 2.072
+     m_vAngles 0 -84.328 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBCA}" {
+     m_Prefab "{46F077BDA1AF95B2}PrefabsEditable/Auto/Props/Industrial/E_BarrelFuel_01_closed.et"
+     m_vPosition -14.638 0 6.195
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBD6}" {
+     m_Prefab "{46F077BDA1AF95B2}PrefabsEditable/Auto/Props/Industrial/E_BarrelFuel_01_closed.et"
+     m_vPosition -15.244 0 6.574
+     m_vAngles 0 11.679 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBD5}" {
+     m_Prefab "{46F077BDA1AF95B2}PrefabsEditable/Auto/Props/Industrial/E_BarrelFuel_01_closed.et"
+     m_vPosition -14.646 0 6.979
+     m_vAngles 0 -48.445 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBD4}" {
+     m_Prefab "{420D708551FE043D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_single_plastic.et"
+     m_vPosition -6.386 0.199 17.15
+     m_vAngles 21.3 111.319 -42.947
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBD1}" {
+     m_Prefab "{420D708551FE043D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_single_plastic.et"
+     m_vPosition -6.743 0.001 17.484
+     m_vAngles 0 -180 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBE4}" {
+     m_Prefab "{420D708551FE043D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_single_plastic.et"
+     m_vPosition 7.488 0.001 17.496
+     m_vAngles -6.334 83.336 -43.357
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBE3}" {
+     m_Prefab "{420D708551FE043D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_single_plastic.et"
+     m_vPosition -7.851 0.001 17.552
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBE1}" {
+     m_Prefab "{420D708551FE043D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_single_plastic.et"
+     m_vPosition -8.507 0.13 17.247
+     m_vAngles -6.334 83.336 -43.357
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBEF}" {
+     m_Prefab "{420D708551FE043D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_single_plastic.et"
+     m_vPosition 7.979 0.001 17.671
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBEE}" {
+     m_Prefab "{420D708551FE043D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_single_plastic.et"
+     m_vPosition 2.933 0.106 17.427
+     m_vAngles 7.56 49.773 -36.132
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBED}" {
+     m_Prefab "{420D708551FE043D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_single_plastic.et"
+     m_vPosition -6.254 0.129 16.362
+     m_vAngles -3.596 -43.012 -39.785
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBEB}" {
+     m_Prefab "{420D708551FE043D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_single_plastic.et"
+     m_vPosition -1.968 0.106 16.434
+     m_vAngles 7.56 -169.784 -36.132
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBEA}" {
+     m_Prefab "{420D708551FE043D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_single_plastic.et"
+     m_vPosition -7.394 0.13 17.38
+     m_vAngles 73.919 -51.128 88.041
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBE8}" {
+     m_Prefab "{420D708551FE043D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_single_plastic.et"
+     m_vPosition -8.318 0.001 16.199
+     m_vAngles 0 15.537 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBF6}" {
+     m_Prefab "{75F9668525DAD38A}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Barracks_US_03.et"
+     m_vPosition -7.805 0 -8.716
+     m_vAngles 0 89.977 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBF2}" {
+     m_Prefab "{D0974856AF6DAE81}PrefabsEditable/Auto/Props/Military/Furniture/E_ChairMilitary_US_01.et"
+     m_vPosition -8.743 0.188 12.834
+     m_vAngles 89.952 -125.988 75.44
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBF0}" {
+     m_Prefab "{D0974856AF6DAE81}PrefabsEditable/Auto/Props/Military/Furniture/E_ChairMilitary_US_01.et"
+     m_vPosition -5.359 0 13.097
+     m_vAngles 0 -55.715 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBFF}" {
+     m_Prefab "{D0974856AF6DAE81}PrefabsEditable/Auto/Props/Military/Furniture/E_ChairMilitary_US_01.et"
+     m_vPosition -7.15 0 15.94
+     m_vAngles 0 178.44 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBFE}" {
+     m_Prefab "{D0974856AF6DAE81}PrefabsEditable/Auto/Props/Military/Furniture/E_ChairMilitary_US_01.et"
+     m_vPosition 8.416 0 -17.529
+     m_vAngles 0 22.3 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBFB}" {
+     m_Prefab "{D0974856AF6DAE81}PrefabsEditable/Auto/Props/Military/Furniture/E_ChairMilitary_US_01.et"
+     m_vPosition 10.138 0 -13.785
+     m_vAngles 0 -156.767 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBF9}" {
+     m_Prefab "{D0974856AF6DAE81}PrefabsEditable/Auto/Props/Military/Furniture/E_ChairMilitary_US_01.et"
+     m_vPosition 11.788 0.189 -15.529
+     m_vAngles 89.956 -125.988 -13.357
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298FBF8}" {
+     m_Prefab "{913666B24FA1C458}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v2.et"
+     m_vPosition 4.633 0 16.929
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F406}" {
+     m_Prefab "{913666B24FA1C458}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v2.et"
+     m_vPosition 7.406 0 16.924
+     m_vAngles 0 -4.31 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F404}" {
+     m_Prefab "{82DB57BBB46BF984}PrefabsEditable/Auto/Structures/Military/Camps/Canvas_Covers/US/E_CanvasCover_Medium_US.et"
+     m_vPosition -16.458 0 0.711
+     m_vAngles 0 90 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F402}" {
+     m_Prefab "{48CD43BD50B65ABD}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Barracks_US_04.et"
+     m_vPosition 7.955 0 8.499
+     m_vAngles 0 -90 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F400}" {
+     m_Prefab "{9FEBA85C09987EF6}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_03.et"
+     m_vPosition 0.038 0 -12.938
+     m_vAngles 0 77.711 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F40D}" {
+     m_Prefab "{1306D3BC30201B0F}PrefabsEditable/Auto/Structures/Signs/Military/E_SignFlag_US_01.et"
+     m_vPosition 3.671 0.001 16.935
+     m_vAngles -0.968 -2.617 0.697
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F40B}" {
+     m_Prefab "{796E3FDF20CD2136}PrefabsEditable/Auto/Systems/Compositions/GameLogic/E_GameLogic_RallyPoint.et"
+     m_vPosition 0.021 0 -0.227
+     m_vAngles 0 90 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F408}" {
+     m_Prefab "{FAADB985176246A6}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Chair_Light_US_01.et"
+     m_vPosition 3.038 0 0.972
+     m_vAngles 0 70.995 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F415}" {
+     m_Prefab "{4B4D51DA1B098F21}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Storage/E_Storage_Supplies_US_04.et"
+     m_vPosition -16.163 0.001 0.548
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F412}" {
+     m_Prefab "{90BD7DEFA921C518}PrefabsEditable/Auto/Props/Airport/GeneratorAirfield_US_01/E_GeneratorAirfield_US_01.et"
+     m_vPosition -15.085 0 -8.042
+     m_vAngles 0 -90 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F41F}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition -5.034 0.001 16.796
+     m_vAngles 0 -180 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F41D}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition 5.185 0.001 16.94
+     m_vAngles 0 -180 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F41B}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition -11.767 0.001 16.796
+     m_vAngles 0 180 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F41A}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition -4.078 0.001 16.796
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F418}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition -9.946 0.001 16.796
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F427}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition -5.731 0.001 -20.501
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F426}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition 0.4 0.001 -20.501
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F424}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition -6.899 0.001 -20.501
+     m_vAngles 0 -180 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F423}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition 5.346 0.001 -20.529
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F421}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition 13.015 0.001 17.025
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F420}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition 11.281 0.001 17.025
+     m_vAngles 0 180 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F42E}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition 6.325 0.001 16.94
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F42C}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition 9.357 0.001 17.025
+     m_vAngles 0 180 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F42A}" {
+     m_Prefab "{7A77E4A5057DE99D}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_02.et"
+     m_vPosition -6.967 0.1 13.874
+     m_vAngles 0 -43.5 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F428}" {
+     m_Prefab "{7A77E4A5057DE99D}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_02.et"
+     m_vPosition 9.859 0 -15.906
+     m_vAngles 0 -28.122 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F437}" {
+     m_Prefab "{7A77E4A5057DE99D}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_02.et"
+     m_vPosition -16.26 0 0.767
+     m_vAngles 0 -14.893 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F435}" {
+     m_Prefab "{7A77E4A5057DE99D}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_02.et"
+     m_vPosition 0.42 0.001 16.874
+     m_vAngles 0 49.538 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F433}" {
+     m_Prefab "{27CD03187956423F}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_brown.et"
+     m_vPosition -8.938 0 13.792
+     m_vAngles 0 37.258 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F431}" {
+     m_Prefab "{27CD03187956423F}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_brown.et"
+     m_vPosition -6.283 0 15.805
+     m_vAngles 0 13.12 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F44F}" {
+     m_Prefab "{27CD03187956423F}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_brown.et"
+     m_vPosition 7.912 0 -16.442
+     m_vAngles 0 37.258 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F44E}" {
+     m_Prefab "{27CD03187956423F}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_brown.et"
+     m_vPosition 10.567 0 -13.92
+     m_vAngles 0 37.258 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F44C}" {
+     m_Prefab "{AD510F445C53CDD6}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Barracks_US_05.et"
+     m_vPosition -7.674 0 8.365
+     m_vAngles 0 88.502 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F44A}" {
+     m_Prefab "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et"
+     m_vPosition -1.714 0 -21.281
+     m_vAngles 0 -90 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F448}" {
+     m_Prefab "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et"
+     m_vPosition 1.556 0 -21.281
+     m_vAngles 0 -90 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F456}" {
+     m_Prefab "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et"
+     m_vPosition -5.84 0 18.222
+     m_vAngles 0 -88.213 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F455}" {
+     m_Prefab "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et"
+     m_vPosition -8.99 0 18.292
+     m_vAngles 0 -90.357 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F453}" {
+     m_Prefab "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et"
+     m_vPosition 6.026 0 18.134
+     m_vAngles 0 -92.663 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F452}" {
+     m_Prefab "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et"
+     m_vPosition 9.116 0 18.13
+     m_vAngles 0 -88.213 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F451}" {
+     m_Prefab "{74493032D1576D9C}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Medium_Top_US.et"
+     m_vPosition 0.858 0.1 0
+     m_vAngles 0 91.455 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F45D}" {
+     m_Prefab "{FDA8F11B3BD0C445}PrefabsEditable/Auto/Props/Construction/CableReel/E_CableReelWooden_01.et"
+     m_vPosition -15.132 0 -10.425
+     m_vAngles 0 -50.058 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F45B}" {
+     m_Prefab "{3F47C82CE00E4AF6}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Storage/E_Storage_Supplies_Containers_US_01.et"
+     m_vPosition 15.66 0.001 -0.124
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F458}" {
+     m_Prefab "{9C1E4BBBCC6B673F}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Storage/E_Shelter_Supplies_US_01.et"
+     m_vPosition -2.388 0 -16.797
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F466}" {
+     m_Prefab "{9C1E4BBBCC6B673F}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Storage/E_Shelter_Supplies_US_01.et"
+     m_vPosition 2.395 0 -16.797
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F464}" {
+     m_Prefab "{74AA2A4B43445333}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v3.et"
+     m_vPosition -6.751 0 16.833
+     m_vAngles 0 -4.039 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F461}" {
+     m_Prefab "{74AA2A4B43445333}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v3.et"
+     m_vPosition -3.809 0 16.823
+     m_vAngles 0 2.248 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F46F}" {
+     m_Prefab "{74AA2A4B43445333}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v3.et"
+     m_vPosition 5.345 0 -20.554
+     m_vAngles 0 2.248 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F46E}" {
+     m_Prefab "{74AA2A4B43445333}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v3.et"
+     m_vPosition -2.98 0 -20.333
+     m_vAngles 0 -4.039 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F46C}" {
+     m_Prefab "{74AA2A4B43445333}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v3.et"
+     m_vPosition 2.613 0 -20.447
+     m_vAngles 0 2.248 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F46A}" {
+     m_Prefab "{74AA2A4B43445333}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v3.et"
+     m_vPosition -0.038 0 -20.343
+     m_vAngles 0 2.248 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F469}" {
+     m_Prefab "{3F30C1252C8E7DA5}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_CigarButts_01.et"
+     m_vPosition -6.469 0 15.725
+     m_vAngles 0 -56.604 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F477}" {
+     m_Prefab "{3F30C1252C8E7DA5}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_CigarButts_01.et"
+     m_vPosition -8.041 0 13.186
+     m_vAngles 0 -137.861 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F475}" {
+     m_Prefab "{3F30C1252C8E7DA5}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_CigarButts_01.et"
+     m_vPosition 10.381 0 -14.509
+     m_vAngles 0 -56.604 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F474}" {
+     m_Prefab "{3F30C1252C8E7DA5}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_CigarButts_01.et"
+     m_vPosition 8.809 0 -17.048
+     m_vAngles 0 -137.861 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F473}" {
+     m_Prefab "{D6F8A419B10274F2}PrefabsEditable/Auto/Props/Military/Camps/E_Duckboard_01.et"
+     m_vPosition 2.169 0 2.183
+     m_vAngles 0 10.909 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F470}" {
+     m_Prefab "{D6F8A419B10274F2}PrefabsEditable/Auto/Props/Military/Camps/E_Duckboard_01.et"
+     m_vPosition -0.15 0 6.304
+     m_vAngles 0 -7.031 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F47F}" {
+     m_Prefab "{D6F8A419B10274F2}PrefabsEditable/Auto/Props/Military/Camps/E_Duckboard_01.et"
+     m_vPosition -0.328 0 10.135
+     m_vAngles 0 4.472 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F47D}" {
+     m_Prefab "{D6F8A419B10274F2}PrefabsEditable/Auto/Props/Military/Camps/E_Duckboard_01.et"
+     m_vPosition 1.783 0 -10.791
+     m_vAngles 0 7.114 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F47C}" {
+     m_Prefab "{D6F8A419B10274F2}PrefabsEditable/Auto/Props/Military/Camps/E_Duckboard_01.et"
+     m_vPosition 2.066 0 -6.792
+     m_vAngles 0 -1.34 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F47B}" {
+     m_Prefab "{D6F8A419B10274F2}PrefabsEditable/Auto/Props/Military/Camps/E_Duckboard_01.et"
+     m_vPosition 8.082 0 13.822
+     m_vAngles 0 85.806 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F479}" {
+     m_Prefab "{8A6EA240AC41C083}PrefabsEditable/Auto/Structures/Signs/Military/SignRectangle_01_140x100/E_Sign_BaseEntrance_US_01.et"
+     m_vPosition -3.133 0.001 16.856
+     m_vAngles 0.93 3.453 -0.979
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F487}" {
+     m_Prefab "{FC311E9C95FBCBCF}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Barracks_US_01.et"
+     m_vPosition 7.945 0 -0.377
+     m_vAngles 0 -88.77 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F486}" {
+     m_Prefab "{2521D0D11FB543C7}PrefabsEditable/Auto/Props/Civilian/E_Fireplace_01.et"
+     m_vPosition -6.912 0 13.797
+     m_vAngles 0 43.541 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F483}" {
+     m_Prefab "{2521D0D11FB543C7}PrefabsEditable/Auto/Props/Civilian/E_Fireplace_01.et"
+     m_vPosition 9.833 0 -15.821
+     m_vAngles 0 -33.664 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F482}" {
+     m_Prefab "{E576725E0B8ECB94}PrefabsEditable/Auto/Props/Military/WaterTanks/E_MobileWaterTank_US_01.et"
+     m_vPosition -2.594 0 5.833
+     m_vAngles 0 -150 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F480}" {
+     m_Prefab "{910D0810DB232ED5}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_LoiterPoint.et"
+     m_vPosition 11.762 0.001 15.716
+     m_vAngles 0 86.955 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F48E}" {
+     m_Prefab "{910D0810DB232ED5}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_LoiterPoint.et"
+     m_vPosition 9.91 0.001 -17.895
+     m_vAngles 0 -94.999 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F48C}" {
+     m_Prefab "{910D0810DB232ED5}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_LoiterPoint.et"
+     m_vPosition -5.166 0.001 14.558
+     m_vAngles 0 154.678 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F48B}" {
+     m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
+     m_vPosition -2.729 0 8.733
+     m_vAngles 0 -48.215 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F497}" {
+     m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
+     m_vPosition -2.878 0 -8.778
+     m_vAngles 0 -12.98 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F496}" {
+     m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
+     m_vPosition 2.988 0 -8.469
+     m_vAngles 0 -12.98 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F495}" {
+     m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
+     m_vPosition 2.974 0 -0.097
+     m_vAngles 0 -12.98 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F494}" {
+     m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
+     m_vPosition 2.878 0 8.86
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F493}" {
+     m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
+     m_vPosition -0.033 0 12.986
+     m_vAngles 0 11.062 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F491}" {
+     m_Prefab "{C1053BA4E09742F8}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Barracks_US_06.et"
+     m_vPosition 7.821 0 -8.679
+     m_vAngles 0 -90.389 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F490}" {
+     m_Prefab "{801ED7BC8CEAB598}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Footprints_02.et"
+     m_vPosition 2.192 0 -2.985
+     m_vAngles 0 -90.106 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F49D}" {
+     m_Prefab "{801ED7BC8CEAB598}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Footprints_02.et"
+     m_vPosition 2.4 0 -1.401
+     m_vAngles 0 -68.178 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F49B}" {
+     m_Prefab "{801ED7BC8CEAB598}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Footprints_02.et"
+     m_vPosition 2.706 0 -0.04
+     m_vAngles 0 14.101 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F499}" {
+     m_Prefab "{801ED7BC8CEAB598}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Footprints_02.et"
+     m_vPosition 0.384 0 3.283
+     m_vAngles 0 -131.828 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F4A7}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition -1.637 0.001 15.122
+     m_vAngles 0 -76.655 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F4A4}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition -6.362 0.001 -18.559
+     m_vAngles 0 97.94 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F4A3}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition -12.961 0.001 15.142
+     m_vAngles 0 -96.384 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F4A2}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition 2.492 0.001 15.669
+     m_vAngles 0 -100.472 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F4A0}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition 15.451 0.001 -11.335
+     m_vAngles 0 91.471 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F4AF}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition -9.008 0.001 14.862
+     m_vAngles 0 11.458 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F4AE}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition 8.435 0.001 -14.368
+     m_vAngles 0 42.903 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{64F92B519298F4AD}" {
+     m_Prefab "{C9D925EE8FA5BEA3}PrefabsEditable/Auto/Props/Military/E_FieldKitchenTrailerUS_01.et"
+     m_vPosition 8.579 0 15.533
+     m_vAngles 0 86.303 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GameEntity {
+   ID "5D0A8E5C8B14AEB6"
+   Flags 1048576
+  }
+  GameEntity {
+   ID "5D0CC9D2A9422BD7"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14A90F"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56E0B29E01E2AC90"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14A923"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14A937"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14A950"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DF08929A14FB98"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14A966"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DF08929A14FB98"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14A97A"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DF08929A14FB98"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14A9BD"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DF08929A14FB98"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AB2C"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5CB6B284E999C100"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F584A9457E92"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F584A9457E98"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CB6B284E999C11F"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CB6B284E999C135"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CB6B284E999C136"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58A91A6F581"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58A91A6F589"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58A91A6F594"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CB6B284E999C162"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CB6B284E999C166"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CB6B284E999C17C"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5D2262BCF81469CF"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5DCAAA1F5B5A57D9"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB6B284E99923C6"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5A3C89682DFDAA01"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416286F4114"
+       Flags 1048576
+       {
+        StaticModelEntity {
+         ID "5D44C2DB95A68590"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B37017"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C2DB95A685B0"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AC9CA9"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD3033981E"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AF877B"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21AF877A"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+          StaticModelEntity {
+           ID "5D44AE1C21AF877C"
+           Flags 1048576
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD925DE682"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B12310"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21B12312"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      StaticModelEntity {
+       ID "5D466416345A60A8"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416345A60C6"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDF19"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDFFA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E9993C2C"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB6B284E9993C2F"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C106"
+     Flags 1048576
+     {
+      StaticModelEntity {
+       ID "5CB6B2A954F8B1AA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C10B"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F5876CDBA5BB"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C10D"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C10F"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F587418A3435"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C112"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F5854F1F610B"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6114"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6115"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6116"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C114"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0D99099663927"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C116"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0D9967C546DB8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D9967C546DBC"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C11B"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F587B5DF13BA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C11E"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58AFEACBA93"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C132"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C133"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C13F"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C16A"
+     Flags 1048576
+     {
+      StaticModelEntity {
+       ID "5CB6B2A875EEB12B"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C16E"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F588D18CE7A7"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C170"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C173"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C177"
+     Flags 1048576
+     {
+      StaticModelEntity {
+       ID "5CB6B2A954F8B1AA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C179"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0F58470103A03"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58470103A05"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58470103A07"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C17A"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0F585D17B3D86"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F585D17B3DB8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F585D17B3DBC"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CB6B284E999C17F"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AE0D"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AE22"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5D1ED93D3C7A094C"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5D82CDCACC77FB9A"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5D82CDCAC3BBC5C0"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5C3"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5C8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5CA"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5CD"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5D0"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5D1"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5D3"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5D5"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5D6"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5D06E95E15A7FCE0"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5A532DC5FADC4919"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5A532DC5FADC4941"
+       Flags 1048576
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AE41"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AE51"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AE61"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AE94"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A9499F9B"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AECA"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AEDF"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AEF7"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AF88"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AF99"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AFEA"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B14AFF9"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B152403"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5CC489A31F080801"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0D990B6C742C8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CA"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CB"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C890"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C896"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CC489A31F080808"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0D990B6C742C8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CA"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CB"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C890"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C896"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CC489A31F080810"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489A31F080811"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489A31F080812"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489A31F080814"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489A31F080817"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489A31F080818"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489A31F08081A"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489A31F080832"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0D990B6C742C8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CA"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CB"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C890"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C896"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CC489A31F080835"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0D990B6C742C8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CA"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CB"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C890"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C896"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CC489A31F08083B"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489A31F0808EC"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489A31F0808ED"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5DCAAA1E1AF05A87"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489A31F080822"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489A31F080826"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F584FC47C9CE"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489A31F08082E"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58E52382A89"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58E52382A8B"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58E52382A8D"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58E52382A8F"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489A31F08083C"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489A31F08083F"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489A31F080842"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489A31F08084B"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F5854F1F610B"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6114"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6115"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6116"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489A31F08084D"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F588D18CE7A7"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489A31F080850"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58E00FB18C5"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58E00FB18F9"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489A31F080855"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0D9967C546DB8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D9967C546DBC"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489A31F080858"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489A31F080859"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489A31F08085C"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489A31F08085F"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489A31F08086D"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5A3C89682DFDAA01"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416286F4114"
+       Flags 1048576
+       {
+        StaticModelEntity {
+         ID "5D44C2DB95A68590"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B37017"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C2DB95A685B0"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AC9CA9"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD3033981E"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AF877B"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21AF877A"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+          StaticModelEntity {
+           ID "5D44AE1C21AF877C"
+           Flags 1048576
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD925DE682"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B12310"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21B12312"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      StaticModelEntity {
+       ID "5D466416345A60A8"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416345A60C6"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDF19"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDFFA"
+       Flags 1048576
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B152693"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B1526FE"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5CC4A42EACCC4C35"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0F589F6F73C99"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F589F6F73C91"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F589F6F73C95"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F589F6F73C96"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F589F6F73C97"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F589F6F73C9C"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5CB0F589F6F73C9B"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5CB0F589F6F73CE5"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CC4A42EACCD2E51"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC4A42EACCD39A2"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC4A42EACCD39A3"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC4A42EACCD39A5"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0D990B6C742C8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CA"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CB"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C890"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C896"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CC4A42EACCD39B9"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0D990B6C742C8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CA"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CB"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C890"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C896"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CC4A42EACCD39BD"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0D990B6C742C8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CA"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6C742CB"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C890"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0D990B6D8C896"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CC4A42EACCDACC6"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC4A42EACCDACC7"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC4A42EACCDACCC"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F584A9457E92"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F584A9457E98"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CC4A42EACCDACD3"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58A91A6F581"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58A91A6F589"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58A91A6F594"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5DCAAA11EB14712C"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCC4C00"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58459AC3850"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCC4C07"
+     Flags 1048576
+     {
+      StaticModelEntity {
+       ID "5CB6B2A954F8B1AA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCC4C08"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCC4C09"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCC4C0E"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCC4C0F"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCC4C3D"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58E9D03BDC0"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCC4CDC"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5A3C89682DFDAA01"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416286F4114"
+       Flags 1048576
+       {
+        StaticModelEntity {
+         ID "5D44C2DB95A68590"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B37017"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C2DB95A685B0"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AC9CA9"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD3033981E"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AF877B"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21AF877A"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+          StaticModelEntity {
+           ID "5D44AE1C21AF877C"
+           Flags 1048576
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD925DE682"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B12310"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21B12312"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      StaticModelEntity {
+       ID "5D466416345A60A8"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416345A60C6"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDF19"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDFFA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCD2E5C"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58E00FB18C5"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58E00FB18F9"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCD39B3"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58AFEACBA93"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCD39B4"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCD39B6"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F587B5DF13BA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCDACBF"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCDACC1"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC4A42EACCDACC2"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "59D87A7B48AC79B6"
+       Flags 1048576
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B1528B5"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5CC2D58B8AB820A2"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC2D58B8AB820A6"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC2D58B8AB820AC"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC2D58B8AB820B1"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC2D58B8AB820B5"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC2D58B8AB820B7"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC2D58B8AB820BB"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC2D58B8AB820BE"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5DCAAA1F2D3049AA"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB82001"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F5876CDBA5BB"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB82009"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F588D18CE7A7"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB82010"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB82014"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB82016"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB82018"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB8201A"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB82024"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CC2D59813FDA583"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CC2D59813FDA59F"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5CC2D59813FDA586"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB82035"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F5854F1F610B"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6114"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6115"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6116"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB8208C"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5A3C89682DFDAA01"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416286F4114"
+       Flags 1048576
+       {
+        StaticModelEntity {
+         ID "5D44C2DB95A68590"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B37017"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C2DB95A685B0"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AC9CA9"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD3033981E"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AF877B"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21AF877A"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+          StaticModelEntity {
+           ID "5D44AE1C21AF877C"
+           Flags 1048576
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD925DE682"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B12310"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21B12312"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      StaticModelEntity {
+       ID "5D466416345A60A8"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416345A60C6"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDF19"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDFFA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820A9"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820AA"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820C0"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820CB"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58E9D03BDC0"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820CD"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58A2D4BCA16"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820D1"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58E9D03BDC0"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820D5"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58A1F654E85"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820DC"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0F587170C0F8B"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F587170C0F88"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820E1"
+     Flags 1048576
+     {
+      StaticModelEntity {
+       ID "5CB6B2A875EEB12B"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820E8"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F584FC47C9CE"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820ED"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0D99099663927"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820F7"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58AFEACBA93"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC2D58B8AB820F9"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F587B5DF13BA"
+       Flags 1048576
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B152A87"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5CC489ADCFBD34A9"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489ADCFBD34AD"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58A91A6F581"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58A91A6F589"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58A91A6F594"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CC489ADCFBD34D1"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F584A9457E92"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F584A9457E98"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5CC489ADCFBD34D4"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489ADCFBD34F8"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58EB691FB83"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58EB691FB86"
+       Flags 1048576
+       {
+        GenericEntity {
+         ID "5CB0D990B6C742C8"
+         Flags 1048576
+        }
+        GenericEntity {
+         ID "5CB0D990B6C742CA"
+         Flags 1048576
+        }
+        GenericEntity {
+         ID "5CB0D990B6C742CB"
+         Flags 1048576
+        }
+        GenericEntity {
+         ID "5CB0D990B6D8C890"
+         Flags 1048576
+        }
+        GenericEntity {
+         ID "5CB0D990B6D8C896"
+         Flags 1048576
+        }
+       }
+      }
+      GenericEntity {
+       ID "5CB0F58EB691FB8E"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58EB691FBA9"
+       Flags 1048576
+       {
+        GenericEntity {
+         ID "5CB0D990B6C742C8"
+         Flags 1048576
+        }
+        GenericEntity {
+         ID "5CB0D990B6C742CA"
+         Flags 1048576
+        }
+        GenericEntity {
+         ID "5CB0D990B6C742CB"
+         Flags 1048576
+        }
+        GenericEntity {
+         ID "5CB0D990B6D8C890"
+         Flags 1048576
+        }
+        GenericEntity {
+         ID "5CB0D990B6D8C896"
+         Flags 1048576
+        }
+       }
+      }
+      GenericEntity {
+       ID "5CB0F58EB691FBAB"
+       Flags 1048576
+       {
+        GenericEntity {
+         ID "5C64CB17312C16AE"
+         Flags 1048576
+        }
+       }
+      }
+      GenericEntity {
+       ID "5CB0F58EB691FBB1"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58EB691FBB2"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58EB691FBB3"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58EB691FBB5"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58EB691FBBD"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5DCAAA1F11F57F67"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD3480"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5A3C89682DFDAA01"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416286F4114"
+       Flags 1048576
+       {
+        StaticModelEntity {
+         ID "5D44C2DB95A68590"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B37017"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C2DB95A685B0"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AC9CA9"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD3033981E"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AF877B"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21AF877A"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+          StaticModelEntity {
+           ID "5D44AE1C21AF877C"
+           Flags 1048576
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD925DE682"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B12310"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21B12312"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      StaticModelEntity {
+       ID "5D466416345A60A8"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416345A60C6"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDF19"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDFFA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD3484"
+     Flags 1048576
+     {
+      StaticModelEntity {
+       ID "5CB6B2A875EEB12B"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD3489"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0D99099663927"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD348B"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F584FC47C9CE"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD348D"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58AFEACBA93"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD348F"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F587B5DF13BA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34A0"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34A2"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CC2D59813FDA583"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CC2D59813FDA59F"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5CC2D59813FDA586"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34A6"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0D99099663927"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34AA"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58E9D03BDC0"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34B1"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0F585D17B3D86"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F585D17B3DB8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F585D17B3DBC"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34B4"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58A2D4BCA16"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34B8"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F588D18CE7A7"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34BA"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34C3"
+     Flags 1048576
+     {
+      StaticModelEntity {
+       ID "5CB6B2A954F8B1AA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34D7"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34D8"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489ADCFBD34D9"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0A8E5C8B152B99"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5CC489AFFE8D7F89"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489AFFE8D7F8A"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489AFFE8D7F8C"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CC489AFFE8D7FB1"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58A91A6F581"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58A91A6F589"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F58A91A6F594"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5DCAAA1E0C199683"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FA0"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FA2"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F587418A3435"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FA4"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CC2D59813FDA583"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CC2D59813FDA59F"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5CC2D59813FDA586"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FA5"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FA8"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FAA"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FAB"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FAD"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F588D18CE7A7"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FB4"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58AFEACBA93"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FB8"
+     Flags 1048576
+     {
+      GameEntity {
+       ID "5CB0D99099663927"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FBA"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F587B5DF13BA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FBF"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F58E9D03BDC0"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FCD"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5A3C89682DFDAA01"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416286F4114"
+       Flags 1048576
+       {
+        StaticModelEntity {
+         ID "5D44C2DB95A68590"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B37017"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C2DB95A685B0"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AC9CA9"
+             Flags 1048576
+            }
+           }
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD3033981E"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21AF877B"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21AF877A"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+          StaticModelEntity {
+           ID "5D44AE1C21AF877C"
+           Flags 1048576
+          }
+         }
+        }
+        StaticModelEntity {
+         ID "5D44C7DD925DE682"
+         Flags 1048576
+         {
+          StaticModelEntity {
+           ID "5D38E5916001C17C"
+           Flags 1048576
+           {
+            StaticModelEntity {
+             ID "5D44AE1C21B12310"
+             Flags 1048576
+             {
+              StaticModelEntity {
+               ID "5D44AE1C21B12312"
+               Flags 1048576
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      StaticModelEntity {
+       ID "5D466416345A60A8"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416345A60C6"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDF19"
+       Flags 1048576
+      }
+      StaticModelEntity {
+       ID "5D466416773DDFFA"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5CC489AFFE8D7FD6"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5CB0F5854F1F610B"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6114"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6115"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5CB0F5854F1F6116"
+       Flags 1048576
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422A07"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422A12"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422A21"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422A54"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422A85"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422AA1"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422AB4"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422AC0"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422AD6"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422AE2"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422AF1"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422B32"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422B8C"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A9499F9B"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422BCC"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422BE6"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422C1C"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422CE9"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422D0A"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422D12"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422D1F"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422D24"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422D36"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422D4B"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422D59"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422D88"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422DBF"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A9499F9B"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422DC9"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422DDD"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422DE7"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422DFA"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422E08"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422E19"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422E25"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422E35"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422E4B"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422E5A"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422E62"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A9499F9B"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422E85"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422E99"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422EA9"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422EB1"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422EBD"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422EC7"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422EDA"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422EEF"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422EF0"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422EFD"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9422F9A"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9423113"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A942311C"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A942312B"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9423132"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9423139"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9423141"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A942314D"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A9423154"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A942316B"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A942317E"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A94231AE"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A94231BE"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A94231C7"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A94231DB"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A94231E2"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D0CC9D2A94231F0"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D1EB45E30138985"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D1EB45E30138995"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D1EB45E301389A5"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D1EB45E301389C6"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D1EB45E301389D4"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D1EB45E301389DA"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D1EB45E301389F1"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D1EB45E30138A35"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D1ED93CFFD779A0"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5D1ED93D3C7A094C"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5D82CDCACC77FB9A"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5D82CDCAC3BBC5C0"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5C3"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5C8"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5CA"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5CD"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5D0"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5D1"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5D3"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5D5"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5D82CDCAC3BBC5D6"
+       Flags 1048576
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "5D06E95E15A7FCE0"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5A532DC5FADC4919"
+       Flags 1048576
+      }
+      GenericEntity {
+       ID "5A532DC5FADC4941"
+       Flags 1048576
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D22B92DE81D7971"
+   components {
+    SCR_FactionAffiliationComponent "{5D22B92ED7E59790}" {
+     "faction affiliation" "RHS_USAF"
+    }
+   }
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D24733BA02CEA96"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D45393DE220C780"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5D45393E0B3C6D2D"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5D45393E0B3C6D2F"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D45393E27E7F1AF"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5D45393E54132E60"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5D45393E54132E62"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5D45393E54132E65"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5D45393E54132E68"
+     Flags 1048576
+     {
+      GenericEntity {
+       ID "5D3085BCA5EF72EE"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393E54132E6E"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E3303B1820867AC"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5E3303B1820867DC"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5E3303B1820867E0"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5E5CB309775C55C5"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5E5CB309775C55FC"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0A8E5C8B14AE71"
+   Flags 1048576
+   {
+    GameEntity {
+     ID "5CB0D99099663927"
+     Flags 1048576
+    }
+   }
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422A44"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422A64"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422A7A"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422A92"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422B94"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422C2F"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422C32"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422C3C"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422C4E"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422C6F"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422C7E"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422C87"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422C91"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422CA0"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422CC2"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422CCC"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422CD1"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422CF9"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422D61"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422D77"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422DD1"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422F09"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422F1E"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422F25"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422F3B"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422F46"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422F54"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422F60"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422F73"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422FBD"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5D0CC9D2A9422FED"
+   Flags 1048576
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{33D9A11604A71629}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_RHS_USAF_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

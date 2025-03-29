@@ -1,6 +1,16 @@
 GameEntity {
  ID "633A0515F2F8A9CB"
  components {
+  SCR_ItemOutfitFactionComponent "{64F9210F33E8FF07}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64F9210F328FC50E}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64F9210F2BD848C0}" {
+      m_AffiliatedFactionKey "USSR"
+      m_iOutfitFactionValue 100
+     }
+    }
+   }
+  }
   BaseLoadoutClothComponent "{633A0515F2F8A9FE}" {
    AreaType ZEL_HeadArea "{633A0515F2F8A9FC}" {
    }

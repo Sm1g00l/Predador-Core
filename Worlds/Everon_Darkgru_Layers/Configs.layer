@@ -24,6 +24,9 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
    m_CallInSupportsConfig SCR_CallInSupportContainerConfig "{64C92B1483D36A0C}" : "{ED5489752D60223E}Configs/Systems/RHS_CallIn/CallInSupportContainers_PredConfig.conf" {
    }
   }
+  SCR_CampaignBuildingManagerComponent "{5C6878C4C62529D2}" {
+   m_sPrefabsToBuildResource "{A707690C9F517153}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding_US_and_AFRF.conf"
+  }
   SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
    m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
   }
@@ -37,6 +40,9 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
  }
  coords 26.726 0 10.962
  m_iControlPointsThreshold 6
+ m_sBLUFORFactionKey "RHS_USAF"
+ m_sOPFORFactionKey "RHS_AFRF"
+ m_sINDFORFactionKey "RHS_ION"
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 20.291 0 5.837

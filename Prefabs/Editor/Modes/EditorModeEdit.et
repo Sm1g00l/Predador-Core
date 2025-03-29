@@ -3,13 +3,25 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
  components {
   SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
    m_Registries {
-    SCR_PlaceableEntitiesRegistry "{64EEF25C448676C2}" {
-     m_sSourceDirectory "{CED9D96EBD480929}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall"
+    SCR_PlaceableEntitiesRegistry "{64F92B5E8834F361}" {
+     m_sSourceDirectory "{E16FD1E48520C059}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium"
      m_Prefabs {
-      "{2BE937A48BAE7083}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_US_01_1K.et" "{FF2040BF02335F1A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_USSR_01_1K.et"
+      "{873A8FEAB83EF83B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_FieldHospital_M_RHS_AFRF_01.et" "{93C2D2218D8A5945}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_FieldHospital_M_RHS_USAF_01.et" "{A8799312B41F111D}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_RHS_AFRF_01.et" "{BC81CED981ABB063}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_RHS_USAF_01.et"
      }
     }
-    SCR_PlaceableEntitiesRegistry "{64C6F5E4D06E49D8}" : "{786E746E3CB9F5DD}Configs/Editor/PlaceableEntities/Vehicles/TF_Vehicles.conf" {
+    SCR_PlaceableEntitiesRegistry "{64F92B5151C1A07C}" {
+     m_sSourceDirectory "{CED9D96EBD480928}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall"
+     m_Prefabs {
+      "{CAD75AAF11F47A18}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_RHS_AFRF_01.et" "{DE2F07642440DB66}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_RHS_USAF_01.et" "{9F017A92972028BD}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_RHS_AFRF_01.et" "{8BF92759A29489C3}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_RHS_USAF_01.et" "{2BE937A48BAE7083}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_US_01_1K.et" "{FF2040BF02335F1A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_USSR_01_1K.et" "{D7A05D4B383B9F65}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_RHS_AFRF_01.et" "{C35800800D8F3E1B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_RHS_USAF_01.et" "{B7C192A187C8E118}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_RHS_AFRF_01.et" "{A339CF6AB27C4066}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_RHS_USAF_01.et" "{2721FCDD3113B757}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_RHS_AFRF_01.et" "{33D9A11604A71629}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_RHS_USAF_01.et" "{2B78D6C308443FB2}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_RHS_AFRF_01.et" "{3F808B083DF09ECC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_RHS_USAF_01.et" "{D0D045EC464371FC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MortarPlacement_S_RHS_USAF_01.et" "{E548969EDB38C935}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_RHS_AFRF_01.et" "{F1B0CB55EE8C684B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_RHS_USAF_01.et"
+     }
+    }
+    SCR_PlaceableEntitiesRegistry "{64F92B515289110D}" {
+     m_sSourceDirectory "{74C67F9D02598B21}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge"
+     m_Prefabs {
+      "{26E54E33CC3763B0}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_RHS_AFRF_01.et" "{321D13F8F983C2CE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_RHS_USAF_01.et" "{411E9E621246C263}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_LivingArea_L_RHS_AFRF_01.et" "{55E6C3A927F2631D}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_LivingArea_L_RHS_USAF_01.et"
+     }
+    }
+    SCR_PlaceableEntitiesRegistry "{64C6F5E4D06E49D8}" {
      m_sAddon "PredadorCore"
      m_sSourceDirectory "{77DE105F55835544}Prefabs/MP/Campaign/Assets"
      m_Prefabs {

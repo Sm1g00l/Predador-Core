@@ -1,15 +1,11 @@
 SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
  ID "56B2B4776E6E4499"
  Factions {
-  SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{571C6C517EAF8447}Configs/Factions/Predador_RHS_RF_Campaign.conf" {
-   FactionKey "USSR"
-   m_FactionLabel FACTION_USSR
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" : "{A53F1E251C2F124F}Configs/Factions/Predador_RHS_US_USMC_Campaign.conf" {
   }
-  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{A53F1E251C2F124F}Configs/Factions/Predador_RHS_US_USMC_Campaign.conf" {
-   FactionKey "US"
-   m_FactionLabel FACTION_US
+  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{571C6C517EAF8447}Configs/Factions/Predador_RHS_RF_Campaign.conf" {
   }
-  SCR_CampaignFaction "{631F64A46F1054C9}" : "{F98479411B808D06}Configs/Factions/FIA_Campaign_PredSup.conf" {
+  SCR_CampaignFaction "{631F64A46F1054C9}" : "{8E7BB78BB1A63C41}Configs/Factions/RHS_ION_IA.conf" {
   }
   SCR_Faction "{631157749B43D49F}" : "{917D5DB8A769569E}Configs/Factions/PredSup_MSVxUSSR_CIV.conf" {
   }

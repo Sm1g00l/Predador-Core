@@ -1,0 +1,1214 @@
+GenericEntity {
+ components {
+  MeshObject "{64C406461993F071}" {
+   Object "{5102DBF98C093773}Assets/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_straight.xob"
+  }
+ }
+ coords 2996.147 49.717 2110.013
+ angleY -101
+}
+PolylineShapeEntity {
+ coords 2459.576 140.987 2194.261
+ Points {
+  ShapePoint "{6326273306A9AB55}" {
+   Position 5.119 0.734 0.015
+  }
+  ShapePoint "{6326273307C79A26}" {
+   Position 68.586 -0.844 7.854
+  }
+  ShapePoint "{632627331C39AACB}" {
+   Position 93.796 -4.873 -1.633
+  }
+  ShapePoint "{632627331F3BED1D}" {
+   Position 109.501 -8.127 28.931
+  }
+  ShapePoint "{632627331190244F}" {
+   Position 88.426 0.441 53.92
+  }
+  ShapePoint "{6326273312EC622B}" {
+   Position 90.594 -3.643 103.259
+  }
+  ShapePoint "{6326273316E9AD43}" {
+   Position 92.499 -7.588 147.988
+  }
+  ShapePoint "{6326273316DD2CCE}" {
+   Position 43.002 -4.935 158.569
+  }
+  ShapePoint "{632627336CA4D104}" {
+   Position 25.963 -0.874 132.88
+  }
+  ShapePoint "{63262733604816F5}" {
+   Position -12.044 -12.059 96.878
+  }
+  ShapePoint "{63262733603B9251}" {
+   Position -12.044 -12.059 96.877
+  }
+  ShapePoint "{6326273361D97C8C}" {
+   Position -50.074 -19.41 71.007
+  }
+  ShapePoint "{63262733633F96C4}" {
+   Position -33.799 -15.45 3.925
+  }
+ }
+ IsClosed 1
+ LineColor 0 0 0 0
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{019E4E540652B141}Prefabs/Rocks/Granite/GraniteRock_02_Forest.et" {
+ {
+  coords 2556.36 131.878 2264.012
+  angleZ 30.482
+ }
+ {
+  coords 2553.569 133.011 2277.588
+  angleX -28.747
+  angleY 68.739
+  angleZ 10.6
+ }
+ {
+  coords 2557.43 130.293 2273.09
+  angleX -4.317
+  angleY 58.659
+  angleZ 2.625
+  scale 1.44
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{038844285FEE0D7A}Prefabs/Rocks/Granite/GraniteStone_01.et" {
+ {
+  Flags 1027
+  coords 2559.58 132.046 2327.849
+  angleX -8.567
+  angleY 85.448
+  angleZ 4.289
+  scale 1.188
+ }
+ {
+  Flags 1027
+  coords 2558.613 131.747 2329.702
+  angleX -8.567
+  angleY 85.448
+  angleZ 4.289
+  scale 1.188
+ }
+ {
+  Flags 1027
+  coords 2541.567 136.41 2342.655
+  angleX -8.513
+  angleY 84.723
+  angleZ 4.396
+  scale 2.15
+ }
+}
+GenericEntity : "{0739CFE438E8DDF1}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Tracks_03.et" {
+ coords 3016.28 48.801 2135.065
+ angleY 24.01
+ scale 1.61
+}
+GenericEntity : "{07B8390A85FAAF82}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadLarge/E_Checkpoint_L_US_01.et" {
+ coords 2853.689 66.162 2122.763
+ angleX 3.191
+ angleY -137.974
+ angleZ 0.467
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{11433114A765C14F}PrefabLibrary/Rocks/Granite/GraniteRock_02/GraniteRock_02.et" {
+ {
+  coords 2438.923 131.448 2211.708
+  angleY 158.726
+  angleZ 45.882
+ }
+ {
+  coords 2420.356 127.304 2242.648
+  angleY -120.19
+ }
+ {
+  coords 2477.329 135.459 2315.011
+  angleY -140.826
+ }
+ {
+  coords 2468.359 137.639 2276.281
+ }
+ {
+  coords 2480.051 137.662 2297.028
+ }
+}
+GenericEntity : "{19825AC4E9EBF34A}Prefabs/Structures/BuildingParts/Entry/Doorstep_02_Stairs.et" {
+ coords 2548.885 146.746 2318.715
+}
+SCR_DestructibleBuildingEntity : "{1982A8DD680C416B}PrefabLibrary/Structures/Military/GuardTower_01.et" {
+ coords 2474.481 0.801 2886.386
+ angleY -51.654
+}
+GenericEntity : "{1BED8F81D2FA2137}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_US_01.et" {
+ coords 1164.032 1.031 3329.543
+ angleY -94.872
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{1FFB6B5828D2B35F}Prefabs/Rocks/Granite/GraniteRock_03.et" {
+ {
+  coords 2486.398 141.387 2278.274
+  angleY -149.667
+ }
+ {
+  coords 2551.258 140.722 2276.318
+  angleX -68.877
+  angleY 79.125
+  angleZ 7.652
+ }
+ {
+  coords 2546.695 136.629 2263.115
+  angleX -10.764
+  angleY 82.366
+  angleZ -3.586
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{270493CAE0CF24E4}PrefabLibrary/Structures/Landmarks/Castle_01_Tower.et" {
+ {
+  coords 2420.806 -3.131 2247.667
+  angleY 0
+ }
+ {
+  coords 2552.034 -0.984 2330.393
+  angleY 137.173
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{2744DB5B79E2F462}PrefabLibrary/Rocks/Granite/GraniteCliff_03/GraniteCliff_03.et" {
+ {
+  coords 2998.516 41.804 2092.347
+  angleY 131.629
+  scale 0.48
+ }
+ {
+  coords 2416.018 108.277 2225.59
+  angleY -93.19
+ }
+ {
+  coords 2465.66 125.303 2283.65
+  angleY -62.54
+ }
+ {
+  coords 2471.133 132.446 2292.096
+  angleX -0.261
+  angleY -73.103
+  angleZ 89.091
+ }
+}
+StaticModelEntity : "{2CF6244D6C76F560}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_straight.et" {
+ coords 2491.485 146.117 2255.975
+ angleY 136.086
+}
+SCR_DestructibleBuildingEntity : "{2EBA3486062A5A53}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.et" {
+ coords 2987.127 52.324 2096.519
+ angleY -56
+}
+SCR_DestructibleBuildingEntity : "{3076BD4F789C39B7}PrefabLibrary/Structures/Landmarks/Castle_01_Bridge.et" {
+ coords 2464.454 10.117 2266.871
+}
+$grp SCR_DestructibleBuildingEntity : "{323D779591F59437}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m_grass.et" {
+ {
+  coords 2565.906 43.346 2880.235
+  angleY -155.839
+  scale 3.05
+ }
+ {
+  coords 2560.969 43.346 2869.227
+  angleY -155.839
+  scale 3.05
+ }
+ {
+  coords 2524.57 40.799 2899.141
+  angleY -155.839
+  scale 3.05
+ }
+ {
+  coords 2519.676 40.799 2888.231
+  angleY -155.839
+  scale 3.05
+ }
+ {
+  coords 2514.676 40.799 2877.083
+  angleY -155.839
+  scale 3.05
+ }
+ {
+  coords 2501.923 40.799 2876.841
+  angleY -49
+  scale 3.05
+ }
+ {
+  coords 2501.923 40.799 2876.841
+  angleY -49
+  scale 3.05
+ }
+ {
+  coords 2590.633 54.596 2865.145
+  angleY -65.839
+  scale 2.4
+ }
+ {
+  coords 2588.857 54.596 2850.32
+  angleY -155.839
+  scale 2.4
+ }
+ {
+  coords 2579.828 47.176 2873.421
+  angleY -155.839
+  scale 3.05
+ }
+ {
+  coords 2574.844 47.176 2862.311
+  angleY -155.839
+  scale 3.05
+ }
+ {
+  coords 2543.488 40.799 2890.654
+  angleY -155.839
+  scale 3.05
+ }
+ {
+  coords 2538.594 40.799 2879.744
+  angleY -155.839
+  scale 3.05
+ }
+ {
+  coords 2509.411 40.799 2897.919
+  angleY 146.719
+  scale 3.05
+ }
+ {
+  coords 2493.299 40.799 2883.107
+  angleY 128.146
+  scale 3.05
+ }
+ {
+  coords 2484.819 45.665 2870.591
+  angleY 38.146
+  scale 1.834
+ }
+ {
+  coords 2599.417 54.596 2861.205
+  angleY -65.839
+  scale 2.4
+ }
+ {
+  coords 2502.065 135.242 2244.536
+  angleY 10.144
+  scale 3.017
+ }
+}
+SCR_DestructibleBuildingEntity : "{348E1AD076AB297B}PrefabLibrary/Structures/Landmarks/Castle_01_InnerWall_01.et" {
+ coords 2464.75 0.723 2188.114
+ angleY 9.755
+}
+SCR_DestructibleBuildingEntity : "{389394D2BBE2F3A3}PrefabLibrary/Structures/Addons/HouseAddon_Garage_E_01.et" {
+ coords 2601.198 2.875 2865.4
+ angleY -65.839
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{38CC50480D29CCFD}PrefabLibrary/Rocks/Granite/Granite_Boulder_01/Granite_Boulder_01.et" {
+ {
+  coords 2516.832 1.099 2239.154
+  angleX -89.399
+  angleY -104.84
+  angleZ -179.062
+  scale 1.028
+ }
+ {
+  coords 2501.618 0.597 2227.25
+  angleX 99.303
+  angleY 110.866
+  angleZ -130.351
+  scale 1.044
+ }
+}
+SCR_DestructibleBuildingEntity : "{39961D803889053B}PrefabLibrary/Structures/Industrial/PortableCabin_E_01/PortableCabin_E_01_beige.et" {
+ coords 3042.711 0.302 2149.401
+ angleY -98
+}
+$grp GenericEntity : "{3A64925BC81FC2C0}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_short_high_plastic.et" {
+ {
+  coords 2468.561 147.393 2218.831
+  angleX -0.347
+  angleY -68.705
+  angleZ 1.354
+ }
+ {
+  coords 2469.179 147.381 2220.602
+  angleY -81.852
+ }
+ {
+  coords 2468.879 148.61 2219.834
+  angleY -74.989
+ }
+}
+GenericEntity : "{3F5EE4D69DBC478C}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_short_plastic.et" {
+ coords 2467.887 147.49 2217.272
+ angleY -73.055
+}
+SCR_DestructibleBuildingEntity : "{40CB72D2B509489C}PrefabLibrary/Structures/Industrial/Workshop_01_Main.et" {
+ coords 3035.269 0.71 2160.635
+ angleY 61
+}
+$grp GenericEntity : "{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et" {
+ {
+  coords 2908.839 61.398 2165.144
+  angleX 0.1
+  angleY -22.992
+  angleZ 4.809
+ }
+ {
+  coords 1629.409 5.063 922.966
+  angleX -4.573
+  angleY 166.3
+  angleZ 3.863
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{48023B0C1DCC8F0D}Prefabs/Structures/Infrastructure/Naval/Piers/PierWooden_01_10m.et" {
+ {
+  coords 2480.059 145.906 2187.294
+  angleY 100.221
+  scale 1.39
+ }
+ {
+  coords 2464.174 145.572 2202.864
+  angleX -1.759
+  angleY -13.349
+  scale 1.39
+ }
+ {
+  coords 2469.395 146.095 2285.833
+  angleX 6.792
+  angleY -154.372
+ }
+ {
+  coords 2473.776 144.889 2294.965
+  angleX 6.792
+  angleY -154.372
+ }
+ {
+  coords 2477.479 143.156 2319.329
+  angleX -2.378
+  angleY -20.659
+ }
+}
+$grp DecalEntity : "{4AD6EB80A8B1FA3A}Prefabs/Decals/Dirt/Decal_Dirt_Patch_03.et" {
+ {
+  components {
+   Hierarchy "{56E0B29E7EE9CCB2}" {
+   }
+  }
+  coords 2509.918 147.524 2248.972
+  angleX -90
+  scale 10
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E7EE9CCB2}" {
+   }
+  }
+  coords 2501.878 -0.001 2251.798
+  angleX -6.958
+  angleY 140.195
+  scale 10
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E7EE9CCB2}" {
+   }
+  }
+  coords 2514.427 0.131 2246.701
+  angleX -90
+  scale 10
+  FarPlane 1.5
+ }
+}
+$grp GenericEntity : "{4ADCE267EC510331}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_long_plastic.et" {
+ {
+  coords 2466.299 147.417 2211.731
+  angleY -69.58
+ }
+ {
+  coords 2469.825 147.952 2225.645
+  angleY -87.143
+  angleZ -5.256
+ }
+ {
+  coords 2469.532 147.701 2222.831
+  angleX 0.524
+  angleY -79.949
+  angleZ -5.438
+ }
+ {
+  coords 2969.725 51.967 2211.95
+  angleY -77.433
+  {
+   GenericEntity : "{81CFBC139640CE58}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Wall_medium_US.et" {
+    coords 0 -0.467 0
+   }
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{4B7F9020CE1AE2CF}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01_Corner.et" {
+ {
+  coords 2447.503 3.272 2214.973
+  angleY -120.302
+ }
+ {
+  coords 2421.328 14.948 2214.375
+  angleY 90
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{4DA887CD0BBD0A28}PrefabLibrary/Structures/Industrial/ShedMetal_02_short.et" {
+ {
+  coords 2563.212 1.079 2878.999
+  angleY -65.839
+ }
+ {
+  coords 3065.89 0.603 2217.457
+  angleY -95.515
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{50AC348C7022803D}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01_Round.et" {
+ {
+  coords 2444.603 4.615 2212.894
+  angleY 44.684
+ }
+ {
+  coords 2523.947 1.195 2342.366
+  angleY -178.939
+ }
+ {
+  coords 2443.585 4.974 2298.154
+  angleY 151.622
+ }
+ {
+  coords 2422.737 3.049 2275.267
+  angleY 122.522
+ }
+ {
+  coords 2500.642 6.071 2188.088
+  angleY -6.408
+ }
+ {
+  coords 2519.959 3.953 2195.582
+  angleY -36.113
+ }
+}
+$grp StaticModelEntity : "{5196CA1829D428F7}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Bunker_Cluttered_US_01.et" {
+ {
+  coords 3050.093 45.002 2127.143
+  angleY 116
+ }
+ {
+  coords 3047.631 38.251 2202.46
+  angleY 33.911
+  placement slopez
+ }
+}
+StaticModelEntity : "{528AB2322A646026}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_wave.et" {
+ coords 2495.146 146.4 2232.683
+ angleX -9.942
+ angleY 25.45
+ angleZ -1.531
+ scale 1.3
+}
+StaticModelEntity : "{53CF78A46139AA55}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_wave.et" {
+ coords 2519.913 145.098 2246.885
+ angleY -94.152
+}
+GenericEntity : "{543C31BC05F032B6}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_US_01.et" {
+ coords 1144.549 1.208 3320.278
+ angleY 76.362
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{549864A8B1ED43D3}PrefabLibrary/Rocks/Granite/Granite_Boulder_02/Granite_Boulder_02.et" {
+ {
+  coords 2466.133 0.939 2255.082
+  angleX -48.253
+  angleY 37.228
+  angleZ 98.572
+  scale 0.773
+ }
+ {
+  coords 2467.069 0.469 2257.223
+  angleX 45.677
+ }
+ {
+  coords 2503.531 0 2297.271
+  angleX -100.852
+  angleY 257.472
+  angleZ -178.824
+  scale 0.824
+ }
+ {
+  coords 2466.071 1.698 2258.122
+  angleX 13.024
+  angleY 108.01
+  angleZ 119.118
+  scale 1.09
+ }
+}
+SCR_DestructibleBuildingEntity : "{55C22960844D8A15}PrefabLibrary/Structures/Industrial/PortableCabin_E_02.et" {
+ coords 3039.143 -0.087 2154.467
+ angleY 151
+}
+SCR_DestructibleBuildingEntity : "{58DA2E30CA6FA655}PrefabLibrary/Structures/Landmarks/Castle_01_InnerWall_02.et" {
+ coords 2462.052 1.239 2202.951
+ angleY 79.505
+}
+$grp SCR_DestructibleBuildingEntity : "{5945D1EF6878D47C}PrefabLibrary/Structures/Industrial/FuelTank_01/FuelTank_01.et" {
+ {
+  coords 2561.396 0.899 2867.925
+  angleY -65.839
+ }
+ {
+  coords 3069.203 0.069 2206.776
+ }
+}
+GenericEntity : "{5AF4E84CA11058F4}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadSmall/E_Checkpoint_S_USSR_01.et" {
+ coords 2919.342 56.043 2250.271
+ angleX -1.788
+ angleY -0.056
+ angleZ 1.791
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{5C1D639421B8386F}PrefabLibrary/Rocks/Granite/GraniteRock_02/GraniteRock_02_Forest.et" {
+ {
+  coords 3001.218 43.443 2097.847
+  angleY -146
+ }
+ {
+  coords 2990.875 46.622 2087.861
+  angleY -40
+  scale 0.89
+ }
+}
+StaticModelEntity : "{5C2E29ECFAD48807}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_turnin.et" {
+ coords 2509.899 145.895 2236.418
+ angleY -14.897
+}
+$grp SCR_DestructibleBuildingEntity : "{5E41F4FD9FAE7C99}PrefabLibrary/Walls/Concrete/ConcreteRetainingWall_01_4m.et" {
+ {
+  coords 2540.871 138.623 2225.886
+  angleY -103.327
+ }
+ {
+  coords 2553.173 139.57 2240.237
+  angleY -61.897
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{6152291AF481C71C}PrefabLibrary/Walls/Concrete/ConcreteRetainingWall_01_End.et" {
+ {
+  coords 2542.969 138.236 2227.704
+  angleY -20.452
+ }
+ {
+  coords 2551.395 138.441 2236.806
+  angleY 119.336
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{625C23A0F9BF5D2C}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_Stairs.et" {
+ {
+  coords 2424.368 13.869 2214.162
+  angleY -90
+ }
+ {
+  coords 2424.368 4.591 2227.766
+  angleY -90
+ }
+ {
+  coords 2429.327 0.568 2236.761
+ }
+ {
+  coords 2482.41 3.173 2188.349
+  angleY -97.643
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{64557952113662E8}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01_Hole.et" {
+ {
+  coords 2424.123 141.236 2211.565
+  angleY -3.464
+ }
+ {
+  coords 2459.468 131.992 2311.231
+  angleY 140.484
+ }
+ {
+  coords 2550.654 140.717 2297.658
+  angleY -90
+ }
+ {
+  coords 2551.451 146.861 2261.444
+  angleY -90
+ }
+ {
+  coords 2555.649 146.668 2241.518
+  angleY -101.544
+ }
+ {
+  coords 2462.064 141.876 2257.615
+  angleY 67.674
+ }
+}
+SCR_DestructibleBuildingEntity : "{647B229D61E505F0}PrefabLibrary/Structures/Ruins/HouseRuin_01_Entry.et" {
+ coords 2471.493 0.153 2202.831
+ angleY -5.318
+}
+SCR_DestructibleBuildingEntity : "{68C85DA6037504CA}PrefabLibrary/Structures/Military/Barracks_01/Barracks_01.et" {
+ coords 2528.354 3.579 2892.651
+ angleY 114.161
+ {
+  $grp SCR_DestructibleBuildingEntity : "{0B6EA07B566C2054}PrefabLibrary/Structures/Addons/HouseAddon_ShedMetal_01_Short.et" {
+   {
+    coords 0 -1.074 -18.04
+    angleY 180
+    scale 0.814
+   }
+   {
+    coords 0 -1.074 15.668
+    scale 0.814
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{6CDAFB08D5F88533}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Stairs01.et" {
+ coords 2483.366 4.935 2307.076
+ angleY 87.196
+}
+GenericEntity : "{6D2A35DA74224780}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_US_01.et" {
+ coords 1145.915 1.13 3302.797
+ angleY 87.06
+}
+GenericEntity : "{6FE74C9C75DA8A52}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadMedium/E_Barricade_M_US_01.et" {
+ coords 2935.782 54.819 2247.427
+ angleX 6.475
+ angleY -13.214
+ angleZ 15.457
+}
+GenericEntity : "{71FF67164192F291}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_FieldHospital_M_FIA_01.et" {
+ coords 3032.373 46.882 2138.951
+ angleX 5.012
+ angleY -60.665
+ angleZ 3.83
+}
+SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+ coords 2474.396 0.739 2192.566
+ scale 2.43
+}
+SCR_IndestructibleEnvironmentalEntity : "{76394437D7565E40}PrefabLibrary/Rocks/Granite/GraniteRock_01/GraniteRock_01_Forest.et" {
+ coords 2996.005 44.833 2101.682
+}
+$grp GenericEntity : "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et" {
+ {
+  coords 2464.567 147.29 2206.225
+  angleY 112.357
+ }
+ {
+  coords 2464.391 147.009 2282.953
+  angleY -52.685
+ }
+}
+GenericEntity : "{7A66C73367C6731A}PrefabsEditable/Auto/Structures/Military/CamoNets/FIA/E_CamoNet_Large_Top_FIA_01_V1.et" {
+ coords 2999.006 50.709 2137.646
+ angleX -0.885
+ angleY -0.097
+ angleZ 6.243
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{7D1705F41BA14E61}PrefabLibrary/Rocks/Granite/GraniteRock_01/GraniteRock_01.et" {
+ {
+  coords 2418.67 123.101 2240.386
+  angleY -107.786
+ }
+ {
+  coords 2420.999 127.892 2215.748
+  angleY -98.955
+ }
+ {
+  coords 2417.254 121.771 2213.285
+  angleX -24.219
+  angleY -98.955
+ }
+}
+$grp GenericEntity : "{7F118C6EA2AF1C99}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_long_high_plastic.et" {
+ {
+  coords 2470.346 148.036 2234.464
+  angleY -86.12
+ }
+ {
+  coords 2465.353 147.353 2208.552
+  angleY -75.278
+ }
+ {
+  coords 2469.886 147.948 2228.737
+  angleY -88.269
+ }
+ {
+  coords 2467.143 147.334 2214.813
+  angleX 2.261
+  angleY -72.178
+  angleZ -2.16
+ }
+ {
+  coords 2969.673 50.654 2209.116
+  angleY -93
+ }
+ {
+  coords 2969.83 50.657 2212.203
+  angleY -78
+ }
+ {
+  coords 2970.523 50.576 2215.055
+  angleY -79
+ }
+ {
+  coords 2970.621 50.654 2209.313
+  angleY -93
+ }
+ {
+  coords 2970.912 50.657 2212.433
+  angleY -70.582
+ }
+ {
+  coords 2971.753 50.576 2215.556
+  angleY -79
+ }
+ {
+  coords 2972.35 50.576 2218.627
+  angleY -79
+ }
+ {
+  coords 2980.587 50.096 2212.321
+  angleY -78.904
+ }
+ {
+  coords 2980.01 50.096 2209.094
+  angleY -78.904
+ }
+ {
+  coords 2980.295 50.096 2215.177
+  angleY -119.094
+ }
+}
+SCR_IndestructibleEnvironmentalEntity : "{845121AC14BBF7FB}PrefabLibrary/Rocks/Granite/GraniteRock_03/GraniteRock_03_Forest.et" {
+ coords 2985.211 47.513 2086.672
+ angleX -8.41
+ angleY -50.686
+ angleZ 11.465
+}
+GenericEntity : "{84E20771F4BDA320}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_02.et" {
+ coords 2516.004 147.703 2258.492
+ angleX 5.932
+ angleY -50.035
+ angleZ 2.637
+}
+GenericEntity : "{85E7D977EFAC11CB}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_LivingArea_L_USSR_01.et" {
+ coords 2934.62 58.213 2131.191
+ angleX 6.227
+ angleY -86.048
+ angleZ 0.429
+}
+GenericEntity : "{87588E4A1561C4D1}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_round_high_plastic.et" {
+ coords 2969.409 51.81 2208.946
+ angleY -97.728
+}
+SCR_DestructibleBuildingEntity : "{89FDF6F5697B462F}PrefabLibrary/Structures/Military/GuardBox_01_b/GuardBox_01_beige.et" {
+ coords 2583.262 0.393 2830.967
+ angleY 44.126
+}
+StaticModelEntity : "{91283BF99092C930}PrefabLibrary/Infrastructure/Towers/TransmitterTower_01_medium.et" {
+ coords 2484.749 53.33 2874.479
+ angleY 128.146
+}
+SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+ coords 2508.914 0 2301.669
+ angleX -65.167
+ angleY 24.489
+ angleZ 176.858
+ scale 0.959
+}
+$grp GenericEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
+ {
+  coords 2537.465 144.407 2329.977
+  angleY -132.671
+ }
+ {
+  coords 2579.732 64.15 2845.746
+  angleY -65.839
+  scale 1.67
+ }
+ {
+  coords 2587.918 64.159 2872.762
+  angleY -155.839
+ }
+ {
+  coords 2585.75 60.756 2867.871
+  angleY -155.839
+ }
+}
+SCR_DestructibleBuildingEntity : "{9498ADA13BCDB218}Prefabs/Structures/Military/Houses/GuardBox_01/GuardBox_01_Base.et" {
+ coords 2915.001 0.074 2251.968
+ angleY -128
+}
+GenericEntity : "{95E4917C4E27A44D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_plastic.et" {
+ coords 2470.412 148.069 2237.236
+ angleY 90.825
+}
+SCR_DestructibleBuildingEntity : "{9606669975C97DC9}Prefabs/Structures/Military/Houses/GuardHouse_02/GuardHouse_02_civilian.et" {
+ coords 2881.161 0.34 2128.802
+ angleY -105
+}
+SCR_IndestructibleEnvironmentalEntity : "{9633134198F3AB1A}Prefabs/Rocks/Granite/GraniteRock_01.et" {
+ coords 2552.247 135.951 2263.089
+ angleX -14.451
+ angleY 83.005
+}
+$grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et" {
+ {
+  coords 2544.573 139.32 2237.952
+  angleX -2.322
+  angleY 39.753
+  angleZ 11.033
+ }
+ {
+  coords 2557.965 131.664 2323.751
+  angleY -46.723
+  angleZ 11.283
+ }
+ {
+  coords 2557.133 130.875 2335.036
+  angleX 11.264
+  angleY -133.4
+  angleZ -5.97
+ }
+}
+SCR_DestructibleBuildingEntity : "{9D8C83C25F104D80}PrefabLibrary/Structures/Ruins/HouseRuin_01_Corner.et" {
+ coords 2475.327 0.531 2200.775
+ angleY -98.572
+}
+SCR_DestructibleBuildingEntity : "{9E870F5072D6366D}PrefabLibrary/Structures/Military/Bunker_01_3fp/Bunker_01_3fp.et" {
+ coords 2574.856 1.188 2812.146
+ angleY 129.456
+}
+SCR_DestructibleBuildingEntity : "{A2AA324A95883FB2}Prefabs/Structures/Military/Bunkers/ReinforcedFueltank_E_01/ReinforcedFueltank_E_01_camo.et" {
+ coords 2055.732 0.917 2156.382
+ angleY 120.365
+}
+SCR_DestructibleBuildingEntity : "{A988976BDD1DC9A5}PrefabLibrary/Structures/Military/GuardHouse_02_civilian.et" {
+ coords 2596.85 1.856 2857.39
+ angleY -65.839
+}
+SCR_DestructibleBuildingEntity : "{AC16E15E979F9072}PrefabLibrary/Structures/Services/Villa_E_2I01_Police.et" {
+ coords 2443.274 1.282 2875.115
+ angleY 118.484
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{AE8CA342C9C3EC27}PrefabLibrary/Rocks/Granite/GraniteCliff_01/GraniteCliff_01.et" {
+ {
+  coords 2485.082 139.618 2319.043
+  angleX 85.345
+  angleY -180
+  angleZ 172.489
+ }
+ {
+  coords 2480.69 143.944 2232.616
+  angleX -88.308
+  angleY 108.94
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{B1D7DA05DE5D73F4}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_V1_8m_grass.et" {
+ {
+  coords 2548.598 139.392 2257.71
+  angleY 90.795
+ }
+ {
+  coords 2548.708 139.392 2265.608
+  angleY 90.795
+ }
+ {
+  coords 2547.921 139.392 2272.555
+  angleY 76.608
+ }
+ {
+  coords 2546.534 139.392 2278.38
+  angleY 76.608
+ }
+}
+GenericEntity : "{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et" {
+ coords 1618.711 4.326 886.855
+ angleY 5.878
+}
+$grp SCR_DestructibleBuildingEntity : "{B6961EF57145D07F}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_03_d.et" {
+ {
+  coords 2469.04 -3.355 2221.756
+  angleY 108.274
+ }
+ {
+  coords 2470.124 1.132 2240.147
+  angleY 93.637
+ }
+}
+StaticModelEntity : "{BA3D9B20D6F62FA4}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_bunker_plastic_foundation.et" {
+ coords 2462.368 147.509 2280.413
+ angleY -73.793
+}
+SCR_DestructibleBuildingEntity : "{BE248D0B31D3B097}Prefabs/Structures/Military/Bunkers/AmmoDump_E_02/AmmoDump_E_02.et" {
+ coords 2974.264 47.402 2204.627
+ angleX 2.21
+ angleY -175.585
+}
+GenericEntity : "{C0B1ABD67607623A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_US_01.et" {
+ coords 1153.098 1.156 3287.183
+}
+GenericEntity : "{C2D040BB21F15A20}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_USSR_01.et" {
+ coords 1676.82 10.262 947.753
+ angleY -162.792
+}
+SCR_IndestructibleEnvironmentalEntity : "{C2D897A275076309}PrefabLibrary/Rocks/Granite/GraniteCliff_02/GraniteCliff_02.et" {
+ coords 2427.235 118.432 2212.245
+ angleY -177.872
+}
+$grp SCR_DestructibleBuildingEntity : "{C38D26DC8D2A213E}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01_Skewed.et" {
+ {
+  coords 2485.454 -1.85 2327.5
+  angleY 148.014
+ }
+ {
+  coords 2472.478 -6.564 2319.396
+  angleY 148.014
+ }
+ {
+  coords 2551.463 -0.539 2282.486
+  angleY -93.097
+ }
+ {
+  coords 2533.187 -4.458 2211.429
+  angleY -54.973
+ }
+}
+$grp GenericEntity : "{C3F2F7B92EAB5A14}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_solid_plastic.et" {
+ {
+  coords 2470.141 147.891 2231.49
+  angleY -82.764
+ }
+ {
+  coords 2462.698 147.182 2277.073
+  angleY -69.861
+  angleZ -9.899
+ }
+ {
+  coords 2980.141 50.29 2207.756
+  angleY -51.541
+  {
+   GenericEntity : "{B7B2C1746E8F6105}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Wall_high_US.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 2981.227 49.728 2210.062
+  angleY -80.401
+ }
+ {
+  coords 2981.366 49.949 2214.976
+  angleY -110.412
+ }
+ {
+  coords 2981.663 49.728 2212.637
+  angleY -80.401
+ }
+}
+$grp GenericEntity : "{C6B534F64C60C583}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_US_01.et" {
+ {
+  coords 1210.05 0.906 3289.232
+  angleY 173.968
+ }
+ {
+  coords 2503.042 147.807 2248.498
+  angleY -108.397
+  {
+   GenericEntity {
+    ID "5E6A9384DDD03956"
+    {
+     GenericEntity {
+      ID "5E6A90B022FE573D"
+      coords 0 0 6.5
+     }
+    }
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{CAE9DDFBF282E3C7}PrefabLibrary/Structures/Ruins/HouseRuin_01_Corner_Stairs.et" {
+ coords 2467.727 -0.254 2191.369
+ angleY 90.116
+}
+GenericEntity : "{CD9004C6229D900B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_USSR_01.et" {
+ coords 1660.445 3.861 899.179
+ angleY -117.96
+}
+$grp SCR_DestructibleBuildingEntity : "{CD9542CDCCDDFFC4}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01.et" {
+ {
+  coords 2480.011 3.643 2185.536
+  angleY -7.041
+ }
+ {
+  coords 2503.771 3.389 2337.383
+  angleY 151.816
+ }
+ {
+  coords 2420.6 3.744 2231.121
+  angleY 86.302
+  angleZ -34.291
+ }
+ {
+  coords 2419.5 -6.717 2248.146
+  angleY 86.302
+  angleZ -34.291
+ }
+ {
+  coords 2429.332 6.505 2285.44
+  angleX 0.488
+  angleY 120.067
+  angleZ 13.76
+ }
+}
+GenericEntity : "{CDE540ACD9415078}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_FIA_01.et" {
+ coords 2999.437 50.594 2138.331
+ angleX 0.037
+ angleY -0.345
+ angleZ 6.241
+}
+StaticModelEntity : "{CE7BFA53A62105F7}PrefabsEditable/Auto/Structures/Infrastructure/Barriers/E_BarGate_01.et" {
+ coords 2921.336 -0.043 2251.87
+ angleY 46.024
+}
+GenericEntity : "{DA380948C0CE5990}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_USSR_01.et" {
+ coords 1660.3 4.773 910.889
+ angleX -6.766
+ angleY -96.044
+ angleZ -4.639
+}
+GenericEntity : "{DD5CB0F1EAF6821E}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V2_covered.et" {
+ coords 2465.394 147.271 2282.485
+ angleX -6.097
+ angleY -62.023
+ angleZ 5.491
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{DEA30A575C1BCF46}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_03.et" {
+ {
+  coords 2522.12 144.555 2341.476
+  angleX -89.517
+  angleZ 8.988
+  scale 0.885
+ }
+ {
+  coords 2534.384 140.952 2339.405
+  angleX -89.516
+  angleZ 5.011
+  scale 0.885
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{E3972F6F29774671}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_04.et" {
+ {
+  coords 2529.731 144.523 2336.309
+  angleX -19.722
+  angleY -166.414
+  angleZ -16.563
+  scale 1.061
+ }
+ {
+  coords 2504.662 144.511 2222.941
+  angleY 166.46
+ }
+ {
+  coords 2481.096 140.034 2284.921
+  angleY 129.132
+  scale 1.55
+ }
+}
+StaticModelEntity : "{E87BCD612EEDAC6D}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_turnin.et" {
+ coords 2517.633 144.985 2240.255
+ angleX 5.63
+ angleY -51.944
+ angleZ 2.906
+}
+GenericEntity : "{E87F2E0B5C56A1C3}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_US_01.et" {
+ coords 2923.728 56.43 2242.163
+ angleX -1.367
+ angleY -0.349
+ angleZ 1.461
+ {
+  GenericEntity {
+   ID "5CCCBECA91C25D11"
+   coords -3.769 -0.194 -0.86
+   angleX 3.389
+   angleY 79.656
+   angleZ -3.046
+  }
+  GenericEntity {
+   ID "5CCCBECA91C262E2"
+   coords 3.02 0.226 -0.627
+   angleX 11.942
+   angleY 94.973
+   angleZ -3.256
+  }
+ }
+}
+GenericEntity : "{E8B6339148792C0E}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_01.et" {
+ coords 2516.464 147.734 2267.366
+ angleX 4.329
+ angleY -85.907
+ angleZ 2.099
+}
+SCR_DestructibleBuildingEntity : "{ECCD3DA7BF29DF23}PrefabLibrary/Structures/Landmarks/Castle_01_Bridge_Pillar.et" {
+ coords 2464.525 9.795 2266.757
+}
+GenericEntity : "{F2174A927C3229F2}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_05.et" {
+ coords 2059.105 62.706 2161.159
+ angleY -149.635
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{F4DF7DEDAB805624}PrefabLibrary/Rocks/Granite/GraniteRock_03/GraniteRock_03.et" {
+ {
+  coords 2509.359 138.751 2340.789
+  angleX 80.299
+  angleY 118.256
+  angleZ -38.353
+ }
+ {
+  coords 2531.427 138.558 2339.362
+  angleX -15.757
+  angleY -4.665
+  angleZ 16.726
+ }
+ {
+  coords 2414.185 122.106 2252.001
+  angleY 76.964
+ }
+ {
+  coords 2476.048 140.066 2283.863
+  angleX 36.715
+  angleY -86.417
+  angleZ -3.361
+ }
+ {
+  coords 2521.269 140.923 2240.726
+  angleX -0.256
+  angleY -95.155
+  angleZ -4.86
+ }
+ {
+  coords 2529.516 136.565 2345.306
+  angleX 68.147
+  angleY 164.771
+  angleZ -25.246
+ }
+}
+SCR_DestructibleBuildingEntity : "{F6AA92F7B23D8A71}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_01.et" {
+ coords 2480.248 138.532 2306.854
+}
+SCR_DestructibleBuildingEntity : "{FBCE1861B987EA68}Prefabs/Structures/Military/Houses/GuardTower_01/GuardTower_01.et" {
+ coords 2886.673 0 2116.155
+ angleY -124
+}
+SCR_IndestructibleEnvironmentalEntity : "{FC2FFB6EB18CBA53}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_BeachStone_01.et" {
+ coords 2464.471 8.169 2275.887
+ angleX -9.707
+ angleY -158.15
+ angleZ 14.59
+ scale 0.924
+}

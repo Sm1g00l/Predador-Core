@@ -13,6 +13,14 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/Camp
       }
      }
     }
+    SCR_IdentityItemStorageComponent "{62AD01171918DA85}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot IdentityItem {
+       Enabled 1
+       Prefab "{85785F6CDCB922BC}Prefabs/Items/PersonalBelongings/PersonalBelongings_RHS_USAF.et"
+      }
+     }
+    }
    }
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -63,12 +71,6 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/Camp
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
      TargetPurpose 1
     }
-    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
-     PrefabsToSpawn {
-      "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
-     }
-    }
     ItemsInitConfigurationItem "{54A49B42D138207E}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
      PrefabsToSpawn {
@@ -85,6 +87,12 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/Camp
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
      PrefabsToSpawn {
       "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
+     PrefabsToSpawn {
+      "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
      }
     }
     ItemsInitConfigurationItem "{64C36A692A49D9AA}" {

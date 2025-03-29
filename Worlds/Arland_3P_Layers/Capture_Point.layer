@@ -1,0 +1,254 @@
+$grp GenericEntity : "{02407FFE96AE0ADF}Prefabs/Systems/MilitaryBase/TF_Conflict_MainBase_base.et" {
+ CP_MainBase01 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 800
+     }
+    }
+   }
+  }
+  coords 1160.936 1.156 3338.971
+  angleY -100.747
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 1
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 1
+     }
+    }
+   }
+  }
+ }
+ CP_MainBase02 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 800
+     }
+    }
+   }
+  }
+  coords 1655.045 3.363 881.511
+  angleY -90
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 1
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 1
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ Radio01_Police {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Radio Police Station"
+    m_sBaseNameUpper "Radio Police Station"
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 580
+     }
+    }
+   }
+  }
+  coords 2592.964 66.665 2855.7
+  angleY -154.947
+ }
+ Radio02_Bunker {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Radio Bunker"
+    m_sBaseNameUpper "Radio Bunker"
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+  }
+  coords 2059.839 63.612 2160.524
+  angleY -125.901
+ }
+}
+$grp GenericEntity : "{56CF2C9022643FF5}Prefabs/Systems/MilitaryBase/TF_Conflict_CaptureBase.et" {
+ CP_Point_AirbaseTower {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B3CD36F85F}" {
+    m_sBaseName "Airbase Tower"
+    m_sBaseNameUpper "Airbase Tower"
+   }
+   SCR_CoverageRadioComponent "{632964B3CD36F83E}" {
+    Transceivers {
+     RelayTransceiver "{632964B3CD36F836}" {
+      "Transmitting Range" 850
+     }
+    }
+   }
+  }
+  coords 1364.945 38 2952.711
+  angleY 164.522
+ }
+ CP_Point_Beauregard {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B3CD36F85F}" {
+    m_sBaseName "Beauregard Village"
+    m_sBaseNameUpper "Beauregard Village"
+   }
+   SCR_CoverageRadioComponent "{632964B3CD36F83E}" {
+    Transceivers {
+     RelayTransceiver "{632964B3CD36F836}" {
+      "Transmitting Range" 793.1
+     }
+    }
+   }
+  }
+  coords 3147.82 12.058 2758.297
+  angleY 129.242
+ }
+ CP_Point_Hangar5 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B3CD36F85F}" {
+    m_sBaseName "Hangar 5"
+    m_sBaseNameUpper "Hangar 5"
+   }
+   SCR_CoverageRadioComponent "{632964B3CD36F83E}" {
+    Transceivers {
+     RelayTransceiver "{632964B3CD36F836}" {
+      "Transmitting Range" 1100
+     }
+    }
+   }
+  }
+  coords 1396.215 39 2212.277
+  angleY -124.177
+ }
+ CP_Point_House {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B3CD36F85F}" {
+    m_sBaseName "House hill"
+    m_sBaseNameUpper "House hill"
+   }
+   SCR_CoverageRadioComponent "{632964B3CD36F83E}" {
+    Transceivers {
+     RelayTransceiver "{632964B3CD36F836}" {
+      "Transmitting Range" 780
+     }
+    }
+   }
+  }
+  coords 2288.678 89.493 1228.738
+  angleY -147.356
+ }
+ CP_Point_MilitaryCamp {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B3CD36F85F}" {
+    m_sBaseName "OpenFields"
+    m_sBaseNameUpper "OpenFields"
+   }
+   SCR_CoverageRadioComponent "{632964B3CD36F83E}" {
+    Transceivers {
+     RelayTransceiver "{632964B3CD36F836}" {
+      "Transmitting Range" 650
+     }
+    }
+   }
+  }
+  coords 2993.164 50.861 2154.907
+  angleY 59.267
+ }
+}
+$grp GenericEntity : "{FBE8C6C7E31DAC2D}Prefabs/Systems/MilitaryBase/TF_Conflict_MajorCapturePoint.et" {
+ CP_MajorPoint01 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B813C74E57}" {
+    m_iRadius 50
+    m_sBaseName "Castle Hill"
+    m_sBaseNameUpper "Castle Hill"
+   }
+   SCR_CoverageRadioComponent "{632964B813C74E71}" {
+    Transceivers {
+     RelayTransceiver "{632964B813C74E74}" {
+      "Transmitting Range" 715.7
+     }
+    }
+   }
+  }
+  coords 2500.264 147.579 2278.818
+  angleY 120.282
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "632964B813C79440"
+   }
+  }
+ }
+ CP_MajorPoint02 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B813C74E57}" {
+    m_sBaseName "Arleville Village"
+    m_sBaseNameUpper "Arleville Village"
+   }
+   SCR_CoverageRadioComponent "{632964B813C74E71}" {
+    Transceivers {
+     RelayTransceiver "{632964B813C74E74}" {
+      "Transmitting Range" 820
+     }
+    }
+   }
+  }
+  coords 2723.773 77.656 1697.259
+  angleY -131.82
+ }
+ CP_MajorPoint03 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{632964B813C74E57}" {
+    m_sBaseName "Farm"
+    m_sBaseNameUpper "Farm"
+   }
+   SCR_CoverageRadioComponent "{632964B813C74E71}" {
+    Transceivers {
+     RelayTransceiver "{632964B813C74E74}" {
+      "Transmitting Range" 850
+     }
+    }
+   }
+  }
+  coords 2193.169 53.632 2906.06
+  angleY 135
+ }
+}
