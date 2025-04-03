@@ -3,7 +3,7 @@ GameProject {
  GUID "62ED528504E0A8E1"
  TITLE "Predador-Core"
  Dependencies {
-  "58D0FB3206B6F859" "595F2BF2F44836FB"
+  "58D0FB3206B6F859"
  }
  Configurations {
   GameProjectConfig PC {
