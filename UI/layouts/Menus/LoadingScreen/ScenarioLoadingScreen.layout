@@ -8,8 +8,8 @@ FrameWidgetClass {
      {
       ImageWidgetClass "{5CFCF5E894AE6628}" {
        Prefab "{5CFCF5E894AE6628}"
-       Texture "{1802038A958E9FFF}UI/layouts/Menus/LoadingScreen/IMG_3955.edds"
-       Size 7100 4000
+       Texture "{4F59F463D724748F}UI/layouts/Menus/LoadingScreen/IMG_3026.edds"
+       Size 950 540
       }
      }
     }
@@ -135,7 +135,7 @@ FrameWidgetClass {
        Slot OverlayWidgetSlot "{5DFE96D622552BA2}" {
         HorizontalAlign 1
         VerticalAlign 1
-        Padding 0 0 0 500
+        Padding 0 0 0 650
        }
        {
         RichTextWidgetClass "{5DFF03E4AD9D1ED9}" {
@@ -144,24 +144,6 @@ FrameWidgetClass {
          "Is Visible" 0
         }
        }
-      }
-      TextWidgetClass "{64D132D1006E3C4B}" {
-       Name "DiscordLink"
-       Slot OverlayWidgetSlot "{64D132D1006E3C74}" {
-        VerticalAlign 2
-        Padding 5 0 0 120
-       }
-       Color 0.502 0 0 1
-       Text "Leia as Regras no discord.gg/QTcW6mURG8"
-       "Font Size" 50
-       FontProperties FontProperties "{64D132D2EAE6699D}" {
-        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
-        ForceFont 1
-        OutlineSize 4
-        ShadowOpacity 0
-       }
-       Offset 0 0
-       "Line Spacing" 3
       }
       OverlayWidgetClass "{5DFF03E4AD9D1ED8}" {
        Prefab "{5DFF03E4AD9D1ED8}"
