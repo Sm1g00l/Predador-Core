@@ -1,0 +1,4132 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{62AF7D71C288EA44}" {
+    Object "{9C9CB201B8A8CAE8}Assets/Structures/Ruins/HouseRuin_01/HouseRuin_01_WoodPile.xob"
+   }
+  }
+  coords 8175.387 217.738 2152.62
+  angleX 12.294
+  angleY -0.208
+  angleZ -0.979
+ }
+ {
+  components {
+   MeshObject "{62AF7D7072327F76}" {
+    Object "{94C208174E468316}Assets/Structures/Walls/Brick/BrickWallOld_01_End.xob"
+   }
+  }
+  coords 8180.941 218.748 2147.423
+  angleY -25.035
+  angleZ -0.732
+ }
+ {
+  components {
+   MeshObject "{62AF7D7053D35177}" {
+    Object "{C579527D7B032F9C}Assets/Structures/Walls/Brick/BrickWallOld_01_D.xob"
+   }
+  }
+  coords 8184.371 218.51 2148.934
+  angleY 63.935
+ }
+ {
+  components {
+   MeshObject "{62AF7D70101B5B4E}" {
+    Object "{A7E8CCBC14CD24C2}Assets/Structures/Walls/Brick/BrickWall_02_8m.xob"
+   }
+  }
+  coords 8191.384 215.769 2122.911
+  angleY 105.467
+ }
+ {
+  components {
+   MeshObject "{62AF7D70853C2BC2}" {
+    Object "{A7E8CCBC14CD24C2}Assets/Structures/Walls/Brick/BrickWall_02_8m.xob"
+   }
+  }
+  coords 8183.41 215.779 2124.901
+  angleY 15.145
+ }
+ {
+  components {
+   MeshObject "{62AF7D7229282A09}" {
+    Object "{78E1FAEF6C9225F9}Assets/Structures/Walls/Concrete/ConcreteRetainingWall_02_8m.xob"
+   }
+  }
+  coords 8193.877 207.433 2106.273
+  angleY 17.86
+ }
+}
+GenericEntity : "{038844285FEE0D7A}Prefabs/Rocks/Granite/GraniteStone_01.et" {
+ coords 8093.481 -0.001 2122.363
+}
+$grp GenericEntity : "{03DA1744D0D06828}Prefabs/utilitarios/calcada.et" {
+ {
+  coords 8352.24 257.528 2239.038
+  angleY 39.558
+ }
+ {
+  coords 8351.458 257.522 2242.856
+  angleY -50.379
+ }
+ {
+  coords 8352.57 257.516 2244.492
+  angleY -50.379
+ }
+ {
+  coords 8353.544 257.544 2246.157
+  angleY -50.379
+ }
+ {
+  coords 8355.822 257.539 2246.779
+  angleY -50.379
+ }
+ {
+  coords 8343.214 257.493 2241.592
+  angleY 39.558
+ }
+ {
+  coords 8347.392 257.528 2246.7
+  angleY 39.558
+ }
+}
+$grp GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platform_10x10M.et" {
+ {
+  coords 8321.511 245.568 2307.013
+  angleY 40.646
+  scale 2.953
+ }
+ {
+  coords 8303.056 245.559 2285.43
+  angleY 40.646
+  scale 2.953
+ }
+ {
+  coords 8306.932 245.51 2242.815
+  angleY 40.646
+  scale 2.953
+ }
+ {
+  coords 8331.794 245.597 2221.467
+  angleY 41.38
+  scale 2.953
+ }
+ {
+  coords 8305.162 234.613 2217.093
+  angleY 41.38
+  scale 2.953
+ }
+ {
+  coords 8353.493 245.627 2202.846
+  angleY 39.926
+  scale 2.953
+ }
+ {
+  coords 8393.317 245.693 2206.126
+  angleY 41.38
+  scale 2.953
+ }
+ {
+  coords 8374.489 245.687 2184.774
+  angleY 41.38
+  scale 2.953
+ }
+ {
+  coords 8374.507 236.026 2184.68
+  angleY 41.38
+  scale 2.953
+ }
+ {
+  coords 8353.932 234.94 2202.857
+  angleY 41.38
+  scale 2.953
+ }
+ {
+  coords 8366.932 245.624 2219.694
+  angleY 41.38
+  scale 2.953
+ }
+ {
+  coords 8327.636 245.429 2240.824
+  angleY 41.38
+  scale 2.953
+ }
+}
+GenericEntity : "{06E9A3D10077FE03}Prefabs/ZBK/KitFactory/KitStair/StairFull2m.et" {
+ coords 8173.493 173.862 1974.329
+ angleY 91.116
+}
+$grp GenericEntity : "{07FBB9A2F51332E4}Prefabs/Rocks/Granite/Granite_BeachStone_01.et" {
+ {
+  coords 8097.945 -1.052 2122.202
+ }
+ {
+  coords 7824.733 41.998 1764.091
+  angleY -121.199
+  scale 1.81
+ }
+ {
+  coords 7858.462 38.03 1761.76
+  angleY -149.135
+  scale 1.81
+ }
+ {
+  coords 7896.535 7.84 1794.153
+  angleY -64.523
+  scale 2.939
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{0850ACA43C743E25}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_8m_30_V2.et" {
+ {
+  coords 8151.171 0.753 2093.052
+  angleY 146.464
+  scale 1.636
+ }
+ {
+  coords 8156.406 -1.979 2104.038
+  angleY 113.262
+  scale 1.592
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{08DCFAD773891D09}Prefabs/Casas/hei_prop_heist_pic_04.et" {
+ {
+  coords 8272.032 222.437 2174.453
+  angleY -70.02
+ }
+ {
+  coords 8194.691 211.369 2110.093
+  angleY -71.68
+ }
+ {
+  coords 8157.586 212.637 2141.339
+  angleY -24.779
+ }
+ {
+  coords 5614.843 90.506 5909.175
+  angleY 4.399
+ }
+}
+StaticModelEntity : "{095874B519DCF161}Prefabs/Structures/Military/Camps/TentUS_01/TentUS_01_Assembled.et" {
+ coords 7859.584 150.421 1786.998
+ angleY 7.215
+}
+SCR_DestructibleBuildingEntity : "{0AEB8EED1688AB78}Prefabs/buildings/slum buildings/slum set3.et" {
+ coords 8129.584 9.488 1938.105
+ angleY -179.814
+}
+SCR_DestructibleBuildingEntity : "{0FD764569422DBA7}Prefabs/Structures/Cultural/Churches/ChurchSmall_E_01.et" {
+ coords 8370.516 264.573 2310.041
+ angleY -47.149
+ Flags 1027
+ {
+  GenericEntity : "{A46242F569F68E38}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Anarchy_V1.et" {
+   coords 2.396 12.116 4.87
+   angleY 90
+   angleZ -7.064
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{106D2014F5789362}Prefabs/Structures/Military/Houses/ControlTowerMilitary_E_01/ControlTowerMilitary_E_01_camo_v2.et" {
+ {
+  coords 7843.906 4.368 1820.505
+  angleY 100.522
+ }
+ {
+  coords 8478.706 9.165 2237.823
+  angleY -40.807
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{10856C7D14E67716}Prefabs/Casas/barraco_20_med.et" {
+ {
+  coords 8103.8 203.337 2116.997
+  angleY 131.637
+ }
+ {
+  coords 7296.118 153.025 2069.545
+  angleY -27.254
+ }
+ {
+  coords 8369.378 265.56 2285.313
+  angleY 19.91
+ }
+ {
+  coords 5628.667 17.161 3758.174
+  angleY -58.72
+ }
+ {
+  coords 5647.901 104.085 6050.099
+  angleY 3.213
+ }
+ {
+  coords 5434.255 96.775 6122.09
+  angleY -32.809
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{13BEF7097B2D6E00}Prefabs/Casas/barraco_15_grande.et" {
+ {
+  coords 8179.532 221.491 2161.856
+  angleY 65.589
+ }
+ {
+  coords 8173.985 222.366 2193.913
+  angleY -132.287
+ }
+ {
+  coords 7989.443 207.648 2182.181
+  angleY -52.091
+ }
+ {
+  coords 7994.564 210.754 2195.013
+  angleY 129.295
+ }
+ {
+  coords 8259.151 218.978 2119.205
+  angleY 113.032
+ }
+ {
+  coords 8245.176 218.998 2120.751
+  angleY -66.869
+ }
+ {
+  coords 8293.652 220.29 2131.569
+  angleY 25.73
+ }
+ {
+  coords 8296.278 223.134 2163.387
+  angleY -69.328
+ }
+ {
+  coords 8240.697 211.469 2094.384
+  angleY -68.734
+ }
+ {
+  coords 8195.396 215.53 2119.38
+  angleY 104.39
+ }
+ {
+  coords 8109.478 196.082 2100.57
+  angleY -46.457
+ }
+ {
+  coords 8049.593 211.514 2163.687
+  angleY -91.132
+ }
+ {
+  coords 8052.167 208.219 2148.866
+  angleY -59.831
+ }
+ {
+  coords 8019.538 205.525 2162.481
+  angleY -56.525
+ }
+ {
+  coords 8131.922 194.841 2073.807
+  angleY -37.351
+ }
+ {
+  coords 8118.855 193.258 2062.413
+  angleY 149.067
+ }
+ {
+  coords 8119.941 218.828 2176.175
+  angleY -59.266
+ }
+ {
+  coords 8090.539 218.116 2190.09
+  angleY -80.917
+ }
+ {
+  coords 8009.71 213.62 2204.607
+  angleY -54.881
+ }
+ {
+  coords 7508.68 117.607 2069.041
+  angleY -105.633
+ }
+ {
+  coords 7319.484 151.792 2048.141
+  angleY -13.241
+ }
+ {
+  coords 8312.5 251.573 2270.182
+  angleY 40.861
+ }
+ {
+  coords 8326.642 254.739 2240.277
+  angleY -50.014
+ }
+ {
+  coords 8342.1 251.721 2196.838
+  angleY 129.785
+ }
+ {
+  coords 8133.388 181.909 2010.803
+  angleY 117.006
+ }
+ {
+  coords 8153.655 183.103 2009.008
+  angleY -64.64
+ }
+ {
+  coords 8359.209 262.554 2290.672
+  angleY -42.893
+ }
+ {
+  coords 5256.158 21.912 4060.117
+  angleY -128.293
+ }
+ {
+  coords 5249.781 19.732 4019.556
+  angleY 48.881
+ }
+ {
+  coords 5513.965 95.857 6016.187
+  angleY 116.829
+ }
+ {
+  coords 5453.302 91.444 6007.641
+  angleY -169.573
+ }
+ {
+  coords 5645.96 112.521 6085.508
+  angleY -100.078
+ }
+ {
+  coords 5671.969 114.458 6077.059
+  angleY -16.91
+ }
+}
+$grp GenericEntity : "{14225F5BB48F0C00}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_base.et" {
+ {
+  coords 8042.243 203.244 2146.934
+  angleY 59.816
+ }
+ {
+  coords 8185.559 214.21 2129.614
+  angleY 16.539
+ }
+ {
+  coords 7964.762 209.064 2204.229
+  angleY 59.816
+ }
+ {
+  coords 8134.332 218.994 2158.136
+  angleY 92.271
+ }
+ {
+  coords 8058.977 214.413 2188.477
+  angleX -2.087
+  angleY 177.895
+  angleZ 3.549
+ }
+ {
+  coords 8196.719 220.77 2231.661
+  angleY 133.337
+ }
+ {
+  coords 8198.697 220.863 2233.819
+  angleY 135.753
+ }
+}
+SCR_DestructibleBuildingEntity : "{151CFDB2968ADB77}Prefabs/Structures/Houses/Villa/Villa_E_2I01/Villa_E_2I01_Police.et" {
+ coords 8227.828 0.179 2221.181
+ angleY -63.843
+}
+$grp SCR_DestructibleBuildingEntity : "{165E069CD712902F}Prefabs/Structures/Houses/Village/House_Village_E_1I01/House_Village_E_1I01_ruin.et" {
+ {
+  coords 8237.533 0.464 2263.621
+  angleY 97.925
+ }
+ {
+  coords 5796.548 0.315 6118.364
+  angleY -64.602
+ }
+}
+$grp GenericEntity : "{166A81A5EE114419}Prefabs/utilitarios/escada_03.et" {
+ {
+  coords 8084.076 214.859 2176.737
+  angleY 92.88
+ }
+ {
+  coords 8247.274 217.024 2129.718
+  angleY -152.925
+ }
+ {
+  coords 8108.728 205.573 2130.971
+  angleY -50.048
+ }
+ {
+  coords 8112.045 208.411 2134.816
+  angleY -48.213
+ }
+ {
+  coords 8369.486 252.831 2231.498
+  angleY 130.606
+ }
+ {
+  coords 5622.316 8.288 3738.857
+  angleY 116.84
+ }
+ {
+  coords 5645.766 14.863 3777.262
+  angleY 121.127
+ }
+ {
+  coords 5448.935 87.705 5956.062
+  angleY 90.836
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Village/House_Village_E_1I02/House_Village_E_1I02_ruin.et" {
+ {
+  coords 8153.476 0.001 2121.655
+  angleY -41.287
+ }
+ {
+  coords 8092.629 2.347 2145.242
+  angleY -61.232
+ }
+}
+$grp GenericEntity : "{19A3C48FC2665A3F}Prefabs/Props/Construction/GravelPile_01/GravelPile_01_large.et" {
+ {
+  coords 8157.549 211.014 2136.447
+ }
+ {
+  coords 8182.773 216.841 2151.132
+  angleX 5.741
+ }
+ {
+  coords 8505.943 309.374 2290.812
+  angleZ 10.281
+ }
+ {
+  coords 5494.711 94.656 6033.942
+  scale 1.085
+ }
+ {
+  coords 5607.934 99.795 6084.713
+  angleX 4.836
+  angleY -1.591
+  angleZ -18.233
+  scale 1.085
+ }
+}
+$grp GenericEntity : "{1A1CE09F7BCA6650}Prefabs/Props/Wrecks/S105_wreck_static.et" {
+ {
+  coords 8011.016 210.697 2185.99
+  angleX 1.789
+  angleY 97.243
+ }
+ {
+  coords 8220.556 224.263 2210.972
+  angleY -145.568
+ }
+}
+GenericEntity : "{1CD28C82355B2700}Prefabs/ZBK/KitFactory/KitStair/StairFull2mMed.et" {
+ coords 8186.235 177.259 1988.351
+ angleY -174.989
+ scale 1.355
+}
+$grp GenericEntity : "{1D1BBD7F52F71839}Prefabs/Props/Forest/WoodPile/WoodPile_02_scattered.et" {
+ {
+  coords 5630.756 100.661 6049.183
+  angleX -5.85
+  angleY 4.063
+  angleZ -5.752
+  scale 1.159
+ }
+ {
+  coords 5634.691 101.056 6048.944
+  angleX -5.85
+  angleY 4.063
+  angleZ -5.752
+  scale 1.159
+ }
+}
+GenericEntity : "{1E4C8AD00BBB16AA}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_Base.et" {
+ coords 4765.225 22.877 9375.162
+}
+$grp SCR_DestructibleBuildingEntity : "{1EE0844725948049}Prefabs/Casas/hei_prop_heist_pic_09.et" {
+ {
+  coords 8118.931 217.43 2155.345
+  angleY -71.937
+ }
+ {
+  coords 8118.67 217.632 2155.552
+  angleX -0.094
+  angleY 106.593
+  angleZ 178.789
+ }
+ {
+  coords 8081.102 211.744 2157.808
+  angleY 93.934
+ }
+ {
+  coords 7300.833 150.489 2062.86
+  angleY -25.48
+ }
+ {
+  coords 5600.617 91.078 5968.95
+  angleY 157.623
+ }
+ {
+  coords 5444.917 88.749 5969.282
+ }
+}
+$grp GenericEntity : "{1F0AA3EA77753B5D}Prefabs/Rocks/Granite/Granite_Boulder_02.et" {
+ {
+  coords 8173.425 173.08 1977.122
+  angleY -53.996
+  scale 1.036
+  Flags 1027
+ }
+ {
+  coords 8171.788 172.818 1976.984
+  angleY -108.804
+  scale 1.036
+  Flags 1027
+ }
+}
+SCR_DestructibleBuildingEntity : "{1F5DE8371A7EA3B1}Prefabs/Structures/Industrial/ConstructionBuilding_A.et" {
+ coords 7857.164 21.309 1792.446
+ angleY 5.17
+}
+GenericEntity : "{22E2462FA3AE0849}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long_Pile.et" {
+ coords 5473.635 95.596 6088.491
+ angleY -28
+}
+$grp GenericEntity : "{29063844DEEAC10B}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_large.et" {
+ {
+  coords 8032.989 203.405 2137.826
+  angleY 15.2
+ }
+ {
+  coords 8114.152 194.094 2086.529
+  angleX 6.986
+  angleY 46.5
+  angleZ 4.146
+ }
+ {
+  coords 8216.983 224.145 2212.687
+  angleX 6.986
+  angleY 46.5
+  angleZ 4.146
+ }
+ {
+  coords 8198.82 221.238 2201.316
+  angleX 6.986
+  angleY 46.5
+  angleZ 4.146
+ }
+ {
+  coords 8179.943 221.591 2191.658
+  angleX 2.946
+  angleY 46.207
+  angleZ 2.178
+ }
+ {
+  coords 8175.441 221.08 2174.409
+  angleX 5.562
+  angleY 46.396
+  angleZ 2.294
+ }
+}
+SCR_DestructibleBuildingEntity : "{2A0DFE1E88D6D508}Prefabs/Structures/Houses/Village/House_Village_E_1L03/House_Village_E_1L03t_yellow.et" {
+ coords 8285.839 1.557 2187.363
+ angleY 24.977
+}
+$grp GenericEntity : "{2B5EA49D9B7DCD2E}Prefabs/utilitarios/escada_04.et" {
+ {
+  coords 8242.748 217.03 2132.085
+  angleY 27.812
+ }
+ {
+  coords 8296.892 217.953 2159.556
+  angleY 21.123
+ }
+ {
+  coords 8076.062 212.908 2190.036
+  angleY 13.938
+ }
+ {
+  coords 7452.917 118.829 2041.097
+  angleY -39.922
+ }
+ {
+  coords 8042.715 208.796 2190.025
+ }
+ {
+  coords 8326.091 247.513 2291.481
+  angleY 130.022
+ }
+ {
+  coords 8344.601 249.615 2229.594
+  angleY -50.664
+ }
+ {
+  coords 8347.624 252.45 2233.304
+  angleY -50.664
+ }
+ {
+  coords 8325.131 249.399 2237.116
+  angleY 40.344
+ }
+ {
+  coords 8129.261 178.328 2016.593
+  angleY 24.823
+ }
+}
+$grp GenericEntity : "{2D2442ABF4776F2B}Prefabs/Casas/barraco_03.et" {
+ {
+  coords 8215.574 223.614 2178.321
+  angleY -63.986
+ }
+ {
+  coords 8050.694 213.984 2174.001
+  angleY 179.754
+ }
+ {
+  coords 8238.88 216.393 2142.303
+  angleY 27.154
+ }
+ {
+  coords 8245.094 216.39 2139.055
+  angleY 27.471
+ }
+ {
+  coords 8251.277 216.381 2135.812
+  angleY 27.863
+ }
+ {
+  coords 8256.863 216.396 2132.842
+  angleY 27.863
+ }
+ {
+  coords 8262.063 216.385 2142.601
+  angleY 28.116
+ }
+ {
+  coords 8252.893 216.378 2145.969
+  angleY -62.042
+ }
+ {
+  coords 8187.484 209.708 2120.251
+  angleY 15.915
+ }
+ {
+  coords 8181.122 209.721 2122.096
+  angleY 16.633
+ }
+ {
+  coords 8175.139 209.746 2123.952
+  angleY 17.604
+ }
+ {
+  coords 8070.097 215.955 2196.467
+ }
+ {
+  coords 7473.229 120.514 2024.842
+  angleY 136.312
+ }
+ {
+  coords 7454.279 122.344 2050.296
+  angleY -36.319
+ }
+ {
+  coords 8328.492 256.704 2273.404
+  angleY -46.583
+ }
+ {
+  coords 8350.575 252.133 2229.879
+  angleY 39.528
+ }
+ {
+  coords 8362.104 252.412 2229.839
+  angleY -49.257
+ }
+ {
+  coords 8189.375 178.878 1976.689
+  angleY -179.313
+ }
+ {
+  coords 5128.786 7.268 3866.887
+  angleY 159.193
+ }
+ {
+  coords 5586.398 95.197 6015.423
+  angleY 90.105
+ }
+ {
+  coords 5627.59 100.878 6028.229
+  angleY -170.796
+ }
+ {
+  coords 5618.882 102.414 6081.751
+  angleY 79.374
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{2EC358E97E66CEB2}Prefabs/Structures/Industrial/Sheds/ShedMetal_03/ShedMetal_03_v2.et" {
+ {
+  coords 8376.832 5.604 2208.993
+  angleY -51.644
+ }
+ {
+  coords 8368.688 9.634 2198.647
+  angleY -49.866
+ }
+}
+SCR_DestructibleBuildingEntity : "{322D245123EEDC90}Prefabs/Structures/Houses/Village/House_Village_E_1I01/House_Village_E_1I01_V2.et" {
+ coords 8235.722 0.721 2251.512
+ angleY 100.37
+}
+$grp SCR_DestructibleBuildingEntity : "{329AA27D49D3CA99}Prefabs/Structures/City/5_Floor_Appartment.et" {
+ {
+  components {
+   MeshObject "{5D7175356D4FDBFD}" {
+    Materials {
+     MaterialAssignClass "{62B5247F5BEC18B8}" {
+      SourceMaterial "ExteriorDetails"
+      AssignedMaterial "{5750748F6CE5B71F}Assets/NovosProps/Data/hei_prop_heist_pic_12_concreto.emat"
+     }
+    }
+   }
+  }
+  coords 8107.15 2.098 2167.716
+  angleY -152.286
+ }
+ {
+  coords 8143.882 5.662 2109.701
+  angleY -132.999
+ }
+ {
+  coords 7979.538 2.928 2215.832
+  angleY -16.752
+ }
+ {
+  coords 8028.43 2.825 2194.003
+  angleY 12.215
+ }
+ {
+  coords 8392.806 8.665 2210.386
+  angleY 131.551
+ }
+ {
+  coords 5441.9 2.221 6161.027
+  angleY 61.173
+ }
+ {
+  coords 5673.08 2.159 6021.035
+  angleY -166.726
+ }
+ {
+  coords 5438.826 1.905 5930.672
+  angleY 2.862
+ }
+}
+$grp GenericEntity : "{3386EAA823BE462E}Prefabs/Props/Wrecks/UAZ469_wreck_static.et" {
+ {
+  coords 8144.573 219.122 2167.557
+  angleX -3.93
+  angleY -102.562
+ }
+ {
+  coords 8192.708 220.449 2220.418
+  angleX -3.695
+  angleY 116.072
+  angleZ 2.47
+ }
+}
+$grp GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
+ {
+  coords 8042.142 203.253 2146.855
+  angleY -94.525
+ }
+ {
+  coords 8058.777 201.07 2135.636
+ }
+ {
+  coords 8190.715 221.039 2210.8
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{3554BBD160D7C4F3}Prefabs/Casas/barraco_17_gnd.et" {
+ {
+  coords 8108.39 205.867 2123.928
+  angleY -48.91
+ }
+ {
+  coords 7988.904 204.17 2118.877
+  angleY 37.676
+ }
+ {
+  coords 8132.443 210.156 2129.252
+  angleY 37.459
+ }
+ {
+  coords 8386.563 250.506 2220.994
+  angleY -140.135
+ }
+ {
+  coords 5642.378 18.877 3779.25
+  angleY 121.634
+ }
+ {
+  coords 5243.951 19.386 4050.492
+  angleY 140.087
+ }
+ {
+  coords 5516.507 92.043 6000.889
+  angleY -154.319
+ }
+ {
+  coords 5652.117 111.47 6065.333
+  angleY 75.89
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{35E8DFEF06E5943E}Prefabs/Casas/hei_prop_heist_pic_03.et" {
+ {
+  coords 8187.529 224.742 2176.869
+  angleY -129.296
+ }
+ {
+  coords 8077.034 220.105 2173.267
+  angleY -83.841
+ }
+ {
+  coords 7999.346 208.335 2115.302
+  angleY -53.406
+ }
+ {
+  coords 8348.089 254.548 2212.921
+  angleY 40.607
+ }
+}
+SCR_DestructibleBuildingEntity : "{37DFABD563E4224F}Prefabs/buildings/slum buildings/slum set4.et" {
+ coords 8307.276 6.572 2292.701
+ angleY 130.574
+}
+GenericEntity : "{390BAFB276DF1AE3}Prefabs/Structures/BuildingParts/Entry/Doorstep_01_5m.et" {
+ coords 8290.246 230.698 2196.763
+ angleX 2.152
+ angleY -66.299
+ angleZ -0.206
+}
+SCR_DestructibleEntity : "{3BEB82C5A261D852}Prefabs/Structures/Signs/Traffic/VergePost/StoneVergePost_01_base.et" {
+ coords 8115.057 212.494 2138.655
+ angleX -88.88
+ angleY 37.659
+ angleZ 1.973
+ scale 8.459
+}
+$grp SCR_DestructibleBuildingEntity : "{3C308FCFD4EDD3D9}Prefabs/Casas/barraco_06_med.et" {
+ {
+  coords 8147.708 221.941 2152.897
+  angleY -22.878
+ }
+ {
+  coords 8063.122 216.86 2196.206
+ }
+ {
+  coords 7489.69 119.561 2038.463
+  angleY 158.147
+ }
+ {
+  coords 8337.467 256.16 2290.393
+  angleY -141.681
+ }
+ {
+  coords 8357.973 259.038 2239.042
+  angleY -140.296
+ }
+ {
+  coords 8178.717 179.991 1993.451
+ }
+ {
+  coords 8381.098 253.765 2226.956
+  angleY 39.282
+ }
+ {
+  coords 8426.409 285.607 2317.81
+  angleY -34.57
+ }
+ {
+  coords 5237.364 20.241 4014.187
+  angleY 140.132
+ }
+ {
+  coords 5118.265 8.697 3862.753
+  angleY 159.128
+ }
+ {
+  coords 5613.374 101.358 6029.548
+  angleY -175.92
+ }
+ {
+  coords 5631.355 108.597 6069.755
+  angleY 167.876
+ }
+}
+SCR_DestructibleBuildingEntity : "{3D9B780ABF8DEE7C}Prefabs/Props/Recreation/Beach/Caravan_03/Caravan_03.et" {
+ coords 5426.996 0.141 6150.207
+ angleY 166.29
+}
+$grp GenericEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Granite/GraniteCliff_01.et" {
+ {
+  coords 8385.497 227.845 2163.52
+  angleX 54
+  angleY -175.487
+  angleZ 9.408
+ }
+ {
+  coords 8394.194 228.193 2171.315
+  angleX 43.275
+  angleY 163.146
+  angleZ -14.08
+ }
+}
+GenericEntity : "{4527DE86025ECF43}Prefabs/Rocks/Granite/GraniteSurfaceStone_04.et" {
+ coords 8102.514 205.605 2132.475
+ angleX 16.192
+ angleY -49.253
+ angleZ -17.935
+}
+$grp GenericEntity : "{470A907D27B94200}Prefabs/utilitarios/escada_07.et" {
+ {
+  coords 8186.05 218.353 2201.842
+  angleY -135.27
+ }
+ {
+  coords 8000.082 205.555 2181.661
+  angleY -136.257
+ }
+ {
+  coords 8224.267 217.813 2151.628
+  angleX -2.425
+  angleY -60.883
+  angleZ 8.544
+ }
+ {
+  coords 8255.504 211.905 2107.307
+  angleY 118.169
+ }
+ {
+  coords 8234.642 213.796 2125.763
+  angleY 115.182
+ }
+ {
+  coords 8286.347 215.111 2123.207
+  angleY 27.504
+ }
+ {
+  coords 8306.059 221.161 2161.907
+  angleY 68.179
+ }
+ {
+  coords 8089.369 210.653 2141.293
+  angleY 34.911
+ }
+ {
+  coords 8348.398 252.715 2298.58
+  angleY 46.568
+ }
+}
+$grp GenericEntity : "{4A0EB5570B2BB36C}Prefabs/Props/Wrecks/Ural4320_wreck.et" {
+ {
+  coords 8052.334 213.417 2187.534
+  angleX 3.815
+  angleY 89.67
+ }
+ {
+  coords 8189.851 221.071 2189.179
+  angleX -4.583
+  angleY -124.471
+  angleZ 1.022
+ }
+ {
+  coords 8187.62 220.943 2209.451
+  angleX -3.975
+  angleY 114.759
+  angleZ 6.742
+ }
+ {
+  coords 8193.854 220.267 2224.536
+  angleX -7.52
+  angleY 114.337
+  angleZ 6.784
+ }
+}
+GenericEntity : "{4BF9D2FB26F6B9C2}Prefabs/Props/Civilian/Billiard_01/Billiard_01.et" {
+ coords 8080.689 217.32 2174.392
+ angleY -82.781
+}
+$grp SCR_DestructibleBuildingEntity : "{50B58AE9E2EF3A63}Prefabs/Predio/Predio_01.et" {
+ {
+  coords 8174.914 209.427 2107.001
+  angleY -161.129
+ }
+ {
+  coords 7954.208 205.354 2150.189
+  angleY -143.092
+ }
+ {
+  components {
+   MeshObject "{61E17981847F4C86}" {
+    Object "{A5B05676AD755B95}Assets/NovosProps/campinho.xob"
+   }
+  }
+  coords 8367.209 248.691 2209.87
+  angleY 39.047
+ }
+}
+SCR_DestructibleBuildingEntity : "{51F233A0BA73532A}Prefabs/Structures/Industrial/Houses/Office_E_01/Office_E_01.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{62B52403AB2E2AEF}" {
+     SourceMaterial "Office_E_01_EXT_Details"
+     AssignedMaterial "{5750748F6CE5B71F}Assets/NovosProps/Data/hei_prop_heist_pic_12_concreto.emat"
+    }
+    MaterialAssignClass "{62B52403AB2E2A95}" {
+     SourceMaterial "Office_E_01_EXT_Roof"
+     AssignedMaterial "{071E4BA4BA939F1D}Assets/NovosProps/Data/20131106115541065973.emat"
+    }
+    MaterialAssignClass "{62B52403AB2E2AA0}" {
+     SourceMaterial "Office_E_01_EXT_Walls"
+     AssignedMaterial "{5750748F6CE5B71F}Assets/NovosProps/Data/hei_prop_heist_pic_12_concreto.emat"
+    }
+    MaterialAssignClass "{62B52403AB2E2AA7}" {
+     SourceMaterial "Office_E_01_INT_MLOD"
+     AssignedMaterial "{791383442729771A}Assets/Data/ap_floor_tile_07a_d.emat"
+    }
+    MaterialAssignClass "{62B52403AB2E2AB6}" {
+     SourceMaterial "Office_E_01_MLOD"
+     AssignedMaterial "{D20786A5CC28DA67}Assets/Data/bd_ground_01b_dm.emat"
+    }
+   }
+  }
+ }
+ coords 8459.56 22.462 2251.853
+ angleY -37.812
+ {
+  GenericEntity {
+   ID "56E4EDAF81F3384B"
+   coords 0 -0.011 0
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{52C21FCB3959A68E}Prefabs/Casas/barraco_11_peq.et" {
+ {
+  coords 8043.613 213.049 2178.721
+  angleY 90.619
+ }
+ {
+  coords 8094.787 217.82 2176.063
+  angleX -0.692
+  angleY 120.462
+  angleZ 1.177
+ }
+ {
+  coords 8225.546 219.689 2137.427
+  angleY 119.802
+ }
+ {
+  coords 8077.3 218.122 2191.575
+  angleY -76.552
+ }
+ {
+  coords 8127.724 211.915 2133.402
+  angleY -140.15
+ }
+ {
+  coords 8372.018 254.121 2227.081
+  angleY -50.807
+ }
+ {
+  coords 5277.966 23.819 4052.979
+  angleY 57.698
+ }
+ {
+  coords 5614.46 90.937 5897.082
+  angleY 103.221
+ }
+ {
+  coords 5588.025 92.895 5984.234
+  angleY -27.06
+ }
+ {
+  coords 5620.805 99.464 6032.867
+  angleY 95.85
+ }
+ {
+  coords 5647.884 112.32 6077.578
+  angleY 75.085
+ }
+}
+$grp GenericEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
+ {
+  coords 8407.646 234.728 2184.112
+  angleX 50.321
+  angleY 146.025
+  angleZ 29.226
+ }
+ {
+  coords 8413.098 244.82 2210.407
+  angleX 65.382
+  angleY -141.263
+ }
+ {
+  coords 8408.159 239.754 2191.99
+  angleX 66.733
+  angleY -167.357
+  angleZ -24.225
+ }
+ {
+  coords 8438.29 262.433 2260.317
+  angleX -0.459
+  angleY -122.081
+  angleZ 3.183
+  scale 2.171
+ }
+ {
+  coords 8442.878 263.734 2279.589
+  angleX -3.016
+  angleY -60.606
+  angleZ 1.117
+  scale 2.171
+ }
+ {
+  coords 8450.511 259.14 2235.616
+  angleX -0.43
+  angleY 42.048
+  angleZ -3.187
+  scale 2.171
+ }
+ {
+  coords 8478.114 258.38 2220.618
+  angleX 0.42
+  angleY -137.772
+  angleZ 3.188
+  scale 2.171
+ }
+ {
+  coords 8492.134 256.712 2209.003
+  angleX -0.459
+  angleY -122.081
+  angleZ -10.905
+  scale 2.171
+ }
+ {
+  coords 8505.743 252.776 2189.963
+  angleX 5.576
+  angleY 22.08
+  angleZ 17.285
+  scale 2.171
+ }
+ {
+  coords 8532.888 288.295 2190.94
+  angleX -75.25
+  angleY -60.888
+  angleZ 3.706
+  scale 2.171
+ }
+ {
+  coords 8551.84 281.738 2154.377
+  angleX -84.603
+  angleY -27.8
+  angleZ -4.666
+  scale 2.171
+ }
+ {
+  coords 8502.976 298.93 2228.135
+  angleX -87.326
+  angleY -77.737
+  angleZ 13.019
+  scale 2.171
+ }
+ {
+  coords 8479.415 304.639 2268.298
+  angleX -85.676
+  angleY 15.994
+  angleZ -144.582
+  scale 2.171
+ }
+ {
+  coords 8444.434 263.756 2290.148
+  angleX -2.798
+  angleY -10.697
+  angleZ 32.557
+  scale 2.171
+ }
+ {
+  coords 8447.502 304.955 2254.591
+  angleX -83.513
+  angleY -97.509
+  angleZ 127.849
+  scale 2.171
+ }
+ {
+  coords 8486.863 304.116 2272.486
+  angleX -83.17
+  angleY -149.72
+  angleZ 139.411
+  scale 2.171
+ }
+ {
+  coords 8485.973 282.837 2360.305
+  angleX -85.883
+  angleY -29.762
+  angleZ -91.272
+  scale 2.171
+ }
+ {
+  coords 8341.721 226.649 2189.637
+  angleX 18.271
+  angleY -135.404
+  angleZ -82.317
+  scale 2.171
+ }
+ {
+  coords 8345.487 231.016 2182.568
+  angleX 32.198
+  angleY -140.666
+  angleZ 84.948
+  scale 2.171
+ }
+ {
+  coords 8301.121 228.587 2303.673
+  angleX 1.229
+  angleY -50.972
+  angleZ 85.231
+  scale 2.171
+ }
+ {
+  coords 8325.564 228.812 2342.105
+  angleX 45.692
+  angleY -4.135
+  angleZ 78.655
+  scale 2.171
+ }
+ {
+  coords 8047.294 155.172 2003.314
+  angleX 16.088
+  angleY -168.7
+  angleZ 104.922
+  scale 2.171
+ }
+ {
+  coords 8083.842 155.092 1997.852
+  angleX 14.089
+  angleY 179.36
+  angleZ 84.345
+  scale 2.171
+ }
+ {
+  coords 8119.211 159.954 1977.404
+  angleX 15.135
+  angleY -155.145
+  angleZ 90.879
+  scale 2.171
+ }
+ {
+  coords 8102.549 160.706 1978.822
+  angleX -16.805
+  angleY 90.43
+  angleZ 84.251
+  scale 2.171
+ }
+ {
+  coords 8105.004 153.154 1935.002
+  angleX 23.955
+  angleY -88.126
+  angleZ -84.851
+  scale 2.171
+ }
+ {
+  coords 8117.166 154.013 1864.976
+  angleX 10.704
+  angleY -94.834
+  angleZ 84.306
+  scale 2.171
+ }
+ {
+  coords 8107.965 156.212 1879.255
+  angleX 15.475
+  angleY -83.947
+  angleZ 95.756
+  scale 2.171
+ }
+ {
+  coords 8161.238 155.541 1872.854
+  angleX 4.739
+  angleY 175.212
+  angleZ 84.227
+  scale 2.171
+ }
+ {
+  coords 8205.854 155.77 1877.812
+  angleX 4.739
+  angleY 175.212
+  angleZ 84.227
+  scale 2.171
+ }
+ {
+  coords 8199.564 155.429 1873.483
+  angleX -6.602
+  angleY 11.068
+  angleZ 82.605
+  scale 2.171
+ }
+ {
+  coords 8233.671 155.614 1867.004
+  angleX -9.052
+  angleY -1.465
+  angleZ 79.739
+  scale 2.171
+ }
+ {
+  coords 8076.986 172.381 2008.659
+  angleX -82.897
+  angleY 55.208
+  angleZ -149.158
+  scale 2.171
+ }
+ {
+  coords 8114.433 177.626 2007.263
+  angleX -82.897
+  angleY 55.208
+  angleZ -149.158
+  scale 2.171
+ }
+ {
+  coords 8136.954 174.898 1996.278
+  angleX -86.34
+  angleY 2.591
+  angleZ -96.721
+  scale 2.171
+ }
+ {
+  coords 8168.483 173.723 1990.448
+  angleX -79.555
+  angleY -1.794
+  angleZ -92.362
+  scale 2.171
+ }
+ {
+  coords 8363.889 258.168 2329.516
+  angleX -87.707
+  angleY 33.459
+  angleZ 111.454
+  scale 2.171
+ }
+ {
+  coords 8410.802 274.169 2307.672
+  angleX -83.865
+  angleY -30.501
+  angleZ 89.629
+ }
+ {
+  coords 7883.106 92.427 1759.109
+  angleX 4.407
+  angleY 179.027
+  angleZ 5.151
+  scale 2.171
+ }
+ {
+  coords 7867.706 93.015 1758.487
+  angleX 4.268
+  angleY -179.451
+  angleZ 5.266
+  scale 2.171
+ }
+ {
+  coords 7853.455 92.57 1756.197
+  angleX 4.059
+  angleY -177.211
+  angleZ 5.429
+  scale 2.171
+ }
+ {
+  coords 7835.897 93.856 1761.796
+  angleX 2.918
+  angleY -165.938
+  angleZ 6.117
+  scale 2.171
+ }
+ {
+  coords 7825.588 97.695 1775.509
+  angleX -5.342
+  angleY -88.619
+  angleZ 4.173
+  scale 2.171
+ }
+ {
+  coords 7818.304 119.897 1792.253
+  angleX 5.057
+  angleY 90.748
+  angleZ -87.864
+  scale 2.171
+ }
+ {
+  components {
+   MeshObject "{5512A6BD2C7B4349}" {
+    Materials {
+     MaterialAssignClass "{62B52409B9D80DFD}" {
+      SourceMaterial "GraniteCliff_02_MLOD"
+      AssignedMaterial "{E0078B932EB17D28}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 7895.683 95.083 1768.358
+  angleX 5.352
+  angleY 91.521
+  angleZ -4.16
+  scale 2.171
+ }
+ {
+  coords 7901.52 120.598 1778.531
+  angleX -14.023
+  angleY -83.081
+  angleZ 85.037
+  scale 2.171
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{5737DC0CD20B5C38}Prefabs/Casas/barraco_01_peq.et" {
+ {
+  coords 8249.182 215.495 2102.599
+  angleY -153.606
+ }
+ {
+  coords 8177.172 215.584 2134.304
+  angleY 15.652
+ }
+ {
+  coords 8151.571 214.95 2145.05
+  angleY -115.569
+ }
+ {
+  coords 7457.107 123.348 2025.153
+  angleY 141.193
+ }
+ {
+  coords 8332.95 252.801 2294.247
+  angleY -138.613
+ }
+ {
+  coords 8357.74 251.727 2225.912
+  angleY -49.498
+ }
+ {
+  coords 8191.014 180.062 1988.875
+  angleY 93.665
+ }
+ {
+  coords 8405.012 273.015 2298.4
+  angleY -46.498
+ }
+ {
+  coords 5133.926 7.02 3869.693
+  angleY 159.19
+ }
+ {
+  coords 5586.536 93.078 5998.25
+  angleY 73.33
+ }
+ {
+  coords 5633.744 101.188 6028.127
+  angleY -173.057
+ }
+ {
+  coords 5624.863 106.455 6070.953
+  angleY 167.876
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{575E507D9F677F15}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_V1_8m.et" {
+ {
+  coords 8136.102 205.229 2098.154
+  angleX 84.65
+  angleY -37.837
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8130.521 205.357 2104.737
+  angleX 84.941
+  angleY -33.387
+  angleZ 6.728
+  scale 1.42
+ }
+ {
+  coords 8125.057 205.464 2111.254
+  angleX 84.65
+  angleY -37.837
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8119.531 205.575 2117.774
+  angleX 84.65
+  angleY -37.837
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8113.848 205.706 2124.427
+  angleX 84.65
+  angleY -37.837
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8144.421 205.139 2105.179
+  angleX 84.65
+  angleY -37.837
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8138.61 205.239 2112.025
+  angleX 84.65
+  angleY -37.837
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8133.503 205.347 2118.777
+  angleX 84.65
+  angleY -37.837
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8126.001 205.572 2124.624
+  angleX 84.65
+  angleY -37.837
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8148.923 204.998 2100.575
+  angleX 84.65
+  angleY -50.497
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8141.362 205.064 2093.833
+  angleX 84.65
+  angleY -2.894
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8145.795 204.992 2096.495
+  angleX 83.903
+  angleY -32.579
+  angleZ 7.543
+  scale 1.42
+ }
+ {
+  coords 8149.882 205.089 2110.325
+  angleX 84.65
+  angleY -37.837
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8144.21 205.149 2116.957
+  angleX 84.65
+  angleY -37.837
+  angleZ 2.26
+  scale 1.42
+ }
+ {
+  coords 8149.916 204.979 2104.787
+  angleX 84.65
+  angleY 7.087
+  angleZ 2.26
+  scale 1.42
+ }
+}
+$grp GenericEntity : "{58012297047FBBF3}Prefabs/Infrastructure/Platforms/Platform_Round.et" {
+ {
+  coords 8341.243 245.238 2328.983
+  angleY 130.022
+  scale 3.114
+ }
+ {
+  coords 8284.778 245.132 2262.799
+  angleY 40.338
+  scale 3.114
+ }
+}
+SCR_DestructibleBuildingEntity : "{5C3970C66593D4A8}Prefabs/buildings/slum buildings/slum building 24.et" {
+ coords 8207.603 1.862 1955.478
+}
+$grp SCR_DestructibleBuildingEntity : "{5CDDDFB2D698DCC3}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_WoodPile.et" {
+ {
+  coords 5584.489 0 6039.169
+  angleX 1.286
+  angleY 86.402
+  angleZ 6.173
+  scale 1.017
+ }
+ {
+  coords 5625.82 0 6049.324
+  angleX 4.274
+  angleY 86.069
+  angleZ -2.975
+  scale 1.017
+ }
+}
+$grp GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Large.et" {
+ {
+  coords 8055.966 202.378 2136.201
+  angleX 1.965
+  angleY -95.533
+  angleZ -94.74
+ }
+ {
+  coords 8052.583 202.419 2131.507
+  angleX 1.965
+  angleY -95.533
+  angleZ -94.74
+ }
+ {
+  coords 7975.417 209.419 2203.535
+  angleX 1.965
+  angleY -95.533
+  angleZ -94.74
+ }
+ {
+  coords 7985.117 210.955 2209.622
+  angleX 1.965
+  angleY -95.533
+  angleZ -94.74
+ }
+ {
+  coords 8206.331 221.05 2228.414
+  angleX 1.965
+  angleY -95.533
+  angleZ -94.74
+ }
+ {
+  coords 8198.74 221.087 2220.983
+  angleX 1.965
+  angleY -95.533
+  angleZ -94.74
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{5EEC464FBEE4D0CD}Prefabs/Casas/barraco_06_gnd.et" {
+ {
+  coords 8300.871 225.927 2177.599
+  angleY 28.321
+ }
+ {
+  coords 8220.762 216.968 2108.277
+  angleX -1.69
+  angleY -159.88
+  angleZ -0.446
+ }
+ {
+  coords 8100.686 198.415 2112.901
+  angleY 44.132
+ }
+ {
+  coords 8066.404 219.397 2160.661
+  angleY -172.819
+ }
+ {
+  coords 7997.494 213.233 2215.631
+  angleY 29.167
+ }
+ {
+  coords 7482.461 120.962 2033.737
+  angleY 144.845
+ }
+ {
+  coords 7493.685 119.878 2067.559
+  angleY -14.879
+ }
+ {
+  coords 7453.153 126.557 2019.279
+  angleY 140.581
+ }
+ {
+  coords 8345.291 259.906 2240.05
+  angleY -50.455
+ }
+ {
+  coords 8330.464 259.909 2258.401
+  angleY -94.97
+ }
+ {
+  coords 8190.778 186.125 1996.793
+  angleY 94.382
+ }
+ {
+  coords 5605.313 100.698 6031.535
+  angleY -174.18
+ }
+}
+GenericEntity : "{5F799252A82209D2}Prefabs/Rocks/Granite/GraniteSurfaceStone_01_Forest.et" {
+ coords 8094.776 208.952 2136.372
+ angleX 4.343
+ angleY -45.709
+ angleZ -4.438
+}
+GenericEntity : "{636EBED26A45DDBC}Prefabs/ZBK/KitFactory/KitStair/StairEmpty2mBot.et" {
+ coords 8144.058 182.559 2017.562
+ angleY -154.401
+}
+$grp SCR_DestructibleBuildingEntity : "{6488CE37CF4D9227}Prefabs/Casas/hei_prop_heist_pic_07.et" {
+ {
+  coords 8271.991 213.8 2112.112
+  angleY -154.961
+ }
+ {
+  coords 8282.393 217.375 2119.692
+  angleX -0.192
+  angleY -153.562
+  angleZ 0.563
+ }
+ {
+  coords 8035.865 203.732 2154.763
+  angleY -54.47
+ }
+ {
+  coords 8332.457 251.559 2214.319
+  angleY 42.695
+ }
+}
+SCR_DestructibleBuildingEntity : "{65BB73E11F177801}Prefabs/buildings/slum buildings/slums full.et" {
+ coords 8187.998 12.485 1909.849
+}
+$grp GenericEntity : "{6789B112FE149903}Prefabs/Structures/BuildingsParts/Entry/Stairs Appartments.et" {
+ {
+  coords 8311.624 243.999 2223.255
+  angleY -137.128
+ }
+ {
+  coords 8314.041 246.926 2226.067
+  angleY -138.977
+ }
+ {
+  coords 8316.593 250.005 2229.018
+  angleY -138.819
+ }
+ {
+  coords 8317.623 251.253 2230.205
+  angleY -138.819
+ }
+}
+SCR_DestructibleBuildingEntity : "{6A5434912CBD0296}Prefabs/Structures/Houses/Village/House_Village_E_1I03/House_Village_E_1I03_yellow.et" {
+ coords 8258.521 0.918 2209.362
+ angleY -59.378
+}
+GenericEntity : "{6BDDFE9FA1D4B2F0}Prefabs/Props/Wrecks/UAZ469_wreck.et" {
+ coords 8018.593 210.558 2179.005
+ angleX -20.209
+ angleY -131.393
+}
+$grp GenericEntity : "{6FDC70C8E32A8254}Prefabs/Rocks/Granite/GraniteStone_02.et" {
+ {
+  coords 8271.48 -2.538 2275.733
+  angleZ -9.688
+  scale 16.284
+ }
+ {
+  coords 8376.221 -1.071 2168.338
+  angleZ -9.688
+  scale 16.284
+ }
+ {
+  coords 8388.609 -1.505 2174.427
+  angleZ -9.688
+  scale 16.284
+ }
+ {
+  coords 8382.211 2.446 2173.065
+  angleZ -9.688
+  scale 16.284
+ }
+ {
+  coords 8407.937 -3.505 2185.589
+  angleZ -9.688
+  scale 16.284
+ }
+ {
+  coords 8424.249 -2.983 2197.039
+  angleZ -9.688
+  scale 16.284
+ }
+ {
+  coords 8361.331 -2.462 2172.309
+  angleZ -9.688
+  scale 16.284
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{70D6166C1C709644}Prefabs/Casas/barraco_11_med.et" {
+ {
+  coords 8174.326 224.647 2209.716
+  angleY 47.097
+ }
+ {
+  coords 8264.643 220.883 2132.434
+  angleY -153.723
+ }
+}
+GenericEntity : "{70F32FEADB4D80F0}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_low_base.et" {
+ coords 8498.294 310.799 2292.285
+ angleY 63.071
+}
+$grp GenericEntity : "{735E970ACBB1B473}Prefabs/Rocks/Granite/Granite_Boulder_01.et" {
+ {
+  coords 7822.611 -1.829 1838.456
+  angleX -7.061
+  angleY -148.217
+  angleZ -63.714
+  scale 4.84
+ }
+ {
+  coords 7823.482 0.511 1843.64
+  angleX 132.252
+  angleY 144.266
+  angleZ -129.703
+  scale 3.12
+ }
+}
+GenericEntity : "{755DB5F15ECC6FFD}Prefabs/Rocks/Granite/GraniteSurfaceStone_02_Forest.et" {
+ coords 8283.54 236.43 2292.582
+ angleX -36.658
+ angleY -52.933
+ angleZ 6.431
+ scale 3.124
+}
+$grp GenericEntity : "{7783AE4B44D3CF29}Prefabs/Props/Wrecks/M923A1_wreck.et" {
+ {
+  coords 8063.726 200.58 2133.872
+  angleY -69.512
+ }
+ {
+  coords 8098.67 194.89 2093.442
+  angleX -6.17
+  angleY 87.942
+  angleZ 2.555
+ }
+}
+GenericEntity : "{7813FBBE77324674}Prefabs/Rocks/Granite/GraniteSurfaceStone_03.et" {
+ coords 8285.916 223.769 2175.261
+ angleX 13.018
+ angleY 17.165
+ scale 0.75
+}
+StaticModelEntity : "{7839491ACC2102B9}Prefabs/Structures/Agriculture/VegetableBed_01/VegetableBed_01_small.et" {
+ coords 8293.873 0.395 2195.168
+ angleY 24.01
+}
+$grp GenericEntity : "{79F65A32D0EBBC2A}Prefabs/utilitarios/orelhao.et" {
+ {
+  coords 8178.794 221.3 2175.798
+  angleY -40.824
+ }
+ {
+  coords 8009.438 210.973 2184.239
+  angleY 35.522
+ }
+ {
+  coords 8103.619 196.145 2103.794
+  angleY 43.63
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{7EC852242187999E}Prefabs/Casas/barraco_21_med.et" {
+ {
+  coords 8181.067 224.766 2204.462
+  angleY 137.274
+ }
+ {
+  coords 8207.947 217.75 2126.934
+  angleY 12.115
+ }
+ {
+  coords 8106.183 195.321 2077.652
+  angleY 45.418
+ }
+ {
+  coords 8044.394 214.997 2192.383
+ }
+ {
+  coords 5632.753 18.017 3764.572
+  angleY -57.386
+ }
+ {
+  coords 5637.872 18.755 3771.525
+  angleY -58.728
+ }
+ {
+  coords 5508.288 94.211 6004.65
+  angleY 23.274
+ }
+ {
+  coords 5655.516 104.262 6048.326
+  angleY 6.257
+ }
+ {
+  coords 5429.826 95.68 6129.174
+  angleY 62.45
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{811482CEC3A8054C}Prefabs/Casas/hei_prop_heist_pic_06.et" {
+ {
+  coords 8269.231 215.695 2106.863
+  angleY 113.647
+ }
+ {
+  coords 8150.379 220.337 2175.632
+  angleY 162.147
+ }
+ {
+  coords 8281.232 216.58 2114.1
+  angleY -64.28
+ }
+ {
+  coords 8200.929 215.838 2128.706
+  angleY -78.262
+ }
+ {
+  coords 8072.586 210.877 2151.64
+  angleY -90.4
+ }
+ {
+  coords 8165.038 214.486 2148.024
+  angleY 153.526
+ }
+ {
+  coords 8029.519 204.293 2156.471
+  angleY -150.111
+ }
+ {
+  coords 8033.754 207.549 2165.333
+  angleY -87.696
+ }
+ {
+  coords 7960.073 205.022 2167.486
+  angleY 129.068
+ }
+ {
+  coords 7957.755 205.374 2164.289
+  angleY 129.051
+ }
+ {
+  coords 8121.418 188.603 2049.841
+  angleY -115.02
+ }
+ {
+  coords 7315.593 151.408 2067.346
+  angleY -102.101
+ }
+ {
+  coords 8320.817 251.505 2279.093
+  angleY -48.454
+ }
+ {
+  coords 8325.251 251.817 2210.885
+  angleY -48.657
+ }
+ {
+  coords 8353.659 251.789 2223.376
+  angleY 130.21
+ }
+ {
+  coords 8353.997 252.119 2331.656
+  angleY -46.828
+ }
+ {
+  coords 8414.969 276.381 2308.758
+  angleY 134.492
+ }
+ {
+  coords 5626.813 13.553 3752.501
+  angleY 120.282
+ }
+ {
+  coords 5608.332 90.589 5896.429
+  angleY 14.58
+ }
+ {
+  coords 5499.841 92.055 5992.4
+  angleY 4.165
+ }
+}
+$grp GenericEntity : "{84CBCE9163176B3E}Prefabs/Props/Wrecks/S105_wreck.et" {
+ {
+  coords 8005.366 210.828 2201.6
+ }
+ {
+  coords 8148.914 219.681 2168.226
+  angleX -1.39
+  angleY -152.889
+  angleZ 4.404
+ }
+ {
+  coords 8191.741 220.884 2215.897
+  angleX -1.336
+  angleY 114.87
+  angleZ 1.219
+ }
+}
+$grp GenericEntity : "{85943C2D468E5E44}Prefabs/ZBK/KitFactory/KitStair/StairFull2mBot.et" {
+ {
+  coords 8372.12 251.73 2224.765
+  angleY 39.607
+ }
+ {
+  coords 8399.151 269.054 2285.268
+  angleY -48.256
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{8783F93A3F75F76B}Prefabs/Casas/barraco_14_gnd.et" {
+ {
+  coords 7980.939 211.204 2196.023
+  angleY -37.5
+ }
+ {
+  coords 8214.654 221.215 2138.418
+  angleY 13.474
+ }
+ {
+  coords 8308.216 223.949 2153.988
+  angleY 30.646
+ }
+ {
+  coords 7461.594 122.325 2055.576
+  angleY -120.123
+ }
+ {
+  coords 8117.39 211.142 2122.133
+  angleY 130.278
+ }
+ {
+  coords 8312.046 253.501 2259.763
+  angleY -20.467
+ }
+ {
+  coords 8345.178 258.347 2284.557
+  angleY 38.308
+ }
+ {
+  coords 8323.56 257.758 2264.584
+  angleY 137.88
+ }
+ {
+  coords 8147.426 182.078 2000.509
+  angleY 16.781
+ }
+ {
+  coords 8362.06 264.842 2268.245
+  angleY 108.555
+ }
+ {
+  coords 5160.218 8.935 3878.708
+  angleY 71.487
+ }
+ {
+  coords 5497.779 97.687 6018.345
+  angleY 108.788
+ }
+ {
+  coords 5655.341 115.345 6091.61
+  angleY -163.036
+ }
+}
+GenericEntity : "{8937AFC38700A6BA}Prefabs/Props/Construction/BrickPile/BrickPileOld_01_Medium.et" {
+ coords 8177.593 215.624 2123.657
+ angleY 17.004
+}
+$grp GenericEntity : "{8A403C31EFCF153F}Prefabs/Rocks/Granite/GraniteStone_03.et" {
+ {
+  coords 8097.994 0.143 2123.583
+  angleY -48.011
+  scale 2.94
+ }
+ {
+  coords 8272.243 -2.942 2287.091
+  angleY 77.57
+  scale 9.578
+ }
+ {
+  coords 8285.844 -1.193 2223.252
+  angleY 77.57
+  scale 9.578
+ }
+ {
+  coords 8294.671 -3.528 2299.906
+  angleY 19.877
+  scale 12.739
+ }
+ {
+  coords 8335.519 -4.295 2340.061
+  angleY 77.57
+  scale 12.451
+ }
+ {
+  coords 8315.318 -5.516 2335.747
+  angleY 77.57
+  scale 12.451
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{8BADA0BEB8C88128}Prefabs/Casas/barraco_03_peq.et" {
+ {
+  coords 8241.993 214.576 2106.321
+  angleY 26.794
+ }
+ {
+  coords 7467.587 120.023 2017.172
+  angleY -43.075
+ }
+ {
+  coords 8352.325 262.004 2274.649
+  angleY 131.118
+ }
+ {
+  coords 8368.102 257.031 2237.478
+  angleY 129.678
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{8E586379539A7B9E}Prefabs/Casas/barraco_13_peq.et" {
+ {
+  coords 8126.533 217.76 2154.657
+  angleY 108.296
+ }
+ {
+  coords 8260.145 215.634 2106.203
+  angleY 25.021
+ }
+ {
+  coords 8100.122 193.413 2083.326
+  angleY 141.493
+ }
+ {
+  coords 7449.523 122.771 2044.465
+  angleY -126.296
+ }
+ {
+  coords 7317.566 150.776 2061.784
+  angleY -12.537
+ }
+ {
+  coords 8351.098 256.512 2302.673
+  angleY -42.462
+ }
+ {
+  coords 8316.666 250.146 2250.615
+  angleY -49.891
+ }
+ {
+  coords 8362.205 256.793 2230.567
+  angleY -138.54
+ }
+ {
+  coords 8130.977 182.149 2021.039
+  angleY -63.788
+ }
+ {
+  coords 5266.019 21.544 4069.196
+  angleY -126.49
+ }
+ {
+  coords 5167.785 5.598 3883.924
+  angleY 67.513
+ }
+ {
+  coords 5587.489 91.594 5992.081
+  angleY -23.119
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{8EE7CD248B4FE041}Prefabs/Casas/barraco_05_med.et" {
+ {
+  coords 8155.545 221.529 2181.294
+  angleY -39.573
+ }
+ {
+  coords 8067.444 213.845 2155.092
+  angleY 89.691
+ }
+ {
+  coords 8335.752 260.506 2243.891
+  angleY -50.292
+ }
+ {
+  coords 8371.965 264.779 2250.817
+  angleY 38.292
+ }
+ {
+  coords 8163.326 183.509 1991.022
+  angleY -90.239
+ }
+ {
+  coords 8410.087 279.544 2306.781
+  angleY 43.084
+ }
+ {
+  coords 5617.614 100.328 6068.146
+  angleY 61.331
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{93575223CBE0E68D}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar_narrow.et" {
+ {
+  coords 8065.749 210.038 2170.178
+ }
+ {
+  coords 8061.277 207.661 2171.232
+  angleY -91.821
+ }
+}
+$grp GenericEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
+ {
+  coords 5143.916 7.09 3874.573
+  angleY 159.739
+ }
+ {
+  coords 5615.784 103.533 6075.774
+  angleY -99.464
+ }
+ {
+  coords 5612.73 101.675 6075.265
+  angleY -99.464
+ }
+ {
+  coords 5622.006 106.476 6076.985
+  angleY -99.464
+ }
+ {
+  coords 5635.494 109.216 6078.658
+  angleY -99.464
+  scale 1.41
+ }
+ {
+  coords 5638.88 111.275 6079.112
+  angleY -99.464
+  scale 1.41
+ }
+ {
+  coords 5662.19 105.747 6048.985
+  angleY -171.387
+  scale 1.41
+ }
+ {
+  coords 5663.257 108.213 6056.027
+  angleY -171.387
+  scale 1.41
+ }
+ {
+  coords 5670.056 112.694 6066.368
+  angleY 162.602
+  scale 1.41
+ }
+}
+SCR_DestructibleBuildingEntity : "{9541E062B18908ED}Prefabs/Structures/Commerical/SuperMarket_WithStairs.et" {
+ coords 8382.203 14.74 2187.851
+ angleY -49.049
+}
+SCR_DestructibleBuildingEntity : "{97380F89AA02D20B}Prefabs/Structures/Infrastructure/Bus/BusShed_E_01/BusShed_E_01_blue.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{62B5247E005A08F0}" {
+     SourceMaterial "BusShed_E_01"
+     AssignedMaterial "{2BF66EC559AF8804}Assets/Data/garagem2.emat"
+    }
+   }
+  }
+ }
+ coords 8088.854 -0.007 2178.42
+ angleX 1.731
+ angleY 16.942
+ angleZ -0.632
+}
+$grp SCR_DestructibleBuildingEntity : "{9BB8D0BF8D55FC33}Prefabs/Casas/barraco_18_esquina.et" {
+ {
+  coords 8003.752 210.805 2184.966
+  angleY 43.428
+ }
+ {
+  coords 8233.082 222.67 2147.308
+  angleY 27.462
+ }
+ {
+  coords 8181.065 215.612 2132.332
+  angleY 15.057
+ }
+}
+SCR_DestructibleBuildingEntity : "{9DA1BFAA55E47D11}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_90.et" {
+ coords 8140.187 2.97 2087.396
+ angleY -125.772
+ scale 1.652
+}
+GenericEntity : "{9F2040A27E5911FE}Prefabs/Structures/BuildingParts/UtilityBoxes/UtilityBoxSmall_01.et" {
+ coords 8030.985 204.063 2150
+}
+$grp StaticModelEntity : "{A027B45306A1E311}Prefabs/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Wide_8m.et" {
+ {
+  coords 10287.615 1.627 758.175
+  angleX -83.95
+  angleY -144.002
+  angleZ 3.708
+  scale 5.928
+ }
+ {
+  coords 10303.975 4.286 783.331
+  angleX -83.95
+  angleY -144.002
+  angleZ 3.708
+  scale 5.312
+ }
+ {
+  coords 10272.755 4.338 811.787
+  angleX -89.541
+  angleY 138.354
+  angleZ -8.051
+  scale 3.878
+ }
+ {
+  coords 10307.148 5.953 783.2
+  angleX -89.541
+  angleY 138.354
+  angleZ -8.051
+  scale 3.878
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{A0DD9D0729DBA6C8}Prefabs/Casas/barraco_12_gnd.et" {
+ {
+  coords 8164.992 224.114 2201.534
+  angleY 49.709
+ }
+ {
+  coords 8136.774 218.224 2150.629
+  angleY 93.773
+ }
+ {
+  coords 8274.387 219.03 2128.925
+  angleY 113.19
+ }
+ {
+  coords 8304.03 219.095 2144.364
+  angleY 30.346
+ }
+ {
+  coords 8211.522 214.383 2115.493
+  angleY 17.879
+ }
+ {
+  coords 8006.264 206.126 2174.118
+  angleY -57.319
+ }
+ {
+  coords 7966.287 204.145 2140.342
+  angleY 126.837
+ }
+ {
+  coords 8124.024 207.956 2113.141
+  angleY 45.403
+ }
+ {
+  coords 7953.779 205.97 2191.353
+  angleY 164.523
+ }
+ {
+  coords 8319.36 250.536 2220.695
+  angleY 40.832
+ }
+ {
+  coords 8355.855 250.603 2189.725
+  angleY 132.173
+ }
+ {
+  coords 8347.078 250.539 2328.286
+  angleY 41.777
+ }
+ {
+  coords 8180.215 174.688 1977.107
+  angleY 0
+ }
+ {
+  coords 5622.369 90.414 5890.502
+  angleY 101.141
+ }
+ {
+  coords 5444.153 88.97 5958.299
+  angleY -179.152
+ }
+ {
+  coords 5640.395 110.079 6071.148
+  angleY 75.092
+ }
+}
+$grp GenericEntity : "{A240B5FCD17D5686}Prefabs/Props/Construction/GarbageStack_01/GarbageStack_01_Medium.et" {
+ {
+  coords 8062.588 208.508 2147.411
+  angleZ -15.787
+ }
+ {
+  coords 8128.782 191.791 2070.215
+  angleY 49.794
+ }
+ {
+  coords 5608.277 98.913 6037.102
+  angleX 4.519
+  angleY 9.113
+  angleZ -5.585
+ }
+}
+$grp GenericEntity : "{A296DC842B5CD56B}Prefabs/utilitarios/escada_06.et" {
+ {
+  coords 8194.754 223.65 2158.344
+  angleY 67.983
+ }
+ {
+  coords 8280.341 217.798 2133.883
+  angleY 113.29
+ }
+ {
+  coords 8052.934 199.953 2142.369
+  angleY -62.532
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{A2A9408BC5B28AC9}Prefabs/Casas/barraco_gn_01.et" {
+ {
+  coords 8205.873 222.356 2154.959
+  angleY -60.472
+ }
+ {
+  coords 8200.607 223.36 2162.847
+  angleY -146.246
+ }
+ {
+  coords 8144.669 221.226 2174.306
+  angleY -103.675
+ }
+}
+GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
+ coords 8175.885 215.741 2124.295
+}
+$grp GenericEntity : "{A446CB3C732A360D}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_long.et" {
+ {
+  coords 8044.991 202.943 2145.083
+ }
+ {
+  coords 8072.491 199.204 2125.512
+  angleX -2.069
+  angleY 23.838
+  angleZ 4.67
+ }
+ {
+  coords 8009.758 205.265 2164.21
+  angleX -3.591
+  angleY 44.603
+  angleZ 3.634
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{A4EC3AB24456776E}Prefabs/Casas/barraco_01.et" {
+ {
+  coords 5149.186 8.381 3877.338
+  angleY 68.567
+ }
+ {
+  coords 5621.681 101.416 6055.078
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01.et" {
+ {
+  coords 7980.925 10.852 2127.277
+  angleY 38.863
+ }
+ {
+  coords 7984.524 10.793 2124.378
+  angleY 38.863
+ }
+}
+$grp PO_DestructibleEntity : "{A5C7908C71CFD97C}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_2m.et" {
+ {
+  coords 8035.068 2.414 2121.622
+  angleX 80.291
+  angleY 32.339
+  angleZ -2.607
+  scale 7.768
+ }
+ {
+  coords 8022.372 11.322 2102.898
+  angleX -89.676
+  angleY 78.91
+  angleZ -42.164
+  scale 4.871
+ }
+}
+SCR_DestructibleBuildingEntity : "{A77EFB9EFEA2EC25}Prefabs/Casas/hei_prop_heist_pic_12.et" {
+ coords 8016.402 204.742 2131.634
+ angleY 36.189
+}
+SCR_DestructibleBuildingEntity : "{A906074445342A3D}Prefabs/Casas/barraco_15_peq.et" {
+ coords 8104.024 218.991 2187.618
+ angleY 35.719
+}
+$grp SCR_DestructibleBuildingEntity : "{A9B9A9199DE1B1E2}Prefabs/Casas/barraco_03_med.et" {
+ {
+  coords 8165.333 219.939 2164.292
+  angleY -25.687
+ }
+ {
+  coords 8217.814 221.711 2154.927
+  angleY 28.199
+ }
+ {
+  coords 8256.614 213.237 2098.772
+  angleY -153.222
+ }
+ {
+  coords 8201.825 218.386 2137.729
+  angleY -167.266
+ }
+ {
+  coords 7483.39 119.034 2067.491
+  angleY -103.575
+ }
+ {
+  coords 8333.558 255.699 2280.58
+  angleY 133.52
+ }
+ {
+  coords 8198.693 178.736 1977.983
+  angleY 0
+ }
+ {
+  coords 8387.109 266.762 2294.645
+  angleY 75.365
+ }
+ {
+  coords 5586.943 93.833 6007.551
+  angleY 0
+ }
+ {
+  coords 5593.986 97.005 6033.768
+  angleY 6.183
+ }
+ {
+  coords 5629.957 108.222 6084.67
+  angleY 169.375
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{ACF3C483AE66D08B}Prefabs/Casas/barraco_05_peq.et" {
+ {
+  coords 8073.833 217.495 2159.219
+  angleY -174.567
+ }
+ {
+  coords 8332.478 257.87 2250.13
+  angleY -108.748
+ }
+}
+GenericEntity : "{AE300E34EA8FF40C}Prefabs/Props/Wrecks/Ural4320_wreck_static.et" {
+ coords 5519.605 95.543 6025.241
+ angleX 2.385
+ angleY 115.436
+ angleZ -0.847
+}
+GenericEntity : "{AF301905965156CE}Prefabs/ZBK/KitFactory/KitStair/Vanil_EscPlein4m.et" {
+ coords 8184.985 179.831 1997.081
+ angleY -86.701
+}
+SCR_DestructibleBuildingEntity : "{B0C7B3A0C937328B}Prefabs/Structures/Commercial/Booth/NewspaperBooth_E_01/NewspaperBooth_E_01_redwhite.et" {
+ coords 5469.077 0.139 6004.991
+ angleX 1.186
+ angleY 11.177
+ angleZ 1.571
+}
+SCR_DestructibleBuildingEntity : "{B1C6B4A379D1BB77}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01_Base.et" {
+ coords 8164.377 0.055 2185.3
+ angleY 142.726
+}
+SCR_DestructibleBuildingEntity : "{B2F1FA2F059A8D2B}Prefabs/Structures/Industrial/Shed with Concrete Wall.et" {
+ coords 8183.31 -0.655 2210.167
+ angleY 20.033
+}
+GenericEntity : "{B808D460E33CDFAF}Prefabs/Props/Construction/BrickPile/BrickPile_01_Medium.et" {
+ coords 8179.367 215.598 2123.176
+ angleY 18.546
+}
+$grp GenericEntity : "{B9003EF716A534D4}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_single.et" {
+ {
+  coords 7303.02 0 2070.368
+  angleX -0.35
+  angleY 47.475
+  angleZ -3.205
+ }
+ {
+  coords 7312.783 0 2040.649
+  angleX 1.855
+  angleY 88.789
+  angleZ -2.637
+ }
+ {
+  coords 8124.885 0 2020.846
+  angleX 1.764
+  angleY -159.445
+  angleZ 2.699
+ }
+ {
+  coords 8154.047 0.323 2002.025
+  angleX -2.125
+  angleY 12.498
+  angleZ -2.425
+ }
+ {
+  coords 8174.532 0 1999.998
+  angleX -2.347
+  angleY -79.625
+  angleZ 2.211
+ }
+ {
+  coords 8174.558 0.843 1970.945
+  angleX -1.983
+  angleY -88.369
+  angleZ 2.542
+ }
+ {
+  coords 8133.613 0 2064.209
+  angleX -0.31
+  angleY -120.79
+  angleZ 3.209
+ }
+ {
+  coords 8108.965 0 2094.244
+  angleX 0.381
+  angleY -133.086
+  angleZ 3.201
+ }
+ {
+  coords 8077.074 0 2124.296
+  angleX 1.339
+  angleY -150.827
+  angleZ 2.933
+ }
+ {
+  coords 8036.444 0 2148.497
+  angleX 1.191
+  angleY -147.969
+  angleZ 2.996
+ }
+ {
+  coords 7996.194 0 2173.369
+  angleX 7.135
+  angleY -153.102
+  angleZ 3.242
+ }
+ {
+  coords 7964.409 0 2195.248
+  angleX 1.522
+  angleY 81.831
+  angleZ -2.843
+ }
+ {
+  coords 7994.862 0 2209.052
+  angleX 1.069
+  angleY -145.65
+  angleZ 3.042
+ }
+ {
+  coords 8036.727 0 2187.715
+  angleX 2.173
+  angleY -168.65
+  angleZ 2.382
+ }
+ {
+  coords 8094.917 0 2186.73
+  angleX 1.793
+  angleY -160.065
+  angleZ 2.68
+ }
+ {
+  coords 8129.215 0 2168.042
+  angleX 2.348
+  angleY -173.022
+  angleZ 2.21
+ }
+ {
+  coords 8176.081 0 2188.23
+  angleX 3.21
+  angleY 149.125
+  angleZ 0.305
+ }
+ {
+  coords 8200.591 0 2237.749
+  angleX 2.711
+  angleY 110.905
+  angleZ -1.745
+ }
+ {
+  coords 8193.505 0 2190.625
+  angleX -2.987
+  angleY -58.45
+  angleZ 1.215
+ }
+ {
+  coords 8219.996 0 2214.553
+  angleX -2.976
+  angleY -58.96
+  angleZ 1.241
+ }
+ {
+  coords 8170.394 0 2172.329
+  angleX -3.197
+  angleY -28.958
+  angleZ -0.412
+ }
+ {
+  coords 8195.349 0 2175.405
+  angleX 3.214
+  angleY 139.133
+  angleZ -0.256
+ }
+ {
+  coords 8250.247 0 2180.309
+  angleX 1.435
+  angleY -152.717
+  angleZ 2.887
+ }
+ {
+  coords 8236.104 0 2156.479
+  angleX -1.291
+  angleY 30.12
+  angleZ -2.955
+ }
+ {
+  coords 8237.577 0 2112.332
+  angleX -1.393
+  angleY 28.108
+  angleZ -2.908
+ }
+ {
+  coords 8252.413 1.923 2114.708
+  angleX 1.694
+  angleY -157.977
+  angleZ 2.743
+ }
+ {
+  coords 8267.172 1.317 2117.88
+  angleX -1.747
+  angleY 20.911
+  angleZ -2.71
+ }
+ {
+  coords 8243.837 2.227 2134.085
+  angleX 2.929
+  angleY 118.969
+  angleZ -1.348
+ }
+ {
+  coords 8219.282 0 2146.905
+  angleX 1.469
+  angleY -153.379
+  angleZ 2.87
+ }
+ {
+  coords 8193.061 -0.001 2147.479
+  angleX -2.568
+  angleY 0.912
+  angleZ -1.949
+ }
+ {
+  coords 8170.656 0.166 2145.257
+  angleX 3.01
+  angleY 164.709
+  angleZ 1.156
+ }
+ {
+  coords 8195.489 0 2133.268
+  angleX 1.926
+  angleY -162.952
+  angleZ 2.586
+ }
+ {
+  coords 8213.258 0 2124.266
+  angleX 1.842
+  angleY -161.123
+  angleZ 2.646
+ }
+ {
+  coords 8174.448 3.983 2125.827
+  angleX -2.037
+  angleY 14.529
+  angleZ -2.499
+ }
+ {
+  coords 8138.773 0.391 2119.494
+  angleX -0.458
+  angleY 45.536
+  angleZ -3.191
+ }
+ {
+  coords 8152.573 3.422 2104.765
+  angleX -0.488
+  angleY 45.006
+  angleZ -3.187
+ }
+ {
+  coords 8197.579 0 2102.553
+  angleX 1.887
+  angleY -162.112
+  angleZ 2.614
+ }
+ {
+  coords 8141.062 0.035 2158.041
+  angleX -2.728
+  angleY -4.083
+  angleZ -1.718
+ }
+ {
+  coords 8063.839 4.028 2168.663
+  angleX 1.609
+  angleY 83.612
+  angleZ -2.794
+ }
+ {
+  coords 8082.689 1.631 2165.614
+  angleX -2.425
+  angleY -77.545
+  angleZ 2.125
+ }
+ {
+  coords 8086.328 0 2179.587
+  angleX -2.25
+  angleY 9.466
+  angleZ -2.309
+ }
+ {
+  coords 8061.316 0 2180.821
+  angleX -2.727
+  angleY -4.042
+  angleZ -1.72
+ }
+ {
+  coords 8007.988 0 2187.422
+  angleX -0.561
+  angleY 43.676
+  angleZ -3.175
+ }
+ {
+  coords 7983.843 0 2170.086
+  angleX -0.856
+  angleY 38.312
+  angleZ -3.108
+ }
+ {
+  coords 7999.822 0.697 2152.453
+  angleX 3.105
+  angleY 128.041
+  angleZ -0.869
+ }
+ {
+  coords 7989.117 8.756 2125.849
+  angleX -0.89
+  angleY 37.692
+  angleZ -3.099
+ }
+ {
+  coords 8004 12.314 2106.399
+  angleX -0.929
+  angleY 36.97
+  angleZ -3.087
+ }
+ {
+  coords 7973.864 8.991 2137.354
+  angleX -0.899
+  angleY 37.526
+  angleZ -3.096
+ }
+ {
+  coords 7951.87 7.943 2161.525
+  angleX -0.609
+  angleY 42.81
+  angleZ -3.166
+ }
+ {
+  coords 7967.115 4.241 2159.145
+  angleX 0.498
+  angleY -135.183
+  angleZ 3.185
+ }
+ {
+  coords 8021.417 10.895 2111.5
+  angleX 0.949
+  angleY -143.41
+  angleZ 3.081
+ }
+ {
+  coords 8050.963 0 2127.597
+  angleX -1.255
+  angleY 30.802
+  angleZ -2.97
+ }
+ {
+  coords 8085.615 0 2105.513
+  angleX -0.631
+  angleY 42.417
+  angleZ -3.162
+ }
+ {
+  coords 8125.252 9.752 1940.118
+  angleX 1.567
+  angleY 82.745
+  angleZ -2.818
+ }
+ {
+  coords 8133.138 7.219 1956.049
+  angleX 2.41
+  angleY -174.652
+  angleZ 2.142
+ }
+ {
+  coords 8145.064 8.431 1937.075
+  angleX -2.848
+  angleY -8.336
+  angleZ -1.511
+ }
+ {
+  coords 8168.557 7.79 1934.995
+  angleX -2.676
+  angleY -2.372
+  angleZ -1.799
+ }
+ {
+  coords 8196.176 6.622 1937.581
+  angleX -2.858
+  angleY -8.717
+  angleZ -1.492
+ }
+ {
+  coords 8141.481 5.675 1962.04
+  angleX 1.883
+  angleY 89.412
+  angleZ -2.617
+ }
+ {
+  coords 8194.53 0 1968.678
+  angleX -1.949
+  angleY -89.148
+  angleZ 2.569
+ }
+ {
+  coords 8216.41 8.898 1922.256
+  angleX -1.819
+  angleY -91.981
+  angleZ 2.662
+ }
+ {
+  coords 8215.061 12.159 1898.056
+  angleX -2.809
+  angleY -6.885
+  angleZ -1.583
+ }
+ {
+  coords 8236.594 4.797 1899.125
+  angleX -2.666
+  angleY -2.07
+  angleZ -1.813
+ }
+ {
+  coords 8293.695 0 2161.262
+  angleX 1.67
+  angleY -157.471
+  angleZ 2.758
+ }
+ {
+  coords 8265.292 0 2171.298
+  angleX 1.502
+  angleY -154.041
+  angleZ 2.853
+ }
+ {
+  coords 8288.952 0 2128.832
+  angleX -2.773
+  angleY -67
+  angleZ 1.645
+ }
+ {
+  coords 8269.2 0 2136.762
+  angleX -1.665
+  angleY 22.635
+  angleZ -2.761
+ }
+ {
+  coords 8273.141 0 2186.547
+  angleX 1.798
+  angleY -160.183
+  angleZ 2.676
+ }
+ {
+  coords 8337.105 10.117 2204.652
+  angleX -0.808
+  angleY 39.2
+  angleZ -3.121
+ }
+ {
+  coords 8356.346 10.822 2197.872
+  angleX -0.63
+  angleY 42.437
+  angleZ -3.162
+ }
+ {
+  coords 8374.874 0.214 2223.621
+  angleX 0.301
+  angleY -131.651
+  angleZ 3.21
+ }
+ {
+  coords 8358.667 2.52 2220.82
+  angleX 0.687
+  angleY -138.597
+  angleZ 3.15
+ }
+ {
+  coords 8341.642 0 2228.06
+  angleX 0.75
+  angleY -139.742
+  angleZ 3.136
+ }
+ {
+  coords 8321.564 0.627 2240.426
+  angleX 0.754
+  angleY -139.812
+  angleZ 3.135
+ }
+ {
+  coords 8308.291 9.572 2226.277
+  angleX -0.304
+  angleY 48.297
+  angleZ -3.21
+ }
+ {
+  coords 8305.803 2.197 2254.278
+  angleX -1.732
+  angleY -93.844
+  angleZ 2.72
+ }
+ {
+  coords 8290.886 6.261 2261.475
+  angleX 3.199
+  angleY 136.622
+  angleZ -0.397
+ }
+ {
+  coords 8309.142 6.681 2295.146
+  angleX 3.18
+  angleY 134.255
+  angleZ -0.528
+ }
+ {
+  coords 8323.664 0.513 2288.564
+  angleX -3.138
+  angleY -49.597
+  angleZ 0.741
+ }
+ {
+  coords 8350.751 6.616 2336.744
+  angleX -2.959
+  angleY -59.703
+  angleZ 1.28
+ }
+ {
+  coords 8334.294 7.897 2325.214
+  angleX -0.586
+  angleY 43.233
+  angleZ -3.17
+ }
+ {
+  coords 8336.777 0 2300.334
+  angleX -0.743
+  angleY 40.389
+  angleZ -3.137
+ }
+ {
+  coords 8355.566 0 2280.683
+  angleX -0.944
+  angleY 36.691
+  angleZ -3.083
+ }
+ {
+  coords 8378.297 0.041 2269.521
+  angleX -2.522
+  angleY 2.253
+  angleZ -2.009
+ }
+ {
+  coords 8396.656 0.001 2277.36
+  angleX 3.082
+  angleY 126.612
+  angleZ -0.947
+ }
+ {
+  coords 8419.974 -0.001 2303.376
+  angleX 3.22
+  angleY 140.865
+  angleZ -0.159
+ }
+ {
+  coords 8450.448 -0.001 2325.411
+  angleX 3.168
+  angleY 154.356
+  angleZ 0.596
+ }
+ {
+  coords 8360.243 1.737 2313.757
+  angleX -3.145
+  angleY -49.02
+  angleZ 0.709
+ }
+ {
+  coords 8453.203 17.501 2275.489
+  angleX -0.235
+  angleY 49.522
+  angleZ -3.215
+ }
+ {
+  coords 8487.091 -0.119 2326.408
+  angleX 1.157
+  angleY -147.311
+  angleZ 3.01
+ }
+ {
+  coords 8496.078 0 2294.66
+  angleX -2.052
+  angleY -86.815
+  angleZ 2.487
+ }
+ {
+  coords 8478.747 7.409 2248.093
+  angleX -3.214
+  angleY -40.746
+  angleZ 0.25
+ }
+ {
+  coords 8458.823 22.819 2256.244
+  angleX 3.224
+  angleY 143.657
+  angleZ -0.002
+ }
+ {
+  coords 8350.182 0.21 2245.319
+  angleX -0.834
+  angleY 38.722
+  angleZ -3.114
+ }
+ {
+  coords 8347.7 3.038 2235.088
+  angleX 3.085
+  angleY 126.781
+  angleZ -0.937
+ }
+ {
+  coords 8364.198 13.552 2190.665
+  angleX -0.49
+  angleY 44.962
+  angleZ -3.187
+ }
+ {
+  coords 8393.83 3.242 2213.84
+  angleX -2.979
+  angleY -58.79
+  angleZ 1.232
+ }
+ {
+  coords 8227.625 0 2244.881
+  angleX -2.124
+  angleY 12.51
+  angleZ -2.426
+ }
+ {
+  coords 8224.693 0.001 2194.999
+  angleX -1.377
+  angleY -101.04
+  angleZ 2.915
+ }
+ {
+  coords 8244.372 0 2210.328
+  angleX 1.132
+  angleY -146.843
+  angleZ 3.019
+ }
+ {
+  coords 8299.971 9.811 2204.659
+  angleX -3.198
+  angleY -43.55
+  angleZ 0.406
+ }
+ {
+  coords 8292.137 10.879 2210.806
+  angleX 3.203
+  angleY 137.088
+  angleZ -0.37
+ }
+ {
+  coords 8295.107 0 2176.492
+  angleX 1.074
+  angleY -145.749
+  angleZ 3.04
+ }
+ {
+  coords 8251.639 0.919 2143.911
+  angleX -1.585
+  angleY 24.266
+  angleZ -2.808
+ }
+ {
+  coords 8211.181 4.1 1947.981
+  angleX 1.627
+  angleY 83.977
+  angleZ -2.784
+ }
+ {
+  coords 8180.486 16.96 1891.453
+  angleX 1.79
+  angleY 87.398
+  angleZ -2.682
+ }
+ {
+  coords 8182.113 13.44 1906.476
+  angleX -2.517
+  angleY 2.396
+  angleZ -2.015
+ }
+ {
+  coords 8166.51 11.539 1917.218
+  angleX 2.434
+  angleY -175.286
+  angleZ 2.115
+ }
+ {
+  coords 8147.435 11.594 1917.643
+  angleX 2.78
+  angleY 174.128
+  angleZ 1.632
+ }
+ {
+  coords 8159.966 16.227 1893.344
+  angleX -2.725
+  angleY -3.967
+  angleZ -1.724
+ }
+ {
+  coords 7851.701 1.177 1825.442
+  angleX 2.193
+  angleY 96.53
+  angleZ -2.364
+ }
+ {
+  coords 7870.095 7.08 1808.604
+  angleX -2.548
+  angleY 1.513
+  angleZ -1.976
+ }
+ {
+  coords 7830.397 35.263 1779.625
+  angleX -2.418
+  angleY 5.123
+  angleZ -2.133
+ }
+ {
+  coords 7884.001 29.979 1770.919
+  angleX -2.487
+  angleY 3.251
+  angleZ -2.053
+ }
+ {
+  coords 8135.05 18.48 1890.956
+  angleX 1.761
+  angleY 86.781
+  angleZ -2.701
+ }
+ {
+  coords 8135.138 13.744 1909.808
+  angleX 1.888
+  angleY 89.519
+  angleZ -2.614
+ }
+ {
+  coords 8230.685 0.001 2286.839
+  angleX -2.988
+  angleY -58.401
+  angleZ 1.212
+ }
+ {
+  coords 8284.116 0 2343.964
+  angleX -3.188
+  angleY -44.921
+  angleZ 0.483
+ }
+ {
+  coords 8335.891 0 2404.182
+  angleX -3.169
+  angleY -46.889
+  angleZ 0.592
+ }
+ {
+  coords 8362.713 0.209 2444.394
+  angleX -2.411
+  angleY -77.939
+  angleZ 2.141
+ }
+ {
+  coords 8289.337 12.769 2281.629
+  angleX -0.604
+  angleY 42.904
+  angleZ -3.167
+ }
+ {
+  coords 8308.725 2.136 2271.213
+  angleX -3.104
+  angleY -51.97
+  angleZ 0.87
+ }
+ {
+  coords 8045.069 3.734 2151.03
+  angleX 1.342
+  angleY -150.88
+  angleZ 2.932
+ }
+ {
+  coords 8068.924 0.911 2148.869
+  angleX 2.475
+  angleY -176.415
+  angleZ 2.067
+ }
+ {
+  coords 8100.866 1.235 2120.581
+  angleX 0.575
+  angleY -136.577
+  angleZ 3.172
+ }
+ {
+  coords 8109.384 1.94 2133.193
+  angleX 0.335
+  angleY -132.264
+  angleZ 3.207
+ }
+ {
+  coords 8116.771 0.13 2142.458
+  angleX 3.049
+  angleY 124.743
+  angleZ -1.046
+ }
+ {
+  coords 8142.51 0 2143.292
+  angleX 2.368
+  angleY -173.535
+  angleZ 2.189
+ }
+ {
+  coords 8123.255 1.381 2122.086
+  angleX 1.888
+  angleY 89.502
+  angleZ -2.614
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{BC20A7F6B6C48C7B}Prefabs/Casas/hei_prop_heist_pic_01.et" {
+ {
+  coords 8188.093 218.567 2153.682
+  angleY -111.66
+ }
+ {
+  coords 8057.552 214.664 2173.619
+  angleY 1.435
+ }
+ {
+  coords 8227.936 214.176 2121.217
+  angleY -63.945
+ }
+ {
+  coords 8125.908 193.855 2085.547
+  angleY -126.929
+ }
+ {
+  coords 8092.694 194.332 2080.174
+  angleY 136.66
+ }
+ {
+  coords 8379.793 263.06 2282.951
+  angleY -68.504
+ }
+ {
+  coords 5422.084 90.727 6134.962
+  angleY 64.282
+ }
+}
+SCR_DestructibleBuildingEntity : "{BE17D3CCD3C53A0A}Prefabs/buildings/slum buildings/slum set6.et" {
+ components {
+  MeshObject "{617C4E67E23124DC}" {
+   Materials {
+    MaterialAssignClass "{62BD7883B319F05D}" {
+     SourceMaterial "Slum_x13"
+     AssignedMaterial "{B348DED94BD897F8}Assets/Data/fav2_brickset01c_dm.emat"
+    }
+   }
+  }
+ }
+ coords 8281.966 19.415 2301.431
+ angleY 39.848
+}
+$grp GenericEntity : "{C8684DCC4658226F}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_grey.et" {
+ {
+  coords 5473.719 95.973 6093.483
+  angleX 0.969
+  angleY 85.028
+  angleZ 0.814
+ }
+ {
+  coords 5503.082 94.812 6030.893
+  angleY 148.303
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{CC1F10CF7E25AA06}Prefabs/Casas/barraco_22_med.et" {
+ {
+  coords 8035.081 213.74 2171.95
+  angleY -178.948
+ }
+ {
+  coords 8433.667 287.028 2322.564
+  angleY -30.277
+ }
+ {
+  coords 7973.286 206.686 2148.419
+  angleY -53.889
+ }
+ {
+  coords 7960.196 208.477 2180.852
+  angleY -134.251
+ }
+ {
+  coords 8391.383 269.239 2280.537
+  angleY -68.354
+ }
+ {
+  coords 5618.036 14.908 3743.059
+  angleY -63.179
+ }
+ {
+  coords 5447.278 92.193 5980.058
+  angleY -86.042
+ }
+}
+$grp GameEntity : "{CCBFEA66D534BC9C}Prefabs/Structures/BuildingParts/Ladders/Ladder_Metal_900_B.et" {
+ {
+  components {
+   ActionsManagerComponent "{5916A63C9331DAB0}" {
+    ActionContexts {
+     UserActionContext "{5916A63C9D2ABA4A}" {
+      Position PointInfo "{5916A63C9B51DDAE}" {
+       Offset 0 0.7207 0.019
+       Angles 0 0 0
+      }
+     }
+    }
+   }
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    PivotID "socket_ladder_01"
+   }
+  }
+  coords 8306.607 9.197 2261.888
+  angleY -15.889
+ }
+ {
+  components {
+   ActionsManagerComponent "{5916A63C9331DAB0}" {
+    ActionContexts {
+     UserActionContext "{5916A63C9D2ABA4A}" {
+      Position PointInfo "{5916A63C9B51DDAE}" {
+       Offset 0 0.7207 0.019
+       Angles 0 0 0
+      }
+     }
+    }
+   }
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    PivotID "socket_ladder_01"
+   }
+  }
+  coords 8338.193 8.233 2229.979
+  angleY 127.583
+ }
+ {
+  components {
+   ActionsManagerComponent "{5916A63C9331DAB0}" {
+    ActionContexts {
+     UserActionContext "{5916A63C9D2ABA4A}" {
+      Position PointInfo "{5916A63C9B51DDAE}" {
+       Offset 0 0.7207 0.019
+       Angles 0 0 0
+      }
+     }
+    }
+   }
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    PivotID "socket_ladder_01"
+   }
+  }
+  coords 8407.745 10.338 2299.245
+  angleY 43.691
+  scale 0.774
+ }
+}
+$grp GenericEntity : "{CEA239D9E1899899}Prefabs/Props/Garbage/Tires/TirePile_01_small.et" {
+ {
+  coords 5472.54 96.04 6096.241
+  angleY -163.723
+ }
+ {
+  coords 5665.708 103.619 6044.173
+  angleX 3.011
+  angleY -163.431
+  angleZ 5.542
+ }
+}
+SCR_DestructibleBuildingEntity : "{CEB1F71D46592F3C}Prefabs/Structures/Airport/Hangar_01.et" {
+ components {
+  BaseSlotComponent "{51126271F283C584}" {
+   Enabled 0
+  }
+  BaseSlotComponent "{51126271FBF75AD4}" {
+   Enabled 0
+  }
+ }
+ coords 10278.877 1.575 785.627
+ angleY -140.192
+ {
+  GenericEntity {
+   ID "554AD98811AF57AE"
+   coords 0 -0.199 0
+  }
+  GenericEntity {
+   ID "554AD98811AF57C1"
+   coords 0 -0.193 0
+  }
+  GenericEntity : "{74F04D64F8BDBB22}Prefabs/Structures/BuildingParts/Signs/Commercial/SignAirport_Eden_01.et" {
+   coords -12.434 13.162 13.874
+  }
+ }
+}
+$grp GenericEntity : "{CEC2E86497985A45}Prefabs/utilitarios/escada_05.et" {
+ {
+  coords 8165.573 222.827 2208.714
+  angleY 140.799
+ }
+ {
+  coords 8192.71 217.797 2167.218
+  angleX -0.783
+  angleY 155.66
+  angleZ 0.125
+ }
+ {
+  coords 8056.767 203.031 2142.203
+  angleY 28.624
+ }
+ {
+  coords 8333.673 248.269 2229.782
+  angleY 41.014
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{D07493160A000355}Prefabs/Casas/hei_prop_heist_pic_02.et" {
+ {
+  coords 8242.013 222.115 2142.782
+  angleY -150.511
+ }
+ {
+  coords 8441.969 281.955 2330.151
+  angleY -31.05
+ }
+ {
+  coords 7971.808 205.032 2162.139
+  angleY 38.551
+ }
+ {
+  coords 8304.841 251.459 2236.794
+  angleY -50.95
+ }
+ {
+  coords 5599.662 92.213 5979.779
+  angleY -117.887
+ }
+ {
+  coords 5507.465 91.959 5986.632
+  angleY -179.405
+ }
+}
+GenericEntity : "{D5062960B7211EB4}Prefabs/Props/Construction/GarbageStack_01/GarbageStack_01_Long.et" {
+ coords 8498.059 310.008 2293.907
+ angleY -22.332
+}
+$grp PO_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
+ {
+  coords 7970.02 2.314 2152.617
+  angleX -89.849
+  angleY 88.276
+  angleZ -52.026
+  scale 11.204
+ }
+ {
+  coords 8006.636 3.881 2127.575
+  angleX -89.852
+  angleY 88.276
+  angleZ -52.026
+  scale 11.204
+ }
+}
+$grp GenericEntity : "{DA3187284644E89B}Prefabs/utilitarios/rua_grande.et" {
+ {
+  components {
+   MeshObject "{61E1798763C14A0A}" {
+    Materials {
+     MaterialAssignClass "{62B524749EDC03F4}" {
+      SourceMaterial "asfalto"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 8215.226 169.184 1926.345
+  angleY -2.58
+  angleZ 0
+  scale 7.292
+ }
+ {
+  components {
+   MeshObject "{61E1798763C14A0A}" {
+    Materials {
+     MaterialAssignClass "{62B524748AB786DF}" {
+      SourceMaterial "asfalto"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 8145.396 169.196 1924.455
+  angleY -2.58
+  angleZ 0
+  scale 7.292
+ }
+ {
+  components {
+   MeshObject "{61E1798763C14A0A}" {
+    Materials {
+     MaterialAssignClass "{62B524748AB786DF}" {
+      SourceMaterial "asfalto"
+      AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+     }
+    }
+   }
+  }
+  coords 7860.093 132.521 1813.567
+  angleY -176.865
+  angleZ 0
+  scale 7.292
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{DB114F623141F302}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_8m_V2.et" {
+ {
+  coords 8112.524 202.488 2115.477
+  angleY 49.113
+  scale 1.72
+ }
+ {
+  coords 8121.578 202.26 2105.273
+  angleY 48.01
+  scale 1.774
+ }
+ {
+  coords 8130.583 202.547 2095.372
+  angleY 47.336
+  scale 1.702
+ }
+}
+$grp GenericEntity : "{DE658AC78172D02E}Prefabs/Props/Construction/GarbageStack_01/GarbageStack_01_Short.et" {
+ {
+  coords 8499.147 311.395 2292.567
+  angleX -3.792
+  angleY -30.635
+  angleZ -47.182
+ }
+ {
+  coords 8016.239 204.753 2149.454
+  angleY 30.874
+ }
+}
+$grp GenericEntity : "{DEB57429CD49782D}Prefabs/Props/Construction/GravelPile_01/SandPile_01.et" {
+ {
+  coords 8189.863 214.569 2129.521
+ }
+ {
+  coords 8030.192 205.83 2162.89
+  angleX 19.079
+  angleY -1.615
+  angleZ -4.931
+ }
+ {
+  coords 8071.115 209.653 2148.711
+  angleZ -14.373
+ }
+ {
+  coords 8123.793 191.875 2061.933
+  angleX 3.234
+  angleY 0.143
+  angleZ 2.536
+  scale 0.61
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{E0155D2066FB9516}Prefabs/Casas/barraco_12_peq.et" {
+ {
+  coords 8168.99 216.491 2152.851
+  angleY 154.252
+ }
+ {
+  coords 8154.329 220.398 2154.958
+  angleY -22.813
+ }
+ {
+  coords 8109.683 193.956 2070.556
+  angleY -136.63
+ }
+ {
+  coords 8110.896 218.675 2186.346
+  angleY 35.628
+ }
+ {
+  coords 8326.123 252.088 2226.506
+  angleY 131.662
+ }
+ {
+  coords 8157.099 180.921 1994.665
+  angleY -177.883
+ }
+ {
+  coords 8370.754 265.549 2264.903
+  angleY -169.295
+ }
+ {
+  coords 5273.015 22.881 4044.589
+  angleY 149.876
+ }
+ {
+  coords 5603.341 92.481 5962.078
+  angleY 70.458
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{E0AAF37DBE2E0EC9}Prefabs/Casas/barraco_04_med.et" {
+ {
+  coords 8227.404 222.942 2147.943
+  angleY -152.521
+ }
+ {
+  coords 8231.53 215.649 2106.109
+  angleY -153.57
+ }
+ {
+  coords 8420.821 281.348 2313.213
+  angleY -37.375
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{E7BACF3E6868897B}Prefabs/Casas/barraco_19_peq.et" {
+ {
+  coords 8152.648 225.096 2187.522
+  angleY 142.034
+ }
+ {
+  coords 8280.506 224.567 2169.261
+  angleY 22.217
+ }
+ {
+  coords 8307.45 227.943 2166.507
+  angleY 66.614
+ }
+ {
+  coords 8177.434 216.887 2120.973
+  angleY -161.791
+ }
+ {
+  coords 8114.202 210.381 2132.61
+  angleY 130.635
+ }
+ {
+  coords 7974.795 206.874 2133.061
+  angleY -141.575
+ }
+ {
+  coords 7474.298 121.855 2057.488
+  angleY -30.817
+ }
+ {
+  coords 8325.599 254.189 2286.063
+  angleY 129.556
+ }
+ {
+  coords 8139.301 186.033 2016.402
+  angleY -154.65
+ }
+ {
+  coords 8398.551 272.523 2289.293
+  angleY -48.087
+ }
+ {
+  coords 5450.945 92.311 5990.788
+  angleY -84.012
+ }
+ {
+  coords 5661.815 114.157 6063.971
+  angleY 165.772
+ }
+ {
+  coords 5422.384 94.947 6145.75
+  angleY -107.219
+ }
+}
+GenericEntity : "{E7FD0B8019E96F74}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
+ coords 8011.256 212.282 2166.821
+ angleY -145.425
+}
+SCR_DestructibleBuildingEntity : "{ECC9D2866789526D}Prefabs/Structures/Industrial/Containers/Silos/Silo_02/Silo_02_white.et" {
+ coords 5588.415 0 6060.611
+ angleY -75.652
+}
+$grp SCR_DestructibleBuildingEntity : "{ED40B62E7F6C8A62}Prefabs/Casas/hei_prop_heist_pic_05.et" {
+ {
+  coords 8196.059 221.587 2185.393
+  angleY -44.019
+ }
+ {
+  coords 8209.98 222.362 2162.16
+  angleY -56.694
+ }
+ {
+  coords 8109.427 210.063 2140.825
+  angleY -50.074
+ }
+ {
+  coords 7965.357 205.369 2171.662
+  angleY 41.474
+ }
+ {
+  coords 7989.388 205.242 2142.91
+  angleY 34.473
+ }
+ {
+  coords 8338.681 251.691 2220.428
+  angleY -49.233
+ }
+ {
+  coords 8339.149 250.088 2232.206
+  angleY 129.792
+ }
+ {
+  coords 5621.263 91.007 5906.478
+  angleY 97.54
+ }
+}
+SCR_DestructibleBuildingEntity : "{EDBC0E94793BA9F1}Prefabs/Structures/Houses/Village/House_Village_E_1I01/House_Village_E_1I01.et" {
+ coords 8241.684 0.355 2217.734
+ angleY -61.459
+}
+SCR_DestructibleBuildingEntity : "{EF77C2141A6D3C13}Prefabs/buildings/slum buildings/slum set2.et" {
+ coords 8156.799 5.419 1950.509
+}
+$grp SCR_DestructibleBuildingEntity : "{F193E2BDED437227}Prefabs/Casas/hei_prop_heist_plinth.et" {
+ {
+  coords 8255.028 222.275 2134.16
+  angleY 115.406
+ }
+ {
+  coords 8191.802 216.409 2140.569
+  angleY -79.284
+ }
+ {
+  coords 7982.932 205.425 2156.183
+  angleY 38.201
+ }
+ {
+  coords 8134.632 219.574 2173.443
+ }
+ {
+  coords 8140.71 220.154 2182.338
+  angleY 154.29
+ }
+ {
+  coords 7303.87 151.98 2047.714
+  angleY 13.641
+ }
+ {
+  coords 5633.183 91.85 5907.212
+  angleY 9.791
+ }
+}
+$grp GenericEntity : "{F3F6CD5CE2F4D372}Prefabs/utilitarios/escada_02.et" {
+ {
+  coords 8192.718 220.85 2163.135
+  angleY 65.678
+ }
+ {
+  coords 8095.432 194.271 2115.309
+  angleY -51.581
+ }
+ {
+  coords 8098.716 197.094 2119.266
+  angleY -49.113
+ }
+ {
+  coords 8102.133 199.91 2123.129
+  angleY -47.88
+ }
+ {
+  coords 8105.438 202.758 2126.988
+  angleY -50.661
+ }
+}
+SCR_DestructibleBuildingEntity : "{F63BC48BE582FF20}Prefabs/Structures/Cultural/Churches/ChurchSmall_E_01_weathered.et" {
+ components {
+  BaseSlotComponent "{0FBA274F8D858646}" {
+   Enabled 0
+  }
+ }
+ coords 5668.441 0.678 6116.346
+ angleY -177.185
+}
+SCR_DestructibleBuildingEntity : "{F813EC670D186C0F}Prefabs/buildings/slum buildings/slum building 13.et" {
+ coords 8179.207 2.275 1955.256
+}
+$grp SCR_DestructibleBuildingEntity : "{FB7CC8BE29711722}Prefabs/Casas/hei_prop_heist_pic_08.et" {
+ {
+  coords 8122.246 195.743 2094.387
+  angleY -135.835
+ }
+ {
+  coords 8437.358 284.008 2340.721
+  angleY -119.624
+ }
+ {
+  coords 7991.558 205.442 2152.457
+  angleY 36.408
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{FD1CE2903D41D4A7}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_8m.et" {
+ {
+  coords 7960.405 194.882 2176.459
+  angleY -53.151
+  scale 2.69
+ }
+ {
+  coords 7948.068 194.899 2159.73
+  angleY -54.069
+  scale 2.69
+ }
+ {
+  coords 7946.761 194.891 2144.832
+  angleY -143.504
+  scale 2.69
+ }
+ {
+  coords 7963.486 194.831 2132.471
+  angleY -143.504
+  scale 2.69
+ }
+ {
+  coords 7980.673 194.816 2119.661
+  angleY -143.504
+  scale 2.69
+ }
+ {
+  coords 7997.516 194.796 2107.142
+  angleY -143.504
+  scale 2.69
+ }
+ {
+  coords 8014.709 194.728 2094.431
+  angleY -143.504
+  scale 2.69
+ }
+ {
+  coords 8028.502 194.785 2099.878
+  angleY -54.069
+  scale 2.69
+ }
+ {
+  coords 8040.876 194.8 2116.961
+  angleY -54.069
+  scale 2.69
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{FF4D386515F942C0}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.et" {
+ {
+  coords 8078.958 210.09 2178.524
+  angleY -83.872
+ }
+ {
+  coords 8078.46 210.097 2173.207
+  angleY -86.902
+ }
+ {
+  coords 8078.125 210.127 2168.096
+  angleY -84.341
+ }
+ {
+  coords 8070.43 210.061 2174.872
+  angleY 6.137
+ }
+ {
+  coords 8072.396 210.072 2168.666
+  angleY -84.165
+ }
+ {
+  coords 8065.698 210.061 2175.247
+  angleY 1.412
+ }
+ {
+  coords 8058.141 207.656 2173.69
+ }
+ {
+  coords 5622.597 96.652 6075.495
+  angleY 77.24
+ }
+ {
+  coords 5631.549 99.471 6077
+  angleY 77.24
+ }
+ {
+  coords 5654.869 105.686 6070.744
+  angleY 165.189
+ }
+ {
+  coords 5659.995 105.686 6072.1
+  angleY 165.189
+ }
+ {
+  coords 5664.775 105.686 6073.364
+  angleY 165.189
+ }
+ {
+  coords 5669.316 101.171 6056.721
+  angleY 99.386
+ }
+ {
+  coords 5425.401 86.408 6146.445
+  angleY 163.846
+ }
+}
+$grp GenericEntity : "{FF676E917668C455}Prefabs/Rocks/Granite/Granite_ForestStone_01.et" {
+ {
+  coords 8096.367 -0.74 2121.06
+  angleY 55.107
+ }
+ {
+  coords 8109.003 -1.531 2137.6
+  angleY 67.712
+  scale 1.67
+ }
+ {
+  coords 8106.049 -2.35 2139.804
+  angleY 35.639
+  scale 1.93
+ }
+}

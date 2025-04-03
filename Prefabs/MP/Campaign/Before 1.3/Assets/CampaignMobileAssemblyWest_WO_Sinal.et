@@ -1,0 +1,37 @@
+Vehicle : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MERDC.et" {
+ ID "5206D4E79715C115"
+ components {
+  BaseRadioComponent "{51EAE034CD7B7A2C}" {
+   "Turned on" 0
+   Transceivers {
+    RelayTransceiver "{5A9ABE5DB2EE7018}" {
+     "Transmitting Range" 10
+    }
+   }
+  }
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   Enabled 0
+  }
+  SCR_CampaignMHQLockComponent "{64C6F3C76EF736E1}" {
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-MapSymbol_MobileHQ"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CF50B7A126F}" {
+      m_BudgetType RANK_MAJOR
+      m_Value 6
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Radio {
+     Prefab "{9FC252094A9E6A37}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyCargoWest_Pred.et"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

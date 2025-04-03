@@ -1,0 +1,88 @@
+SCR_ChimeraCharacter : "{45A8C75A9E23BDEF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
+      }
+     }
+    }
+   }
+  }
+  FactionAffiliationComponent "{6062F6587469882D}" {
+   "faction affiliation" "CV"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sharpshooter"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    m_Image "{103A91EFE54E6FC8}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Sharpshooter.edds"
+    m_sFaction "CV"
+    m_aAuthoredLabels + {
+     33
+    }
+    m_aAutoLabels {
+     122 47
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{27B1868F17A488EB}Prefabs/Weapons/Rifles/AK74/AS50.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{880A80C1FD1AE546}Prefabs/Weapons/Handguns/APS/Handgun_APS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Enabled 0
+     Prefab ""
+    }
+    LoadoutSlotInfo Jacket {
+     Enabled 0
+     Prefab ""
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Enabled 0
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{DF886C6B22F49827}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Enabled 0
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6062F658F714ECED}" {
+     TargetStorage "Prefabs/Characters/Uniforms/VKPO/Field_Pants_VKPO.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61D50D6F08B557DB}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_black.et"
+    }
+    ItemsInitConfigurationItem "{633B768CC0238A7C}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_black.et"
+     PrefabsToSpawn {
+      "{BE57D8780DEA3261}Prefabs/Weapons/Magazines/as50 mag ap.et" "{BE57D8780DEA3261}Prefabs/Weapons/Magazines/as50 mag ap.et" "{BE57D8780DEA3261}Prefabs/Weapons/Magazines/as50 mag ap.et" "{BE57D8780DEA3261}Prefabs/Weapons/Magazines/as50 mag ap.et" "{BE57D8780DEA3261}Prefabs/Weapons/Magazines/as50 mag ap.et" "{BE57D8780DEA3261}Prefabs/Weapons/Magazines/as50 mag ap.et" "{BE57D8780DEA3261}Prefabs/Weapons/Magazines/as50 mag ap.et" "{BE57D8780DEA3261}Prefabs/Weapons/Magazines/as50 mag ap.et" "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et" "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et" "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et" "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et" "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et"
+     }
+    }
+    ItemsInitConfigurationItem "{633B768CC0238A61}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_black.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

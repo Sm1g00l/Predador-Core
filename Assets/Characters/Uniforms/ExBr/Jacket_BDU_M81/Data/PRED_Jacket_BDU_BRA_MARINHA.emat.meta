@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9F8A6CD23B85AA87}Assets/Characters/Uniforms/ExBr/Jacket_BDU_M81/Data/PRED_Jacket_BDU_BRA_MARINHA.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

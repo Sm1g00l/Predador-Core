@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{FBB329ECA28B85A7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  FactionAffiliationComponent "{6062F6587469882D}" {
+   "faction affiliation" "USSR"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{6311577248A91228}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{6311577248A9129E}" {
+      m_sVariantPrefab "{FBB329ECA28B85A7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AR.et"
+     }
+     SCR_EditableEntityVariant "{6311577248A91297}" {
+      m_sVariantPrefab "{0B6372D14360CCDE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AR_2.et"
+     }
+     SCR_EditableEntityVariant "{6311577248A91288}" {
+      m_sVariantPrefab "{EEFF3E284F855BB5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AR_3.et"
+     }
+    }
+   }
+  }
+ }
+}

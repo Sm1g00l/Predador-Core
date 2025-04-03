@@ -1,0 +1,32 @@
+GenericEntity : "{5E3606C2EE668D0F}Prefabs/Vehicles/Wheeled/M923A1/M923A1_combox_MERDC.et" {
+ ID "5206D4E7EFE2C051"
+ components {
+  SCR_CampaignMobileAssemblyComponent "{64C6F5E2C35463D3}" {
+   m_sSpawnpointPrefab "{C3D565C9FD3815C9}Prefabs/MP/Campaign/CampaignMobileAssemblySpawnpoint_pred.et"
+  }
+  ActionsManagerComponent "{5DE2DEF025C6CAA0}" {
+   additionalActions {
+    SCR_CampaignDeployMobileAssemblyUserAction "{64C6F5E2C35463C1}" {
+     ParentContextList {
+      "trunk"
+     }
+     UIInfo UIInfo "{64C6F5E2C35463FA}" {
+      Name "#AR-Campaign_Action_Deploy-UC"
+     }
+     VisibilityRange 3
+     Duration 10
+    }
+    SCR_CampaignPackMobileAssemblyUserAction "{64C6F5E2C35463FE}" {
+     ParentContextList {
+      "trunk"
+     }
+     UIInfo UIInfo "{64C6F5E2C35463FC}" {
+      Name "#AR-Campaign_Action_Dismantle-UC"
+     }
+     VisibilityRange 3
+     Duration 5
+    }
+   }
+  }
+ }
+}

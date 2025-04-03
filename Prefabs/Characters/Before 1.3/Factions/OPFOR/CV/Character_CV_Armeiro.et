@@ -1,0 +1,62 @@
+SCR_ChimeraCharacter : "{A1F593882E99452D}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban_demi/Character_RHS_ION_Urban_D_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  FactionAffiliationComponent "{6239642BBB275066}" {
+   "faction affiliation" "CV"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "CV"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A523BD3728BEDF8E}Prefabs/Weapons/Rifles/FNFAL/Rifle_FNFAL_SU230_Pred.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7D12ED385A43B426}Prefabs/Characters/HeadGear/Hat_Beanie/variants/Hat_beanie_Black_ION2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{61C8AE257C7545A9}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_navyblue.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{51DAF753AA0F37C2}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_CoyoteBrown.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{DF886C6B22F49827}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_black.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62B934983C62A285}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{62B934983C62A2F4}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Parka_Night/Night_parka_navyblue.et"
+    }
+    ItemsInitConfigurationItem "{62B934983C62A2F0}" {
+     PrefabsToSpawn {
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62B95AD64704AD04}" {
+     PrefabsToSpawn {
+      "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et"
+     }
+    }
+    ItemsInitConfigurationItem "{633B72B4769E46E9}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_black.et"
+     PrefabsToSpawn {
+      "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{4DC9AC47D73A25DB}Prefabs/Weapons/Magazines/Magazine762x51_FNFAL_30rnd_SpecialBall.et" "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et" "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et" "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et" "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et" "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1127.113 51 1303.361
+}
