@@ -1,0 +1,66 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A2995A7E8BC2}" {
+     NavmeshFile "{F2CD6916CCEF2723}Worlds/Arland_3P/Arland_3p_Navmesh.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90B7788942D4B8}" {
+     NavmeshFile "{5EE4E234E384354D}Worlds/Arland_3P/Arland_3p_LowRes.nmn"
+    }
+   }
+  }
+ }
+ coords 1132.345 1.156 3351.195
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1346.597 16.739 3281.635
+}
+SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ coords 1346.597 16.742 3280.635
+ m_iControlPointsThreshold 3
+ m_fVictoryTimer 60
+ m_iSuppliesReplenishThreshold 0
+ m_iQuickSuppliesReplenishThreshold 1500
+ m_iSuppliesArrivalInterval 10
+ m_iRegularSuppliesIncome 350
+ m_iRegularSuppliesIncomeExtra 0
+ m_iHQStartingSupplies 5000
+ m_iMinStartingSupplies 200
+ m_iMaxStartingSupplies 200
+ m_iStartingSuppliesInterval 100
+ m_iSupplyDepotIconThreshold 5000
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 1346.597 16.681 3285.635
+}
+RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 1346.597 16.681 3285.635
+}
+SCR_CampaignFactionManager CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 1346.597 16.726 3283.635
+}
+SCR_MapLocator {
+ coords 1178.683 1.125 3303.518
+ m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
+ }
+}
+SCR_BaseTaskManager CampaignTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+ coords 1346.597 16.71 3284.635
+}
+BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 1346.597 16.681 3285.635
+}
+MusicManager MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+ coords 1346.597 16.681 3285.635
+}
+SCR_LoadoutManager CampaignLoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 1346.597 16.681 3285.635
+}
+SCR_MPDestructionManager MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+ coords 1346.597 16.681 3285.635
+}

@@ -1,0 +1,200 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ CP_MajorPoint01 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Castle Hill"
+    m_sBaseNameUpper "Castle Hill"
+    m_aWhiteList {
+     "Farm" "Hangar 5" "Arleville Village" "Open Fields"
+    }
+    m_aWhiteListAntenna {
+     "Farm" "Hangar 5" "Arleville Village" "Open Fields"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1262.4
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 2500.264 147.579 2278.818
+  angleY 120.282
+ }
+ CP_MajorPoint2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Arleville Village"
+    m_sBaseNameUpper "Arleville Village"
+    m_aWhiteList {
+     "Castle Hill" "Open Fields" "House hill"
+    }
+    m_aWhiteListAntenna {
+     "Castle Hill" "Open Fields" "House hill"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 820
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 2723.773 77.656 1697.259
+  angleY -131.82
+ }
+ CP_MajorPoint3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Farm"
+    m_sBaseNameUpper "Farm"
+    m_aWhiteList {
+     "Airbase Tower" "Castle Hill" "Hangar 5" "Beauregard Village"
+    }
+    m_aWhiteListAntenna {
+     "Airbase Tower" "Castle Hill" "Hangar 5" "Beauregard Village"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1107.5
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 2193.169 53.632 2906.06
+  angleY 135
+ }
+ CP_Point_AirportTower {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Airbase Tower"
+    m_sBaseNameUpper "Airbase Tower"
+    m_aWhiteList {
+     "Main Base North" "Farm" "Hangar 5"
+    }
+    m_aWhiteListAntenna {
+     "Main Base North" "Farm" "Hangar 5"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 850
+     }
+    }
+   }
+  }
+  coords 1364.52 38 2949.386
+  angleY 165.504
+ }
+ CP_Point_Beauregard {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Beauregard Village"
+    m_sBaseNameUpper "Beauregard Village"
+    m_aWhiteList {
+     "Farm" "Open Fields"
+    }
+    m_aWhiteListAntenna {
+     "Farm" "Open Fields"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 793
+     }
+    }
+   }
+  }
+  coords 3147.82 12.058 2758.297
+  angleY 129.242
+ }
+ CP_Point_Hangar5 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Hangar 5"
+    m_sBaseNameUpper "Hangar 5"
+    m_aWhiteList {
+     "Airbase Tower" "Castle Hill" "Farm"
+    }
+    m_aWhiteListAntenna {
+     "Airbase Tower" "Castle Hill" "Farm"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1122.3
+     }
+    }
+   }
+  }
+  coords 1396.215 39 2212.277
+  angleY -124.177
+ }
+ CP_Point_House {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "House hill"
+    m_sBaseNameUpper "House hill"
+    m_aWhiteList {
+     "Main Base South" "Arleville Village"
+    }
+    m_aWhiteListAntenna {
+     "Main Base South" "Arleville Village"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 780
+     }
+    }
+   }
+  }
+  coords 2288.678 89.493 1228.738
+  angleY -147.356
+ }
+ CP_Point_MilitaryCamp {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Open Fields"
+    m_sBaseNameUpper "Open Fields"
+    m_aWhiteList {
+     "Castle Hill" "Beauregard Village" "Arleville Village"
+    }
+    m_aWhiteListAntenna {
+     "Castle Hill" "Beauregard Village" "Arleville Village"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 650
+     }
+    }
+   }
+  }
+  coords 2993.164 50.861 2154.907
+  angleY 59.267
+ }
+}

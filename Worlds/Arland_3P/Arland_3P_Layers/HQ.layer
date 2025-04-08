@@ -1,0 +1,66 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MainBaseNorth {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Main Base North"
+    m_sBaseNameUpper "MAIN BASE NORTH"
+    m_sMapLocationName "LocationStPhillipe_Harbour"
+    m_aWhiteList {
+     "Airbase Tower"
+    }
+    m_aWhiteListAntenna {
+     "Airbase Tower"
+    }
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 800
+      "Frequency resolution" 500
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 1160.936 1.156 3338.971
+  angleY -100.747
+ }
+ MainBaseSouth {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Main Base South"
+    m_sBaseNameUpper "MAIN BASE SOUTH"
+    m_sMapLocationName "LocationStPierre_Harbour"
+    m_aWhiteList {
+     "House hill"
+    }
+    m_aWhiteListAntenna {
+     "House hill"
+    }
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 800
+      "Frequency resolution" 500
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 1655.045 3.363 881.511
+  angleY -90
+ }
+}
