@@ -1,0 +1,385 @@
+GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{A9F4B66A1072BA48}Sounds/Weapons/Rifles/SVD/Weapons_Rifles_SVD_Shot.acp" "{8FF6E152B3E0C868}Sounds/Weapons/Rifles/SVD/Weapons_Rifles_SVD_Handling.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{8D002C3B4C551AFD}Sounds/Weapons/Machineguns/PKM/Weapons_Rifles_AK-74_Shot_Suppressed_SuperSonic_PKP-B_Copy_low_vol.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{D4E9BC01F20225CC}Assets/Dragunov SVU Low Poly_3_rail.xob"
+  }
+  RigidBody "{651A0522433052B4}" {
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{651A052243304D46}" {
+   m_fDamage 45
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "SVU-AS w. B13N"
+     Description "#AR-Weapon_SVD_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 3.4
+     SizeSetupStrategy Manual
+     ItemDimensions 30 30 30
+     ItemVolume 1600
+     RestingUP Left
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{F57B00596F259655}Assets/Anims/p_SVU_AK1_IK.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{651A052243304D6A}" {
+        "Point info" DeploymentPointInfo BarrelPointInfo {
+         PivotID "Scene_Root"
+         Offset 0 0.046 0.368
+        }
+        StabilizationSize 0.05 0.1 0.6
+       }
+       PivotPointInfoItem "{651A052243304D6F}" {
+        "Point info" DeploymentPointInfo Bipod {
+         PivotID "Scene_Root"
+         Offset 0 0.046 0.3025
+        }
+        SystemIdentifier 2
+        StabilizationPoints {
+         DeploymentPointInfo BipodLeft {
+          PivotID "w_bipodleg_left"
+          Offset -0.1476 -0.229 -0.002
+          Angles -32.4924 111.6307 11.1624
+         }
+         DeploymentPointInfo BipodRight {
+          PivotID "w_bipodleg_right"
+          Offset 0.1471 0.2326 -0.0026
+          Angles -31.4686 118.79099 121.62029
+         }
+        }
+       }
+      }
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+      m_vTranslationMin 0.002 0.002 0
+      m_vTranslationMax 0.003 0.003 0
+      m_vRotationImpulseMin 0 0 7
+      m_vRotationImpulseMax 0 0 8
+     }
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+      CameraDistanceToItem 1.2
+      FOV 30
+      LodModel 0
+     }
+     ItemOneHandAnimAttributes "{651A052243304D7C}" {
+      ErectLinearOffsetUpper 0 0 0
+      ErectLinearOffset 0.018 -0.2 -0.1
+      ErectLinearOffsetLower 0 -0.05 0
+      CrouchLinearOffsetUpper 0 0 0
+      CrouchLinearOffset 0.018 -0.16 -0.1
+      CrouchLinearOffsetLower 0 -0.15 0
+      SpringCoefficient 2.2
+      DamperCoefficient 2.4
+     }
+    }
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{651A052243304D74}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{651A052243304D09}" {
+     AttachmentSlot InventoryStorageSlot RIS_Optics {
+      PivotID "slot_ris_optics"
+      Offset 0 0.0062 0
+      InspectionWidgetOffset 0 0.1502 0
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{651A052243304D00}" {
+     }
+     AttachmentObstructs 1
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{651A052243304D02}" {
+     Enabled 0
+     AttachmentSlot InventoryStorageSlot Dovetail {
+      PivotID "slot_optics"
+      Offset 0 0 0.0184
+      ChildPivotID "snap_weapon"
+      Enabled 0
+      InspectionWidgetOffset 0 0.1323 -0.0099
+     }
+     AttachmentType AttachmentOpticsDovetailAKSVD "{651A052243304D06}" {
+     }
+     AttachmentObstructs 1
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{651A052243304D18}" {
+     AttachmentSlot InventoryStorageSlot Left_RIS_attachment {
+      PivotID "slot_ris_left"
+      InspectionWidgetOffset 0 0.0761 0.0617
+     }
+     AttachmentType AttachmentRIS1913 "{651A052243304D1C}" {
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      Offset 0 0 0
+     }
+     SightsRanges {
+      SightRangeInfo "{651A052243304D15}" {
+       Range 0 100
+       WeaponPosition PointInfo "{651A052243304D25}" {
+        Offset 0 -0.0016 0
+        Angles 0.09 0 0
+       }
+      }
+      SightRangeInfo "{651A052243304D39}" {
+       Range 0.1 200
+       WeaponPosition PointInfo "{651A052243304D3A}" {
+        Offset 0 -0.0022 0
+        Angles 0.12 0 0
+       }
+      }
+      SightRangeInfo "{651A052243304D3D}" {
+       Range 0.2 300
+       WeaponPosition PointInfo "{651A052243304D3F}" {
+        Offset 0 -0.003 0
+        Angles 0.18 0 0
+       }
+      }
+      SightRangeInfo "{651A052243304D31}" {
+       Range 0.3 400
+       WeaponPosition PointInfo "{651A052243304D32}" {
+        Offset 0 -0.0043 0
+        Angles 0.25 0 0
+       }
+      }
+      SightRangeInfo "{651A052243304D34}" {
+       Range 0.4 500
+       WeaponPosition PointInfo "{651A052243304D36}" {
+        Offset 0 -0.0053 0
+        Angles 0.32 0 0
+       }
+      }
+      SightRangeInfo "{651A052243304D37}" {
+       Range 0.5 600
+       WeaponPosition PointInfo "{651A052243304DC9}" {
+        Offset 0 -0.007 0
+        Angles 0.42 0 0
+       }
+      }
+      SightRangeInfo "{651A052243304DDA}" {
+       Range 0.6 700
+       WeaponPosition PointInfo "{651A052243304DDB}" {
+        Offset 0 -0.0086 0
+        Angles 0.52 0 0
+       }
+      }
+      SightRangeInfo "{651A052243304DDC}" {
+       Range 0.7 800
+       WeaponPosition PointInfo "{651A052243304DDE}" {
+        Offset 0 -0.0106 0
+        Angles 0.64 0 0
+       }
+      }
+      SightRangeInfo "{651A052243304DD0}" {
+       Range 0.8 900
+       WeaponPosition PointInfo "{651A052243304DD2}" {
+        Offset 0 -0.0128 0
+        Angles 0.78 0 0
+       }
+      }
+      SightRangeInfo "{651A052243304DD4}" {
+       Range 0.9 1000
+       WeaponPosition PointInfo "{651A052243304DEA}" {
+        Offset 0 -0.0158 0
+        Angles 0.96 0 0
+       }
+      }
+      SightRangeInfo "{651A052243304DED}" {
+       Range 1 1100
+       WeaponPosition PointInfo "{651A052243304DEE}" {
+        Offset 0 -0.0186 0
+        Angles 1.14 0 0
+       }
+      }
+     }
+     SightsPointFront PointInfo "{651A052243304DE1}" {
+      PivotID "barrel_muzzle"
+      Offset 0 0.04155 -0.05275
+     }
+     SightsPointRear PointInfo "{651A052243304DE4}" {
+      PivotID "w_sight"
+      Offset 0 0.002 -0.0618
+     }
+     m_iOpticDOFDistanceScale 120
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{651A052243304DF8}" {
+       AttachmentSlot InventoryStorageSlot Suppressor {
+        PivotID "barrel_muzzle"
+        Offset 0 0 -0.00101
+        Prefab "{42CFE1F3146CF243}Prefabs/Weapons/Attachments/Muzzle/Suppressor_PBS4/Suppressor_SVU_base.et"
+       }
+       AttachmentType AttachmentMuzzle762_54 "{651A052243304DFE}" {
+       }
+       ShowInInspection 1
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{83DC2DCAF6EDC75F}Particles/Weapon/Casing_762x54.ptc"
+       EffectPosition EntitySlotInfo "{5122BA87B56F471A}" {
+        PivotID "barrel_chamber"
+        Offset 0.015 0.0021 -0.0198
+       }
+      }
+      CaseEjectingEffectComponent "{651A052243304D8C}" {
+       ParticleEffect "{C19A137311FAEB03}Particles/Weapon/Smoke_SVD.ptc"
+       EffectPosition EntitySlotInfo Smoke_case {
+        PivotID "barrel_muzzle"
+       }
+       OverrideByAttachment 1
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{C4207543B467D89C}Particles/Weapon/Muzzle_SVD.ptc"
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       MaxBurst -1
+       UIName "Auto"
+      }
+      BaseFireMode "{651A052243304D9C}" {
+       UIName "Single"
+      }
+     }
+     MagazineWell MagazineWellSVD "{651A052243304D91}" {
+     }
+     BulletInitSpeedCoef 0.92
+     DispersionDiameter 0.4
+     DispersionRange 800
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{58C899E21F4089D8}" : "{0E6B74D9C265E140}Prefabs/Weapons/Core/Recoil/Rifle_LongRange_762_recoil.conf" {
+       LinearData RecoilData "{58C899E2064B3F06}" {
+        "Curve Z" +{
+        }
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+       }
+       AngularData RecoilData "{58C899E2064B3F15}" {
+        "Curve X" {
+         0 0.581 0.038 0.452 0.101 0.501 1 0.5
+        }
+        "Curve Z" {
+         0 0.581 0.038 0.452 0.101 0.501 1 0.5
+        }
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -1 3 1
+        "Curve Maxs" 1 3 1
+       }
+       TurnOffsetData RecoilData "{58C899E2064B3F16}" {
+        "Curve Y" {
+         0 0.881 0.071 0.877 0.146 0.579 0.236 0.5 1 0.5
+        }
+       }
+      }
+      ZeroingWeaponAimModifier "{651A052243304DAE}" {
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{565ECB55D6F6D63D}" : "{6098E2D1A3DB2DA3}Configs/WeaponInfo/MagazineIndicators/svd_10.conf" {
+      }
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo LeftHandTarget {
+      PivotID "slot_magazine"
+      Offset -0.0473 -0.034 0.2
+      Angles 0 -90 45
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo RightHandTarget {
+      PivotID "snap_hand_right"
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo ButstockTransformation {
+      PivotID "Scene_Root"
+      Offset 0 0.02 -0.4073
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset 0 0 0.005
+      InspectionWidgetOffset 0 0.0051 0.1543
+     }
+     MagazineTemplate "{E243D80535D2F63E}Prefabs/Weapons/Magazines/Magazine_762x54_SVU_20rnd_Sniper.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{989C679F462401EF}Assets/Weapons/MachineGuns/workspaces/RPK74.agr"
+     AnimInstance "{147854A3BD31F71E}Assets/Weapons/MachineGuns/workspaces/SVU_weapon.asi"
+     AlwaysActive 0
+     AnimInjection AnimationAttachmentInfo "{532F3A9CB912F2BA}" {
+      AnimGraph "{989C679F462401EF}Assets/Weapons/MachineGuns/workspaces/RPK74.agr"
+      AnimInstance "{EF26C592253093F2}Assets/Weapons/MachineGuns/workspaces/SVU_player.asi"
+     }
+    }
+   }
+   obstructionTestBBScale 0.05 0.05 0.025
+   SoundInt 1030100
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "SVU-AS w. B13N"
+    Description "#AR-Weapon_SVD_Description"
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 0.0088 0.0269
+     }
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{651A052243304C45}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.0457 -0.0579
+     }
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{651A052243304C58}" {
+      PivotID "w_safety"
+      Angles 0 90 0
+     }
+     Radius 0.05
+     Omnidirectional 0
+    }
+    UserActionContext "{618A84270A2BFDC0}" {
+     UIInfo SCR_ActionContextUIInfo "{618A842787792024}" {
+     }
+    }
+    UserActionContext "{651A052243304C5D}" {
+     ContextName "optic"
+     Position PointInfo "{651A052243304C5F}" {
+      Offset -0.0191 0.0588 0.0501
+     }
+     Radius 0.075
+    }
+   }
+   additionalActions {
+    SCR_DetachMagazineUserAction "{5A1E58F790AF821D}" {
+     UIInfo SCR_ActionUIInfo "{5A1E58F788F40D95}" {
+      Name "Detach: "
+     }
+    }
+    SCR_FireModeSwitchUserAction "{5A1E74156C2DB00D}" {
+    }
+    SVU_FlipSightsUserAction "{651A052243304C79}" {
+     ParentContextList {
+      "optic"
+     }
+     UIInfo WeaponUIInfo "{651A052243304C7C}" {
+      Name "Flip sights"
+     }
+    }
+   }
+  }
+ }
+ coords -0.064 0 0
+}
