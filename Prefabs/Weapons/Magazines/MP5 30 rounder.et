@@ -1,0 +1,20 @@
+GenericEntity : "{7AE835154267D0AE}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#RHS-Magazine_6L23_Plastic_Name (7N10)"
+     Description "#RHS-Magazine_6L23_Plastic_Description (Last 5 tracers)"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellAK545 "{A5AAA6B6ACF001DF}" {
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{EF6B63EDF3EA43B0}Assets/Weapons/Magazines/6l23_plastic/6l23_plastic.xob"
+  }
+ }
+}
