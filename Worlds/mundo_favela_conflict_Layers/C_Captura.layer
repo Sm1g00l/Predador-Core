@@ -1007,6 +1007,7 @@ $grp GenericEntity : "{655B060F89741A08}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bDisableWhenUnusedAsHQ 0
     m_sBaseName "Militar "
     m_sBaseNameUpper "Militar "
+    m_HQTent_modded "{8772640CCB4A9F0F}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Barracas_Predadores.et"
    }
    SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
     "Turned on" 1
@@ -1145,6 +1146,7 @@ $grp GenericEntity : "{655B060F89741A08}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bDisableWhenUnusedAsHQ 0
     m_sBaseName "Favela do Areal"
     m_sBaseNameUpper "Favela do Areal"
+    m_HQTent_modded "{1E8846B4DFA1394B}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Barraca_01.et"
    }
    SCR_CoverageRadioComponent "{63296461E72DD6FC}" {
     "Turned on" 1
