@@ -1,0 +1,13 @@
+Vehicle : "{FC30545B07C3478B}Prefabs/Vehicles/Helicopters/MI28/MI28_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Decal {
+     Prefab "{EEFC1181C5CC3EED}Prefabs/Vehicles/Helicopters/MI28/VehParts/Mi28_USSR_Star_decal.et"
+    }
+   }
+  }
+ }
+ coords 61.029 -4.711 14.617
+}

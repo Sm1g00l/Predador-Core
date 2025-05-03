@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E685F8AE9C033D43}Configs/EntityCatalog/USSR/InventoryItems_EntityCatalog_USSR_teste.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
