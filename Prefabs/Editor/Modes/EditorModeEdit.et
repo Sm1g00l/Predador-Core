@@ -25,10 +25,16 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
      m_sAddon "PredadorCore"
      m_sSourceDirectory "{77DE105F55835544}Prefabs/MP/Campaign/Assets"
      m_Prefabs {
-      "{84787526E3993CE8}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyEast_WO_Sinal.et" "{B49E2F753EFAC4E5}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyWest_WO_Sinal.et"
+      "{84787526E3993CE8}Prefabs/MP/Campaign/Before 1.3/Assets/CampaignMobileAssemblyEast_WO_Sinal.et" "{B49E2F753EFAC4E5}Prefabs/MP/Campaign/Before 1.3/Assets/CampaignMobileAssemblyWest_WO_Sinal.et"
      }
     }
     SCR_PlaceableEntitiesRegistry "{649336A2C29564EC}" : "{12660538D1F1A04A}Configs/Editor/PlaceableEntities/Compositions/Pred_Compositions.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{655508DF01322B20}" {
+     m_sSourceDirectory "{86E15E6E3BFF38F8}PrefabsEditable/Auto/Structures/Military/Camps/HelipadImprovised_01"
+     m_Prefabs {
+      "{26E54E33CC3763B0}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_RHS_AFRF_01.et" "{321D13F8F983C2CE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_RHS_USAF_01.et"
+     }
     }
    }
   }
