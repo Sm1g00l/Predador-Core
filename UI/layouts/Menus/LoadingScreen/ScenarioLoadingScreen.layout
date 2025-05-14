@@ -8,8 +8,8 @@ FrameWidgetClass {
      {
       ImageWidgetClass "{5CFCF5E894AE6628}" {
        Prefab "{5CFCF5E894AE6628}"
-       Texture "{4F59F463D724748F}UI/layouts/Menus/LoadingScreen/IMG_3026.edds"
-       Size 950 540
+       Texture "{B8248974F647D0C5}UI/layouts/Menus/LoadingScreen/NewLogo.edds"
+       Size 1536 1024
       }
      }
     }
